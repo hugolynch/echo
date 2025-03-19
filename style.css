@@ -96,38 +96,6 @@ select {
 
 #logo {
     & div {
-        border: 1px dashed #98D1FA;
-        aspect-ratio: 1 / 1;
-        padding: 12px;
-        border-radius: 50%;
-    }
-
-    & #layer5 {
-        background-color: #E9F5FE;
-        width: 12px;
-    }
-    
-    & #layer4 {
-        background-color: #CBE8FD;
-    }
-    
-    & #layer3 {
-        background-color: #E9F5FE;
-    }
-    
-    & #layer2 {
-        background-color: #CBE8FD;
-    }
-    
-    & #layer1 {
-        background-color: #E9F5FE;
-    }
-}
-
-
-
-#logotype {
-    & div {
         padding: 8px;
         color: #1596D9;
     }
