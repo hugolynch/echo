@@ -101,7 +101,7 @@ const puzzles = [
         name: "March 19, 2025",
         puzzleDataNested: {
             fullPhrase: "I'm mad as hell and I'm not gonna take it anymore. -Howard Beale",
-            clue: "I'm {{clue_1}} as {{clue_2}} and I'm {{clue_3}} gonna {{clue_4}} it {{clue_5}}{{clue_6}}. -Howard Beale",
+            clue: `"I'm {{clue_1}} as {{clue_2}} and I'm {{clue_3}} gonna {{clue_4}} it {{clue_5}}{{clue_6}}." -Howard Beale`,
             clues: {
                 "clue_1": {
                     clue: "___ as a hatter",
