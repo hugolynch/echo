@@ -23,6 +23,7 @@ body {
     font-size: 1.2rem;
     gap: 24px;
     padding: 96px;
+    text-align: left; /*TEMP*/
 }
 
 h1 {
@@ -39,11 +40,11 @@ h1 {
     font-family: monospace;
 
     &:hover {
-        background-color: #98D1FA;
+        background-color: #1DA9F4;
     }
 
     &:active {
-        background-color: #58BAF9;
+        background-color: #1596D9;
     }
 }
 
@@ -88,9 +89,15 @@ select {
     border-right: 8px solid transparent;
     font-family: monospace;
     background-color: #E9F5FE;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #CBE8FD;
+    }
 
     &:focus {
         outline: 2px solid #1DA9F4;
+        
     }
 }
 
