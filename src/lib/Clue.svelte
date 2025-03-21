@@ -1,19 +1,20 @@
 <script>
     import Clue from './Clue.svelte';
 
-    let { solution, clues } = $props();
+    let { solution, clues, depth } = $props();
     let solved = $state(false);
 </script>
 
-<span class="clue">
+<span class={{'clue': depth}}>
     {#if solved}
         <span class="solution">{solution}</span>
     {:else}
+        {depth}
         {#each clues as clue}
             {#if typeof clue === "string"}
                 {clue}
             {:else}
-                <Clue {...clue} />
+                <Clue {...clue} depth={depth + 1} />
             {/if}
         {/each}
     {/if}
@@ -23,7 +24,7 @@
 <style>
     .clue {
         display: inline-block;
-        border: 1px solid #58baf9;
+        border: 1px dashed #58baf9;
         border-radius: 2px;
         background-color: oklch(from #58baf9 l c h / 0.2);
         padding: 2px;

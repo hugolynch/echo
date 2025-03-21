@@ -1,0 +1,60 @@
+{
+    "name": "",
+    "date": "2025-05-04",
+    "author": "Hugo",
+    "editor": "",
+    "clues": [
+        {
+            "solution": "May",
+            "clues": [
+                {
+                    "clues": [
+                        "one of the ",
+                        { "clues": ["breathing"], "solution": "living" },
+                        " ",
+                        { "clues": ["not breathing"], "solution": "dead" }
+                    ],
+                    "solution": "zombie"
+                },
+                " ",
+                {
+                    "clues": [
+                        "in the ",
+                        { "clues": ["roller coaster feature"], "solution": "loop" }
+                    ],
+                    "solution": "aware"
+                },
+                { "clues": ["Loch ___ Monster"], "solution": "ness" },
+                " month"
+            ]
+        },
+        " the ",
+        {
+            "clues": [
+                {
+                    "clues": [
+                        { "clues": ["half a weekend"], "solution": "Sunday" },
+                        " service"
+                    ],
+                    "solution": "mass"
+                },
+                " ",
+                { "clues": ["X, mathwise"], "solution": "times" },
+                " accelerat",
+                { "clues": ["charged particle"], "solution": "ion" }
+            ],
+            "solution": "Force"
+        },
+        " be with ",
+        {
+            "clues": [
+                "person ",
+                { "clues": ["using Braille, say"], "solution": "reading" },
+                " this ",
+                { "clues": ["this is one"], "solution": "clue" }
+            ],
+            "solution": "you"
+        }
+    ],
+    "solution": "May the Force be with you\n\n- a bunch of Jedi"
+}
