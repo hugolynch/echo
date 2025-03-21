@@ -21,18 +21,20 @@
 </span>
 
 <style>
-.clue {
-    display: inline-block;
-    border: 1px solid #58baf9;
-    border-radius: 5px;
-    background-color: oklch(from #58baf9 l c h / 0.2);
-    padding: 3px;
-    margin: 1px;
-}
-.solution {
-    white-space: pre;
-}
-input[type="checkbox"] {
-    min-width: inherit;
-}
+    .clue {
+        display: inline-block;
+        border: 1px solid #58baf9;
+        border-radius: 2px;
+        background-color: oklch(from #58baf9 l c h / 0.2);
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .solution {
+        white-space: pre;
+    }
+
+    input[type="checkbox"] {
+        min-width: inherit;
+    }
 </style>
