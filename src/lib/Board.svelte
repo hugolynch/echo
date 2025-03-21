@@ -38,7 +38,7 @@
                 {clues: ["this is one"], solution: "clue"},
             ], solution: "you"},
         ],
-        solution: "May the Force be with you\n- a bunch of Jedi",
+        solution: "May the Force be with you\n\n- a bunch of Jedi",
     };
 
     const puzzle2 = {
@@ -84,13 +84,13 @@
 
 <h1>{puzzle1.name}</h1>
 <div class="puzzle">
-    <Clue {...puzzle1} />
+    <Clue {...puzzle1} depth={0} />
 </div>
 
 
 <h1>{puzzle2.name}</h1>
 <div class="puzzle">
-    <Clue {...puzzle2} />
+    <Clue {...puzzle2} depth={0} />
 </div>
 
 <div>

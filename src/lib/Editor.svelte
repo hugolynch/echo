@@ -1,50 +1,37 @@
 <script lang="ts">
-    let inputs: Array<string|object> = $state([""])
-    $inspect(inputs)
-    function split(e: KeyboardEvent, i: number) {
-        if(e.key !== "Enter") {
-            return
-        }
-
-        const elem = e.target as HTMLInputElement
-        const start = elem.selectionStart!
-        const end = elem.selectionEnd!
-        if(start === end) {
-            console.log("no selection")
-            return
-        }
-
-        const input = inputs[i]
-        if (typeof input === "string") {
-            inputs.splice(
-                i, 1,
-                input.slice(0, start),
-                {solution: input.slice(start, end)},
-                input.slice(end)
-            )
-            inputs = inputs.filter(s => s)
-        } else {
-            console.log("splitting an object")
-        }
-    }
+    import EditorClue from "./EditorClue.svelte"
+    let puzzle: {solution: string, clues: object[]|undefined} = $state({
+        solution: "Benedict XIII is elected Pope at the 1724 papal conclave.",
+        clues: [
+            {
+                clues: [
+                    {
+                        clues: [
+                            {solution: "blessing"}
+                        ],
+                        solution: "benediction"
+                    },
+                    {solution: " - ",},
+                    {
+                        clues: [
+                            {solution: "charged particle"}
+                        ],
+                        solution: "ion"
+                    }
+                ],
+                solution: "Benedict"
+            },
+            {solution: " XIII..."}
+        ],
+    })
+    $inspect(puzzle)
 </script>
 
 <h1>Editor</h1>
-{#each inputs as val, i}
-    {#if typeof val === "string"}
-        <input bind:value={inputs[i]} onkeydown={(e) => split(e, i)}>
-    {:else}
-        [obj]
-    {/if}
-{/each}
-<!-- <button onclick={split}>Split</button> -->
+<EditorClue bind:solution={puzzle.solution} bind:clues={puzzle.clues} />
 
 <style>
     h1 {
         padding: 12px;
-    }
-    input {
-        border-radius: 0;
-        margin: 1px;
     }
 </style>
