@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Sat Mar 22 2025 13:09:47 GMT-0400 (Eastern Daylight Saving Time)",
+    "solution": "may the force",
+    "clues": [
+      {
+        "solution": "may",
+        "clues": [
+          {
+            "solution": "zombie",
+            "clues": [
+              {
+                "solution": "one of the living dead"
+              }
+            ]
+          },
+          {
+            "solution": " awareness month"
+          }
+        ]
+      },
+      {
+        "solution": " the force"
+      }
+    ]
+  },
+
+
+  {
+    "name": "2",
+    "solution": "may the force",
+    "clues": [
+      {
+        "solution": "may",
+        "clues": [
+          {
+            "solution": "zombie",
+            "clues": [
+              {
+                "solution": "safasffas"
+              }
+            ]
+          },
+          {
+            "solution": " awareness month"
+          }
+        ]
+      },
+      {
+        "solution": " the force"
+      }
+    ]
+  }
+]

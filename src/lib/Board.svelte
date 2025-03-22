@@ -1,78 +1,48 @@
-<script>
+<script lang="ts">
     import Clue from "./Clue.svelte";
+    import puzzles from '/public/puzzles/puzzles.json'
+    let val = $state("")
+    let selected = $state(puzzles.length - 1)
 
-    const puzzle1 = {
-  "name": "Sat Mar 22 2025 13:09:47 GMT-0400 (Eastern Daylight Saving Time)",
-  "solution": "may the force",
-  "clues": [
-    {
-      "solution": "may",
-      "clues": [
-        {
-          "solution": "awareness",
-          "clues": []
-        }
-      ]
-    },
-    {
-      "solution": " the force",
-      "clues": []
+    interface Clue {
+        solution: string,
+        clues?: Clue[],
+        solved?: boolean,
     }
-  ]
-}
+    interface Puzzle extends Clue {
+        name: string,
+    }
 
-    const puzzle2 = {
-        name: "March 20, 2025 (jean)",
-        clues: [
-            {clues: [
-                {clues: ["blessing"], solution: "benediction"},
-                " - ",
-                {clues: ["charged particle"], solution: "ion"},
-            ], solution: "Benedict"},
-            " ",
-            {clues: [
-                {clues: ["unlucky number"], solution: "thirteen"},
-                " in ",
-                {clues: ["city near Mount Vesuvis"], solution: "Pompeii"},
-            ], solution: "XIII"},
-            " is ",
-            {clues: ["choose"], solution: "elect"},
-            {clues: [
-                {clues: ["person fixing your typos, perhaps"], solution: "editor"},
-                ", for short",
-            ], solution: "ed"},
-            " ",
-            {clues: ["soda"], solution: "Pop"},
-            {clues: ["___=mc²"], solution: "e"},
-            " at the ",
-            {clues: [
-                {clues: ["Edge of ___"], solution: "seventeen"},
-                " in ",
-                {clues: ["you probably have twenty"], solution: "digits"}
-            ], solution: "17"},
-            {clues: ["film studio A___"], solution: "24"},
-            " ",
-            {clues: ["daddy"], solution: "papa"},
-            {clues: ["opposite of a W"], solution: "l"},
-            " ",
-            {clues: ["best adapted screenplay at the 9th Academy Awards"], solution: "conclave"},
-            ".",
-        ],
-        solution: "(on this day) Benedict XIII is elected Pope at the 1724 papal conclave.",
-    };
+    const puzzle: Puzzle = $derived(puzzles[selected])
+
+    function check(clues: Clue[], answer: string): boolean {
+        if (!clues) return false;
+
+        for (let i = 0; i < clues.length; i++) {
+            if (clues[i].solution === answer) {
+                clues[i].solved = true
+                return true
+            }
+            check(clues[i].clues!, answer)
+        }
+        return false
+    }
 </script>
 
+<select id="puzzle-select" name="puzzles" bind:value={selected}>
+    {#each puzzles as puzzle, i}
+        <option value={i}>{puzzle.name}</option>
+    {/each}
+</select>
 
-<select id="puzzle-select" name="puzzles"></select>
-
-<h1>{puzzle1.name}</h1>
+<h1>{puzzle.name}</h1>
 <div class="puzzle">
-    <Clue {...puzzle1} depth={0} />
+    <Clue {...puzzle} depth={0} />
 </div>
 
 <div>
-    <input type="text" id="answer-input" />
-    <button id="submit-button">Check Answer</button>
+    <input type="text" id="answer-input" bind:value={val} />
+    <button id="submit-button" onclick={() => check([puzzle], val)}>Check Answer</button>
 </div>
 <p id="feedback"></p>
 

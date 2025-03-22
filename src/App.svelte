@@ -2,7 +2,7 @@
   import Board from "./lib/Board.svelte";
   import Editor from "./lib/Editor.svelte";
 
-  let editing = true
+  let editing = false
 </script>
 
 {#if editing}
