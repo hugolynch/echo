@@ -12,6 +12,12 @@
   font-size: 62.5%;
 }
 
+#app {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -23,7 +29,7 @@ body {
   font-family: monospace;
   font-size: 1.4rem;
   gap: 24px;
-  padding: 96px;
+  /* padding: 96px; */
 }
 
 h1 {

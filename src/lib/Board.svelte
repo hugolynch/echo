@@ -37,7 +37,7 @@
     }
 </script>
 
-<select id="puzzle-select" name="puzzles" onchange={(e) => puzzle = puzzles[e.target.value]}>
+<select name="puzzles" onchange={(e) => puzzle = puzzles[e.target.value]}>
     {#each puzzles as puzzle, i}
         <option value={i} selected={i === puzzles.length - 1}>
             {puzzle.name}
@@ -45,23 +45,31 @@
     {/each}
 </select>
 
-<h1>{puzzle.name}</h1>
 <div class="puzzle">
     <Clue {...puzzle} depth={0} />
 </div>
 
-<div>
-    <input type="text" id="answer-input" bind:value={val} onkeypress={handleKeypress}/>
-    <button id="submit-button" onclick={() => check([puzzle], val)}>Check Answer</button>
+<div class="submit">
+    <input type="text" bind:value={val} onkeypress={handleKeypress}/>
+    <button onclick={() => check([puzzle], val)}>Check Answer</button>
 </div>
 <p id="feedback"></p>
 
 <style>
     .puzzle {
         margin: 1rem;
+        max-width: 90vw;
     }
 
     select {
-        margin-bottom: 32px;
+        margin: 0 auto;
+    }
+
+    .submit {
+        display: flex;
+        gap: 12px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 </style>

@@ -21,7 +21,7 @@
 
 <style>
   button {
-    margin: 32px ;
+    margin: 0 auto;
     padding: 8px;
   }
 </style>
