@@ -5,58 +5,104 @@
         clues = []
     }
 
+    function preventNewline(e: KeyboardEvent) {
+        if (e.key === "Enter") {
+            e.preventDefault()
+        }
+    }
+
     function split(e: KeyboardEvent) {
-        if(e.key !== "Enter") {
+        if (e.key !== "Enter") {
             return
+        } else {
+            e.preventDefault()
         }
 
-        const elem = e.target as HTMLInputElement
-        const start = elem.selectionStart
-        const end = elem.selectionEnd
-        if(start === null || end === null || start === end) {
+        const val = (e.target as HTMLSpanElement).textContent
+        const start = window.getSelection()?.anchorOffset
+        const end = window.getSelection()?.focusOffset
+        console.log(window.getSelection()?.getRangeAt(0))
+        if(start === undefined || end === undefined || start === end) {
             console.log("no selection")
             return
         }
 
         clues = [
-            {solution: solution.slice(start, end)},
-        ]
-        // TODO: insert solution.slice(0, start) before
-        // TODO: insert solution.slice(end) after
+            {solution: val?.slice(0, start)},
+            {solution: val?.slice(start, end), clues: [{solution: val?.slice(start, end)}]},
+            {solution: val?.slice(end)},
+        ].filter(s => s.solution?.length)
     }
 </script>
 
 <div class="clue">
     {#if clues.length === 0}
-     <input bind:value={solution} onkeypress={split} class='leaf' />
+        <span contenteditable bind:textContent={solution} onkeypress={split} class='filler'></span>
+    {:else if clues.length === 1}
+        <div class='group'>
+            <span contenteditable bind:textContent={clues[0].solution} onkeypress={split} class='leaf'></span>
+            <span contenteditable bind:textContent={solution} onkeypress={preventNewline}></span>
+        </div>
     {:else}
         <div class="clues">
             {#each clues as clue}
                 <EditorClue bind:solution={clue.solution} bind:clues={clue.clues} />
             {/each}
         </div>
-        <input bind:value={solution} />
+        <span contenteditable bind:textContent={solution} onkeypress={preventNewline}></span>
     {/if}
 </div>
 
 <style>
+
     .clue {
         display: flex;
         flex-direction: column;
+        gap: 2px;
+        border: 1px solid #CBE8FD;
+        flex-grow: 1;
+
     }
     .clues {
         display: flex;
         align-items: end;
+        gap: 2px;
+        margin: 2px 2px 0 2px;
+        background-color: white;
+
     }
-    input {
+
+    span[contenteditable] {
         border-radius: 0;
-        margin: 1px;
-        width: 100%;
-        padding: 0;
-        flex-shrink: 1;
+        border: none;
+        padding: 8px;
+        text-transform: none;
+        background-color: #E9F5FE;
+        letter-spacing: normal;
+        font-family: monospace;
+        min-width: none;
+        size: 12px;
+        white-space: pre;
+        text-align: left;
+        color: #0E74A9;
+        text-decoration: none;
+
+        &.filler {
+            background-color: #F9FBFE;
+        }
 
         &.leaf {
-            border: 1px solid green;
+            background-color: white;
         }
+
+        &:focus {
+      outline: 1px solid #1596D9;
+  }
+    }
+
+    .group {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
     }
 </style>
