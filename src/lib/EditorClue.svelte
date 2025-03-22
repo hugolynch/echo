@@ -72,6 +72,7 @@
         gap: 2px;
         border: 1px solid #CBE8FD;
         flex-grow: 1;
+        max-width: 80vw;
     }
 
     .clue {
@@ -80,6 +81,7 @@
         gap: 2px;
         margin: 2px 2px 0 2px;
         background-color: white;
+        flex-wrap: wrap;
     }
 
     .leaf {
@@ -98,6 +100,7 @@
         text-align: left;
         color: #0E74A9;
         text-decoration: none;
+        overflow-x: auto;
 
         &:focus {
             outline: 1px solid #1596D9;
