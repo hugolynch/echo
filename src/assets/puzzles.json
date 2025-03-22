@@ -722,5 +722,174 @@
       }
     ],
     "date": "2025-03-20"
+  },
+
+  {
+    "name": "2025-03-21",
+    "solution": "Spring has sprung",
+    "clues": [
+      {
+        "solution": "Spring",
+        "clues": [
+          {
+            "solution": "import",
+            "clues": [
+              {
+                "solution": "bring ",
+                "clues": []
+              },
+              {
+                "solution": "in",
+                "clues": [
+                  {
+                    "solution": "not out",
+                    "clues": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "solution": "ant",
+            "clues": [
+              {
+                "solution": "picnic crasher",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " component in ",
+            "clues": []
+          },
+          {
+            "solution": "mecha",
+            "clues": [
+              {
+                "solution": "giant anime robot",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "nic",
+            "clues": [
+              {
+                "solution": "Nick",
+                "clues": [
+                  {
+                    "solution": "Old St. ___",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " - ",
+                "clues": []
+              },
+              {
+                "solution": "K",
+                "clues": [
+                  {
+                    "solution": "potassium",
+                    "clues": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "solution": "al",
+            "clues": [
+              {
+                "solution": "___ Capone",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " c",
+            "clues": []
+          },
+          {
+            "solution": "locks",
+            "clues": [
+              {
+                "solution": "strand",
+                "clues": [
+                  {
+                    "solution": "maroon",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": "s of hair",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": " has ",
+        "clues": []
+      },
+      {
+        "solution": "sp",
+        "clues": [
+          {
+            "solution": "species",
+            "clues": [
+              {
+                "solution": "Bison bison, eg.",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": ", for short",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": "rung",
+        "clues": [
+          {
+            "solution": "lad",
+            "clues": [
+              {
+                "solution": "British boy",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "der ",
+            "clues": []
+          },
+          {
+            "solution": "step",
+            "clues": [
+              {
+                "solution": "rec",
+                "clues": [
+                  {
+                    "solution": "VCR button",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": "ipe unit",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "date": "2025-03-21"
   }
 ]
