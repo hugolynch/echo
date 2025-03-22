@@ -1,13 +1,18 @@
 <script lang="ts">
     import EditorClue from "./EditorClue.svelte"
-    let puzzle: {solution: string, clues: object[]} = $state({
-        solution: "", clues: []
+    let puzzle: {name: string, solution: string, clues: object[]} = $state({
+        name: "name", solution: "", clues: []
     })
     // $inspect(puzzle)
+
+    function exportPuzzle() {
+        console.log($state.snapshot({...puzzle, date: (new Date).toString()}))
+    }
 </script>
 
 <h1>Editor</h1>
 <EditorClue bind:solution={puzzle.solution} bind:clues={puzzle.clues} />
+<button onclick={exportPuzzle}>export</button>
 
 <style>
     h1 {

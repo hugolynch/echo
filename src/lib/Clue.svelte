@@ -11,8 +11,8 @@
     {:else}
         {depth}
         {#each clues as clue}
-            {#if typeof clue === "string"}
-                {clue}
+            {#if clue.clues.length === 0}
+                {clue.solution}
             {:else}
                 <Clue {...clue} depth={depth + 1} />
             {/if}

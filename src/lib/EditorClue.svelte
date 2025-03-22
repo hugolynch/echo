@@ -30,7 +30,7 @@
 
         let newClues = [
             {solution: val?.slice(0, start), clues: []},
-            {solution: val?.slice(start, end), clues: [{solution: ""}]},
+            {solution: val?.slice(start, end), clues: [{solution: "", clues: []}]},
             {solution: val?.slice(end), clues: []},
         ].filter(s => s.solution?.length)
         if (clues.length === 0 && parent) {
