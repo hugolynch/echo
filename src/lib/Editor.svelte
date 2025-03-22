@@ -12,7 +12,7 @@
 
 <h1>Editor</h1>
 <EditorClue bind:solution={puzzle.solution} bind:clues={puzzle.clues} />
-<button onclick={exportPuzzle}>export</button>
+<button onclick={exportPuzzle}>Export (to console)</button>
 
 <style>
     h1 {

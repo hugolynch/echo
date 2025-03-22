@@ -1,54 +1,357 @@
 [
   {
-    "name": "Sat Mar 22 2025 13:09:47 GMT-0400 (Eastern Daylight Saving Time)",
-    "solution": "may the force",
+    "name": "Star Wars Day",
+    "solution": "May the Force be with you",
     "clues": [
       {
-        "solution": "may",
+        "solution": "May",
         "clues": [
           {
             "solution": "zombie",
             "clues": [
               {
-                "solution": "one of the living dead"
+                "solution": "one of the ",
+                "clues": []
+              },
+              {
+                "solution": "living",
+                "clues": [
+                  {
+                    "solution": "breathing",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " ",
+                "clues": []
+              },
+              {
+                "solution": "dead",
+                "clues": [
+                  {
+                    "solution": "not breathing",
+                    "clues": []
+                  }
+                ]
               }
             ]
           },
           {
-            "solution": " awareness month"
+            "solution": " ",
+            "clues": []
+          },
+          {
+            "solution": "aware",
+            "clues": [
+              {
+                "solution": "in the ",
+                "clues": []
+              },
+              {
+                "solution": "loop",
+                "clues": [
+                  {
+                    "solution": "roller coaster feature",
+                    "clues": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "solution": "ness",
+            "clues": [
+              {
+                "solution": "Loch ___ monster",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " month",
+            "clues": []
           }
         ]
       },
       {
-        "solution": " the force"
+        "solution": " the ",
+        "clues": []
+      },
+      {
+        "solution": "Force",
+        "clues": [
+          {
+            "solution": "mass",
+            "clues": [
+              {
+                "solution": "Sunday",
+                "clues": [
+                  {
+                    "solution": "half a weekend",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " service",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " ",
+            "clues": []
+          },
+          {
+            "solution": "times",
+            "clues": [
+              {
+                "solution": "X, mathwise",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " accelerat",
+            "clues": []
+          },
+          {
+            "solution": "ion",
+            "clues": [
+              {
+                "solution": "charged particle",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": " be with ",
+        "clues": []
+      },
+      {
+        "solution": "you",
+        "clues": [
+          {
+            "solution": "person ",
+            "clues": []
+          },
+          {
+            "solution": "reading",
+            "clues": [
+              {
+                "solution": "using Braille, say",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " this clue",
+            "clues": []
+          }
+        ]
       }
-    ]
+    ],
+    "date": "2025-05-04"
   },
 
-
   {
-    "name": "2",
-    "solution": "may the force",
+    "name": "2025-03-20",
+    "solution": "Benedict XIII elected Pope at the 1724 papal conclave.",
     "clues": [
       {
-        "solution": "may",
+        "solution": "Benedict",
         "clues": [
           {
-            "solution": "zombie",
+            "solution": "Benediction",
             "clues": [
               {
-                "solution": "safasffas"
+                "solution": "blessing",
+                "clues": []
               }
             ]
           },
           {
-            "solution": " awareness month"
+            "solution": " - ",
+            "clues": []
+          },
+          {
+            "solution": "ion",
+            "clues": [
+              {
+                "solution": "charged particle",
+                "clues": []
+              }
+            ]
           }
         ]
       },
       {
-        "solution": " the force"
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "XIII",
+        "clues": [
+          {
+            "solution": "thirteen",
+            "clues": [
+              {
+                "solution": "unlucky number",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " in ",
+            "clues": []
+          },
+          {
+            "solution": "Pompeii",
+            "clues": [
+              {
+                "solution": "city near Mount Vesuvius",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "elect",
+        "clues": [
+          {
+            "solution": "choose",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": "ed",
+        "clues": [
+          {
+            "solution": "editor",
+            "clues": [
+              {
+                "solution": "person correcting typos, perhaps",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": ", for short",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "Pop",
+        "clues": [
+          {
+            "solution": "soda",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": "e",
+        "clues": [
+          {
+            "solution": "___=mc²",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " at the ",
+        "clues": []
+      },
+      {
+        "solution": "17",
+        "clues": [
+          {
+            "solution": "seventeen",
+            "clues": [
+              {
+                "solution": "Edge of ___",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " in ",
+            "clues": []
+          },
+          {
+            "solution": "digits",
+            "clues": [
+              {
+                "solution": "you probably have 20",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": "24",
+        "clues": [
+          {
+            "solution": "film studio A___",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "papa",
+        "clues": [
+          {
+            "solution": "daddy",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": "l",
+        "clues": [
+          {
+            "solution": "opposite of a W",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "conclave",
+        "clues": [
+          {
+            "solution": "winner of 97th Academy Award for best adapted screenplay ",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": ".",
+        "clues": []
       }
-    ]
+    ],
+    "date": "2025-03-20"
   }
 ]
