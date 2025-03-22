@@ -33,15 +33,12 @@
             border: none;
             padding: 0;
             margin: 0;
-            text-decoration: underline;
+            text-decoration: underline #58baf9 1px;
+            text-underline-offset: 1px
         }
     }
 
     .solution {
         white-space: pre;
-    }
-
-    input[type="checkbox"] {
-        min-width: inherit;
     }
 </style>
