@@ -1,6 +1,6 @@
 <script lang="ts">
     import Clue from "./Clue.svelte";
-    import puzzles from '/public/puzzles/puzzles.json'
+    import puzzles from '../assets/puzzles.json'
 
     interface Clue {
         solution: string,
