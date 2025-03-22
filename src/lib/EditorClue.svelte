@@ -1,9 +1,11 @@
 <script lang="ts">
     import EditorClue from './EditorClue.svelte'
-    let {solution = $bindable(), clues = $bindable()} = $props()
-    if (clues === undefined) {
-        clues = []
-    }
+    let {
+        solution = $bindable(),
+        clues = $bindable([]),
+        parent = $bindable(null),
+        parentIndex = 0
+    } = $props()
 
     function preventNewline(e: KeyboardEvent) {
         if (e.key === "Enter") {
@@ -21,17 +23,23 @@
         const val = (e.target as HTMLSpanElement).textContent
         const start = window.getSelection()?.anchorOffset
         const end = window.getSelection()?.focusOffset
-        console.log(window.getSelection()?.getRangeAt(0))
         if(start === undefined || end === undefined || start === end) {
             console.log("no selection")
             return
         }
 
-        clues = [
-            {solution: val?.slice(0, start)},
+        let newClues = [
+            {solution: val?.slice(0, start), clues: []},
             {solution: val?.slice(start, end), clues: [{solution: ""}]},
-            {solution: val?.slice(end)},
+            {solution: val?.slice(end), clues: []},
         ].filter(s => s.solution?.length)
+        if (clues.length === 0 && parent) {
+            // text node with neighbours: need to splice new clues in the parent
+            parent.splice(parentIndex, 1, ...newClues)
+        } else {
+            // any other node: insert new clues for this solution
+            clues = newClues
+        }
     }
 </script>
 
@@ -49,8 +57,8 @@
     {:else}
         <!-- clue node -->
         <div class="clue">
-            {#each clues as clue}
-                <EditorClue bind:solution={clue.solution} bind:clues={clue.clues} />
+            {#each clues as clue, parentIndex}
+                <EditorClue bind:solution={clue.solution} bind:clues={clue.clues} bind:parent={clues} {parentIndex} />
             {/each}
         </div>
         <span contenteditable bind:textContent={solution} onkeypress={preventNewline} class="solution"></span>

@@ -1,9 +1,9 @@
 <script lang="ts">
     import EditorClue from "./EditorClue.svelte"
-    let puzzle: {solution: string, clues?: object[]} = $state({
-        solution: "",
+    let puzzle: {solution: string, clues: object[]} = $state({
+        solution: "", clues: []
     })
-    $inspect(puzzle)
+    // $inspect(puzzle)
 </script>
 
 <h1>Editor</h1>
