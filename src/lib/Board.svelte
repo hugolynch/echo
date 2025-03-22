@@ -37,13 +37,16 @@
     }
 </script>
 
-<select name="puzzles" onchange={(e) => puzzle = puzzles[e.target.value]}>
-    {#each puzzles as puzzle, i}
-        <option value={i} selected={i === puzzles.length - 1}>
-            {puzzle.name}
-        </option>
-    {/each}
-</select>
+<div>
+    <span class="help">Tutorial here →</span>
+    <select name="puzzles" onchange={(e) => puzzle = puzzles[e.target.value]}>
+        {#each puzzles as puzzle, i}
+            <option value={i} selected={i === puzzles.length - 1}>
+                {puzzle.name}
+            </option>
+        {/each}
+    </select>
+</div>
 
 <div class="puzzle">
     <Clue {...puzzle} depth={0} />
@@ -71,5 +74,9 @@
         margin: 0 auto;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .help {
+        color: #DC6B6E;
     }
 </style>
