@@ -35,41 +35,47 @@
     }
 </script>
 
-<div class="clue">
+<div class={{'node': true, 'leaf': clues.length === 1, 'text': clues.length === 0}}>
     {#if clues.length === 0}
-        <span contenteditable bind:textContent={solution} onkeypress={split} class='filler'></span>
+        <!-- text node -->
+        <!-- <div class="solution"> -->
+            <span contenteditable bind:textContent={solution} onkeypress={split}></span>
+            <!-- <button class="delete">X</button> -->
+        <!-- </div> -->
     {:else if clues.length === 1}
-        <div class='group'>
-            <span contenteditable bind:textContent={clues[0].solution} onkeypress={split} class='leaf'></span>
-            <span contenteditable bind:textContent={solution} onkeypress={preventNewline}></span>
-        </div>
+        <!-- leaf node -->
+        <span contenteditable bind:textContent={clues[0].solution} onkeypress={split}></span>
+        <span contenteditable bind:textContent={solution} onkeypress={preventNewline} class="solution"></span>
     {:else}
-        <div class="clues">
+        <!-- clue node -->
+        <div class="clue">
             {#each clues as clue}
                 <EditorClue bind:solution={clue.solution} bind:clues={clue.clues} />
             {/each}
         </div>
-        <span contenteditable bind:textContent={solution} onkeypress={preventNewline}></span>
+        <span contenteditable bind:textContent={solution} onkeypress={preventNewline} class="solution"></span>
     {/if}
 </div>
 
 <style>
-
-    .clue {
+    .node {
         display: flex;
         flex-direction: column;
         gap: 2px;
         border: 1px solid #CBE8FD;
         flex-grow: 1;
-
     }
-    .clues {
+
+    .clue {
         display: flex;
         align-items: end;
         gap: 2px;
         margin: 2px 2px 0 2px;
         background-color: white;
+    }
 
+    .leaf {
+        gap: 1px;
     }
 
     span[contenteditable] {
@@ -80,35 +86,26 @@
         background-color: #E9F5FE;
         letter-spacing: normal;
         font-family: monospace;
-        min-width: none;
-        size: 12px;
         white-space: pre;
         text-align: left;
         color: #0E74A9;
         text-decoration: none;
 
-        &.filler {
-            background-color: #F9FBFE;
-        }
-
-        &.leaf {
-            background-color: white;
-        }
-
         &:focus {
             outline: 1px solid #1596D9;
         }
-    }
 
-    .leaf:empty::before {
-        /* border: 1px solid red; */
-        content: 'CLUE';
-        color: #98D1FA;
-    }
+        .text.node > & {
+            background-color: #F9FBFE;
+        }
+        .leaf.node > &:first-child {
+            width: 100%;
+            background-color: white;
 
-    .group {
-        display: flex;
-        flex-direction: column;
-        gap: 1px;
+            &:empty::before {
+                content: 'CLUE';
+                color: #98D1FA;
+            }
+        }
     }
 </style>
