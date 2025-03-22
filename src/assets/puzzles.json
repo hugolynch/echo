@@ -1,895 +1,1028 @@
 [
   {
-    "name": "2024-05-04",
-    "solution": "May the Force be with you",
+    "name": "How to play",
+    "solution": "Echo chamber is a nested word puzzle. Your goal is to solve all the clues and uncover the final solution. Clues look like THIS. To solve a clue, type out the solution to the clue in the input box. SOLUTION. Clues can be nested too. Clues must be solved from the inside out. In this tutorial, uppercase words are solutions. Here's a sample puzzle: Echo chamber.",
     "clues": [
       {
-        "solution": "May",
-        "clues": [
-          {
-            "solution": "zombie",
-            "clues": [
-              {
-                "solution": "one of the ",
-                "clues": []
-              },
-              {
-                "solution": "living",
-                "clues": [
-                  {
-                    "solution": "breathing",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": " ",
-                "clues": []
-              },
-              {
-                "solution": "dead",
-                "clues": [
-                  {
-                    "solution": "not breathing",
-                    "clues": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "solution": " ",
-            "clues": []
-          },
-          {
-            "solution": "aware",
-            "clues": [
-              {
-                "solution": "in the ",
-                "clues": []
-              },
-              {
-                "solution": "loop",
-                "clues": [
-                  {
-                    "solution": "roller coaster feature",
-                    "clues": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "solution": "ness",
-            "clues": [
-              {
-                "solution": "Loch ___ monster",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " month",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": " the ",
+        "solution": "Echo chamber is a nested word puzzle. Your goal is to solve all the clues and uncover the final solution. Clues look like ",
         "clues": []
       },
       {
-        "solution": "Force",
+        "solution": "THIS",
         "clues": [
           {
-            "solution": "mass",
-            "clues": [
-              {
-                "solution": "Sunday",
-                "clues": [
-                  {
-                    "solution": "half a weekend",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": " service",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " ",
+            "solution": "THIS",
             "clues": []
-          },
-          {
-            "solution": "times",
-            "clues": [
-              {
-                "solution": "X, mathwise",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " accelerat",
-            "clues": []
-          },
-          {
-            "solution": "ion",
-            "clues": [
-              {
-                "solution": "charged particle",
-                "clues": []
-              }
-            ]
           }
         ]
       },
       {
-        "solution": " be with ",
+        "solution": ". To solve a clue, type out the solution to the clue in the input box. ",
         "clues": []
       },
       {
-        "solution": "you",
+        "solution": "SOLUTION",
         "clues": [
           {
-            "solution": "person ",
-            "clues": []
-          },
-          {
-            "solution": "reading",
-            "clues": [
-              {
-                "solution": "using Braille, say",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " this clue",
-            "clues": []
-          }
-        ]
-      }
-    ],
-    "date": "2024-05-04"
-  },
-
-  {
-    "name": "2025-03-17",
-    "solution": "Not all those who wander are lost",
-    "clues": [
-      {
-        "solution": "Not",
-        "clues": [
-          {
-            "solution": "“Ready or ___, here I come”",
+            "solution": "Try it, type SOLUTION",
             "clues": []
           }
         ]
       },
       {
-        "solution": " all ",
+        "solution": ". When clues are solved, they are ",
         "clues": []
       },
       {
-        "solution": "t",
+        "solution": "underlined",
         "clues": [
           {
-            "solution": "Ford model ___ (aka the 'Tin Lizzie')",
-            "clues": []
+            "solution": "UNDERLINED"
           }
         ]
       },
       {
-        "solution": "hose",
-        "clues": [
-          {
-            "solution": "flexible ",
-            "clues": []
-          },
-          {
-            "solution": "tube",
-            "clues": [
-              {
-                "solution": "name for the London ",
-                "clues": []
-              },
-              {
-                "solution": "under",
-                "clues": [
-                  {
-                    "solution": "opposite of over",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": "ground",
-                "clues": [
-                  {
-                    "solution": "earth pulverised",
-                    "clues": []
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "solution": " who ",
+        "solution": ". ",
         "clues": []
       },
-      {
-        "solution": "wander",
-        "clues": [
-          {
-            "solution": "wand",
-            "clues": [
-              {
-                "solution": "magic",
-                "clues": [
-                  {
-                    "solution": "what a witch does",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": "ian",
-                "clues": [
-                  {
-                    "solution": "the 'Lord of the Rings' actor McKellen",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": "'s ",
-                "clues": []
-              },
-              {
-                "solution": "tool",
-                "clues": [
-                  {
-                    "solution": "hammer, saw, etc.",
-                    "clues": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "solution": "er",
-            "clues": [
-              {
-                "solution": "the ",
-                "clues": []
-              },
-              {
-                "solution": "bus",
-                "clues": [
-                  {
-                    "solution": "word after omni or mini",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": "i",
-                "clues": [
-                  {
-                    "solution": "me, myself and ___",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": "est",
-                "clues": [
-                  {
-                    "solution": "suffix for 'most'",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": " place in the ",
-                "clues": []
-              },
-              {
-                "solution": "hospital",
-                "clues": [
-                  {
-                    "solution": "medical establishment",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": ", for short",
-                "clues": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "solution": " are ",
-        "clues": []
-      },
-      {
-        "solution": "lost",
-        "clues": [
-          {
-            "solution": "ABC",
-            "clues": [
-              {
-                "solution": "XYZ counterpart",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " ",
-            "clues": []
-          },
-          {
-            "solution": "island",
-            "clues": [
-              {
-                "solution": "Greenland is the world’s largest one",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " drama",
-            "clues": []
-          }
-        ]
-      }
-    ],
-    "date": "2025-03-17"
-  },
-
-  {
-    "name": "2025-03-18",
-    "solution": "I'm as mad as hell and I'm not gonna take this anymore!",
-    "clues": [
-      {
-        "solution": "I'm as ",
-        "clues": []
-      },
-      {
-        "solution": "mad",
-        "clues": [
-          {
-            "solution": "___ as a hatter",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": " as ",
-        "clues": []
-      },
-      {
-        "solution": "hell",
-        "clues": [
-          {
-            "solution": "Tart",
-            "clues": [
-              {
-                "solution": "like ",
-                "clues": []
-              },
-              {
-                "solution": "cherries",
-                "clues": [
-                  {
-                    "solution": "🍒🍒🍒",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": " that aren't sweet",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": "arus, by another ",
-            "clues": []
-          },
-          {
-            "solution": "name",
-            "clues": [
-              {
-                "solution": "first part of many email addresses",
-                "clues": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "solution": " and I'm ",
-        "clues": []
-      },
-      {
-        "solution": "not",
-        "clues": [
-          {
-            "solution": " \"",
-            "clues": []
-          },
-          {
-            "solution": "believe",
-            "clues": [
-              {
-                "solution": "have faith in",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " it or ___\"",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": " gonna ",
-        "clues": []
-      },
-      {
-        "solution": "take",
-        "clues": [
-          {
-            "solution": "bit",
-            "clues": [
-              {
-                "solution": "memory unit",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " of filming",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": " this ",
-        "clues": []
-      },
-      {
-        "solution": "any",
-        "clues": [
-          {
-            "solution": "time",
-            "clues": [
-              {
-                "solution": "clock",
-                "clues": [
-                  {
-                    "solution": "\"What did the ___ do when it was still hungry? Went back four seconds!\" (dad joke)",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": "'s indication",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " and ",
-            "clues": []
-          },
-          {
-            "solution": "place",
-            "clues": [
-              {
-                "solution": "come in second",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " preceder",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": "more",
-        "clues": [
-          {
-            "solution": "greedy people's desire",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": "!",
-        "clues": []
-      }
-    ],
-    "date": "2025-03-18"
-  },
-
-  {
-    "name": "2025-03-20",
-    "solution": "Benedict XIII elected Pope at the 1724 papal conclave.",
-    "clues": [
-      {
-        "solution": "Benedict",
-        "clues": [
-          {
-            "solution": "benediction",
-            "clues": [
-              {
-                "solution": "blessing",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " - ",
-            "clues": []
-          },
-          {
-            "solution": "ion",
-            "clues": [
-              {
-                "solution": "charged particle",
-                "clues": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "solution": " ",
-        "clues": []
-      },
-      {
-        "solution": "XIII",
-        "clues": [
-          {
-            "solution": "thirteen",
-            "clues": [
-              {
-                "solution": "unlucky number",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " in ",
-            "clues": []
-          },
-          {
-            "solution": "Pompeii",
-            "clues": [
-              {
-                "solution": "city near Mount Vesuvius",
-                "clues": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "solution": " ",
-        "clues": []
-      },
-      {
-        "solution": "elect",
-        "clues": [
-          {
-            "solution": "choose",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": "ed",
-        "clues": [
-          {
-            "solution": "editor",
-            "clues": [
-              {
-                "solution": "person correcting typos, perhaps",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": ", for short",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": " ",
-        "clues": []
-      },
-      {
-        "solution": "Pop",
-        "clues": [
-          {
-            "solution": "soda",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": "e",
-        "clues": [
-          {
-            "solution": "___=mc²",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": " at the ",
-        "clues": []
-      },
-      {
-        "solution": "17",
-        "clues": [
-          {
-            "solution": "seventeen",
-            "clues": [
-              {
-                "solution": "Edge of ___",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " in ",
-            "clues": []
-          },
-          {
-            "solution": "digits",
-            "clues": [
-              {
-                "solution": "you probably have 20",
-                "clues": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "solution": "24",
-        "clues": [
-          {
-            "solution": "film studio A___",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": " ",
-        "clues": []
-      },
-      {
-        "solution": "papa",
-        "clues": [
-          {
-            "solution": "daddy",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": "l",
-        "clues": [
-          {
-            "solution": "opposite of a W",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": " ",
-        "clues": []
-      },
-      {
-        "solution": "conclave",
-        "clues": [
-          {
-            "solution": "winner of 97th Academy Award for best adapted screenplay ",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": ".",
-        "clues": []
-      }
-    ],
-    "date": "2025-03-20"
-  },
-
-  {
-    "name": "2025-03-21",
-    "solution": "Spring has sprung",
-    "clues": [
-      {
-        "solution": "Spring",
-        "clues": [
-          {
-            "solution": "import",
-            "clues": [
-              {
-                "solution": "bring ",
-                "clues": []
-              },
-              {
-                "solution": "in",
-                "clues": [
-                  {
-                    "solution": "not out",
-                    "clues": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "solution": "ant",
-            "clues": [
-              {
-                "solution": "picnic crasher",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " component in ",
-            "clues": []
-          },
-          {
-            "solution": "mecha",
-            "clues": [
-              {
-                "solution": "giant anime robot",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": "nic",
-            "clues": [
-              {
-                "solution": "Nick",
-                "clues": [
-                  {
-                    "solution": "Old St. ___",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": " - ",
-                "clues": []
-              },
-              {
-                "solution": "K",
-                "clues": [
-                  {
-                    "solution": "potassium",
-                    "clues": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "solution": "al",
-            "clues": [
-              {
-                "solution": "___ Capone",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": " c",
-            "clues": []
-          },
-          {
-            "solution": "locks",
-            "clues": [
-              {
-                "solution": "strand",
-                "clues": [
-                  {
-                    "solution": "maroon",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": "s of hair",
-                "clues": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "solution": " has ",
-        "clues": []
-      },
-      {
-        "solution": "sp",
-        "clues": [
-          {
-            "solution": "species",
-            "clues": [
-              {
-                "solution": "Bison bison, eg.",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": ", for short",
-            "clues": []
-          }
-        ]
-      },
-      {
-        "solution": "rung",
-        "clues": [
-          {
-            "solution": "lad",
-            "clues": [
-              {
-                "solution": "British boy",
-                "clues": []
-              }
-            ]
-          },
-          {
-            "solution": "der ",
-            "clues": []
-          },
-          {
-            "solution": "step",
-            "clues": [
-              {
-                "solution": "rec",
-                "clues": [
-                  {
-                    "solution": "VCR button",
-                    "clues": []
-                  }
-                ]
-              },
-              {
-                "solution": "ipe unit",
-                "clues": []
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "date": "2025-03-21"
-  }
+    {
+      "solution": "Clues can be nested too",
+      "clues": [
+        {
+          "solution": "Clues can be ",
+          "clues": []
+        },
+        {
+          "solution": "nested",
+          "clues": [
+            {
+              "solution": "NESTED",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " too",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": ". Clues must be solved from the inside out. In this tutorial, ",
+      "clues": []
+    },
+    {
+      "solution": "uppercase",
+      "clues": [
+        {
+          "solution": "UPPERCASE",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": " words are solutions. Here's a sample puzzle: ",
+      "clues": []
+    },
+    {
+      "solution": "Echo chamber",
+      "clues": [
+        {
+          "solution": "ECHO",
+          "clues": [
+            {
+              "solution": "repeated sounds in a cave (ECHO)",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " ",
+          "clues": []
+        },
+        {
+          "solution": "CHA",
+          "clues": [
+            {
+              "solution": "when doubled, a dance (CHA)",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": "MB",
+          "clues": [
+            {
+              "solution": "megabyte, for short (MB)",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": "ER",
+          "clues": [
+            {
+              "solution": "emergency room, in a hurry (ER)",
+              "clues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution": ".",
+      "clues": []
+    }
+  ],
+  "date": ""
+},
+{
+  "name": "2024-05-04",
+  "solution": "May the Force be with you",
+  "clues": [
+    {
+      "solution": "May",
+      "clues": [
+        {
+          "solution": "zombie",
+          "clues": [
+            {
+              "solution": "one of the ",
+              "clues": []
+            },
+            {
+              "solution": "living",
+              "clues": [
+                {
+                  "solution": "breathing",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": " ",
+              "clues": []
+            },
+            {
+              "solution": "dead",
+              "clues": [
+                {
+                  "solution": "not breathing",
+                  "clues": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "solution": " ",
+          "clues": []
+        },
+        {
+          "solution": "aware",
+          "clues": [
+            {
+              "solution": "in the ",
+              "clues": []
+            },
+            {
+              "solution": "loop",
+              "clues": [
+                {
+                  "solution": "roller coaster feature",
+                  "clues": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "solution": "ness",
+          "clues": [
+            {
+              "solution": "Loch ___ monster",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " month",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": " the ",
+      "clues": []
+    },
+    {
+      "solution": "Force",
+      "clues": [
+        {
+          "solution": "mass",
+          "clues": [
+            {
+              "solution": "Sunday",
+              "clues": [
+                {
+                  "solution": "half a weekend",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": " service",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " ",
+          "clues": []
+        },
+        {
+          "solution": "times",
+          "clues": [
+            {
+              "solution": "X, mathwise",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " accelerat",
+          "clues": []
+        },
+        {
+          "solution": "ion",
+          "clues": [
+            {
+              "solution": "charged particle",
+              "clues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution": " be with ",
+      "clues": []
+    },
+    {
+      "solution": "you",
+      "clues": [
+        {
+          "solution": "person ",
+          "clues": []
+        },
+        {
+          "solution": "reading",
+          "clues": [
+            {
+              "solution": "using Braille, say",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " this clue",
+          "clues": []
+        }
+      ]
+    }
+  ],
+  "date": "2024-05-04"
+},
+{
+  "name": "2025-03-17",
+  "solution": "Not all those who wander are lost",
+  "clues": [
+    {
+      "solution": "Not",
+      "clues": [
+        {
+          "solution": "“Ready or ___, here I come”",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": " all ",
+      "clues": []
+    },
+    {
+      "solution": "t",
+      "clues": [
+        {
+          "solution": "Ford model ___ (aka the 'Tin Lizzie')",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": "hose",
+      "clues": [
+        {
+          "solution": "flexible ",
+          "clues": []
+        },
+        {
+          "solution": "tube",
+          "clues": [
+            {
+              "solution": "name for the London ",
+              "clues": []
+            },
+            {
+              "solution": "under",
+              "clues": [
+                {
+                  "solution": "opposite of over",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": "ground",
+              "clues": [
+                {
+                  "solution": "earth pulverised",
+                  "clues": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution": " who ",
+      "clues": []
+    },
+    {
+      "solution": "wander",
+      "clues": [
+        {
+          "solution": "wand",
+          "clues": [
+            {
+              "solution": "magic",
+              "clues": [
+                {
+                  "solution": "what a witch does",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": "ian",
+              "clues": [
+                {
+                  "solution": "the 'Lord of the Rings' actor McKellen",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": "'s ",
+              "clues": []
+            },
+            {
+              "solution": "tool",
+              "clues": [
+                {
+                  "solution": "hammer, saw, etc.",
+                  "clues": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "solution": "er",
+          "clues": [
+            {
+              "solution": "the ",
+              "clues": []
+            },
+            {
+              "solution": "bus",
+              "clues": [
+                {
+                  "solution": "word after omni or mini",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": "i",
+              "clues": [
+                {
+                  "solution": "me, myself and ___",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": "est",
+              "clues": [
+                {
+                  "solution": "suffix for 'most'",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": " place in the ",
+              "clues": []
+            },
+            {
+              "solution": "hospital",
+              "clues": [
+                {
+                  "solution": "medical establishment",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": ", for short",
+              "clues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution": " are ",
+      "clues": []
+    },
+    {
+      "solution": "lost",
+      "clues": [
+        {
+          "solution": "ABC",
+          "clues": [
+            {
+              "solution": "XYZ counterpart",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " ",
+          "clues": []
+        },
+        {
+          "solution": "island",
+          "clues": [
+            {
+              "solution": "Greenland is the world’s largest one",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " drama",
+          "clues": []
+        }
+      ]
+    }
+  ],
+  "date": "2025-03-17"
+},
+{
+  "name": "2025-03-18",
+  "solution": "I'm as mad as hell and I'm not gonna take this anymore!",
+  "clues": [
+    {
+      "solution": "I'm as ",
+      "clues": []
+    },
+    {
+      "solution": "mad",
+      "clues": [
+        {
+          "solution": "___ as a hatter",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": " as ",
+      "clues": []
+    },
+    {
+      "solution": "hell",
+      "clues": [
+        {
+          "solution": "Tart",
+          "clues": [
+            {
+              "solution": "like ",
+              "clues": []
+            },
+            {
+              "solution": "cherries",
+              "clues": [
+                {
+                  "solution": "🍒🍒🍒",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": " that aren't sweet",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": "arus, by another ",
+          "clues": []
+        },
+        {
+          "solution": "name",
+          "clues": [
+            {
+              "solution": "first part of many email addresses",
+              "clues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution": " and I'm ",
+      "clues": []
+    },
+    {
+      "solution": "not",
+      "clues": [
+        {
+          "solution": " \"",
+          "clues": []
+        },
+        {
+          "solution": "believe",
+          "clues": [
+            {
+              "solution": "have faith in",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " it or ___\"",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": " gonna ",
+      "clues": []
+    },
+    {
+      "solution": "take",
+      "clues": [
+        {
+          "solution": "bit",
+          "clues": [
+            {
+              "solution": "memory unit",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " of filming",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": " this ",
+      "clues": []
+    },
+    {
+      "solution": "any",
+      "clues": [
+        {
+          "solution": "time",
+          "clues": [
+            {
+              "solution": "clock",
+              "clues": [
+                {
+                  "solution": "\"What did the ___ do when it was still hungry? Went back four seconds!\" (dad joke)",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": "'s indication",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " and ",
+          "clues": []
+        },
+        {
+          "solution": "place",
+          "clues": [
+            {
+              "solution": "come in second",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " preceder",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": "more",
+      "clues": [
+        {
+          "solution": "greedy people's desire",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": "!",
+      "clues": []
+    }
+  ],
+  "date": "2025-03-18"
+},
+{
+  "name": "2025-03-20",
+  "solution": "Benedict XIII elected Pope at the 1724 papal conclave.",
+  "clues": [
+    {
+      "solution": "Benedict",
+      "clues": [
+        {
+          "solution": "benediction",
+          "clues": [
+            {
+              "solution": "blessing",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " - ",
+          "clues": []
+        },
+        {
+          "solution": "ion",
+          "clues": [
+            {
+              "solution": "charged particle",
+              "clues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution": " ",
+      "clues": []
+    },
+    {
+      "solution": "XIII",
+      "clues": [
+        {
+          "solution": "thirteen",
+          "clues": [
+            {
+              "solution": "unlucky number",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " in ",
+          "clues": []
+        },
+        {
+          "solution": "Pompeii",
+          "clues": [
+            {
+              "solution": "city near Mount Vesuvius",
+              "clues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution": " ",
+      "clues": []
+    },
+    {
+      "solution": "elect",
+      "clues": [
+        {
+          "solution": "choose",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": "ed",
+      "clues": [
+        {
+          "solution": "editor",
+          "clues": [
+            {
+              "solution": "person correcting typos, perhaps",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": ", for short",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": " ",
+      "clues": []
+    },
+    {
+      "solution": "Pop",
+      "clues": [
+        {
+          "solution": "soda",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": "e",
+      "clues": [
+        {
+          "solution": "___=mc²",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": " at the ",
+      "clues": []
+    },
+    {
+      "solution": "17",
+      "clues": [
+        {
+          "solution": "seventeen",
+          "clues": [
+            {
+              "solution": "Edge of ___",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " in ",
+          "clues": []
+        },
+        {
+          "solution": "digits",
+          "clues": [
+            {
+              "solution": "you probably have 20",
+              "clues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution": "24",
+      "clues": [
+        {
+          "solution": "film studio A___",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": " ",
+      "clues": []
+    },
+    {
+      "solution": "papa",
+      "clues": [
+        {
+          "solution": "daddy",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": "l",
+      "clues": [
+        {
+          "solution": "opposite of a W",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": " ",
+      "clues": []
+    },
+    {
+      "solution": "conclave",
+      "clues": [
+        {
+          "solution": "winner of 97th Academy Award for best adapted screenplay ",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": ".",
+      "clues": []
+    }
+  ],
+  "date": "2025-03-20"
+},
+{
+  "name": "2025-03-21",
+  "solution": "Spring has sprung",
+  "clues": [
+    {
+      "solution": "Spring",
+      "clues": [
+        {
+          "solution": "import",
+          "clues": [
+            {
+              "solution": "bring ",
+              "clues": []
+            },
+            {
+              "solution": "in",
+              "clues": [
+                {
+                  "solution": "not out",
+                  "clues": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "solution": "ant",
+          "clues": [
+            {
+              "solution": "picnic crasher",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " component in ",
+          "clues": []
+        },
+        {
+          "solution": "mecha",
+          "clues": [
+            {
+              "solution": "giant anime robot",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": "nic",
+          "clues": [
+            {
+              "solution": "Nick",
+              "clues": [
+                {
+                  "solution": "Old St. ___",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": " - ",
+              "clues": []
+            },
+            {
+              "solution": "K",
+              "clues": [
+                {
+                  "solution": "potassium",
+                  "clues": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "solution": "al",
+          "clues": [
+            {
+              "solution": "___ Capone",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " c",
+          "clues": []
+        },
+        {
+          "solution": "locks",
+          "clues": [
+            {
+              "solution": "strand",
+              "clues": [
+                {
+                  "solution": "maroon",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": "s of hair",
+              "clues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution": " has ",
+      "clues": []
+    },
+    {
+      "solution": "sp",
+      "clues": [
+        {
+          "solution": "species",
+          "clues": [
+            {
+              "solution": "Bison bison, eg.",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": ", for short",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": "rung",
+      "clues": [
+        {
+          "solution": "lad",
+          "clues": [
+            {
+              "solution": "British boy",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": "der ",
+          "clues": []
+        },
+        {
+          "solution": "step",
+          "clues": [
+            {
+              "solution": "rec",
+              "clues": [
+                {
+                  "solution": "VCR button",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": "ipe unit",
+              "clues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "date": "2025-03-21"
+}
 ]
