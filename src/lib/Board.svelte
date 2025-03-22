@@ -18,7 +18,7 @@
         if (!clues) return false;
 
         for (let i = 0; i < clues.length; i++) {
-            if (clues[i].solution === answer) {
+            if (clues[i].solution.toLocaleLowerCase() === answer.toLowerCase()) {
                 clues[i].solved = true
                 return true
             }
