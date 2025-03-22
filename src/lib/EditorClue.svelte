@@ -29,7 +29,7 @@
 
         clues = [
             {solution: val?.slice(0, start)},
-            {solution: val?.slice(start, end), clues: [{solution: val?.slice(start, end)}]},
+            {solution: val?.slice(start, end), clues: [{solution: ""}]},
             {solution: val?.slice(end)},
         ].filter(s => s.solution?.length)
     }
@@ -96,8 +96,14 @@
         }
 
         &:focus {
-      outline: 1px solid #1596D9;
-  }
+            outline: 1px solid #1596D9;
+        }
+    }
+
+    .leaf:empty::before {
+        /* border: 1px solid red; */
+        content: 'CLUE';
+        color: #98D1FA;
     }
 
     .group {
