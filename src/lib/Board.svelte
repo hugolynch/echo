@@ -14,15 +14,24 @@
     let val = $state("")
     let puzzle: Puzzle = $state(puzzles[puzzles.length - 1])
 
+    function handleKeypress(e: KeyboardEvent) {
+        if (e.key === 'Enter') {
+            check([puzzle], val)
+        }
+    }
+
     function check(clues: Clue[], answer: string): boolean {
         if (!clues) return false;
 
         for (let i = 0; i < clues.length; i++) {
             if (clues[i].solution.toLocaleLowerCase() === answer.toLowerCase()) {
                 clues[i].solved = true
+                val = ''
                 return true
             }
-            check(clues[i].clues ?? [], answer)
+            if (check(clues[i].clues ?? [], answer)) {
+                return true;
+            }
         }
         return false
     }
@@ -42,7 +51,7 @@
 </div>
 
 <div>
-    <input type="text" id="answer-input" bind:value={val} />
+    <input type="text" id="answer-input" bind:value={val} onkeypress={handleKeypress}/>
     <button id="submit-button" onclick={() => check([puzzle], val)}>Check Answer</button>
 </div>
 <p id="feedback"></p>
