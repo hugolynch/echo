@@ -1,8 +1,6 @@
 <script lang="ts">
     import Clue from "./Clue.svelte";
     import puzzles from '/public/puzzles/puzzles.json'
-    let val = $state("")
-    let selected = $state(puzzles.length - 1)
 
     interface Clue {
         solution: string,
@@ -13,7 +11,8 @@
         name: string,
     }
 
-    const puzzle: Puzzle = $derived(puzzles[selected])
+    let val = $state("")
+    let puzzle: Puzzle = $state(puzzles[puzzles.length - 1])
 
     function check(clues: Clue[], answer: string): boolean {
         if (!clues) return false;
@@ -23,15 +22,17 @@
                 clues[i].solved = true
                 return true
             }
-            check(clues[i].clues!, answer)
+            check(clues[i].clues ?? [], answer)
         }
         return false
     }
 </script>
 
-<select id="puzzle-select" name="puzzles" bind:value={selected}>
+<select id="puzzle-select" name="puzzles" onchange={(e) => puzzle = puzzles[e.target.value]}>
     {#each puzzles as puzzle, i}
-        <option value={i}>{puzzle.name}</option>
+        <option value={i} selected={i === puzzles.length - 1}>
+            {puzzle.name}
+        </option>
     {/each}
 </select>
 
