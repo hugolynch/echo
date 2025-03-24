@@ -1201,5 +1201,187 @@
     }
   ],
   "date": "2025-03-24"
+},
+{
+  "name": "2025-03-25",
+  "solution": "Happy New Year",
+  "clues": [
+    {
+      "solution": "H",
+      "clues": []
+    },
+    {
+      "solution": "app",
+      "clues": [
+        {
+          "solution": "Words",
+          "clues": [
+            {
+              "solution": "you can mince them and eat them",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": " ",
+          "clues": []
+        },
+        {
+          "solution": "Wit",
+          "clues": [
+            {
+              "solution": "clever humour",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": "h ",
+          "clues": []
+        },
+        {
+          "solution": "Friends",
+          "clues": [
+            {
+              "solution": "Monica, Rachel and Phoebe, e.g.",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": ", e.g.",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": "y ",
+      "clues": []
+    },
+    {
+      "solution": "New",
+      "clues": [
+        {
+          "solution": "“Something ",
+          "clues": []
+        },
+        {
+          "solution": "Olde",
+          "clues": [
+            {
+              "solution": "shoppe ",
+              "clues": []
+            },
+            {
+              "solution": "sign",
+              "clues": [
+                {
+                  "solution": "communicate with your hands",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": " word",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": ", Something ___, Something ",
+          "clues": []
+        },
+        {
+          "solution": "Borrowed",
+          "clues": [
+            {
+              "solution": "like",
+              "clues": [
+                {
+                  "solution": "have a crush on",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": " a library ",
+              "clues": []
+            },
+            {
+              "solution": "boo",
+              "clues": [
+                {
+                  "solution": "scare word",
+                  "clues": []
+                }
+              ]
+            },
+            {
+              "solution": "k, perhaps",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": ", Something ",
+          "clues": []
+        },
+        {
+          "solution": "Blue",
+          "clues": [
+            {
+              "solution": "like a sad Smurf",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": "...”",
+          "clues": []
+        }
+      ]
+    },
+    {
+      "solution": " ",
+      "clues": []
+    },
+    {
+      "solution": "Yea",
+      "clues": [
+        {
+          "solution": "vote of ",
+          "clues": []
+        },
+        {
+          "solution": "sup",
+          "clues": [
+            {
+              "solution": "dine",
+              "clues": []
+            }
+          ]
+        },
+        {
+          "solution": "port",
+          "clues": [
+            {
+              "solution": "boat's destination",
+              "clues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution": "r",
+      "clues": [
+        {
+          "solution": "Toys \"___\" Us",
+          "clues": []
+        }
+      ]
+    }
+  ],
+  "date": "2025-03-25"
 }
 ]
