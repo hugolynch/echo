@@ -1622,5 +1622,122 @@
       }
     ],
     "date": "2025-03-26"
+  },
+  {
+    "name": "2025-03-26 2",
+    "solution": "The North-West Rebellion begins",
+    "clues": [
+      {
+        "solution": "The ",
+        "clues": []
+      },
+      {
+        "solution": "North-West",
+        "clues": [
+          {
+            "solution": "Canadian territory",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "Rebel",
+        "clues": [
+          {
+            "solution": "Imperial",
+            "clues": [
+              {
+                "solution": "Napoleonic, say",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " foe in ",
+            "clues": []
+          },
+          {
+            "solution": "Star Wars",
+            "clues": [
+              {
+                "solution": "iconic space opera inspired by _Valérian and Laureline_",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": "lion",
+        "clues": [
+          {
+            "solution": "he's ",
+            "clues": []
+          },
+          {
+            "solution": "coward",
+            "clues": [
+              {
+                "solution": "you might compare one to a ",
+                "clues": []
+              },
+              {
+                "solution": "chicken",
+                "clues": [
+                  {
+                    "solution": "🐓",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " or a ",
+                "clues": []
+              },
+              {
+                "solution": "cat",
+                "clues": [
+                  {
+                    "solution": "🐈",
+                    "clues": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "solution": "ly",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "begins",
+        "clues": [
+          {
+            "solution": "star",
+            "clues": [
+              {
+                "solution": "celebrity",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "ts",
+            "clues": []
+          }
+        ]
+      }
+    ],
+    "date": "2025-03-26"
   }
 ]
