@@ -10,12 +10,17 @@
     }
 </script>
 
-<h1>Editor</h1>
+<h1>Editor <span>BETA</span></h1>
 <EditorClue bind:solution={puzzle.solution} bind:clues={puzzle.clues} />
 <button onclick={exportPuzzle}>Export (to console)</button>
 
 <style>
     h1 {
         padding: 12px;
+
+        span {
+           color: #1DA9F4; 
+           font-weight: normal;
+        }
     }
 </style>
