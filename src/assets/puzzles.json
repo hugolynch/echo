@@ -1,10 +1,10 @@
 [
   {
     "name": "TUTORIAL",
-    "solution": "Echo chamber is a nested word puzzle. Your goal is to solve all the clues and uncover the final solution. Clues look like this. To solve a clue, type out the solution to the clue in the input box. Well done! Clues can be nested too. Clues must be solved from the inside out. In this tutorial, uppercase words are solutions. Here's a sample puzzle: Echo chamber.",
+    "solution": "Echo chamber is a nested clue puzzle. Your goal is to solve all the clues and uncover the final solution. Clues look like this. To solve a clue, type out the solution to the clue in the input box. Well done! Clues can be nested too. Clues must be solved from the inside out. In this tutorial, uppercase words are solutions. Here's a sample puzzle: Echo chamber.",
     "clues": [
       {
-        "solution": "Echo chamber is a nested word puzzle. Your goal is to solve all the clues and uncover the final solution. Clues look like ",
+        "solution": "Echo chamber is a nested clue puzzle. Your goal is to solve all the clues and uncover the final solution. Clues look like ",
         "clues": []
       },
       {
@@ -1741,7 +1741,7 @@
     "date": "2025-03-26"
   },
   {
-    "name": "2024-03-28",
+    "name": "2025-03-28",
     "solution": "Constantinople renamed Istanbul",
     "clues": [
       {
@@ -1935,6 +1935,6 @@
         ]
       }
     ],
-    "date": "2024-03-28"
+    "date": "2025-03-28"
   }
 ]
