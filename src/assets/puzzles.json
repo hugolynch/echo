@@ -1929,8 +1929,17 @@
             ]
           },
           {
-            "solution": " - K",
+            "solution": " - ",
             "clues": []
+          },
+          {
+            "solution": "K",
+            "clues": [
+              {
+                "solution": "potassium, for short",
+                "clues": []
+              }
+            ]
           }
         ]
       }
