@@ -2523,7 +2523,7 @@
                 "solution": "Men",
                 "clues": [
                   {
-                    "solution": "chess pieces",
+                    "solution": "fathers and sons",
                     "clues": []
                   }
                 ]
@@ -2731,5 +2731,250 @@
       }
     ],
     "date": "2025-03-31"
+  },
+  {
+    "name": "2025-04-01",
+    "solution": "Never Gonna Give You Up",
+    "clues": [
+      {
+        "solution": "Never",
+        "clues": [
+          {
+            "solution": "when ",
+            "clues": []
+          },
+          {
+            "solution": "pigs",
+            "clues": [
+              {
+                "solution": "Napoleon",
+                "clues": [
+                  {
+                    "solution": "pastry named for a French emperor",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " and ",
+                "clues": []
+              },
+              {
+                "solution": "Snowball",
+                "clues": [
+                  {
+                    "solution": "ammo in a winter fight",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " in 'Animal Farm'",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " ",
+            "clues": []
+          },
+          {
+            "solution": "fly",
+            "clues": [
+              {
+                "solution": "zipper",
+                "clues": [
+                  {
+                    "solution": "Velcro alternative",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " cover",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "Gonna",
+        "clues": [
+          {
+            "solution": "\"Who you ___ call? (",
+            "clues": []
+          },
+          {
+            "solution": "Ghost",
+            "clues": [
+              {
+                "solution": "classic Halloween costume",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "bust",
+            "clues": [
+              {
+                "solution": "upper",
+                "clues": [
+                  {
+                    "solution": "stimulant",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " ",
+                "clues": []
+              },
+              {
+                "solution": "body",
+                "clues": [
+                  {
+                    "solution": "whodunit discovery",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " sculpture",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "ers",
+            "clues": [
+              {
+                "solution": "EMT destinations",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "!)\"",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "Give",
+        "clues": [
+          {
+            "solution": "be ",
+            "clues": []
+          },
+          {
+            "solution": "char",
+            "clues": [
+              {
+                "solution": "blacken on a grill",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "i",
+            "clues": []
+          },
+          {
+            "solution": "table",
+            "clues": [
+              {
+                "solution": "put aside for later",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "You",
+        "clues": [
+          {
+            "solution": "word said while ",
+            "clues": []
+          },
+          {
+            "solution": "point",
+            "clues": [
+              {
+                "solution": "north, south, east or west",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "ing",
+            "clues": [
+              {
+                "solution": "end for end",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "Up",
+        "clues": [
+          {
+            "solution": "what's here must ",
+            "clues": []
+          },
+          {
+            "solution": "come",
+            "clues": [
+              {
+                "solution": "dog",
+                "clues": [
+                  {
+                    "solution": "Pluto, for one",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " command",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " ",
+            "clues": []
+          },
+          {
+            "solution": "down",
+            "clues": [
+              {
+                "solution": "pillow filler",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "date": "2025-04-01"
   }
 ]
