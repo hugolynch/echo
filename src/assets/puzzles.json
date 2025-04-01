@@ -2976,5 +2976,197 @@
       }
     ],
     "date": "2025-04-01"
+  },
+  {
+    "name": "2025-04-02",
+    "solution": "Beethoven leads the premiere of his First Symphony in Vienna",
+    "clues": [
+      {
+        "solution": "Bee",
+        "clues": [
+          {
+            "solution": "busy one",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": "th",
+        "clues": []
+      },
+      {
+        "solution": "oven",
+        "clues": [
+          {
+            "solution": "tan",
+            "clues": [
+              {
+                "solution": "earth",
+                "clues": [
+                  {
+                    "solution": "first planet alphabetically",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " tone",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "door",
+            "clues": [
+              {
+                "solution": "way in or out",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": ", for one",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "leads",
+        "clues": [
+          {
+            "solution": "is first to ",
+            "clues": []
+          },
+          {
+            "solution": "play",
+            "clues": [
+              {
+                "solution": "umpire's cry at the start of a ",
+                "clues": []
+              },
+              {
+                "solution": "base",
+                "clues": [
+                  {
+                    "solution": "first, second, third or home",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": "ball",
+                "clues": [
+                  {
+                    "solution": "event for Cinderella",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " game",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": " the ",
+        "clues": []
+      },
+      {
+        "solution": "premiere",
+        "clues": [
+          {
+            "solution": "first ",
+            "clues": []
+          },
+          {
+            "solution": "look",
+            "clues": [
+              {
+                "solution": "personal style",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": " of his ",
+        "clues": []
+      },
+      {
+        "solution": "First",
+        "clues": [
+          {
+            "solution": "Who",
+            "clues": [
+              {
+                "solution": "first of the five W's",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "'s base",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " Sym",
+        "clues": []
+      },
+      {
+        "solution": "phony",
+        "clues": [
+          {
+            "solution": "like a ",
+            "clues": []
+          },
+          {
+            "solution": "three",
+            "clues": [
+              {
+                "solution": "second prime",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "-dollar ",
+            "clues": []
+          },
+          {
+            "solution": "bill",
+            "clues": [
+              {
+                "solution": "one, for one",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": " in ",
+        "clues": []
+      },
+      {
+        "solution": "Vienna",
+        "clues": [
+          {
+            "solution": "where the accordion was first patented",
+            "clues": []
+          }
+        ]
+      }
+    ],
+    "date": "2025-04-02"
   }
 ]
