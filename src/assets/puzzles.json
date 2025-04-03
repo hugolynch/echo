@@ -3239,7 +3239,7 @@
                 "solution": "Dracula",
                 "clues": [
                   {
-                    "solution": "blood Count?",
+                    "solution": "blood count?",
                     "clues": []
                   }
                 ]
@@ -3742,5 +3742,254 @@
       }
     ],
     "date": "2025-04-04"
+  },
+  {
+    "name": "name",
+    "solution": "Stephen King's first novel, Carrie, is published",
+    "clues": [
+      {
+        "solution": "Step",
+        "clues": [
+          {
+            "solution": "dance",
+            "clues": [
+              {
+                "solution": "twist or tango",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " ",
+            "clues": []
+          },
+          {
+            "solution": "move",
+            "clues": [
+              {
+                "solution": "change addresses",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": "hen",
+        "clues": [
+          {
+            "solution": "lady",
+            "clues": [
+              {
+                "solution": "lord's partner",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " ",
+            "clues": []
+          },
+          {
+            "solution": "bird",
+            "clues": [
+              {
+                "solution": "frequent flier",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "King",
+        "clues": [
+          {
+            "solution": "high",
+            "clues": [
+              {
+                "solution": "daily temperature stat",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " ",
+            "clues": []
+          },
+          {
+            "solution": "card",
+            "clues": [
+              {
+                "solution": "payment option",
+                "clues": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": "'s ",
+        "clues": []
+      },
+      {
+        "solution": "first",
+        "clues": [
+          {
+            "solution": "gold",
+            "clues": [
+              {
+                "solution": "cause of a rush",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " ",
+            "clues": []
+          },
+          {
+            "solution": "medal",
+            "clues": [
+              {
+                "solution": "🎖️ or 🏅",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "ist's place",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "novel",
+        "clues": [
+          {
+            "solution": "new and unusual",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": ", ",
+        "clues": []
+      },
+      {
+        "solution": "Car",
+        "clues": [
+          {
+            "solution": "Sat",
+            "clues": [
+              {
+                "solution": "warmed the bench",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "urn",
+            "clues": [
+              {
+                "solution": "container for ashes",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " or ",
+            "clues": []
+          },
+          {
+            "solution": "Mercury",
+            "clues": [
+              {
+                "solution": "it falls in the winter",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": ", e.g.",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": "r",
+        "clues": []
+      },
+      {
+        "solution": "ie",
+        "clues": [
+          {
+            "solution": "in ",
+            "clues": []
+          },
+          {
+            "solution": "other",
+            "clues": [
+              {
+                "solution": "catchall check box",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " words, for short",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": ", is ",
+        "clues": []
+      },
+      {
+        "solution": "pub",
+        "clues": [
+          {
+            "solution": "watering hole",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": "li",
+        "clues": []
+      },
+      {
+        "solution": "shed",
+        "clues": [
+          {
+            "solution": "backyard sto",
+            "clues": []
+          },
+          {
+            "solution": "rage",
+            "clues": [
+              {
+                "solution": "",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " facility",
+            "clues": []
+          }
+        ]
+      }
+    ],
+    "date": "Thu Apr 03 2025 14:49:58 GMT-0400 (Eastern Daylight Saving Time)"
   }
 ]
