@@ -11,8 +11,14 @@
         name: string,
     }
 
+    console.log(puzzles.map(p => p.name))
+    let filtered = puzzles.filter(function (puzzle) {
+        const date = (new Date).getFullYear() + "-" + `${(new Date).getMonth() + 1}`.padStart(2, "0") + "-" + `${(new Date).getDate()}`.padStart(2, "0");
+        return puzzle.name === "TUTORIAL"
+            || puzzle.name <= date;
+    })
     let val = $state("")
-    let puzzle: Puzzle = $state(puzzles[puzzles.length - 1])
+    let puzzle: Puzzle = $state(filtered[filtered.length - 1])
 
     function handleKeypress(e: KeyboardEvent) {
         if (e.key === 'Enter') {
@@ -39,9 +45,9 @@
 
 <div>
     <span class="help">Tutorial here →</span>
-    <select name="puzzles" onchange={(e) => puzzle = puzzles[e.target.value]}>
-        {#each puzzles as puzzle, i}
-            <option value={i} selected={i === puzzles.length - 1}>
+    <select name="puzzles" onchange={(e) => puzzle = filtered[e.target.value]}>
+        {#each filtered as puzzle, i}
+            <option value={i} selected={i === filtered.length - 1}>
                 {puzzle.name}
             </option>
         {/each}
