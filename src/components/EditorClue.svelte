@@ -39,6 +39,12 @@
         }
     }
 
+    function deleteEmpty() {
+        if (solution === "" && clues.length === 0) {
+            parent.splice(parentIndex, 1)
+        }
+    }
+
     function text(node: {clues: object[]}): boolean {
         return node.clues.length === 0;
     }
@@ -49,6 +55,7 @@
         <!-- text node -->
         <span contenteditable tabindex="0" role="textbox"
             bind:innerHTML={() => get(solution), (val) => solution = set(val)}
+            onblur={deleteEmpty}
             onkeypress={split}></span>
     {:else if clues.length === 1 && clues[0].clues.length === 0}
         <!-- leaf node -->
