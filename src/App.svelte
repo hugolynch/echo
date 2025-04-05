@@ -2,7 +2,12 @@
   import Board from "./components/Board.svelte";
   import Editor from "./components/Editor.svelte";
 
-  let editing = false
+  let editing = JSON.parse(localStorage.getItem('editing') ?? "false")
+
+  function toggle() {
+    editing = !editing
+    localStorage.setItem('editing', JSON.stringify(editing))
+  }
 </script>
 
 {#if editing}
@@ -11,7 +16,7 @@
 <Board />
 {/if}
 
-<button onclick={() => editing = !editing}>
+<button onclick={toggle}>
   {#if editing}
   Puzzles →
   {:else}
