@@ -2,7 +2,7 @@
     import EditorClue from "./EditorClue.svelte"
 
     let copied = $state(false)
-    let puzzle: {name: string, date: string, solution: string, clues: object[]} = $state({
+    let puzzle: { name: string; date: string, solution: string; clues: object[] } = $state({
         name: "name", date: "date", solution: "", clues: []
     })
 

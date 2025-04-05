@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Board from "./lib/Board.svelte";
-  import Editor from "./lib/Editor.svelte";
+  import Board from "./components/Board.svelte";
+  import Editor from "./components/Editor.svelte";
 
   let editing = false
 </script>
