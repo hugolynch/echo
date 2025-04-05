@@ -126,7 +126,6 @@
         border: 1px solid #CBE8FD;
         flex-grow: 1;
         max-width: 80vw;
-        position: relative;
     }
 
     .clue {
@@ -140,6 +139,7 @@
 
     .solution {
         display: inherit;
+        position: relative;
 
         & > span[contenteditable] {
             width: 100%;
@@ -183,7 +183,6 @@
     .btn {
         padding: 0 4px;
         position: absolute;
-        line-height: 16px;
         inset: auto 4px 4px auto;
         display: none;
 
