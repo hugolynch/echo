@@ -1,15 +1,7 @@
 <script lang="ts">
-    import Clue from "./Clue.svelte";
+    import type { Puzzle, Clue } from '../types/puzzle'
+    import BoardClue from "./Clue.svelte";
     import puzzles from '../assets/puzzles.json'
-
-    interface Clue {
-        solution: string,
-        clues?: Clue[],
-        solved?: boolean,
-    }
-    interface Puzzle extends Clue {
-        name: string,
-    }
 
     console.log(puzzles.map(p => p.name))
     let filtered = puzzles.filter(function (puzzle) {
@@ -19,6 +11,12 @@
     })
     let val = $state("")
     let puzzle: Puzzle = $state(filtered[filtered.length - 1])
+
+    function choose(e: Event) {
+        const el = e.target as HTMLSelectElement
+        // if we didn't pick a valid puzzle, select the first one
+        puzzle = filtered[parseInt(el.value)] || filtered[0]
+    }
 
     function handleKeypress(e: KeyboardEvent) {
         if (e.key === 'Enter') {
@@ -45,7 +43,7 @@
 
 <div>
     <span class="help">Tutorial here →</span>
-    <select name="puzzles" onchange={(e) => puzzle = filtered[e.target.value]}>
+    <select name="puzzles" onchange={choose}>
         {#each filtered as puzzle, i}
             <option value={i} selected={i === filtered.length - 1}>
                 {puzzle.name}
@@ -55,7 +53,7 @@
 </div>
 
 <div class="puzzle">
-    <Clue {...puzzle} depth={0} />
+    <BoardClue {...puzzle} depth={0} />
 </div>
 
 <div class="submit">

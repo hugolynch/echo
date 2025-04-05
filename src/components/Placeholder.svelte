@@ -1,7 +1,11 @@
 <script lang="ts">
+    import type { Clue } from '../types/puzzle'
     import { preventNewline, get, set } from '../lib/editable'
 
-    let { clues = $bindable(), position } = $props()
+    let {
+        clues = $bindable() as Clue[],
+        position = 0
+    } = $props()
     let text = $state('')
 
     function insert() {

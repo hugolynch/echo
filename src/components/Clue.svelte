@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Clue from './Clue.svelte';
 
     let { solution, clues = [], depth, solved = false } = $props();

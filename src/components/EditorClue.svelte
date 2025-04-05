@@ -1,14 +1,16 @@
 <script lang="ts">
+    import type { Clue } from '../types/puzzle'
     import { preventNewline, get, set } from '../lib/editable'
     import EditorClue from './EditorClue.svelte'
     import Placeholder from './Placeholder.svelte'
 
     let {
-        solution = $bindable(),
-        clues = $bindable([]),
-        parent = $bindable(null),
+        solution = $bindable() as string,
+        clues = $bindable([]) as Clue[],
+        parent = $bindable(null) as Clue[]|null,
         parentIndex = 0
     } = $props()
+    let node = $derived({solution, clues}) as Clue
 
     function split(e: KeyboardEvent) {
         if (e.key !== "Enter") {
@@ -25,10 +27,10 @@
             return
         }
 
-        let newClues = [
-            {solution: val?.slice(0, start), clues: []},
-            {solution: val?.slice(start, end), clues: [{solution: "", clues: []}]},
-            {solution: val?.slice(end), clues: []},
+        let newClues: Clue[] = [
+            {solution: val?.slice(0, start) ?? '', clues: []},
+            {solution: val?.slice(start, end) ?? '', clues: [{solution: "", clues: []}]},
+            {solution: val?.slice(end) ?? '', clues: []},
         ].filter(s => s.solution?.length)
         if (clues.length === 0 && parent) {
             // text node with neighbours: need to splice new clues in the parent
@@ -41,41 +43,47 @@
 
     function deleteEmpty() {
         if (solution === "" && clues.length === 0) {
-            parent.splice(parentIndex, 1)
+            parent?.splice(parentIndex, 1)
         }
     }
 
     function collapse() {
         // turn leaf node into text node by deleting its clues
         clues = []
-        // go through parent clues and concatenate any resulting adjacent text nodes
-        parent = parent.reduce((acc: {clues: object[], solution: string}[], curr: {clues: object[], solution: string}) => {
-            if (acc.length === 0) {
-                acc.push(curr)
-            } else {
-                if (text(acc[acc.length - 1]) && text(curr)) {
-                    acc[acc.length - 1].solution += curr.solution;
-                } else {
+        if (parent) {
+            // go through parent clues and concatenate any resulting adjacent text nodes
+            parent = parent.reduce((acc: Clue[], curr: Clue) => {
+                if (acc.length === 0) {
                     acc.push(curr)
+                } else {
+                    if (text(acc[acc.length - 1]) && text(curr)) {
+                        acc[acc.length - 1].solution += curr.solution;
+                    } else {
+                        acc.push(curr)
+                    }
                 }
-            }
-            return acc
-        }, [])
+                return acc
+            }, [])
+        }
     }
 
-    function text(node: {clues: object[]}): boolean {
-        return node.clues.length === 0;
+    function leaf(node: Clue): boolean {
+        return (!node.clues) || (node.clues.length === 0)
+    }
+
+    function text(node: Clue): boolean {
+        return node.clues?.length === 0;
     }
 </script>
 
-<div class={{'node': true, 'leaf': clues.length === 1 && clues[0].clues.length === 0, 'text': clues.length === 0}}>
-    {#if clues.length === 0}
+<div class={{'node': true, 'leaf': leaf(node), 'text': text(node)}}>
+    {#if text(node)}
         <!-- text node -->
         <span contenteditable tabindex="0" role="textbox"
             bind:innerHTML={() => get(solution), (val) => solution = set(val)}
             onblur={deleteEmpty}
             onkeypress={split}></span>
-    {:else if clues.length === 1 && clues[0].clues.length === 0}
+    {:else if leaf(node)}
         <!-- leaf node -->
         <span contenteditable tabindex="0" role="textbox"
             bind:innerHTML={() => get(clues[0].solution), (val) => clues[0].solution = set(val)}
