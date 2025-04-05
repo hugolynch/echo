@@ -88,10 +88,12 @@
         <span contenteditable tabindex="0" role="textbox"
             bind:innerHTML={() => get(clues[0].solution), (val) => clues[0].solution = set(val)}
             onkeypress={split}></span>
-        <span contenteditable tabindex="0" role="textbox" class="solution"
-            bind:innerHTML={() => get(solution), (val) => solution = set(val)}
-            onkeypress={preventNewline}></span>
-        <button class="btn" onclick={collapse}>&downarrow;</button>
+        <span class="solution">
+            <span contenteditable tabindex="0" role="textbox"
+                bind:innerHTML={() => get(solution), (val) => solution = set(val)}
+                onkeypress={preventNewline}></span>
+            <button class="btn" onclick={collapse}>&downarrow;</button>
+        </span>
     {:else}
         <!-- clue node -->
         <div class="clue">
@@ -107,10 +109,12 @@
                 {/if}
             {/each}
         </div>
-        <span contenteditable tabindex="0" role="textbox" class="solution"
-            bind:innerHTML={() => get(solution), (val) => solution = set(val)}
-            onkeypress={preventNewline}></span>
-        <button class="btn" onclick={collapse}>&downarrow;</button>
+        <span class="solution">
+            <span contenteditable tabindex="0" role="textbox"
+                bind:innerHTML={() => get(solution), (val) => solution = set(val)}
+                onkeypress={preventNewline}></span>
+            <button class="btn" onclick={collapse}>&downarrow;</button>
+        </span>
     {/if}
 </div>
 
@@ -132,6 +136,14 @@
         margin: 4px 4px 2px 4px;
         background-color: white;
         flex-wrap: wrap;
+    }
+
+    .solution {
+        display: inherit;
+
+        & > span[contenteditable] {
+            width: 100%;
+        }
     }
 
     span[contenteditable] {
@@ -173,5 +185,10 @@
         position: absolute;
         line-height: 16px;
         inset: auto 4px 4px auto;
+        display: none;
+
+        .solution:focus-within > & {
+            display: block;
+        }
     }
 </style>
