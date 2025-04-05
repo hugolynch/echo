@@ -19,12 +19,13 @@
 
 <style>
     .placeholder {
-        border: 1px dashed pink;
-        padding: 8px;
+        border: 1px dashed #CBE8FD;
+        line-height: 16px;
+        padding: 4px;
 
         &:empty::before {
             content: ' ';
-            background-color: pink;
+            background-color: #E9F5FE;
             white-space: pre;
         }
     }

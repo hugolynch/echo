@@ -92,29 +92,26 @@
     .clue {
         display: flex;
         align-items: end;
-        gap: 2px;
-        margin: 2px 2px 0 2px;
+        gap: 4px;
+        margin: 4px 4px 2px 4px;
         background-color: white;
         flex-wrap: wrap;
-    }
-
-    .leaf {
-        gap: 1px;
     }
 
     span[contenteditable] {
         border-radius: 0;
         border: none;
-        padding: 8px;
+        padding: 4px;
         text-transform: none;
         background-color: #E9F5FE;
         letter-spacing: normal;
         font-family: monospace;
         white-space: pre;
         text-align: left;
-        color: #0E74A9;
+        color: #084E74;
         text-decoration: none;
         overflow-x: auto;
+        line-height: 16px;
 
         &:focus {
             outline: 1px solid #1596D9;
@@ -128,7 +125,8 @@
             background-color: white;
 
             &:empty::before {
-                content: 'CLUE';
+                content: ' ';
+                background-color: #E9F5FE;
                 color: #98D1FA;
             }
         }
