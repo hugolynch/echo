@@ -2,9 +2,13 @@
     import type { Puzzle, Clue } from '../types/puzzle'
     import EditorClue from "./EditorClue.svelte"
 
+    // default puzzle to load if none is found in localStorage
+    let empty: Puzzle = {name: "name", date: (new Date).toISOString(), solution: "", clues: []}
+    let puzzle: Puzzle = $state(JSON.parse(localStorage.getItem('editor') || JSON.stringify(empty)))
     let copied = $state(false)
-    let puzzle: Puzzle = $state({
-        name: "name", date: "date", solution: "", clues: []
+
+    $effect(() => {
+        localStorage.setItem('editor', JSON.stringify(puzzle))
     })
 
     function exportPuzzle() {
