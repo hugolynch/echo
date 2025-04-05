@@ -45,6 +45,24 @@
         }
     }
 
+    function collapse() {
+        // turn leaf node into text node by deleting its clues
+        clues = []
+        // go through parent clues and concatenate any resulting adjacent text nodes
+        parent = parent.reduce((acc: {clues: object[], solution: string}[], curr: {clues: object[], solution: string}) => {
+            if (acc.length === 0) {
+                acc.push(curr)
+            } else {
+                if (text(acc[acc.length - 1]) && text(curr)) {
+                    acc[acc.length - 1].solution += curr.solution;
+                } else {
+                    acc.push(curr)
+                }
+            }
+            return acc
+        }, [])
+    }
+
     function text(node: {clues: object[]}): boolean {
         return node.clues.length === 0;
     }
@@ -65,6 +83,7 @@
         <span contenteditable tabindex="0" role="textbox" class="solution"
             bind:innerHTML={() => get(solution), (val) => solution = set(val)}
             onkeypress={preventNewline}></span>
+        <button class="btn" onclick={collapse}>&downarrow;</button>
     {:else}
         <!-- clue node -->
         <div class="clue">
@@ -94,6 +113,7 @@
         border: 1px solid #CBE8FD;
         flex-grow: 1;
         max-width: 80vw;
+        position: relative;
     }
 
     .clue {
@@ -137,5 +157,12 @@
                 color: #98D1FA;
             }
         }
+    }
+
+    .btn {
+        padding: 0 4px;
+        position: absolute;
+        line-height: 16px;
+        inset: auto 4px 4px auto;
     }
 </style>
