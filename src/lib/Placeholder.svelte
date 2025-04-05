@@ -6,8 +6,9 @@
     let text = $state('')
 
     function insert(clues) {
-        console.log(position)
-        clues.splice(position, 0, {solution: text, clues: []})
+        if (text.length > 0) {
+            clues.splice(position, 0, {solution: text, clues: []})
+        }
     }
 </script>
 
