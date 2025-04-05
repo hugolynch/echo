@@ -3986,5 +3986,162 @@
       }
     ],
     "date": "2025-04-05"
+  },
+  {
+    "name": "name",
+    "solution": "1896 Summer Olympics begin in Athens",
+    "clues": [
+      {
+        "solution": "18",
+        "clues": [
+          {
+            "solution": "hole number, in golf (#)",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": "9",
+        "clues": [
+          {
+            "solution": "Maurice Richard's number, which he chose in honour of his daughter's weight at birth (#)",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": "6",
+        "clues": [
+          {
+            "solution": "___ ___ ___ = number of the beast (#)",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "Summer",
+        "clues": [
+          {
+            "solution": "",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "Olympics",
+        "clues": [
+          {
+            "solution": "ancient",
+            "clues": [
+              {
+                "solution": "Socrates or Homer, for example, but not Giannis Antetokounmpo",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " Panhellenic games meant to honour Zeus",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": " ",
+        "clues": []
+      },
+      {
+        "solution": "begin",
+        "clues": [
+          {
+            "solution": "kick",
+            "clues": [
+              {
+                "solution": "action in soccer or jiu-jitsu",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " ",
+            "clues": []
+          },
+          {
+            "solution": "off",
+            "clues": [
+              {
+                "solution": "switch",
+                "clues": [
+                  {
+                    "solution": "Nintendo console with over 150 million units sold",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " ",
+                "clues": []
+              },
+              {
+                "solution": "position",
+                "clues": [
+                  {
+                    "solution": "1, 2, 3, 4 or 5, in basketball",
+                    "clues": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "solution": " in ",
+        "clues": []
+      },
+      {
+        "solution": "Athens",
+        "clues": [
+          {
+            "solution": "where ",
+            "clues": []
+          },
+          {
+            "solution": "demo",
+            "clues": [
+              {
+                "solution": "free trial version",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "c",
+            "clues": []
+          },
+          {
+            "solution": "racy",
+            "clues": [
+              {
+                "solution": "risqué",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " got it's start",
+            "clues": []
+          }
+        ]
+      }
+    ],
+    "date": "Fri Apr 04 2025 15:21:19 GMT-0400 (Eastern Daylight Saving Time)"
   }
 ]
