@@ -1,21 +1,20 @@
-<script lang="ts">  
-    let {
-        clues = $bindable(),
-        position,
-    } = $props()
+<script lang="ts">
+    import { preventNewline, get, set } from '../lib/editable'
+
+    let { clues = $bindable(), position } = $props()
     let text = $state('')
 
-    function insert(clues: object[], position: number, text: string) {
+    function insert() {
         if (text.length > 0) {
             clues.splice(position, 0, {solution: text, clues: []})
         }
     }
 </script>
 
-<div contenteditable class="placeholder"
-    bind:textContent={text}
-    onblur={() => insert(clues, position, text)}
-></div>
+<div contenteditable tabindex="0" role="textbox" class="placeholder"
+    bind:innerHTML={() => get(text), (val) => text = set(val)}
+    onkeypress={preventNewline}
+    onblur={insert}></div>
 
 <style>
     .placeholder {

@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { preventNewline, get, set } from '../lib/editable'
     import EditorClue from './EditorClue.svelte'
     import Placeholder from './Placeholder.svelte'
 
@@ -8,12 +9,6 @@
         parent = $bindable(null),
         parentIndex = 0
     } = $props()
-
-    function preventNewline(e: KeyboardEvent) {
-        if (e.key === "Enter") {
-            e.preventDefault()
-        }
-    }
 
     function split(e: KeyboardEvent) {
         if (e.key !== "Enter") {
@@ -52,14 +47,17 @@
 <div class={{'node': true, 'leaf': clues.length === 1 && clues[0].clues.length === 0, 'text': clues.length === 0}}>
     {#if clues.length === 0}
         <!-- text node -->
-        <!-- <div class="solution"> -->
-            <span contenteditable bind:textContent={solution} onkeypress={split}></span>
-            <!-- <button class="delete">X</button> -->
-        <!-- </div> -->
+        <span contenteditable tabindex="0" role="textbox"
+            bind:innerHTML={() => get(solution), (val) => solution = set(val)}
+            onkeypress={split}></span>
     {:else if clues.length === 1 && clues[0].clues.length === 0}
         <!-- leaf node -->
-        <span contenteditable bind:textContent={clues[0].solution} onkeypress={split}></span>
-        <span contenteditable bind:textContent={solution} onkeypress={preventNewline} class="solution"></span>
+        <span contenteditable tabindex="0" role="textbox"
+            bind:innerHTML={() => get(clues[0].solution), (val) => clues[0].solution = set(val)}
+            onkeypress={split}></span>
+        <span contenteditable tabindex="0" role="textbox" class="solution"
+            bind:innerHTML={() => get(solution), (val) => solution = set(val)}
+            onkeypress={preventNewline}></span>
     {:else}
         <!-- clue node -->
         <div class="clue">
@@ -75,7 +73,9 @@
                 {/if}
             {/each}
         </div>
-        <span contenteditable bind:textContent={solution} onkeypress={preventNewline} class="solution"></span>
+        <span contenteditable tabindex="0" role="textbox" class="solution"
+            bind:innerHTML={() => get(solution), (val) => solution = set(val)}
+            onkeypress={preventNewline}></span>
     {/if}
 </div>
 
