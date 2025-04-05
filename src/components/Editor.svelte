@@ -2,10 +2,16 @@
     import type { Puzzle, Clue } from '../types/puzzle'
     import EditorClue from "./EditorClue.svelte"
 
+    const copyState = {
+        NONE: 0,
+        SUCCESS: 1,
+        FAILED: 2,
+    }
+
     // default puzzle to load if none is found in localStorage
     let empty: Puzzle = {name: "name", date: (new Date).toISOString(), solution: "", clues: []}
     let puzzle: Puzzle = $state(JSON.parse(localStorage.getItem('editor') || JSON.stringify(empty)))
-    let copied = $state(false)
+    let copied = $state(copyState.NONE)
 
     $effect(() => {
         localStorage.setItem('editor', JSON.stringify(puzzle))
@@ -13,23 +19,29 @@
 
     function exportPuzzle() {
         console.debug($state.snapshot({...puzzle, date: (new Date).toString()}))
-        let promise = navigator.clipboard.writeText(JSON.stringify(puzzle))
-        promise.then(() => {
-            copied = true
-            setTimeout(() => {
-                copied = false
-          }, 2000);
-        })
+        navigator.clipboard.writeText(JSON.stringify(puzzle))
+            .then(() => {
+                copied = copyState.SUCCESS
+            }, () => {
+                copied = copyState.FAILED
+            })
+            .finally(() => {
+                setTimeout(() => {
+                    copied = copyState.NONE
+                }, 2000)
+            })
     }
 </script>
 
 <h1>Editor <span>BETA</span></h1>
 <EditorClue bind:solution={puzzle.solution} bind:clues={puzzle.clues} />
 <button onclick={exportPuzzle}>
-    {#if !copied}
+    {#if copied === copyState.NONE}
         Copy to Clipboard
-    {:else}
+    {:else if copied === copyState.SUCCESS}
         Copied to Clipboard ✅
+    {:else} <!-- copied === copyState.FAILED -->
+        Could not copy to Clipboard ❎
     {/if}
 </button>
 
