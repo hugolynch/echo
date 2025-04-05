@@ -1,5 +1,7 @@
 <script lang="ts">
     import EditorClue from './EditorClue.svelte'
+    import Placeholder from './Placeholder.svelte'
+
     let {
         solution = $bindable(),
         clues = $bindable([]),
@@ -41,16 +43,20 @@
             clues = newClues
         }
     }
+
+    function text(node: {clues: object[]}): boolean {
+        return node.clues.length === 0;
+    }
 </script>
 
-<div class={{'node': true, 'leaf': clues.length === 1, 'text': clues.length === 0}}>
+<div class={{'node': true, 'leaf': clues.length === 1 && clues[0].clues.length === 0, 'text': clues.length === 0}}>
     {#if clues.length === 0}
         <!-- text node -->
         <!-- <div class="solution"> -->
             <span contenteditable bind:textContent={solution} onkeypress={split}></span>
             <!-- <button class="delete">X</button> -->
         <!-- </div> -->
-    {:else if clues.length === 1}
+    {:else if clues.length === 1 && clues[0].clues.length === 0}
         <!-- leaf node -->
         <span contenteditable bind:textContent={clues[0].solution} onkeypress={split}></span>
         <span contenteditable bind:textContent={solution} onkeypress={preventNewline} class="solution"></span>
@@ -58,7 +64,15 @@
         <!-- clue node -->
         <div class="clue">
             {#each clues as clue, parentIndex}
+                {#if parentIndex === 0 && !text(clue)}
+                    <Placeholder bind:clues={clues} position={0} />
+                {/if}
                 <EditorClue bind:solution={clue.solution} bind:clues={clue.clues} bind:parent={clues} {parentIndex} />
+                {#if parentIndex === clues.length - 1 && !text(clue)}
+                    <Placeholder bind:clues={clues} position={clues.length} />
+                {:else if parentIndex < clues.length && !text(clue) && !text(clues[parentIndex + 1])}
+                    <Placeholder bind:clues={clues} position={parentIndex + 1} />
+                {/if}
             {/each}
         </div>
         <span contenteditable bind:textContent={solution} onkeypress={preventNewline} class="solution"></span>
@@ -107,7 +121,7 @@
         }
 
         .text.node > & {
-            background-color: #F9FBFE;
+            background-color: white;
         }
         .leaf.node > &:first-child {
             width: 100%;
