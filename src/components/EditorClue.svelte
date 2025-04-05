@@ -42,7 +42,7 @@
     }
 
     function deleteEmpty() {
-        if (solution === "" && clues.length === 0) {
+        if (solution === "" && text(node)) {
             parent?.splice(parentIndex, 1)
         }
     }
@@ -68,11 +68,11 @@
     }
 
     function leaf(node: Clue): boolean {
-        return (!node.clues) || (node.clues.length === 0)
+        return node.clues?.length === 1 && text(node.clues[0])
     }
 
     function text(node: Clue): boolean {
-        return node.clues?.length === 0;
+        return !node.clues || node.clues?.length === 0;
     }
 </script>
 
@@ -110,6 +110,7 @@
         <span contenteditable tabindex="0" role="textbox" class="solution"
             bind:innerHTML={() => get(solution), (val) => solution = set(val)}
             onkeypress={preventNewline}></span>
+        <button class="btn" onclick={collapse}>&downarrow;</button>
     {/if}
 </div>
 
