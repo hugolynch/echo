@@ -3988,15 +3988,25 @@
     "date": "2025-04-05"
   },
   {
-    "name": "name",
+    "name": "2025-04-06",
+    "date": "2025-04-06",
     "solution": "1896 Summer Olympics begin in Athens",
     "clues": [
       {
         "solution": "18",
         "clues": [
           {
-            "solution": "hole number, in golf (#)",
+            "solution": "hole number, in ",
             "clues": []
+          },
+          {
+            "solution": "golf",
+            "clues": [
+              {
+                "solution": "sport with eagles",
+                "clues": []
+              }
+            ]
           }
         ]
       },
@@ -4004,7 +4014,46 @@
         "solution": "9",
         "clues": [
           {
-            "solution": "Maurice Richard's number, which he chose in honour of his daughter's weight at birth (#)",
+            "solution": "Mau",
+            "clues": []
+          },
+          {
+            "solution": "rice",
+            "clues": [
+              {
+                "solution": "staple food for nearly ",
+                "clues": []
+              },
+              {
+                "solution": "half",
+                "clues": [
+                  {
+                    "solution": "break point in sports?",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " the world",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": " ",
+            "clues": []
+          },
+          {
+            "solution": "Rich",
+            "clues": [
+              {
+                "solution": "like Mr. Moneybags",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "ard's number, which he chose in honour of his daughter's weight at birth",
             "clues": []
           }
         ]
@@ -4013,7 +4062,20 @@
         "solution": "6",
         "clues": [
           {
-            "solution": "___ ___ ___ = number of the beast (#)",
+            "solution": "when ",
+            "clues": []
+          },
+          {
+            "solution": "trip",
+            "clues": [
+              {
+                "solution": "odyssey",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "led, symbol of evil (#)",
             "clues": []
           }
         ]
@@ -4023,10 +4085,32 @@
         "clues": []
       },
       {
-        "solution": "Summer",
+        "solution": "Sum",
         "clues": [
           {
-            "solution": "",
+            "solution": "Σ, in math",
+            "clues": []
+          }
+        ]
+      },
+      {
+        "solution": "mer",
+        "clues": [
+          {
+            "solution": "view from ",
+            "clues": []
+          },
+          {
+            "solution": "Mars",
+            "clues": [
+              {
+                "solution": "successor to Ares",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "eille",
             "clues": []
           }
         ]
@@ -4048,7 +4132,29 @@
             ]
           },
           {
-            "solution": " Panhellenic games meant to honour Zeus",
+            "solution": " ",
+            "clues": []
+          },
+          {
+            "solution": "Pan",
+            "clues": [
+              {
+                "solution": "wok or skillet",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "hell",
+            "clues": [
+              {
+                "solution": "the Christian equivalent to Hades' domain",
+                "clues": []
+              }
+            ]
+          },
+          {
+            "solution": "enic games meant to honour Zeus",
             "clues": []
           }
         ]
@@ -4093,7 +4199,59 @@
                 "solution": "position",
                 "clues": [
                   {
-                    "solution": "1, 2, 3, 4 or 5, in basketball",
+                    "solution": "1, ",
+                    "clues": []
+                  },
+                  {
+                    "solution": "2",
+                    "clues": [
+                      {
+                        "solution": "tango requirement (#)",
+                        "clues": []
+                      }
+                    ]
+                  },
+                  {
+                    "solution": ", ",
+                    "clues": []
+                  },
+                  {
+                    "solution": "3",
+                    "clues": [
+                      {
+                        "solution": "it's a crowd, so they say (#)",
+                        "clues": []
+                      }
+                    ]
+                  },
+                  {
+                    "solution": ", ",
+                    "clues": []
+                  },
+                  {
+                    "solution": "4",
+                    "clues": [
+                      {
+                        "solution": "purple pool ball number",
+                        "clues": []
+                      }
+                    ]
+                  },
+                  {
+                    "solution": " or ",
+                    "clues": []
+                  },
+                  {
+                    "solution": "5",
+                    "clues": [
+                      {
+                        "solution": "quitting time, for some (#)",
+                        "clues": []
+                      }
+                    ]
+                  },
+                  {
+                    "solution": ", in basketball",
                     "clues": []
                   }
                 ]
@@ -4136,12 +4294,11 @@
             ]
           },
           {
-            "solution": " got it's start",
+            "solution": " got its start",
             "clues": []
           }
         ]
       }
-    ],
-    "date": "Fri Apr 04 2025 15:21:19 GMT-0400 (Eastern Daylight Saving Time)"
+    ]
   }
 ]
