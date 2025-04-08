@@ -22,9 +22,9 @@
 <style>
     .clue {
         display: inline-block;
-        border: 1px dashed #58baf9;
+        border: 1px dashed #58BAF9;
         border-radius: 2px;
-        background-color: oklch(from #58baf9 l c h / 0.2);
+        background-color: #CBE8FD;
         padding: 2px;
         margin: 2px;
 

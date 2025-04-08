@@ -66,6 +66,7 @@
     .puzzle {
         margin: 1rem;
         max-width: 90vw;
+        color: #084E74
     }
 
     select {

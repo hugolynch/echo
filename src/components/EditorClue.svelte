@@ -181,10 +181,14 @@
     }
 
     .btn {
-        padding: 0 4px;
-        position: absolute;
-        inset: auto 4px 4px auto;
+        padding: 0 8px;
+        /* position: absolute; */
+        /* inset: auto 4px 4px auto; */
+        /* border: 1px solid #1596D9; */
         display: none;
+        border-radius: 0;
+        background-color: #1596D9;
+        color: white;
 
         .solution:focus-within > & {
             display: block;

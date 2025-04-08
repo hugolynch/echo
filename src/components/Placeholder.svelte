@@ -27,6 +27,11 @@
         border: 1px dashed #CBE8FD;
         white-space: pre;
 
+        &:focus {
+            outline: 1px transparent;
+            border: 1px solid #1596D9;
+        }
+
         &:empty::before {
             content: ' ';
             background-color: #E9F5FE;
