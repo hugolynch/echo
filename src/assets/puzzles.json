@@ -4592,16 +4592,38 @@
                 "clues": []
               },
               {
-                "solution": "General",
+                "solution": "Admiral",
                 "clues": [
                   {
-                    "solution": "all-purpose",
+                    "solution": "naval officer",
                     "clues": []
                   }
                 ]
               },
               {
-                "solution": " Ackbar observation)",
+                "solution": " ",
+                "clues": []
+              },
+              {
+                "solution": "Ack",
+                "clues": [
+                  {
+                    "solution": "comic strip cry",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": "bar",
+                "clues": [
+                  {
+                    "solution": "tavern",
+                    "clues": []
+                  }
+                ]
+              },
+              {
+                "solution": " observation)",
                 "clues": []
               }
             ]
@@ -4660,7 +4682,7 @@
             ]
           },
           {
-            "solution": " thou",
+            "solution": " Gs",
             "clues": []
           }
         ]
