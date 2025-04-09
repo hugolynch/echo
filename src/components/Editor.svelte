@@ -18,7 +18,7 @@
     })
 
     function exportPuzzle() {
-        console.debug($state.snapshot({...puzzle, date: (new Date).toString()}))
+        console.debug($state.snapshot(puzzle))
         navigator.clipboard.writeText(JSON.stringify(puzzle))
             .then(() => {
                 copied = copyState.SUCCESS

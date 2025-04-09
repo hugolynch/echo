@@ -8,7 +8,7 @@
         solution = $bindable() as string,
         clues = $bindable([]) as Clue[],
         parent = $bindable(null) as Clue[]|null,
-        parentIndex = 0
+        index = 0
     } = $props()
     let node = $derived({solution, clues}) as Clue
 
@@ -55,7 +55,7 @@
         ].filter(s => s.solution?.length)
         if (clues.length === 0 && parent) {
             // text node with neighbours: need to splice new clues in the parent
-            parent.splice(parentIndex, 1, ...newClues)
+            parent.splice(index, 1, ...newClues)
         } else {
             // any other node: insert new clues for this solution
             clues = newClues
@@ -64,7 +64,7 @@
 
     function deleteEmpty() {
         if (solution === "" && text(node)) {
-            parent?.splice(parentIndex, 1)
+            parent?.splice(index, 1)
         }
     }
 
@@ -118,15 +118,15 @@
     {:else}
         <!-- clue node -->
         <div class="clue">
-            {#each clues as clue, parentIndex}
-                {#if parentIndex === 0 && !text(clue)}
+            {#each clues as clue, clueIndex}
+                {#if clueIndex === 0 && !text(clue)}
                     <Placeholder bind:clues={clues} position={0} />
                 {/if}
-                <EditorClue bind:solution={clue.solution} bind:clues={clue.clues} bind:parent={clues} {parentIndex} />
-                {#if parentIndex === clues.length - 1 && !text(clue)}
+                <EditorClue bind:solution={clue.solution} bind:clues={clue.clues} bind:parent={clues} index={clueIndex} />
+                {#if clueIndex === clues.length - 1 && !text(clue)}
                     <Placeholder bind:clues={clues} position={clues.length} />
-                {:else if parentIndex < clues.length && !text(clue) && !text(clues[parentIndex + 1])}
-                    <Placeholder bind:clues={clues} position={parentIndex + 1} />
+                {:else if clueIndex < clues.length && !text(clue) && !text(clues[clueIndex + 1])}
+                    <Placeholder bind:clues={clues} position={clueIndex + 1} />
                 {/if}
             {/each}
         </div>

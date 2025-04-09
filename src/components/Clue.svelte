@@ -20,7 +20,7 @@
     {#if solved}
         <span class="solution">{solution}</span>
     {:else}
-        {#each clues as clue, index}
+        {#each clues as clue}
             {#if ! clue.clues?.length}
                 <span class="text">{clue.solution}</span>
             {:else}
@@ -86,6 +86,4 @@
             margin-right: 0px;
         }
     }
-
-
 </style>
