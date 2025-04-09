@@ -50,7 +50,6 @@
 
     .solution {
         white-space: pre;
-        background-color: violet;
         display: inline-block;
         line-height: 16px;
     }
@@ -73,12 +72,10 @@
         white-space: pre;
 
         &:last-child:not(:first-child) {
-            background-color: lightsalmon;
             margin-left: 0px;
         }
 
         &:first-child:not(:last-child) {
-            background-color: lightgreen;
             margin-right: 0px;
         }
     }
