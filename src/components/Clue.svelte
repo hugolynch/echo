@@ -3,23 +3,23 @@
     import BoardClue from './Clue.svelte';
 
     let { solution, clues = [], depth, solved = false } = $props();
+    let height = $derived(getHeight({clues} as Clue));
 
     /**
      * Returns the 'height' (i.e. distance from the bottom/furthest leaf) of the current node.
-     * Note: afaik because of the recursion we can't really use $derived.
      */
-    function height(node: Clue): number {
-        return node.clues?.length ? Math.max(...node.clues.map(n => height(n))) + 1 : 0;
+    function getHeight(node: Clue): number {
+        return node.clues?.length ? Math.max(...node.clues.map(n => getHeight(n))) + 1 : 0;
     }
 </script>
 
-<span class={{'clue': depth, 'solved': solved}} style:--height={height({clues} as Clue)}>
+<span class={{'clue': depth, 'solved': solved, 'leaf': height === 1}} style:--height={height}>
     {#if solved}
         <span class="solution">{solution}</span>
     {:else}
-        {#each clues as clue}
+        {#each clues as clue, index}
             {#if ! clue.clues?.length}
-                {clue.solution}
+                <span class="text">{clue.solution}</span>
             {:else}
                 <BoardClue {...clue} depth={depth + 1} />
             {/if}
@@ -33,8 +33,7 @@
         display: inline-block;
         border: 1px dashed #58BAF9;
         background-color: oklch(from #58BAF9 l c h / 0.2);
-        line-height: 1.6rem;
-        padding: 2px;
+        padding: 1px;
         margin: 2px;
         /* need to multiply the height by a unit value to convert it */
         border-radius: calc(var(--height) * 4px);
@@ -51,5 +50,38 @@
 
     .solution {
         white-space: pre;
+        background-color: violet;
+        display: inline-block;
+        line-height: 16px;
     }
+
+    .solved.clue {
+
+        &:last-child {
+            margin-right: 2px;
+        }
+
+        &:first-child {
+            margin-left: 2px;
+        }
+    }
+
+    .clue .text {
+        display: inline-block;
+        line-height: 16px;
+        margin: 2px;
+        white-space: pre;
+
+        &:last-child:not(:first-child) {
+            background-color: lightsalmon;
+            margin-left: 0px;
+        }
+
+        &:first-child:not(:last-child) {
+            background-color: lightgreen;
+            margin-right: 0px;
+        }
+    }
+
+
 </style>
