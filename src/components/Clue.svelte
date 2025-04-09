@@ -46,8 +46,11 @@
             border: none;
             padding: 0;
             margin: 0;
-            text-decoration: underline #58baf9 1px;
-            text-underline-offset: 1px
+
+            & .solution {
+                text-decoration: underline #58baf9 1px;
+                text-underline-offset: 1px;
+            }
         }
     }
 
@@ -55,6 +58,7 @@
         white-space: pre;
         display: inline-block;
         line-height: 16px;
+        
     }
 
     .solved.clue {
