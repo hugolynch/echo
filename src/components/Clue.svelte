@@ -1,10 +1,19 @@
 <script lang="ts">
-    import Clue from './Clue.svelte';
+    import type { Clue } from '../types/puzzle'
+    import BoardClue from './Clue.svelte';
 
     let { solution, clues = [], depth, solved = false } = $props();
+
+    /**
+     * Returns the 'height' (i.e. distance from the bottom/furthest leaf) of the current node.
+     * Note: afaik because of the recursion we can't really use $derived.
+     */
+    function height(node: Clue): number {
+        return node.clues?.length ? Math.max(...node.clues.map(n => height(n))) + 1 : 0;
+    }
 </script>
 
-<span class={{'clue': depth, 'solved': solved}}>
+<span class={{'clue': depth, 'solved': solved}} style:--height={height({clues} as Clue)}>
     {#if solved}
         <span class="solution">{solution}</span>
     {:else}
@@ -12,7 +21,7 @@
             {#if ! clue.clues?.length}
                 {clue.solution}
             {:else}
-                <Clue {...clue} depth={depth + 1} />
+                <BoardClue {...clue} depth={depth + 1} />
             {/if}
         {/each}
     {/if}
@@ -23,10 +32,11 @@
     .clue {
         display: inline-block;
         border: 1px dashed #58BAF9;
-        border-radius: 2px;
         background-color: #CBE8FD;
         padding: 2px;
         margin: 2px;
+        /* need to multiply the height by a unit value to convert it */
+        border-radius: calc(var(--height) * 1px);
 
         &.solved {
             background: none;
