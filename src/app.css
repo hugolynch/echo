@@ -26,7 +26,7 @@ body {
   text-align: center;
   height: 100vh;
   background-color: #F9FBFE;
-  font-family: monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 1.4rem;
   gap: 24px;
   /* padding: 96px; */

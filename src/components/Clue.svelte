@@ -32,11 +32,12 @@
     .clue {
         display: inline-block;
         border: 1px dashed #58BAF9;
-        background-color: #CBE8FD;
+        background-color: oklch(from #58BAF9 l c h / 0.2);
+        line-height: 1.6rem;
         padding: 2px;
         margin: 2px;
         /* need to multiply the height by a unit value to convert it */
-        border-radius: calc(var(--height) * 1px);
+        border-radius: calc(var(--height) * 4px);
 
         &.solved {
             background: none;
