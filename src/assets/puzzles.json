@@ -5256,7 +5256,7 @@
                 "solution": "loss",
                 "clues": [
                   {
-                    "solution": "| ||\n  \n|| |_\n",
+                    "solution": "| || || |_",
                     "clues": []
                   }
                 ]
