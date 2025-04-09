@@ -72,7 +72,7 @@
     }
 
     function text(node: Clue): boolean {
-        return !node.clues || node.clues?.length === 0;
+        return !node.clues?.length;
     }
 </script>
 
