@@ -45,7 +45,6 @@
         if (range.startContainer.nodeType !== Node.TEXT_NODE && range.toString() === val) {
             // select the entire contents of the node's first child (which should be the relevant text node)
             // FIXME: probably not the most robust way of handling this...
-            console.log(range)
             range.selectNodeContents(range.startContainer.childNodes[0])
         }
 
