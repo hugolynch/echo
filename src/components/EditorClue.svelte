@@ -19,18 +19,40 @@
             e.preventDefault()
         }
 
-        const val = (e.target as HTMLSpanElement).textContent
-        const start = window.getSelection()?.anchorOffset
-        const end = window.getSelection()?.focusOffset
-        if(start === undefined || end === undefined || start === end) {
+        const selection = window.getSelection()
+        if (! selection) {
             console.log("no selection")
+            return
+        } else if (selection.rangeCount > 1) {
+            console.log("multiple selections")
+            return
+        } else if (selection.isCollapsed) {
+            console.log("empty selection")
+            return
+        } else if (selection.anchorNode !== selection.focusNode) {
+            console.log("multi-container selection")
             return
         }
 
+        // at this point, we know we have exactly one non-empty selection entirely within one container
+        const range = selection.getRangeAt(0)
+        const val = range.startContainer.textContent
+        // selection of a whole container is inconsistent across browsers:
+        //  - chrome gives (start: 0, end: length) with a text node
+        //  - firefox gives (start: 0, end: 1) with the containing node (ie the contenteditable span)
+        // the simplest way to handle this is checking if all the text was selected + the node isn't a text node
+        // and modify the range accordingly
+        if (range.startContainer.nodeType !== Node.TEXT_NODE && range.toString() === val) {
+            // select the entire contents of the node's first child (which should be the relevant text node)
+            // FIXME: probably not the most robust way of handling this...
+            console.log(range)
+            range.selectNodeContents(range.startContainer.childNodes[0])
+        }
+
         let newClues: Clue[] = [
-            {solution: val?.slice(0, start) ?? '', clues: []},
-            {solution: val?.slice(start, end) ?? '', clues: [{solution: "", clues: []}]},
-            {solution: val?.slice(end) ?? '', clues: []},
+            {solution: val?.slice(0, range.startOffset) ?? '', clues: []},
+            {solution: val?.slice(range.startOffset, range.endOffset) ?? '', clues: [{solution: "", clues: []}]},
+            {solution: val?.slice(range.endOffset) ?? '', clues: []},
         ].filter(s => s.solution?.length)
         if (clues.length === 0 && parent) {
             // text node with neighbours: need to splice new clues in the parent
