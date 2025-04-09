@@ -7,9 +7,12 @@
 
     /**
      * Returns the 'height' (i.e. distance from the bottom/furthest leaf) of the current node.
+     * Treats solved nodes as non-existent.
      */
     function getHeight(node: Clue): number {
-        return node.clues?.length ? Math.max(...node.clues.map(n => getHeight(n))) + 1 : 0;
+        return node.clues?.length
+            ? Math.max(...node.clues.filter(n => !n.solved).map(n => getHeight(n))) + 1
+            : 0;
     }
 </script>
 
