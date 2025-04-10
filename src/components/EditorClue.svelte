@@ -130,7 +130,7 @@
             bind:innerHTML={() => get(clues![0].solution), (val) => clues![0].solution = set(val)}
             onkeypress={split}></span>
         <span class="solution">
-            {#if parent}[{id}]{/if}
+            {#if id}[{id}]{/if}
             <span contenteditable tabindex="0" role="textbox"
                 bind:innerHTML={() => get(solution), (val) => solution = set(val)}
                 onkeypress={preventNewline}></span>
@@ -153,7 +153,7 @@
             {/each}
         </div>
         <span class="solution">
-            {#if parent}[{id}]{/if}
+            {#if id}[{id}]{/if}
             <span contenteditable tabindex="0" role="textbox"
                 bind:innerHTML={() => get(solution), (val) => solution = set(val)}
                 onkeypress={preventNewline}></span>
