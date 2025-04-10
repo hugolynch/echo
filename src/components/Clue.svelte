@@ -2,7 +2,7 @@
     import type { Clue } from '../types/puzzle'
     import BoardClue from './Clue.svelte';
 
-    let { id, solution, clues = [], depth, solved = false } = $props();
+    let { id = '', solution, clues = [], depth, solved = false } = $props();
     let height = $derived(getHeight({clues}));
 
     /**
