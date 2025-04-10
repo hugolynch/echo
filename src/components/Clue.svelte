@@ -81,7 +81,11 @@
         white-space: pre;
 
         &:last-child:not(:first-child) {
-            /* margin-left: 0px; */
+            margin-left: 0px;
+        }
+
+        &:first-child:not(:last-child) {
+            margin-right: 0px;
         }
 
         &:nth-child(2):not(:last-child) {

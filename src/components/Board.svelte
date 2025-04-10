@@ -43,6 +43,8 @@
 
 <div>
     <span class="help">Tutorial here →</span>
+
+    <!-- <input name="puzzles" type="date" onchange={choose} /> -->
     <select name="puzzles" onchange={choose}>
         {#each filtered as puzzle, i}
             <option value={i} selected={i === filtered.length - 1}>
