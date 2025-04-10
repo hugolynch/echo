@@ -5,12 +5,18 @@
     import Placeholder from './Placeholder.svelte'
 
     let {
+        index = 0,
+        parentId = '',
         solution = $bindable() as string,
         clues = $bindable([]) as Clue[],
         parent = $bindable(null) as Clue[]|null,
-        index = 0
     } = $props()
     let node = $derived({solution, clues}) as Clue
+    let id = $derived.by(() => {
+        if (! parent) { return '' }
+        const pos = parent.slice(0, index).filter(n => !text(n)).length + 1
+        return parentId ? `${parentId}.${pos}` : `${pos}`
+    })
 
     function split(e: KeyboardEvent) {
         if (e.key !== "Enter") {
@@ -110,6 +116,7 @@
             bind:innerHTML={() => get(clues[0].solution), (val) => clues[0].solution = set(val)}
             onkeypress={split}></span>
         <span class="solution">
+            {#if parent}[{id}]{/if}
             <span contenteditable tabindex="0" role="textbox"
                 bind:innerHTML={() => get(solution), (val) => solution = set(val)}
                 onkeypress={preventNewline}></span>
@@ -122,7 +129,8 @@
                 {#if clueIndex === 0 && !text(clue)}
                     <Placeholder bind:clues={clues} position={0} />
                 {/if}
-                <EditorClue bind:solution={clue.solution} bind:clues={clue.clues} bind:parent={clues} index={clueIndex} />
+                <EditorClue bind:solution={clue.solution} bind:clues={clue.clues} bind:parent={clues}
+                    parentId={id} index={clueIndex} />
                 {#if clueIndex === clues.length - 1 && !text(clue)}
                     <Placeholder bind:clues={clues} position={clues.length} />
                 {:else if clueIndex < clues.length && !text(clue) && !text(clues[clueIndex + 1])}
@@ -131,6 +139,7 @@
             {/each}
         </div>
         <span class="solution">
+            {#if parent}[{id}]{/if}
             <span contenteditable tabindex="0" role="textbox"
                 bind:innerHTML={() => get(solution), (val) => solution = set(val)}
                 onkeypress={preventNewline}></span>
