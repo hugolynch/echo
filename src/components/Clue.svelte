@@ -21,7 +21,7 @@
         <span class="solution">{solution}</span>
     {:else}
         <!-- if statement & loop need to be on same line to avoid extra whitespace between elements -->
-         <!-- should move to flexbox to get rid of this issue altogether -->
+        <!-- should move to flexbox to get rid of this issue altogether -->
         {#if id}<span class="clueID">{id}</span>{/if}{#each clues as clue}
             {#if ! clue.clues?.length}
                 <span class="text">{clue.solution}</span>
