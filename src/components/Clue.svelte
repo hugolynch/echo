@@ -17,10 +17,10 @@
 </script>
 
 <span class={{'clue': depth, 'solved': solved, 'leaf': height === 1}} style:--height={height}>
-    {#if id}[{id}]{/if}
     {#if solved}
         <span class="solution">{solution}</span>
     {:else}
+        {#if id}[{id}]{/if}
         {#each clues as clue}
             {#if ! clue.clues?.length}
                 <span class="text">{clue.solution}</span>
