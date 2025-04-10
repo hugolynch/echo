@@ -7,16 +7,12 @@
     let {
         index = 0,
         parentId = '',
+        id = $bindable() as string,
         solution = $bindable() as string,
-        clues = $bindable([]) as Clue[],
+        clues = $bindable() as Clue[]|undefined,
         parent = $bindable(null) as Clue[]|null,
     } = $props()
     let node = $derived({solution, clues}) as Clue
-    let id = $derived.by(() => {
-        if (! parent) { return '' }
-        const pos = parent.slice(0, index).filter(n => !text(n)).length + 1
-        return parentId ? `${parentId}.${pos}` : `${pos}`
-    })
 
     function split(e: KeyboardEvent) {
         if (e.key !== "Enter") {
@@ -55,17 +51,34 @@
         }
 
         let newClues: Clue[] = [
-            {solution: val?.slice(0, range.startOffset) ?? '', clues: []},
-            {solution: val?.slice(range.startOffset, range.endOffset) ?? '', clues: [{solution: "", clues: []}]},
-            {solution: val?.slice(range.endOffset) ?? '', clues: []},
+            {solution: val?.slice(0, range.startOffset) ?? ''},
+            {solution: val?.slice(range.startOffset, range.endOffset) ?? '', clues: [{solution: ""}]},
+            {solution: val?.slice(range.endOffset) ?? ''},
         ].filter(s => s.solution?.length)
-        if (clues.length === 0 && parent) {
+
+        if (text({clues}) && parent) {
             // text node with neighbours: need to splice new clues in the parent
             parent.splice(index, 1, ...newClues)
+            parent = adjustIds(parent, parentId)
         } else {
             // any other node: insert new clues for this solution
             clues = newClues
+            clues = adjustIds(clues, id)
         }
+    }
+
+    /**
+     * Given a list of nodes and a prefix, adjust their IDs to match their actual position.
+     * This basically needs to run on arrays of clues whenever we modify them to make sure the IDs stay correct.
+     */
+    function adjustIds(nodes: Clue[], prefix: string): Clue[] {
+        for (let i = 0; i < nodes.length; i++) {
+            if (!text(nodes[i])) {
+                const id = nodes.slice(0, i).filter(n => !text(n)).length + 1
+                nodes[i].id = prefix ? `${prefix}.${id}` : `${id}`
+            }
+        }
+        return nodes
     }
 
     function deleteEmpty() {
@@ -91,14 +104,15 @@
                 }
                 return acc
             }, [])
+            parent = adjustIds(parent, parentId)
         }
     }
 
-    function leaf(node: Clue): boolean {
+    function leaf(node: Partial<Clue>): boolean {
         return node.clues?.length === 1 && text(node.clues[0])
     }
 
-    function text(node: Clue): boolean {
+    function text(node: Partial<Clue>): boolean {
         return !node.clues?.length;
     }
 </script>
@@ -111,9 +125,9 @@
             onblur={deleteEmpty}
             onkeypress={split}></span>
     {:else if leaf(node)}
-        <!-- leaf node -->
+        <!-- leaf node: we know we have exactly one clue here -->
         <span contenteditable tabindex="0" role="textbox"
-            bind:innerHTML={() => get(clues[0].solution), (val) => clues[0].solution = set(val)}
+            bind:innerHTML={() => get(clues![0].solution), (val) => clues![0].solution = set(val)}
             onkeypress={split}></span>
         <span class="solution">
             {#if parent}[{id}]{/if}
@@ -123,17 +137,17 @@
             <button class="btn" onclick={collapse}>&downarrow;</button>
         </span>
     {:else}
-        <!-- clue node -->
+        <!-- clue node: we know clues is defined here -->
         <div class="clue">
-            {#each clues as clue, clueIndex}
+            {#each clues ?? [] as clue, clueIndex}
                 {#if clueIndex === 0 && !text(clue)}
                     <Placeholder bind:clues={clues} position={0} />
                 {/if}
-                <EditorClue bind:solution={clue.solution} bind:clues={clue.clues} bind:parent={clues}
+                <EditorClue bind:id={clue.id} bind:solution={clue.solution} bind:clues={clue.clues} bind:parent={clues}
                     parentId={id} index={clueIndex} />
-                {#if clueIndex === clues.length - 1 && !text(clue)}
-                    <Placeholder bind:clues={clues} position={clues.length} />
-                {:else if clueIndex < clues.length && !text(clue) && !text(clues[clueIndex + 1])}
+                {#if clueIndex === clues!.length - 1 && !text(clue)}
+                    <Placeholder bind:clues={clues} position={clues!.length} />
+                {:else if clueIndex < clues!.length && !text(clue) && !text(clues![clueIndex + 1])}
                     <Placeholder bind:clues={clues} position={clueIndex + 1} />
                 {/if}
             {/each}
