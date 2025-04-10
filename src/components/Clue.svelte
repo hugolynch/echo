@@ -2,7 +2,7 @@
     import type { Clue } from '../types/puzzle'
     import BoardClue from './Clue.svelte';
 
-    let { solution, clues = [], depth, solved = false } = $props();
+    let { id, solution, clues = [], depth, solved = false } = $props();
     let height = $derived(getHeight({clues}));
 
     /**
@@ -17,6 +17,7 @@
 </script>
 
 <span class={{'clue': depth, 'solved': solved, 'leaf': height === 1}} style:--height={height}>
+    {#if id}[{id}]{/if}
     {#if solved}
         <span class="solution">{solution}</span>
     {:else}
