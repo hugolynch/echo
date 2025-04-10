@@ -20,7 +20,7 @@
     {#if solved}
         <span class="solution">{solution}</span>
     {:else}
-        {#if id}[{id}]{/if}
+        {#if id}<span class="clueID">{id}</span>{/if}
         {#each clues as clue}
             {#if ! clue.clues?.length}
                 <span class="text">{clue.solution}</span>
@@ -80,11 +80,24 @@
         white-space: pre;
 
         &:last-child:not(:first-child) {
-            margin-left: 0px;
+            /* margin-left: 0px; */
         }
 
-        &:first-child:not(:last-child) {
+        &:nth-child(2):not(:last-child) {
             margin-right: 0px;
         }
+
+        &:nth-child(2) {
+            /* margin-left: 0px; */
+        }
+    }
+
+    .clueID {
+        background-color: #F9FBFE;
+        display: inline-block;
+        margin-right: 0;
+        line-height: 16px;
+        margin: 2px;
+        padding: 0 2px;
     }
 </style>
