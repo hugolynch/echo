@@ -3,13 +3,13 @@
     import BoardClue from './Clue.svelte';
 
     let { solution, clues = [], depth, solved = false } = $props();
-    let height = $derived(getHeight({clues} as Clue));
+    let height = $derived(getHeight({clues}));
 
     /**
      * Returns the 'height' (i.e. distance from the bottom/furthest leaf) of the current node.
      * Treats solved nodes as non-existent.
      */
-    function getHeight(node: Clue): number {
+    function getHeight(node: Partial<Clue>): number {
         return node.clues?.length
             ? Math.max(...node.clues.filter(n => !n.solved).map(n => getHeight(n))) + 1
             : 0;
