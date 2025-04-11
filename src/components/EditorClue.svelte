@@ -130,7 +130,7 @@
             bind:innerHTML={() => get(clues![0].solution), (val) => clues![0].solution = set(val)}
             onkeypress={split}></span>
         <span class="solution">
-            {#if id}[{id}]{/if}
+            {#if id}<span class="clueID">{id}</span>{/if}
             <span contenteditable tabindex="0" role="textbox"
                 bind:innerHTML={() => get(solution), (val) => solution = set(val)}
                 onkeypress={preventNewline}></span>
@@ -153,7 +153,7 @@
             {/each}
         </div>
         <span class="solution">
-            {#if id}[{id}]{/if}
+            {#if id}<span class="clueID">{id}</span>{/if}
             <span contenteditable tabindex="0" role="textbox"
                 bind:innerHTML={() => get(solution), (val) => solution = set(val)}
                 onkeypress={preventNewline}></span>
@@ -238,4 +238,14 @@
             display: block;
         }
     }
+
+    .clueID {
+        display: flex;
+        align-items: center;
+        background-color: #CBE8FD;
+        color: #084E74;
+        line-height: 16px;
+        margin: 0 auto;
+        padding: 0 4px;
+}
 </style>
