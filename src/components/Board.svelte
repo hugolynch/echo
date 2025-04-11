@@ -38,6 +38,7 @@
         if (!clues) return false;
 
         for (let i = 0; i < clues.length; i++) {
+            if (clues[i].solved) continue; // skip already solved clues
             if (clues[i].solution.toLocaleLowerCase() === answer.trim().toLowerCase()) {
                 clues[i].solved = true
                 val = ''
