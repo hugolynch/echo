@@ -64,6 +64,11 @@
     </select>
 </div>
 
+<div>
+    <h1>{puzzle.name || 'Untitled'}</h1>
+    <span>by {puzzle.author || 'Unknown'}</span>
+</div>
+
 <div class="puzzle">
     <BoardClue {...puzzle} depth={0} />
 </div>
