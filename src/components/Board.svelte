@@ -11,20 +11,29 @@
         return puzzle.date <= date;
     })
     let val = $state("")
-    let puzzle: Puzzle = $state(filtered[filtered.length - 1])
+    let puzzle: Puzzle = $state(loadPuzzle())
 
+    // load puzzle from hash, or latest otherwise
+    function loadPuzzle() {
+        const hash = window.location.hash.substring(1);
+        return hash ? JSON.parse(atob(hash)) : filtered[filtered.length - 1];
+    }
+
+    // switch active puzzle to the chosen one
     function choose(e: Event) {
         const el = e.target as HTMLSelectElement
         // if we didn't pick a valid puzzle, select the first one
         puzzle = filtered[parseInt(el.value)] || filtered[0]
     }
 
+    // check answer on enter
     function handleKeypress(e: KeyboardEvent) {
         if (e.key === 'Enter') {
             check([puzzle], val)
         }
     }
 
+    // recursively check whether a given answer is value for the given clues
     function check(clues: Clue[], answer: string): boolean {
         if (!clues) return false;
 
