@@ -16,13 +16,13 @@
     }
 </script>
 
-<span class={{'clue': depth, 'solved': solved, 'leaf': height === 1}} style:--height={height}>
+<span class={{'clue': depth, 'leaf': height === 1, solved}} data-id={id} style:--height={height} >
     {#if solved}
         <span class="solution">{solution}</span>
     {:else}
         <!-- if statement & loop need to be on same line to avoid extra whitespace between elements -->
         <!-- should move to flexbox to get rid of this issue altogether -->
-        {#if id}<span class="clueID">{id}</span>{/if}{#each clues as clue}
+        {#each clues as clue}
             {#if ! clue.clues?.length}
                 <span class="text">{clue.solution}</span>
             {:else}
@@ -56,6 +56,15 @@
         }
     }
 
+    .clue[data-id]:not([data-id=""])::before {
+        content: attr(data-id);
+        background-color: #F9FBFE;
+        margin-right: 0;
+        line-height: 16px;
+        margin: 2px;
+        padding: 0 2px;
+    }
+
     .solution {
         white-space: pre;
         display: inline-block;
@@ -64,7 +73,6 @@
     }
 
     .solved.clue {
-
         &:last-child {
             margin-right: 2px;
         }
@@ -87,22 +95,5 @@
         &:first-child:not(:last-child) {
             margin-right: 0px;
         }
-
-        &:nth-child(2):not(:last-child) {
-            margin-right: 0px;
-        }
-
-        &:nth-child(2) {
-            /* margin-left: 0px; */
-        }
-    }
-
-    .clueID {
-        background-color: #F9FBFE;
-        display: inline-block;
-        margin-right: 0;
-        line-height: 16px;
-        margin: 2px;
-        padding: 0 2px;
     }
 </style>
