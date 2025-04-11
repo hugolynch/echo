@@ -6317,5 +6317,175 @@
         "id": "5"
       }
     ]
+  },
+  {
+    "name": "À la soupe",
+    "author": "Hugo",
+    "date": "2025-04-11",
+    "solution": "Il faut manger pour vivre, et non pas vivre pour manger",
+    "clues": [
+      {
+        "solution": "Il faut "
+      },
+      {
+        "solution": "manger",
+        "clues": [
+          {
+            "solution": "activité préférée d’"
+          },
+          {
+            "solution": "Obélix",
+            "clues": [
+              {
+                "solution": "il est tombé dans la marmite quand il était "
+              },
+              {
+                "solution": "petit",
+                "clues": [
+                  {
+                    "solution": "comme le prince de Saint-Exupéry"
+                  }
+                ],
+                "id": "1.1.1"
+              }
+            ],
+            "id": "1.1"
+          }
+        ],
+        "id": "1"
+      },
+      {
+        "solution": " "
+      },
+      {
+        "solution": "pour",
+        "clues": [
+          {
+            "solution": "position de "
+          },
+          {
+            "solution": "débat",
+            "clues": [
+              {
+                "solution": "mettre un sujet sur la table"
+              }
+            ],
+            "id": "2.1"
+          },
+          {
+            "solution": " contre \"contre\""
+          }
+        ],
+        "id": "2"
+      },
+      {
+        "solution": " "
+      },
+      {
+        "solution": "vivre",
+        "clues": [
+          {
+            "solution": "joie",
+            "clues": [
+              {
+                "solution": "émotion qui fait sourire"
+              }
+            ],
+            "id": "1.1"
+          },
+          {
+            "solution": " de ___"
+          }
+        ],
+        "id": "3"
+      },
+      {
+        "solution": ", et non pas v"
+      },
+      {
+        "solution": "ivre",
+        "clues": [
+          {
+            "solution": "sous",
+            "clues": [
+              {
+                "solution": "second",
+                "clues": [
+                  {
+                    "solution": "sur un podium, il n’est pas mécontent… mais pas ravi non plus"
+                  }
+                ],
+                "id": "2.1.1"
+              },
+              {
+                "solution": " en "
+              },
+              {
+                "solution": "cuisine",
+                "clues": [
+                  {
+                    "solution": "lieu de travail pour Rémy, dans \"Ratatouille\""
+                  }
+                ],
+                "id": "2.1.2"
+              },
+              {
+                "solution": "?"
+              }
+            ],
+            "id": "2.1"
+          },
+          {
+            "solution": " l'effet de l'"
+          },
+          {
+            "solution": "alcool",
+            "clues": [
+              {
+                "solution": "ce qui fait la diffrence entre du vin et du Welch's"
+              }
+            ],
+            "id": "2.2"
+          }
+        ],
+        "id": "4"
+      },
+      {
+        "solution": " pour "
+      },
+      {
+        "solution": "manger",
+        "clues": [
+          {
+            "solution": "\"Pour mieux te ___, ma chérie\" (réponse du "
+          },
+          {
+            "solution": "loup",
+            "clues": [
+              {
+                "solution": "lycanthrope, parfois"
+              }
+            ],
+            "id": "5.1"
+          },
+          {
+            "solution": ", "
+          },
+          {
+            "solution": "con",
+            "clues": [
+              {
+                "solution": "Jacques Villeret dans \"Le Dîner de ___s\""
+              }
+            ],
+            "id": "5.2"
+          },
+          {
+            "solution": "firmant ses intentions)"
+          }
+        ],
+        "id": "5"
+      }
+    ]
   }
 ]
