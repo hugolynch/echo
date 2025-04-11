@@ -15,7 +15,7 @@
         date: (new Date).getFullYear()
             + "-" + `${(new Date).getMonth() + 1}`.padStart(2, "0")
             + "-" + `${(new Date).getDate()}`.padStart(2, "0"),
-        solution: "",
+        root: { solution: "" },
     }
     let puzzle: Puzzle = $state(loadPuzzle(empty))
     let copied = $state(copyState.NONE)
@@ -64,7 +64,7 @@
         <input type="date" bind:value={puzzle.date} />
     </label>
 </div>
-<EditorClue bind:solution={puzzle.solution} bind:clues={puzzle.clues} />
+<EditorClue bind:solution={puzzle.root.solution} bind:clues={puzzle.root.clues} />
 
 <button onclick={exportPuzzle}>
     {#if copied === copyState.NONE}

@@ -5,13 +5,9 @@ export interface Clue {
     solved?: boolean,
 }
 
-export interface Puzzle extends Clue {
-    // clue parts that shouldn't apply to top-level
-    id?: never,
-    solved?: never,
-
-    // unique puzzle parts
+export interface Puzzle {
     name: string,
     author: string,
     date: string,
+    root: Clue,
 }

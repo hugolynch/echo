@@ -4,11 +4,23 @@
     import puzzles from '../assets/puzzles.json'
 
     console.log(puzzles.map(p => p.name))
-    let filtered = puzzles.filter(function (puzzle) {
+    let filtered: Puzzle[] = puzzles.filter(function (puzzle) {
         const date = (new Date).getFullYear()
             + "-" + `${(new Date).getMonth() + 1}`.padStart(2, "0")
             + "-" + `${(new Date).getDate()}`.padStart(2, "0");
         return puzzle.date <= date;
+    }).map((loaded: any) => {
+        // temp solution to load puzzles without rewriting them all
+        const puzzle: Puzzle = {
+            name: loaded.name ?? '',
+            author: loaded.author ?? '',
+            date: loaded.date ?? '',
+            root: {
+                solution: loaded.solution,
+                clues: loaded.clues,
+            }
+        }
+        return puzzle
     })
     let val = $state("")
     let puzzle: Puzzle = $state(loadPuzzle())
@@ -29,7 +41,7 @@
     // check answer on enter
     function handleKeypress(e: KeyboardEvent) {
         if (e.key === 'Enter') {
-            check([puzzle], val)
+            check([puzzle.root], val)
         }
     }
 
@@ -71,12 +83,12 @@
 </div>
 
 <div class="puzzle">
-    <BoardClue {...puzzle} depth={0} />
+    <BoardClue {...puzzle.root} depth={0} />
 </div>
 
 <div class="submit">
     <input type="text" bind:value={val} onkeypress={handleKeypress}/>
-    <button onclick={() => check([puzzle], val)}>Check Answer</button>
+    <button onclick={() => check([puzzle.root], val)}>Check Answer</button>
 </div>
 <p id="feedback"></p>
 
