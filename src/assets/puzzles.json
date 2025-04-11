@@ -5982,5 +5982,314 @@
         "id": "8"
       }
     ]
+  },
+  {
+    "name": "2025-04-12",
+    "date": "2025-04-12",
+    "solution": "Terry Fox begins his Marathon of Hope Run",
+    "clues": [
+      {
+        "solution": "Terry",
+        "clues": [
+          {
+            "solution": "Gill",
+            "clues": [
+              {
+                "solution": "fish's breathing organ"
+              }
+            ],
+            "id": "1.1"
+          },
+          {
+            "solution": "iam or "
+          },
+          {
+            "solution": "Crews",
+            "clues": [
+              {
+                "solution": "rowing teams"
+              }
+            ],
+            "id": "1.2"
+          }
+        ],
+        "id": "1"
+      },
+      {
+        "solution": " "
+      },
+      {
+        "solution": "Fox",
+        "clues": [
+          {
+            "solution": "it "
+          },
+          {
+            "solution": "says",
+            "clues": [
+              {
+                "solution": "what "
+              },
+              {
+                "solution": "Sim",
+                "clues": [
+                  {
+                    "solution": "video game character with a green (hopefully) plumbob above their head"
+                  }
+                ],
+                "id": "2.1.1"
+              },
+              {
+                "solution": "on does"
+              }
+            ],
+            "id": "2.1"
+          },
+          {
+            "solution": " \""
+          },
+          {
+            "solution": "Ring",
+            "clues": [
+              {
+                "solution": "phone sound"
+              }
+            ],
+            "id": "2.2"
+          },
+          {
+            "solution": "-"
+          },
+          {
+            "solution": "ding",
+            "clues": [
+              {
+                "solution": "minor dent"
+              }
+            ],
+            "id": "2.3"
+          },
+          {
+            "solution": "-"
+          },
+          {
+            "solution": "ding",
+            "clues": [
+              {
+                "solution": "small dent"
+              }
+            ],
+            "id": "2.4"
+          },
+          {
+            "solution": "-"
+          },
+          {
+            "solution": "ding",
+            "clues": [
+              {
+                "solution": "little dent"
+              }
+            ],
+            "id": "2.5"
+          },
+          {
+            "solution": "-"
+          },
+          {
+            "solution": "ding",
+            "clues": [
+              {
+                "solution": "barely a dent"
+              }
+            ],
+            "id": "2.6"
+          },
+          {
+            "solution": "e"
+          },
+          {
+            "solution": "ring",
+            "clues": [
+              {
+                "solution": "phone call"
+              }
+            ],
+            "id": "2.7"
+          },
+          {
+            "solution": "e"
+          },
+          {
+            "solution": "ding",
+            "clues": [
+              {
+                "solution": "dent"
+              }
+            ],
+            "id": "2.8"
+          },
+          {
+            "solution": "!\""
+          }
+        ],
+        "id": "2"
+      },
+      {
+        "solution": " begins his "
+      },
+      {
+        "solution": "Marathon",
+        "clues": [
+          {
+            "solution": "race",
+            "clues": [
+              {
+                "solution": "Formula",
+                "clues": [
+                  {
+                    "solution": "substitute for human milk"
+                  }
+                ],
+                "id": "3.1.1"
+              },
+              {
+                "solution": " One "
+              },
+              {
+                "solution": "even",
+                "clues": [
+                  {
+                    "solution": "tied"
+                  }
+                ],
+                "id": "3.1.2"
+              },
+              {
+                "solution": "t"
+              }
+            ],
+            "id": "3.1"
+          },
+          {
+            "solution": " with a di"
+          },
+          {
+            "solution": "stance",
+            "clues": [
+              {
+                "solution": "position"
+              }
+            ],
+            "id": "3.2"
+          },
+          {
+            "solution": " of "
+          },
+          {
+            "solution": "42",
+            "clues": [
+              {
+                "solution": "answer to the Ultimate Question of Life, The Universe, and Everything in \"The Hitchhiker's Guide to the Galaxy\""
+              }
+            ],
+            "id": "3.3"
+          },
+          {
+            "solution": ".195 kilometres"
+          }
+        ],
+        "id": "3"
+      },
+      {
+        "solution": " of "
+      },
+      {
+        "solution": "Hope",
+        "clues": [
+          {
+            "solution": "all that was left in "
+          },
+          {
+            "solution": "Pan",
+            "clues": [
+              {
+                "solution": "greek god with a "
+              },
+              {
+                "solution": "goat",
+                "clues": [
+                  {
+                    "solution": "Lionel Messi or Lebron James, to many"
+                  }
+                ],
+                "id": "4.1.1"
+              },
+              {
+                "solution": "'s legs and horns"
+              }
+            ],
+            "id": "4.1"
+          },
+          {
+            "solution": "dora",
+            "clues": [
+              {
+                "solution": "Latina "
+              },
+              {
+                "solution": "toon",
+                "clues": [
+                  {
+                    "solution": "Bugs Bunny or Roger Rabbit"
+                  }
+                ],
+                "id": "4.2.1"
+              },
+              {
+                "solution": " explorer"
+              }
+            ],
+            "id": "4.2"
+          },
+          {
+            "solution": "'s box"
+          }
+        ],
+        "id": "4"
+      },
+      {
+        "solution": " "
+      },
+      {
+        "solution": "Run",
+        "clues": [
+          {
+            "solution": "seek "
+          },
+          {
+            "solution": "office",
+            "clues": [
+              {
+                "solution": "work",
+                "clues": [],
+                "id": "5.1.1"
+              },
+              {
+                "solution": "place",
+                "clues": [
+                  {
+                    "solution": "Play___ (McDonald's playground)"
+                  }
+                ],
+                "id": "5.1.1"
+              }
+            ],
+            "id": "5.1"
+          }
+        ],
+        "id": "5"
+      }
+    ]
   }
 ]
