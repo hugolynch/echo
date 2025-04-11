@@ -9,14 +9,29 @@
     }
 
     // default puzzle to load if none is found in localStorage
-    let empty: Puzzle = {name: "name", date: (new Date).toISOString(), solution: "", clues: []}
-    let puzzle: Puzzle = $state(JSON.parse(localStorage.getItem('editor') || JSON.stringify(empty)))
+    const empty: Puzzle = {
+        name: "Untitled",
+        author: "Unknown",
+        date: (new Date).getFullYear()
+            + "-" + `${(new Date).getMonth() + 1}`.padStart(2, "0")
+            + "-" + `${(new Date).getDate()}`.padStart(2, "0"),
+        solution: "",
+    }
+    let puzzle: Puzzle = $state(loadPuzzle(empty))
     let copied = $state(copyState.NONE)
 
+    // fetch puzzle from localStorage
+    function loadPuzzle(empty: Puzzle): Puzzle {
+        const loaded = localStorage.getItem('editor')
+        return loaded ? JSON.parse(loaded) : empty
+    }
+
+    // save puzzle (on change)
     $effect(() => {
         localStorage.setItem('editor', JSON.stringify(puzzle))
     })
 
+    // export puzzle to clipboard
     function exportPuzzle() {
         console.debug($state.snapshot(puzzle))
         navigator.clipboard.writeText(JSON.stringify(puzzle))
@@ -34,7 +49,23 @@
 </script>
 
 <h1>Editor <span>BETA</span></h1>
+
+<div class="metadata">
+    <label class="fw">
+        <span>Title</span>
+        <input type="text" bind:value={puzzle.name} />
+    </label>
+    <label>
+        <span>Author</span>
+        <input type="text" bind:value={puzzle.author} />
+    </label>
+    <label>
+        <span>Date</span>
+        <input type="date" bind:value={puzzle.date} />
+    </label>
+</div>
 <EditorClue bind:solution={puzzle.solution} bind:clues={puzzle.clues} />
+
 <button onclick={exportPuzzle}>
     {#if copied === copyState.NONE}
         Copy to Clipboard
@@ -52,6 +83,31 @@
         span {
            color: #1DA9F4; 
            font-weight: normal;
+        }
+    }
+
+    .metadata {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        & > label {
+            text-align: left;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-grow: 1;
+
+            &.fw {
+                width: 100%;
+            }
+
+            & > input {
+                width: 100%;
+                margin-left: 1rem;
+                text-transform: unset;
+            }
         }
     }
 </style>

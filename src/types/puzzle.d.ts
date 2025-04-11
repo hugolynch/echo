@@ -6,8 +6,12 @@ export interface Clue {
 }
 
 export interface Puzzle extends Clue {
+    // clue parts that shouldn't apply to top-level
     id?: never,
     solved?: never,
+
+    // unique puzzle parts
     name: string,
+    author: string,
     date: string,
 }

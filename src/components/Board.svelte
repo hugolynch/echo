@@ -5,9 +5,10 @@
 
     console.log(puzzles.map(p => p.name))
     let filtered = puzzles.filter(function (puzzle) {
-        const date = (new Date).getFullYear() + "-" + `${(new Date).getMonth() + 1}`.padStart(2, "0") + "-" + `${(new Date).getDate()}`.padStart(2, "0");
-        return puzzle.name === "TUTORIAL"
-            || puzzle.name <= date;
+        const date = (new Date).getFullYear()
+            + "-" + `${(new Date).getMonth() + 1}`.padStart(2, "0")
+            + "-" + `${(new Date).getDate()}`.padStart(2, "0");
+        return puzzle.date <= date;
     })
     let val = $state("")
     let puzzle: Puzzle = $state(filtered[filtered.length - 1])

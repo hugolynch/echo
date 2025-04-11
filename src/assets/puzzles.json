@@ -1,6 +1,8 @@
 [
   {
     "name": "TUTORIAL",
+    "author": "Hugo",
+    "date": "",
     "solution": "Echo chamber is a nested clue puzzle. Your goal is to solve all the clues and uncover the final solution. Clues look like this. To solve a clue, type out the solution to the clue in the input box. Well done! Clues can be nested too. Clues must be solved from the inside out. In this tutorial, uppercase words are solutions. Here's a sample puzzle: Echo chamber.",
     "clues": [
       {
@@ -133,11 +135,12 @@
         "solution": ".",
         "clues": []
       }
-    ],
-    "date": ""
+    ]
   },
   {
     "name": "2024-05-04",
+    "author": "Hugo",
+    "date": "2024-05-04",
     "solution": "May the Force be with you",
     "clues": [
       {
@@ -290,11 +293,12 @@
           }
         ]
       }
-    ],
-    "date": "2024-05-04"
+    ]
   },
   {
     "name": "2025-03-01",
+    "author": "Hugo",
+    "date": "2024-05-04",
     "solution": "Russian chemist Dmitri Mendeleev finishes his design of the first periodic table",
     "clues": [
       {
@@ -516,11 +520,12 @@
           }
         ]
       }
-    ],
-    "date": "2025-03-26"
+    ]
   },
   {
     "name": "2025-03-17",
+    "author": "Hugo",
+    "date": "2025-03-17",
     "solution": "Not all those who wander are lost",
     "clues": [
       {
@@ -714,11 +719,12 @@
           }
         ]
       }
-    ],
-    "date": "2025-03-17"
+    ]
   },
   {
     "name": "2025-03-18",
+    "author": "Hugo",
+    "date": "2025-03-18",
     "solution": "I'm as mad as hell and I'm not gonna take this anymore!",
     "clues": [
       {
@@ -883,11 +889,12 @@
         "solution": "!",
         "clues": []
       }
-    ],
-    "date": "2025-03-18"
+    ]
   },
   {
     "name": "2025-03-20",
+    "author": "jean",
+    "date": "2025-03-20",
     "solution": "Benedict XIII elected Pope at the 1724 papal conclave.",
     "clues": [
       {
@@ -1080,11 +1087,12 @@
         "solution": ".",
         "clues": []
       }
-    ],
-    "date": "2025-03-20"
+    ]
   },
   {
     "name": "2025-03-21",
+    "author": "",
+    "date": "2025-03-21",
     "solution": "Spring has sprung",
     "clues": [
       {
@@ -1248,11 +1256,12 @@
           }
         ]
       }
-    ],
-    "date": "2025-03-21"
+    ]
   },
   {
     "name": "2025-03-24",
+    "author": "Hugo",
+    "date": "2025-03-24",
     "solution": "\"He Could Be the One\"",
     "clues": [
       {
@@ -1438,11 +1447,12 @@
         "solution": "\"",
         "clues": []
       }
-    ],
-    "date": "2025-03-24"
+    ]
   },
   {
     "name": "2025-03-25",
+    "author": "Hugo",
+    "date": "2025-03-25",
     "solution": "Happy New Year",
     "clues": [
       {
@@ -1620,11 +1630,12 @@
           }
         ]
       }
-    ],
-    "date": "2025-03-25"
+    ]
   },
   {
     "name": "2025-03-26",
+    "author": "jean",
+    "date": "2025-03-26",
     "solution": "The North-West Rebellion begins",
     "clues": [
       {
@@ -1737,11 +1748,12 @@
           }
         ]
       }
-    ],
-    "date": "2025-03-26"
+    ]
   },
   {
     "name": "2025-03-28",
+    "author": "Hugo",
+    "date": "2025-03-28",
     "solution": "Constantinople renamed Istanbul",
     "clues": [
       {
@@ -1943,11 +1955,12 @@
           }
         ]
       }
-    ],
-    "date": "2025-03-28"
+    ]
   },
   {
     "name": "2025-03-29",
+    "author": "Hugo",
+    "date": "2025-03-29",
     "solution": "Huge cargo ship Ever Given freed from Suez Canal after weeklong crisis",
     "clues": [
       {
@@ -2223,11 +2236,12 @@
           }
         ]
       }
-    ],
-    "date": "2025-03-29"
+    ]
   },
   {
     "name": "2025-03-30",
+    "author": "Hugo",
+    "date": "2025-03-30",
     "solution": "U.S. President Ronald Reagan is shot in the chest outside a Washington, D.C., hotel",
     "clues": [
       {
@@ -2485,11 +2499,12 @@
         "solution": ", hotel",
         "clues": []
       }
-    ],
-    "date": "2025-03-30"
+    ]
   },
   {
     "name": "2025-03-31",
+    "author": "Hugo",
+    "date": "2025-03-31",
     "solution": "Netscape releases Mozilla source code",
     "clues": [
       {
@@ -2729,11 +2744,12 @@
           }
         ]
       }
-    ],
-    "date": "2025-03-31"
+    ]
   },
   {
     "name": "2025-04-01",
+    "author": "Hugo",
+    "date": "2025-04-01",
     "solution": "Never Gonna Give You Up",
     "clues": [
       {
@@ -2974,11 +2990,12 @@
           }
         ]
       }
-    ],
-    "date": "2025-04-01"
+    ]
   },
   {
     "name": "2025-04-02",
+    "author": "Hugo",
+    "date": "2025-04-02",
     "solution": "Beethoven leads the premiere of his First Symphony in Vienna",
     "clues": [
       {
@@ -3166,11 +3183,12 @@
           }
         ]
       }
-    ],
-    "date": "2025-04-02"
+    ]
   },
   {
     "name": "2025-04-03",
+    "author": "Hugo",
+    "date": "2025-04-03",
     "solution": "Robert Ford kills Jesse James",
     "clues": [
       {
@@ -3457,11 +3475,12 @@
           }
         ]
       }
-    ],
-    "date": "2025-04-03"
+    ]
   },
   {
     "name": "2025-04-04",
+    "author": "Hugo",
+    "date": "2025-04-04",
     "solution": "\"The time is always right to do what is right\"",
     "clues": [
       {
@@ -3735,11 +3754,12 @@
         "solution": "\"",
         "clues": []
       }
-    ],
-    "date": "2025-04-04"
+    ]
   },
   {
     "name": "2025-04-05",
+    "author": "Hugo",
+    "date": "2025-04-05",
     "solution": "Stephen King's first novel, Carrie, is published",
     "clues": [
       {
@@ -3984,11 +4004,11 @@
           }
         ]
       }
-    ],
-    "date": "2025-04-05"
+    ]
   },
   {
     "name": "2025-04-06",
+    "author": "Hugo",
     "date": "2025-04-06",
     "solution": "1896 Summer Olympics begin in Athens",
     "clues": [
@@ -4303,6 +4323,7 @@
   },
   {
     "name": "2025-04-07",
+    "author": "Hugo",
     "date": "2025-04-07",
     "solution": "The French First Republic adopts the gram as its primary unit of mass",
     "clues": [
@@ -4547,6 +4568,7 @@
   },
   {
     "name": "2025-04-08",
+    "author": "Hugo",
     "date": "2025-04-08",
     "solution": "The Venus de Milo is discovered on the Aegean island of Milos",
     "clues": [
@@ -4901,6 +4923,7 @@
   },
   {
     "name": "2025-04-09",
+    "author": "Hugo",
     "date": "2025-04-09",
     "solution": "Édouard-Léon Scott de Martinville makes the first known recording of an audible human voice on his phonautograph machine ",
     "clues": [
@@ -5360,6 +5383,7 @@
   },
   {
     "name": "2025-04-10",
+    "author": "Hugo",
     "date": "2025-04-10",
     "solution": "April 10 is the 100th day of the year",
     "clues": [
@@ -5661,6 +5685,7 @@
   },
   {
     "name": "2025-04-11",
+    "author": "Hugo",
     "date": "2025-04-11",
     "solution": "Former shōgun Tokugawa Yoshinobu surrenders Edo Castle",
     "clues": [
@@ -5985,6 +6010,7 @@
   },
   {
     "name": "2025-04-12",
+    "author": "Hugo",
     "date": "2025-04-12",
     "solution": "Terry Fox begins his Marathon of Hope Run",
     "clues": [
