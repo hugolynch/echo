@@ -6367,7 +6367,16 @@
             "solution": "débat",
             "clues": [
               {
-                "solution": "mettre un sujet sur la table"
+                "solution": "met un sujet sur la "
+              },
+              {
+                "solution": "table",
+                "clues": [
+                  {
+                    "solution": "elle peut être ronde, rase ou périodique"
+                  }
+                ],
+                "id": "2.1.1"
               }
             ],
             "id": "2.1"
