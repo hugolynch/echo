@@ -62,8 +62,7 @@
             parent = adjustIds(parent, parentId)
         } else {
             // any other node: insert new clues for this solution
-            clues = newClues
-            clues = adjustIds(clues, id)
+            clues = adjustIds(newClues, id)
         }
     }
 
