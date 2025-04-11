@@ -56,13 +56,15 @@
         }
     }
 
-    .clue[data-id]:not([data-id=""])::before {
+    .clue:not(.solved)[data-id]:not([data-id=""])::before {
         content: attr(data-id);
-        background-color: #F9FBFE;
-        margin-right: 0;
+        box-sizing: border-box;
+        display: inline-block;
+        min-width: 16px;
         line-height: 16px;
-        margin: 2px;
         padding: 0 2px;
+        margin: 2px;
+        background-color: #F9FBFE;
     }
 
     .solution {
