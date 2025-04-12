@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { Clue } from '../types/puzzle'
-    import BoardClue from './Clue.svelte';
+    import BoardClue from './BoardClue.svelte';
 
     let {
         id = '',

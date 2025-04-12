@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { Puzzle, Clue } from '../types/puzzle'
-    import BoardClue from "./Clue.svelte";
+    import BoardClue from "./BoardClue.svelte";
     import puzzles from '../assets/puzzles.json'
 
     console.log(puzzles.map(p => p.name))
