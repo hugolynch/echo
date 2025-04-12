@@ -30,16 +30,18 @@
 
     /**
      * Returns the 'height' (i.e. distance from the bottom/furthest leaf) of the current node.
+     * If the current node is a leaf (i.e. has no children), return 0.
      * Treats solved nodes as non-existent.
      */
-    function getHeight(node: Partial<Clue>): number {
-        return node.clues?.length
-            ? Math.max(...node.clues.filter(n => !n.solved).map(n => getHeight(n))) + 1
-            : 0;
+    function getHeight(node: Clue): number {
+        // get non-text, non-solved children (i.e. clue nodes)
+        const clues = (node.clues ?? []).filter(n => n.clues?.length && !n.solved)
+        // default to 0 if the node has no children
+        return Math.max(0, ...clues.map(n => getHeight(n) + 1))
     }
 </script>
 
-<span class={{'clue': depth, 'leaf': height === 1, 'solved': solved}} data-id={id} style:--height={height} >
+<span class={{'clue': depth, 'solved': solved}} data-id={id} style:--height={height}>
     {#if solved}
         <span class="solution">{node.solution}</span>
     {:else}
@@ -50,7 +52,7 @@
                 <BoardClue id={child.id} depth={depth + 1} bind:node={node.clues![i]} />
             {/if}
         {/each}
-        {#if height === 1}
+        {#if height === 0}
             <input onkeydown={check} placeholder={`${node.solution.length}`} />
         {/if}
     {/if}
@@ -64,7 +66,7 @@
         padding: 1px;
         margin: 2px;
         /* need to multiply the height by a unit value to convert it */
-        border-radius: calc(var(--height) * 4px);
+        border-radius: calc((var(--height) + 1) * 4px);
         text-align: left;
         align-items:start;
 
