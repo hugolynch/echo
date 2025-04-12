@@ -55,10 +55,10 @@
         if (text(node) && parent) {
             // text node with neighbours: need to splice new clues in the parent
             parent.clues?.splice(index, 1, ...newClues)
-            parent.clues = adjustIds(parent.clues, parent.id ?? '')
+            parent.clues = adjustIds(parent.clues, parent.id)
         } else {
             // any other node: insert new clues for this solution
-            node.clues = adjustIds(newClues, node.id ?? '')
+            node.clues = adjustIds(newClues, node.id)
         }
     }
 
@@ -66,15 +66,15 @@
      * Given a list of nodes and a prefix, adjust their IDs to match their actual position.
      * This basically needs to run on arrays of clues whenever we modify them to make sure the IDs stay correct.
      */
-    function adjustIds(nodes: Clue[]|undefined, prefix: string): Clue[] {
-        if (! nodes) {
-            nodes = [];
-        }
+    function adjustIds(nodes?: Clue[], prefix?: string): Clue[] {
+        if (! nodes) return [];
 
         for (let i = 0; i < nodes.length; i++) {
             if (!text(nodes[i])) {
                 const id = nodes.slice(0, i).filter(n => !text(n)).length + 1
                 nodes[i].id = prefix ? `${prefix}.${id}` : `${id}`
+                // recursively adjust IDs down the tree
+                nodes[i].clues = adjustIds(nodes[i].clues, nodes[i].id)
             }
         }
         return nodes
@@ -103,7 +103,7 @@
                 }
                 return acc
             }, [])
-            parent.clues = adjustIds(parent.clues, parent.id ?? '')
+            parent.clues = adjustIds(parent.clues, parent.id)
         }
     }
 
