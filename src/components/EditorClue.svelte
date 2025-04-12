@@ -6,13 +6,9 @@
 
     let {
         index = 0,
-        parentId = '',
-        id = $bindable() as string,
-        solution = $bindable() as string,
-        clues = $bindable() as Clue[]|undefined,
-        parent = $bindable(null) as Clue[]|null,
+        node = $bindable() as Clue,
+        parent = $bindable() as Clue,
     } = $props()
-    let node = $derived({solution, clues}) as Clue
 
     function split(e: KeyboardEvent) {
         if (e.key !== "Enter") {
@@ -56,13 +52,13 @@
             {solution: val?.slice(range.endOffset) ?? ''},
         ].filter(s => s.solution?.length)
 
-        if (text({clues}) && parent) {
+        if (text(node) && parent) {
             // text node with neighbours: need to splice new clues in the parent
-            parent.splice(index, 1, ...newClues)
-            parent = adjustIds(parent, parentId)
+            parent.clues?.splice(index, 1, ...newClues)
+            parent.clues = adjustIds(parent.clues, parent.id ?? '')
         } else {
             // any other node: insert new clues for this solution
-            clues = adjustIds(newClues, id)
+            node.clues = adjustIds(newClues, node.id ?? '')
         }
     }
 
@@ -70,7 +66,11 @@
      * Given a list of nodes and a prefix, adjust their IDs to match their actual position.
      * This basically needs to run on arrays of clues whenever we modify them to make sure the IDs stay correct.
      */
-    function adjustIds(nodes: Clue[], prefix: string): Clue[] {
+    function adjustIds(nodes: Clue[]|undefined, prefix: string): Clue[] {
+        if (! nodes) {
+            nodes = [];
+        }
+
         for (let i = 0; i < nodes.length; i++) {
             if (!text(nodes[i])) {
                 const id = nodes.slice(0, i).filter(n => !text(n)).length + 1
@@ -81,17 +81,17 @@
     }
 
     function deleteEmpty() {
-        if (solution === "" && text(node)) {
-            parent?.splice(index, 1)
+        if (node.solution === "" && text(node) && parent) {
+            parent.clues?.splice(index, 1)
         }
     }
 
     function collapse() {
         // turn leaf node into text node by deleting its clues
-        clues = []
+        node.clues = []
         if (parent) {
             // go through parent clues and concatenate any resulting adjacent text nodes
-            parent = parent.reduce((acc: Clue[], curr: Clue) => {
+            parent.clues = parent.clues?.reduce((acc: Clue[], curr: Clue) => {
                 if (acc.length === 0) {
                     acc.push(curr)
                 } else {
@@ -103,7 +103,7 @@
                 }
                 return acc
             }, [])
-            parent = adjustIds(parent, parentId)
+            parent.clues = adjustIds(parent.clues, parent.id ?? '')
         }
     }
 
@@ -120,41 +120,40 @@
     {#if text(node)}
         <!-- text node -->
         <span contenteditable tabindex="0" role="textbox"
-            bind:innerHTML={() => get(solution), (val) => solution = set(val)}
+            bind:innerHTML={() => get(node.solution), (val) => node.solution = set(val)}
             onblur={deleteEmpty}
             onkeypress={split}></span>
     {:else if leaf(node)}
         <!-- leaf node: we know we have exactly one clue here -->
         <span contenteditable tabindex="0" role="textbox"
-            bind:innerHTML={() => get(clues![0].solution), (val) => clues![0].solution = set(val)}
+            bind:innerHTML={() => get(node.clues![0].solution), (val) => node.clues![0].solution = set(val)}
             onkeypress={split}></span>
         <span class="solution">
-            {#if id}<span class="clueID">{id}</span>{/if}
+            {#if node.id}<span class="clueID">{node.id}</span>{/if}
             <span contenteditable tabindex="0" role="textbox"
-                bind:innerHTML={() => get(solution), (val) => solution = set(val)}
+                bind:innerHTML={() => get(node.solution), (val) => node.solution = set(val)}
                 onkeypress={preventNewline}></span>
             <button class="btn" onclick={collapse}>&downarrow;</button>
         </span>
     {:else}
         <!-- clue node: we know clues is defined here -->
         <div class="clue">
-            {#each clues ?? [] as clue, clueIndex}
-                {#if clueIndex === 0 && !text(clue)}
-                    <Placeholder bind:clues={clues} position={0} />
+            {#each node.clues ?? [] as child, i}
+                {#if i === 0 && !text(child)}
+                    <Placeholder bind:clues={node.clues} position={0} />
                 {/if}
-                <EditorClue bind:id={clue.id} bind:solution={clue.solution} bind:clues={clue.clues} bind:parent={clues}
-                    parentId={id} index={clueIndex} />
-                {#if clueIndex === clues!.length - 1 && !text(clue)}
-                    <Placeholder bind:clues={clues} position={clues!.length} />
-                {:else if clueIndex < clues!.length && !text(clue) && !text(clues![clueIndex + 1])}
-                    <Placeholder bind:clues={clues} position={clueIndex + 1} />
+                <EditorClue index={i} bind:node={node.clues![i]} bind:parent={node} />
+                {#if i === node.clues!.length - 1 && !text(child)}
+                    <Placeholder bind:clues={node.clues} position={node.clues!.length} />
+                {:else if i < node.clues!.length && !text(child) && !text(node.clues![i + 1])}
+                    <Placeholder bind:clues={node.clues} position={i + 1} />
                 {/if}
             {/each}
         </div>
         <span class="solution">
-            {#if id}<span class="clueID">{id}</span>{/if}
+            {#if node.id}<span class="clueID">{node.id}</span>{/if}
             <span contenteditable tabindex="0" role="textbox"
-                bind:innerHTML={() => get(solution), (val) => solution = set(val)}
+                bind:innerHTML={() => get(node.solution), (val) => node.solution = set(val)}
                 onkeypress={preventNewline}></span>
             <button class="btn" onclick={collapse}>&downarrow;</button>
         </span>

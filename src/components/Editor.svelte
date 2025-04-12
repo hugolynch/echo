@@ -64,7 +64,7 @@
         <input type="date" bind:value={puzzle.date} />
     </label>
 </div>
-<EditorClue bind:solution={puzzle.root.solution} bind:clues={puzzle.root.clues} />
+<EditorClue bind:node={puzzle.root} />
 
 <button onclick={exportPuzzle}>
     {#if copied === copyState.NONE}
