@@ -8,6 +8,13 @@
         node = $bindable() as Clue
     } = $props();
     let height = $derived(getHeight(node));
+    let solved = $derived.by((): boolean => {
+        return depth === 0
+            // if root, solved when every child clue is solved (excluding text nodes)
+            ? (node.clues ?? []).filter(n => n.clues?.length).every(n => n.solved)
+            // if not root, just return the node's solved value (default to false if undefined)
+            : node.solved ?? false;
+    });
 
     /**
      * Check if the current guess in the input is correct, and mark clue as solved if so.
@@ -32,8 +39,8 @@
     }
 </script>
 
-<span class={{'clue': depth, 'leaf': height === 1, 'solved': node.solved}} data-id={id} style:--height={height} >
-    {#if node.solved}
+<span class={{'clue': depth, 'leaf': height === 1, 'solved': solved}} data-id={id} style:--height={height} >
+    {#if solved}
         <span class="solution">{node.solution}</span>
     {:else}
         {#each node.clues ?? [] as child, i}
