@@ -36,15 +36,15 @@
     {#if node.solved}
         <span class="solution">{node.solution}</span>
     {:else}
-        {#each node.clues ?? [] as clue, i}
-            {#if ! clue.clues?.length}
-                <span class="text">{clue.solution}</span>
+        {#each node.clues ?? [] as child, i}
+            {#if ! child.clues?.length}
+                <span class="text">{child.solution}</span>
             {:else}
-                <BoardClue id={clue.id} depth={depth + 1} bind:node={node.clues![i]} />
+                <BoardClue id={child.id} depth={depth + 1} bind:node={node.clues![i]} />
             {/if}
         {/each}
         {#if height === 1}
-            <input onkeydown={check} />
+            <input onkeydown={check} placeholder={`${node.solution.length}`} />
         {/if}
     {/if}
 </span>
