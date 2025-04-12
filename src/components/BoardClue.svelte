@@ -58,6 +58,8 @@
         margin: 2px;
         /* need to multiply the height by a unit value to convert it */
         border-radius: calc(var(--height) * 4px);
+        text-align: left;
+        align-items:start;
 
         &.solved {
             background: none;
@@ -112,6 +114,27 @@
 
         &:first-child:not(:last-child) {
             margin-right: 0px;
+        }
+    }
+
+    input {
+        height: 24px;
+        border-radius: 0;
+        font-size: 1.4rem !important;
+        font-family: "IBM Plex Mono";
+        color: #03304A;
+        text-align: left;
+        padding: 2px;
+        margin: 2px;
+        border: 1px solid #084E74;
+        box-shadow: 1px 1px 0 0 #084E74;
+        outline: none;
+        width: 100px;
+        display: flex;
+
+        &:focus {
+            /* outline: 1px solid #1DA9F4; */
+            background-color: #E9F5FE;
         }
     }
 </style>
