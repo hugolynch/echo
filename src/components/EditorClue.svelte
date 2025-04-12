@@ -128,8 +128,7 @@
         <span contenteditable tabindex="0" role="textbox"
             bind:innerHTML={() => get(node.clues![0].solution), (val) => node.clues![0].solution = set(val)}
             onkeypress={split}></span>
-        <span class="solution">
-            {#if node.id}<span class="clueID">{node.id}</span>{/if}
+        <span class="solution" data-id={node.id}>
             <span contenteditable tabindex="0" role="textbox"
                 bind:innerHTML={() => get(node.solution), (val) => node.solution = set(val)}
                 onkeypress={preventNewline}></span>
@@ -150,8 +149,7 @@
                 {/if}
             {/each}
         </div>
-        <span class="solution">
-            {#if node.id}<span class="clueID">{node.id}</span>{/if}
+        <span class="solution" data-id={node.id}>
             <span contenteditable tabindex="0" role="textbox"
                 bind:innerHTML={() => get(node.solution), (val) => node.solution = set(val)}
                 onkeypress={preventNewline}></span>
@@ -182,6 +180,17 @@
     .solution {
         display: inherit;
         position: relative;
+
+        &[data-id]:not([data-id=""])::before {
+            content: attr(data-id);
+            display: flex;
+            align-items: center;
+            background-color: #CBE8FD;
+            color: #084E74;
+            line-height: 16px;
+            margin: 0 auto;
+            padding: 0 4px;
+        }
 
         & > span[contenteditable] {
             width: 100%;
@@ -236,14 +245,4 @@
             display: block;
         }
     }
-
-    .clueID {
-        display: flex;
-        align-items: center;
-        background-color: #CBE8FD;
-        color: #084E74;
-        line-height: 16px;
-        margin: 0 auto;
-        padding: 0 4px;
-}
 </style>
