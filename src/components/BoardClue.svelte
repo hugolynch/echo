@@ -1,9 +1,25 @@
 <script lang="ts">
     import type { Clue } from '../types/puzzle'
-    import BoardClue from './Clue.svelte';
+    import BoardClue from './BoardClue.svelte';
 
-    let { id = '', solution, clues = [], depth, solved = false } = $props();
-    let height = $derived(getHeight({clues}));
+    let {
+        id = '',
+        depth = 0,
+        node = $bindable() as Clue
+    } = $props();
+    let height = $derived(getHeight(node));
+
+    /**
+     * Check if the current guess in the input is correct, and mark clue as solved if so.
+     */
+    function check(e: KeyboardEvent): void {
+        if (e.key !== 'Enter') return;
+
+        const guess = (e.target as HTMLInputElement).value;
+        if (guess.toLowerCase() === node.solution.toLowerCase()) {
+            node.solved = true;
+        }
+    }
 
     /**
      * Returns the 'height' (i.e. distance from the bottom/furthest leaf) of the current node.
@@ -16,19 +32,21 @@
     }
 </script>
 
-<span class={{'clue': depth, 'leaf': height === 1, solved}} data-id={id} style:--height={height} >
-    {#if solved}
-        <span class="solution">{solution}</span>
+<span class={{'clue': depth, 'leaf': height === 1, 'solved': node.solved}} data-id={id} style:--height={height} >
+    {#if node.solved}
+        <span class="solution">{node.solution}</span>
     {:else}
-        {#each clues as clue}
-            {#if ! clue.clues?.length}
-                <span class="text">{clue.solution}</span>
+        {#each node.clues ?? [] as child, i}
+            {#if ! child.clues?.length}
+                <span class="text">{child.solution}</span>
             {:else}
-                <BoardClue {...clue} depth={depth + 1} />
+                <BoardClue id={child.id} depth={depth + 1} bind:node={node.clues![i]} />
             {/if}
         {/each}
+        {#if height === 1}
+            <input onkeydown={check} placeholder={`${node.solution.length}`} />
+        {/if}
     {/if}
-    <!-- <input type="checkbox" bind:checked={solved}> -->
 </span>
 
 <style>
