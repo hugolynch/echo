@@ -8,10 +8,14 @@
         node = $bindable() as Clue
     } = $props();
     let height = $derived(getHeight(node));
-    let guess = $state('');
 
-    function check(e: KeyboardEvent) {
+    /**
+     * Check if the current guess in the input is correct, and mark clue as solved if so.
+     */
+    function check(e: KeyboardEvent): void {
         if (e.key !== 'Enter') return;
+
+        const guess = (e.target as HTMLInputElement).value;
         if (guess.toLowerCase() === node.solution.toLowerCase()) {
             node.solved = true;
         }
@@ -40,7 +44,7 @@
             {/if}
         {/each}
         {#if height === 1}
-            <input bind:value={guess} onkeydown={check} />
+            <input onkeydown={check} />
         {/if}
     {/if}
 </span>

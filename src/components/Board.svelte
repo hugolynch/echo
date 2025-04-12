@@ -25,31 +25,6 @@
         // if we didn't pick a valid puzzle, select the first one
         puzzle = filtered[parseInt(el.value)] || filtered[0]
     }
-
-    // check answer on enter
-    function handleKeypress(e: KeyboardEvent) {
-        if (e.key === 'Enter') {
-            check([puzzle.root], val)
-        }
-    }
-
-    // recursively check whether a given answer is value for the given clues
-    function check(clues: Clue[], answer: string): boolean {
-        if (!clues) return false;
-
-        for (let i = 0; i < clues.length; i++) {
-            if (clues[i].solved) continue; // skip already solved clues
-            if (clues[i].solution.toLocaleLowerCase() === answer.trim().toLowerCase()) {
-                clues[i].solved = true
-                val = ''
-                return true
-            }
-            if (check(clues[i].clues ?? [], answer)) {
-                return true;
-            }
-        }
-        return false
-    }
 </script>
 
 <div>
@@ -73,11 +48,6 @@
 <div class="puzzle">
     <BoardClue bind:node={puzzle.root} />
 </div>
-
-<div class="submit">
-    <input type="text" bind:value={val} onkeypress={handleKeypress}/>
-    <button onclick={() => check([puzzle.root], val)}>Check Answer</button>
-</div>
 <p id="feedback"></p>
 
 <style>
@@ -89,14 +59,6 @@
 
     select {
         margin: 0 auto;
-    }
-
-    .submit {
-        display: flex;
-        gap: 12px;
-        margin: 0 auto;
-        flex-wrap: wrap;
-        justify-content: center;
     }
 
     .help {
