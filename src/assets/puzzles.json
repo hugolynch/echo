@@ -6373,7 +6373,7 @@
   {
     "name": "À la soupe",
     "author": "Hugo",
-    "date": "2025-04-13",
+    "date": "2025-04-11",
     "root": {
       "solution": "Il faut manger pour vivre, et non pas vivre pour manger",
       "clues": [
@@ -6453,7 +6453,7 @@
                   "solution": "émotion qui fait sourire"
                 }
               ],
-              "id": "1.1"
+              "id": "3.1"
             },
             {
               "solution": " de ___"
@@ -6477,7 +6477,7 @@
                       "solution": "sur un podium, il n’est pas mécontent… mais pas ravi non plus"
                     }
                   ],
-                  "id": "2.1.1"
+                  "id": "4.1.1"
                 },
                 {
                   "solution": " en "
@@ -6489,13 +6489,13 @@
                       "solution": "lieu de travail pour Rémy, dans \"Ratatouille\""
                     }
                   ],
-                  "id": "2.1.2"
+                  "id": "4.1.2"
                 },
                 {
                   "solution": "?"
                 }
               ],
-              "id": "2.1"
+              "id": "4.1"
             },
             {
               "solution": " l'effet de l'"
@@ -6507,7 +6507,7 @@
                   "solution": "ce qui fait la différence entre du vin et du Welch's"
                 }
               ],
-              "id": "2.2"
+              "id": "4.2"
             }
           ],
           "id": "4"
