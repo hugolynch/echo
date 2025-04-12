@@ -2,8 +2,20 @@
     import type { Clue } from '../types/puzzle'
     import BoardClue from './Clue.svelte';
 
-    let { id = '', solution, clues = [], depth, solved = false } = $props();
-    let height = $derived(getHeight({clues}));
+    let {
+        id = '',
+        depth = 0,
+        node = $bindable() as Clue
+    } = $props();
+    let height = $derived(getHeight(node));
+    let guess = $state('');
+
+    function check(e: KeyboardEvent) {
+        if (e.key !== 'Enter') return;
+        if (guess.toLowerCase() === node.solution.toLowerCase()) {
+            node.solved = true;
+        }
+    }
 
     /**
      * Returns the 'height' (i.e. distance from the bottom/furthest leaf) of the current node.
@@ -16,19 +28,21 @@
     }
 </script>
 
-<span class={{'clue': depth, 'leaf': height === 1, solved}} data-id={id} style:--height={height} >
-    {#if solved}
-        <span class="solution">{solution}</span>
+<span class={{'clue': depth, 'leaf': height === 1, 'solved': node.solved}} data-id={id} style:--height={height} >
+    {#if node.solved}
+        <span class="solution">{node.solution}</span>
     {:else}
-        {#each clues as clue}
+        {#each node.clues ?? [] as clue, i}
             {#if ! clue.clues?.length}
                 <span class="text">{clue.solution}</span>
             {:else}
-                <BoardClue {...clue} depth={depth + 1} />
+                <BoardClue id={clue.id} depth={depth + 1} bind:node={node.clues![i]} />
             {/if}
         {/each}
+        {#if height === 1}
+            <input bind:value={guess} onkeydown={check} />
+        {/if}
     {/if}
-    <!-- <input type="checkbox" bind:checked={solved}> -->
 </span>
 
 <style>

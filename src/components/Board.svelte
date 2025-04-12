@@ -71,7 +71,7 @@
 </div>
 
 <div class="puzzle">
-    <BoardClue {...puzzle.root} depth={0} />
+    <BoardClue bind:node={puzzle.root} />
 </div>
 
 <div class="submit">
