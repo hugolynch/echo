@@ -9,18 +9,6 @@
             + "-" + `${(new Date).getMonth() + 1}`.padStart(2, "0")
             + "-" + `${(new Date).getDate()}`.padStart(2, "0");
         return puzzle.date <= date;
-    }).map((loaded: any) => {
-        // temp solution to load puzzles without rewriting them all
-        const puzzle: Puzzle = {
-            name: loaded.name ?? '',
-            author: loaded.author ?? '',
-            date: loaded.date ?? '',
-            root: {
-                solution: loaded.solution,
-                clues: loaded.clues,
-            }
-        }
-        return puzzle
     })
     let val = $state("")
     let puzzle: Puzzle = $state(loadPuzzle())
