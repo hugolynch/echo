@@ -23,7 +23,7 @@
         if (e.key !== 'Enter') return;
 
         const guess = (e.target as HTMLInputElement).value;
-        if (guess.toLowerCase() === node.solution.toLowerCase()) {
+        if (guess.trim().toLowerCase() === node.solution.toLowerCase()) {
             node.solved = true;
         }
     }
