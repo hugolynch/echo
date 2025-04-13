@@ -41,7 +41,7 @@
     }
 </script>
 
-<span class={{'clue': depth, 'solved': solved}} data-id={id} style:--height={height}>
+<span class={{'clue': depth, 'solved': solved, 'puzzle': depth === 0}} data-id={id} style:--height={height}>
     {#if solved}
         <span class="solution">{node.solution}</span>
     {:else}
@@ -53,12 +53,20 @@
             {/if}
         {/each}
         {#if height === 0}
-            <input onkeydown={check} placeholder={`${node.solution.length}`} />
+            <div class="inputWrapper">
+                <input onkeydown={check} placeholder={`${node.solution.length}`} />
+            </div>
         {/if}
     {/if}
 </span>
 
 <style>
+    .puzzle {
+            display: flex;
+            color: #084E74;
+            /* overflow-x: scroll; */
+        }
+
     .clue {
         display: inline-block;
         border: 1px dashed #58BAF9;

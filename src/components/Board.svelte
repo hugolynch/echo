@@ -45,19 +45,10 @@
     <span>by {puzzle.author || 'Unknown'}</span>
 </div>
 
-<div class="puzzle">
-    <BoardClue bind:node={puzzle.root} />
-</div>
+<BoardClue bind:node={puzzle.root} />
 <p id="feedback"></p>
 
 <style>
-    .puzzle {
-        margin: 1rem;
-        max-width: 90vw;
-        color: #084E74;
-        overflow-x: scroll;
-    }
-
     select {
         margin: 0 auto;
     }
