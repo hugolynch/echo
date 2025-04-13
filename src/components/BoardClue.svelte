@@ -41,7 +41,7 @@
     }
 </script>
 
-<span class={{'clue': depth, 'solved': solved, 'puzzle': depth === 0}} data-id={id} style:--height={height}>
+<span class={{'clue': depth, 'solved': solved, 'puzzle': !depth, 'leaf': !height}} data-id={id} style:--height={height}>
     {#if solved}
         <span class="solution">{node.solution}</span>
     {:else}
@@ -70,7 +70,7 @@
         }
 
     .clue {
-        display: inline-block;
+        display: flex;
         border: 1px dashed #58BAF9;
         background-color: oklch(from #58BAF9 l c h / 0.2);
         padding: 1px;
@@ -91,6 +91,10 @@
                 text-underline-offset: 1px;
             }
         }
+    }
+
+    .leaf {
+        flex-wrap: wrap;
     }
 
     .clue:not(.solved)[data-id]:not([data-id=""])::before {
@@ -155,5 +159,9 @@
             /* outline: 1px solid #1DA9F4; */
             background-color: #E9F5FE;
         }
+    }
+
+    .inputWrapper {
+        max-width: 100%;
     }
 </style>
