@@ -64,7 +64,9 @@
     .puzzle {
             display: flex;
             color: #084E74;
-            /* overflow-x: scroll; */
+            max-width: 100vw;
+            overflow-x: scroll;
+            padding: 12px;
         }
 
     .clue {
@@ -138,7 +140,7 @@
         height: 24px;
         border-radius: 0;
         font-size: 1.4rem !important;
-        font-family: "IBM Plex Mono";
+        font-family: "IBM Plex Mono", monospace;
         color: #03304A;
         text-align: left;
         padding: 2px;
