@@ -66,7 +66,7 @@
             color: #084E74;
             max-width: 100vw;
             overflow-x: scroll;
-            padding: 12px;
+            padding: 24px;
         }
 
     .clue {
@@ -100,12 +100,13 @@
     .clue:not(.solved)[data-id]:not([data-id=""])::before {
         content: attr(data-id);
         box-sizing: border-box;
-        display: inline-block;
-        min-width: 16px;
+        /* min-width: 16px; */
         line-height: 16px;
         padding: 0 2px;
         margin: 2px;
         background-color: #F9FBFE;
+        margin-top: calc((var(--height)) * 4px) !important;
+
     }
 
     .solution {
@@ -126,10 +127,11 @@
     }
 
     .clue .text {
-        display: inline-block;
         line-height: 16px;
         margin: 2px;
         white-space: pre;
+        margin-top: calc((var(--height)) * 4px) !important;
+        border: 1px solid red;
 
         &:last-child:not(:first-child) {
             margin-left: 0px;
@@ -152,7 +154,7 @@
         border: 1px solid #084E74;
         box-shadow: 1px 1px 0 0 #084E74;
         outline: none;
-        width: 100px;
+        width: 100%;
         display: flex;
 
         &:focus {
@@ -161,7 +163,4 @@
         }
     }
 
-    .inputWrapper {
-        max-width: 100%;
-    }
 </style>
