@@ -6550,5 +6550,230 @@
         }
       ]
     }
+  },
+  {
+    "name": "April 14 Daily",
+    "author": "Hugo",
+    "date": "2025-04-14",
+    "root": {
+      "solution": "Abraham Lincoln is shot by John Wilkes Booth \n\n https://en.wikipedia.org/wiki/Assassination_of_Abraham_Lincoln",
+      "clues": [
+        {
+          "solution": "Abraham",
+          "clues": [
+            {
+              "solution": "bib",
+              "clues": [
+                {
+                  "solution": "drool "
+                },
+                {
+                  "solution": "catcher",
+                  "clues": [
+                    {
+                      "solution": "\"The ___ in the Rye\""
+                    }
+                  ],
+                  "id": "1.1.1"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "lical "
+            },
+            {
+              "solution": "patriarch",
+              "clues": [
+                {
+                  "solution": "the "
+                },
+                {
+                  "solution": "male",
+                  "clues": [
+                    {
+                      "solution": "like bulls and bucks"
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": " head of a "
+                },
+                {
+                  "solution": "family",
+                  "clues": [
+                    {
+                      "solution": "zoological classification"
+                    }
+                  ],
+                  "id": "1.2.2"
+                }
+              ],
+              "id": "1.2"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Lincoln",
+          "clues": [
+            {
+              "solution": "luxury",
+              "clues": [
+                {
+                  "solution": "___ Tax (Monopoly square)"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " vehicle division"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " is "
+        },
+        {
+          "solution": "shot",
+          "clues": [
+            {
+              "solution": "tequila",
+              "clues": [
+                {
+                  "solution": "alcohol sometimes served with salt and lime"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "serving",
+              "clues": [
+                {
+                  "solution": "portion on a plate"
+                }
+              ],
+              "id": "3.2"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " by "
+        },
+        {
+          "solution": "John",
+          "clues": [
+            {
+              "solution": "W.C.",
+              "clues": [],
+              "id": "4.1"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " W"
+        },
+        {
+          "solution": "ilk",
+          "clues": [
+            {
+              "solution": "sim",
+              "clues": [
+                {
+                  "solution": "cell",
+                  "clues": [
+                    {
+                      "solution": "prison unit"
+                    }
+                  ],
+                  "id": "5.1.1"
+                },
+                {
+                  "solution": "phone",
+                  "clues": [
+                    {
+                      "solution": "galaxy, e.g."
+                    }
+                  ],
+                  "id": "5.1.2"
+                },
+                {
+                  "solution": " card"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": "ilar kind"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": "es "
+        },
+        {
+          "solution": "Booth",
+          "clues": [
+            {
+              "solution": "diner",
+              "clues": [
+                {
+                  "solution": "eatery with its own lingo"
+                }
+              ],
+              "id": "6.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "seat",
+              "clues": [
+                {
+                  "solution": "target",
+                  "clues": [
+                    {
+                      "solution": "Walmart competitor"
+                    }
+                  ],
+                  "id": "6.2.1"
+                },
+                {
+                  "solution": " in "
+                },
+                {
+                  "solution": "musical",
+                  "clues": [
+                    {
+                      "solution": "\"Hamilton\" or \"La La Land\""
+                    }
+                  ],
+                  "id": "6.2.2"
+                },
+                {
+                  "solution": " chairs"
+                }
+              ],
+              "id": "6.2"
+            },
+            {
+              "solution": "ing option"
+            }
+          ],
+          "id": "6"
+        }
+      ]
+    }
   }
 ]
