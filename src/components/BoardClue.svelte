@@ -108,7 +108,7 @@
 
         &::before {
             grid-area: index;
-            align-self: center;
+            /* align-self: center; */
         }
 
         .inputWrapper {
@@ -126,11 +126,15 @@
     }
 
     .clue:not(.solved)[data-id]:not([data-id=""])::before {
+        display: flex;
         content: attr(data-id);
         box-sizing: border-box;
         line-height: 16px;
         padding: 2px;
         background-color: #F9FBFE;
+        width: max-content;
+        min-width: 20px;
+        justify-content: center;
     }
 
     .solution {
