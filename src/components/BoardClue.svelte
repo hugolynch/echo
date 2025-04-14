@@ -63,22 +63,23 @@
 <style>
     .puzzle {
             display: flex;
-            color: #084E74;
             max-width: 100vw;
             overflow-x: scroll;
+            align-items: center;
             padding: 24px;
+            color: #084E74;
+            font-size: 1.6rem;
         }
 
     .clue {
         display: flex;
-        border: 1px dashed #58BAF9;
-        background-color: oklch(from #58BAF9 l c h / 0.2);
-        padding: 1px;
-        margin: 2px;
+        gap: 4px;
+        border: 1px dashed color(display-p3 0.34375 0.7265625 0.9375);
+        background-color: color(display-p3 0.34375 0.7265625 0.9375 / .2);        padding: 4px;
         /* need to multiply the height by a unit value to convert it */
         border-radius: calc((var(--height) + 1) * 4px);
         text-align: left;
-        align-items:start;
+        align-items: center;
 
         &.solved {
             background: none;
@@ -87,78 +88,73 @@
             margin: 0;
 
             & .solution {
-                text-decoration: underline #58baf9 1px;
+                margin-top: 6px;
+                text-decoration: underline color(display-p3 0.34375 0.7265625 0.9375) 1px;
                 text-underline-offset: 1px;
             }
         }
     }
 
     .leaf {
-        flex-wrap: wrap;
+        display: grid;
+        align-items: center;
+        column-gap: 0;
+
+        grid-template-rows: 20px 24px 26px;
+        grid-template-areas: 
+            "index"
+            "clue"
+            "input";
+
+        &::before {
+            grid-area: index;
+            align-self: center;
+        }
+
+        .inputWrapper {
+            grid-area: input;
+            grid-column: 1 / 99;
+            width: 100%;
+            border: 1px solid #084E74;
+            box-shadow: 1px 1px 0 0 #084E74;
+        }
+
+        span {
+            grid-row: 2 / 3;
+            align-self: center;
+        }
     }
 
     .clue:not(.solved)[data-id]:not([data-id=""])::before {
         content: attr(data-id);
         box-sizing: border-box;
-        /* min-width: 16px; */
         line-height: 16px;
-        padding: 0 2px;
-        margin: 2px;
+        padding: 2px;
         background-color: #F9FBFE;
-        margin-top: calc((var(--height)) * 4px) !important;
-
     }
 
     .solution {
         white-space: pre;
-        display: inline-block;
-        line-height: 16px;
-        
     }
 
-    .solved.clue {
-        &:last-child {
-            margin-right: 2px;
-        }
-
-        &:first-child {
-            margin-left: 2px;
-        }
-    }
-
-    .clue .text {
-        line-height: 16px;
-        margin: 2px;
+    .text {
         white-space: pre;
-        margin-top: calc((var(--height)) * 4px) !important;
-        border: 1px solid red;
-
-        &:last-child:not(:first-child) {
-            margin-left: 0px;
-        }
-
-        &:first-child:not(:last-child) {
-            margin-right: 0px;
-        }
+        line-height: 16px;
     }
 
     input {
         height: 24px;
         border-radius: 0;
-        font-size: 1.4rem !important;
         font-family: "IBM Plex Mono", monospace;
         color: #03304A;
         text-align: left;
-        padding: 2px;
-        margin: 2px;
-        border: 1px solid #084E74;
-        box-shadow: 1px 1px 0 0 #084E74;
+        padding: 4px;
+        border: none;
         outline: none;
         width: 100%;
         display: flex;
 
         &:focus {
-            /* outline: 1px solid #1DA9F4; */
             background-color: #E9F5FE;
         }
     }
