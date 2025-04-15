@@ -6777,7 +6777,7 @@
     }
   },
   {
-    "name": "April 15 (On This Day))",
+    "name": "April 15 (On This Day)",
     "author": "Hugo",
     "date": "2025-04-15",
     "root": {
@@ -6792,6 +6792,10 @@
             {
               "solution": "five",
               "clues": [
+                {
+                  "solution": "___ Alive (",
+                  "clues": []
+                },
                 {
                   "solution": "line",
                   "clues": [
@@ -6949,7 +6953,7 @@
           "solution": "form",
           "clues": [
             {
-              "solution": "fol"
+              "solution": " it fol"
             },
             {
               "solution": "low",
