@@ -7014,5 +7014,385 @@
         }
       ]
     }
+  },
+  {
+    "name": "April 16 (Birthday)",
+    "author": "Hugo",
+    "date": "2025-04-16",
+    "root": {
+      "solution": "“It is possible to fly without motors, but not without knowledge and skill.” - Wilbur Wright (April 16, 1867 – May 30, 1912)",
+      "clues": [
+        {
+          "solution": "It is "
+        },
+        {
+          "solution": "possible",
+          "clues": [
+            {
+              "solution": "Car",
+              "clues": [
+                {
+                  "solution": "road runner?"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "toon",
+              "clues": [
+                {
+                  "solution": "Road Runner, e.g."
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": " crime-fighter "
+            },
+            {
+              "solution": "Kim",
+              "clues": [
+                {
+                  "solution": "North Korean dynasty name"
+                }
+              ],
+              "id": "1.3"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " to "
+        },
+        {
+          "solution": "fly",
+          "clues": [
+            {
+              "solution": "Jeff "
+            },
+            {
+              "solution": "Gold",
+              "clues": [
+                {
+                  "solution": "top prize at the Olympics"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": "blum t"
+            },
+            {
+              "solution": "urns",
+              "clues": [
+                {
+                  "solution": "ash containers"
+                }
+              ],
+              "id": "2.2"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "into",
+              "clues": [
+                {
+                  "solution": "passionate about"
+                }
+              ],
+              "id": "2.3"
+            },
+            {
+              "solution": " one in a 1986 David "
+            },
+            {
+              "solution": "Crone",
+              "clues": [
+                {
+                  "solution": "withered old "
+                },
+                {
+                  "solution": "witch",
+                  "clues": [
+                    {
+                      "solution": "Oz or Narnia antagonist"
+                    }
+                  ],
+                  "id": "2.4.1"
+                }
+              ],
+              "id": "2.4"
+            },
+            {
+              "solution": "n"
+            },
+            {
+              "solution": "berg",
+              "clues": [
+                {
+                  "solution": "floating block of ice"
+                }
+              ],
+              "id": "2.5"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "film",
+              "clues": [
+                {
+                  "solution": "TIFF entry"
+                }
+              ],
+              "id": "2.6"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " without "
+        },
+        {
+          "solution": "motors",
+          "clues": [
+            {
+              "solution": "half",
+              "clues": [
+                {
+                  "solution": "50-50 split portion"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " of GM"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": ", but not "
+        },
+        {
+          "solution": "wit",
+          "clues": [
+            {
+              "solution": "clever "
+            },
+            {
+              "solution": "humour",
+              "clues": [
+                {
+                  "solution": "black",
+                  "clues": [
+                    {
+                      "solution": "coffee order"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": " bile, "
+                },
+                {
+                  "solution": "yellow",
+                  "clues": [
+                    {
+                      "solution": "soccer penalty card colour"
+                    }
+                  ],
+                  "id": "4.1.2"
+                },
+                {
+                  "solution": " bile, phlegm or blood, "
+                },
+                {
+                  "solution": "accord",
+                  "clues": [
+                    {
+                      "solution": "international agreement"
+                    }
+                  ],
+                  "id": "4.1.3"
+                },
+                {
+                  "solution": "ing to Hippocrates"
+                }
+              ],
+              "id": "4.1"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": "h"
+        },
+        {
+          "solution": "out",
+          "clues": [
+            {
+              "solution": "open",
+              "clues": [
+                {
+                  "solution": "ready for business"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": "ly "
+            },
+            {
+              "solution": "queer",
+              "clues": [
+                {
+                  "solution": "\"___ "
+                },
+                {
+                  "solution": "Eye",
+                  "clues": [
+                    {
+                      "solution": "👁️"
+                    }
+                  ],
+                  "id": "5.2.1"
+                },
+                {
+                  "solution": "\": makeover series on "
+                },
+                {
+                  "solution": "Netflix",
+                  "clues": [
+                    {
+                      "solution": "streamer with an icon \"Tudum\" sound"
+                    }
+                  ],
+                  "id": "5.2.2"
+                }
+              ],
+              "id": "5.2"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "know",
+          "clues": [
+            {
+              "solution": "don't have to "
+            },
+            {
+              "solution": "guess",
+              "clues": [
+                {
+                  "solution": "hangman turn"
+                }
+              ],
+              "id": "6.1"
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": "ledge",
+          "clues": [
+            {
+              "solution": "perch for ",
+              "clues": []
+            },
+            {
+              "solution": "pigeons",
+              "clues": [
+                {
+                  "solution": "\"rats with "
+                },
+                {
+                  "solution": "wings",
+                  "clues": [
+                    {
+                      "solution": "what Redbull gives you"
+                    }
+                  ],
+                  "id": "7.1.1"
+                },
+                {
+                  "solution": "\""
+                }
+              ],
+              "id": "7.1"
+            }
+          ],
+          "id": "7"
+        },
+        {
+          "solution": " and "
+        },
+        {
+          "solution": "skill",
+          "clues": [
+            {
+              "solution": "ré"
+            },
+            {
+              "solution": "sum",
+              "clues": [
+                {
+                  "solution": "more t"
+                },
+                {
+                  "solution": "han",
+                  "clues": [
+                    {
+                      "solution": "Solo of \"Star Wars\""
+                    }
+                  ],
+                  "id": "8.1.1"
+                },
+                {
+                  "solution": " some?"
+                }
+              ],
+              "id": "8.1"
+            },
+            {
+              "solution": "é li"
+            },
+            {
+              "solution": "sting",
+              "clues": [
+                {
+                  "solution": "injury from a "
+                },
+                {
+                  "solution": "jelly",
+                  "clues": [
+                    {
+                      "solution": "peanut butter's partner in many sandwiches"
+                    }
+                  ],
+                  "id": "8.2.1"
+                },
+                {
+                  "solution": "fish",
+                  "clues": [
+                    {
+                      "solution": "\"Go ___!\" (card game cry)"
+                    }
+                  ],
+                  "id": "8.2.2"
+                }
+              ],
+              "id": "8.2"
+            }
+          ],
+          "id": "8"
+        }
+      ]
+    }
   }
 ]
