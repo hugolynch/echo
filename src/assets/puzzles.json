@@ -6556,7 +6556,7 @@
     "author": "Hugo",
     "date": "2025-04-14",
     "root": {
-      "solution": "Abraham Lincoln is shot by John Wilkes Booth \n\n https://en.wikipedia.org/wiki/Assassination_of_Abraham_Lincoln",
+      "solution": "Abraham Lincoln is shot by John Wilkes Booth\n\nhttps://en.wikipedia.org/wiki/Assassination_of_Abraham_Lincoln",
       "clues": [
         {
           "solution": "Abraham",
@@ -7391,6 +7391,190 @@
             }
           ],
           "id": "8"
+        }
+      ]
+    }
+  },
+  {
+    "name": "April 17 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-04-17",
+    "root": {
+      "solution": "Bay of Pigs Invasion\n\nhttps://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion",
+      "clues": [
+        {
+          "solution": "Bay",
+          "clues": [
+            {
+              "solution": "cargo "
+            },
+            {
+              "solution": "comp",
+              "clues": [
+                {
+                  "solution": "provide for free, informally"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "art",
+              "clues": [
+                {
+                  "solution": "works at the "
+                },
+                {
+                  "solution": "Louvre",
+                  "clues": [
+                    {
+                      "solution": "home of the \"Mona Lisa\""
+                    }
+                  ],
+                  "id": "1.2.1"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": "ment"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " of "
+        },
+        {
+          "solution": "Pigs",
+          "clues": [
+            {
+              "solution": "Big Bad "
+            },
+            {
+              "solution": "Wolf",
+              "clues": [
+                {
+                  "solution": "animal",
+                  "clues": [
+                    {
+                      "solution": "aardvark or zebu"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": " that howls at the "
+                },
+                {
+                  "solution": "moon",
+                  "clues": [
+                    {
+                      "solution": "it may be full or blue"
+                    }
+                  ],
+                  "id": "2.1.2"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": "'s "
+            },
+            {
+              "solution": "tar",
+              "clues": [
+                {
+                  "solution": "adhesive for "
+                },
+                {
+                  "solution": "feat",
+                  "clues": [
+                    {
+                      "solution": "heroic deed"
+                    }
+                  ],
+                  "id": "2.2.1"
+                },
+                {
+                  "solution": "hers",
+                  "clues": [
+                    {
+                      "solution": "his partner"
+                    }
+                  ],
+                  "id": "2.2.2"
+                }
+              ],
+              "id": "2.2"
+            },
+            {
+              "solution": "gets",
+              "clues": [
+                {
+                  "solution": "understands"
+                }
+              ],
+              "id": "2.3"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Invasion",
+          "clues": [
+            {
+              "solution": "\"___ of the "
+            },
+            {
+              "solution": "Body",
+              "clues": [
+                {
+                  "solution": "soul",
+                  "clues": [
+                    {
+                      "solution": "Aretha Franklin genre"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "mate",
+                  "clues": [
+                    {
+                      "solution": "chess ending"
+                    }
+                  ],
+                  "id": "3.1.2"
+                },
+                {
+                  "solution": "?"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "Snatch",
+              "clues": [
+                {
+                  "solution": "grab quickly"
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": "ers\""
+            }
+          ],
+          "id": "3"
         }
       ]
     }
