@@ -7578,5 +7578,279 @@
         }
       ]
     }
+  },
+  {
+    "name": "April 18 Daily",
+    "author": "Hugo",
+    "date": "2025-04-18",
+    "root": {
+      "solution": "Look! Up in the sky! It's a bird… It's a plane… It's Superman! (Superman debuts in Action Comics #1)",
+      "clues": [
+        {
+          "solution": "Look",
+          "clues": [
+            {
+              "solution": "command before \"ma, no "
+            },
+            {
+              "solution": "hands",
+              "clues": [
+                {
+                  "solution": "they "
+                },
+                {
+                  "solution": "work",
+                  "clues": [
+                    {
+                      "solution": "nine",
+                      "clues": [
+                        {
+                          "solution": "point value of EIGHT in Scrabble"
+                        }
+                      ],
+                      "id": "1.1.1.1"
+                    },
+                    {
+                      "solution": "-to-five routine"
+                    }
+                  ],
+                  "id": "1.1.1"
+                },
+                {
+                  "solution": " around the clock"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "!\""
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": "! Up in the "
+        },
+        {
+          "solution": "sky",
+          "clues": [
+            {
+              "solution": "it's the "
+            },
+            {
+              "solution": "limit",
+              "clues": [
+                {
+                  "solution": "upper "
+                },
+                {
+                  "solution": "bound",
+                  "clues": [
+                    {
+                      "solution": "held together, like book pages"
+                    }
+                  ],
+                  "id": "2.1.1"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": ", so they say"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "! It's a "
+        },
+        {
+          "solution": "bird",
+          "clues": [
+            {
+              "solution": "robin",
+              "clues": [
+                {
+                  "solution": "spring",
+                  "clues": [
+                    {
+                      "solution": "natural source of fresh water"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": " singer"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " or "
+            },
+            {
+              "solution": "raven",
+              "clues": [
+                {
+                  "solution": "visitor in a Poe "
+                },
+                {
+                  "solution": "poem",
+                  "clues": [
+                    {
+                      "solution": "sonnet or haiku"
+                    }
+                  ],
+                  "id": "3.2.1"
+                }
+              ],
+              "id": "3.2"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": "… It's a "
+        },
+        {
+          "solution": "plane",
+          "clues": [
+            {
+              "solution": "Wonder "
+            },
+            {
+              "solution": "Woman",
+              "clues": [
+                {
+                  "solution": "Amazon",
+                  "clues": [
+                    {
+                      "solution": "big online bookseller"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": ", e.g."
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": " flies an "
+            },
+            {
+              "solution": "invisible",
+              "clues": [
+                {
+                  "solution": "like John Cena, in memes"
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": " one"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": "… It's "
+        },
+        {
+          "solution": "Super",
+          "clues": [
+            {
+              "solution": "like",
+              "clues": [
+                {
+                  "solution": "\"___ and subscribe!\" (YouTuber's refrain)"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": " some "
+            },
+            {
+              "solution": "glue",
+              "clues": [
+                {
+                  "solution": "fill",
+                  "clues": [
+                    {
+                      "solution": "pack to the gills"
+                    }
+                  ],
+                  "id": "5.2.1"
+                },
+                {
+                  "solution": "er for some guns"
+                }
+              ],
+              "id": "5.2"
+            },
+            {
+              "solution": " or "
+            },
+            {
+              "solution": "models",
+              "clues": [
+                {
+                  "solution": "some miniatures"
+                }
+              ],
+              "id": "5.3"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": "man",
+          "clues": [
+            {
+              "solution": "\"A ___, a "
+            },
+            {
+              "solution": "plan",
+              "clues": [
+                {
+                  "solution": "A or B, in preparations"
+                }
+              ],
+              "id": "6.1"
+            },
+            {
+              "solution": ", a canal - "
+            },
+            {
+              "solution": "Panam",
+              "clues": [
+                {
+                  "solution": "bygone airline with a blue globe "
+                },
+                {
+                  "solution": "logo",
+                  "clues": [
+                    {
+                      "solution": "Apple's apple, e.g."
+                    }
+                  ],
+                  "id": "6.2.1"
+                }
+              ],
+              "id": "6.2"
+            },
+            {
+              "solution": "a\""
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": "! "
+        }
+      ]
+    }
   }
 ]
