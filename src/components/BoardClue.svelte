@@ -54,7 +54,7 @@
         {/each}
         {#if height === 0}
             <div class="inputWrapper">
-                <input onkeydown={check} placeholder={`${node.solution.length}`} />
+                <input onkeydown={check} placeholder={`${node.solution.length}`} enterkeyhint="done" />
             </div>
         {/if}
     {/if}
