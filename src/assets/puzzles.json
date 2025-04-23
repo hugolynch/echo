@@ -8202,9 +8202,6 @@
               "solution": "fortune",
               "clues": [
                 {
-                  "solution": "what a seer sees in a "
-                },
-                {
                   "solution": "crystal",
                   "clues": [
                     {
@@ -8214,7 +8211,7 @@
                   "id": "6.2.1"
                 },
                 {
-                  "solution": " ball"
+                  "solution": " ball prediction"
                 }
               ],
               "id": "6.2"
