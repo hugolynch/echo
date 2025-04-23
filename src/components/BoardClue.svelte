@@ -133,7 +133,6 @@
         padding: 2px;
         background-color: #F9FBFE;
         width: max-content;
-        min-width: 20px;
         justify-content: center;
     }
 
