@@ -8227,5 +8227,301 @@
         }
       ]
     }
+  },
+  {
+    "name": "April 23 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-04-22",
+    "root": {
+      "solution": "The first YouTube video, titled \"Me at the zoo\", is released\n\nhttps://www.youtube.com/watch?v=jNQXAC9IVRw&vl=en",
+      "clues": [
+        {
+          "solution": "The first "
+        },
+        {
+          "solution": "You",
+          "clues": [
+            {
+              "solution": "second",
+              "clues": [
+                {
+                  "solution": "tick of the clock"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": " per"
+            },
+            {
+              "solution": "son",
+              "clues": [
+                {
+                  "solution": "Simba",
+                  "clues": [
+                    {
+                      "solution": "Swahili for \""
+                    },
+                    {
+                      "solution": "lion",
+                      "clues": [
+                        {
+                          "solution": "🦁"
+                        }
+                      ],
+                      "id": "1.2.1.1"
+                    },
+                    {
+                      "solution": "\""
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": ", to Mufasa"
+                }
+              ],
+              "id": "1.2"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": "Tube",
+          "clues": [
+            {
+              "solution": "boo",
+              "clues": [
+                {
+                  "solution": "ghost's cry"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": "b ___ ("
+            },
+            {
+              "solution": "TV",
+              "clues": [
+                {
+                  "solution": "idiot",
+                  "clues": [
+                    {
+                      "solution": "nincompoop"
+                    }
+                  ],
+                  "id": "2.2.1"
+                },
+                {
+                  "solution": " box, for short"
+                }
+              ],
+              "id": "2.2"
+            },
+            {
+              "solution": ")"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "video",
+          "clues": [
+            {
+              "solution": "it "
+            },
+            {
+              "solution": "kill",
+              "clues": [
+                {
+                  "solution": "bring an enemy's HP to 0, in gaming"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": "ed the "
+            },
+            {
+              "solution": "radio",
+              "clues": [
+                {
+                  "solution": "AM/FM device"
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "star",
+              "clues": [
+                {
+                  "solution": "constellation",
+                  "clues": [
+                    {
+                      "solution": "Leo",
+                      "clues": [
+                        {
+                          "solution": "🦁?"
+                        }
+                      ],
+                      "id": "3.3.1.1"
+                    },
+                    {
+                      "solution": ", "
+                    },
+                    {
+                      "solution": "Scorpio",
+                      "clues": [
+                        {
+                          "solution": "🦂?"
+                        }
+                      ],
+                      "id": "3.3.1.2"
+                    },
+                    {
+                      "solution": " or "
+                    },
+                    {
+                      "solution": "Cancer",
+                      "clues": [
+                        {
+                          "solution": "🦀?"
+                        }
+                      ],
+                      "id": "3.3.1.3"
+                    },
+                    {
+                      "solution": ", e.g."
+                    }
+                  ],
+                  "id": "3.3.1"
+                },
+                {
+                  "solution": " component"
+                }
+              ],
+              "id": "3.3"
+            },
+            {
+              "solution": ", per the "
+            },
+            {
+              "solution": "Bug",
+              "clues": [
+                {
+                  "solution": "pester like a mosquito"
+                }
+              ],
+              "id": "3.4"
+            },
+            {
+              "solution": "gles"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": ", titled \""
+        },
+        {
+          "solution": "Me",
+          "clues": [
+            {
+              "solution": "narc",
+              "clues": [
+                {
+                  "solution": "snitch, in slang"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": "issist's "
+            },
+            {
+              "solution": "focus",
+              "clues": [
+                {
+                  "solution": "an automatic "
+                },
+                {
+                  "solution": "camera",
+                  "clues": [
+                    {
+                      "solution": "paparazzo's gear"
+                    }
+                  ],
+                  "id": "4.2.1"
+                },
+                {
+                  "solution": " can do it for you"
+                }
+              ],
+              "id": "4.2"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " at the "
+        },
+        {
+          "solution": "zoo",
+          "clues": [
+            {
+              "solution": "where to see "
+            },
+            {
+              "solution": "elephants",
+              "clues": [
+                {
+                  "solution": "\"Alright, so here we are in front of the, uh, ___, and the cool \nthing about these guys is that, is that they have really, really, really\n long, um, trunks, and that's, that's cool. And that's pretty much all \nthere is to say.\""
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": " or 🦁🦁🦁",
+              "clues": []
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": "\", is re"
+        },
+        {
+          "solution": "lease",
+          "clues": [
+            {
+              "solution": "rental "
+            },
+            {
+              "solution": "agree",
+              "clues": [
+                {
+                  "solution": "see eye to eye"
+                }
+              ],
+              "id": "6.1"
+            },
+            {
+              "solution": "ment"
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": "d"
+        }
+      ]
+    }
   }
 ]
