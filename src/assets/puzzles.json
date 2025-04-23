@@ -8520,5 +8520,224 @@
         }
       ]
     }
+  },
+  {
+    "name": "April 24 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-04-24",
+    "root": {
+      "solution": "China launches Dong Fang Hong 1\n\nhttps://en.wikipedia.org/wiki/Dong_Fang_Hong_1",
+      "clues": [
+        {
+          "solution": "Chin",
+          "clues": [
+            {
+              "solution": "spot",
+              "clues": [
+                {
+                  "solution": "giraffe marking"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": " for a "
+            },
+            {
+              "solution": "goat",
+              "clues": [
+                {
+                  "solution": "kid's pa"
+                },
+                {
+                  "solution": "rent",
+                  "clues": [
+                    {
+                      "solution": "payment to a landlord"
+                    }
+                  ],
+                  "id": "1.2.1"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": "ee"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": "a launches "
+        },
+        {
+          "solution": "Dong",
+          "clues": [
+            {
+              "solution": "bell",
+              "clues": [
+                {
+                  "solution": "ring",
+                  "clues": [
+                    {
+                      "solution": "The ___ (Koji Suzuki's 1998 supernatural psychological horror film) 💍"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": "ing "
+                },
+                {
+                  "solution": "thing",
+                  "clues": [
+                    {
+                      "solution": "The ___ (John Carpenter's 1982 science fiction horror film) 🥶"
+                    }
+                  ],
+                  "id": "2.1.2"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "sound",
+              "clues": [
+                {
+                  "solution": "it",
+                  "clues": [
+                    {
+                      "solution": "Stephen King's 1986 horror novel 🤡"
+                    }
+                  ],
+                  "id": "2.2.1"
+                },
+                {
+                  "solution": " t"
+                },
+                {
+                  "solution": "rave",
+                  "clues": [
+                    {
+                      "solution": "all-night dance party"
+                    }
+                  ],
+                  "id": "2.2.2"
+                },
+                {
+                  "solution": "ls through "
+                },
+                {
+                  "solution": "air",
+                  "clues": [
+                    {
+                      "solution": "breathable stuff"
+                    }
+                  ],
+                  "id": "2.2.3"
+                },
+                {
+                  "solution": " at about 1,235 km/h"
+                }
+              ],
+              "id": "2.2"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Fang",
+          "clues": [
+            {
+              "solution": "vampire",
+              "clues": [
+                {
+                  "solution": "Nosferatu",
+                  "clues": [
+                    {
+                      "solution": "Robert Eggers' 2024 gothic horror film"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": " or "
+                },
+                {
+                  "solution": "Dracula",
+                  "clues": [
+                    {
+                      "solution": "Bram Stoker's 1897 gothic horror novel"
+                    }
+                  ],
+                  "id": "3.1.2"
+                },
+                {
+                  "solution": ", e.g.",
+                  "clues": []
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": "'s "
+            },
+            {
+              "solution": "tooth",
+              "clues": [
+                {
+                  "solution": "valuable item in some fairy tales"
+                }
+              ],
+              "id": "3.2"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Hong",
+          "clues": [
+            {
+              "solution": "___ "
+            },
+            {
+              "solution": "Kong",
+              "clues": [
+                {
+                  "solution": "King",
+                  "clues": [
+                    {
+                      "solution": "___ Arthur 👑"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": " ___ 🦍"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": " 🇭🇰",
+              "clues": []
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " 1"
+        }
+      ]
+    }
   }
 ]
