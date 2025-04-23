@@ -8166,6 +8166,9 @@
           "solution": "8",
           "clues": [
             {
+              "solution": "number of parts in a "
+            },
+            {
               "solution": "pirate",
               "clues": [
                 {
@@ -8196,11 +8199,14 @@
               "id": "6.1"
             },
             {
-              "solution": "’s digit required to complete a fractured "
+              "solution": "'s "
             },
             {
               "solution": "fortune",
               "clues": [
+                {
+                  "solution": "what a seer sees in a "
+                },
                 {
                   "solution": "crystal",
                   "clues": [
@@ -8211,7 +8217,7 @@
                   "id": "6.2.1"
                 },
                 {
-                  "solution": " ball prediction"
+                  "solution": " ball"
                 }
               ],
               "id": "6.2"
