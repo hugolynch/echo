@@ -69,6 +69,7 @@
             padding: 24px;
             color: #084E74;
             font-size: 1.6rem;
+            gap: 4px;
         }
 
     .clue {
