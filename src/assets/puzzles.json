@@ -9336,5 +9336,217 @@
         }
       ]
     }
+  },
+  {
+    "name": "April 27 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-04-27",
+    "root": {
+      "solution": "Expo 67 officially opens in Montreal, Canada\n\nhttps://en.wikipedia.org/wiki/Expo_67",
+      "clues": [
+        {
+          "solution": "Ex",
+          "clues": [
+            {
+              "solution": "old flame’s "
+            },
+            {
+              "solution": "label",
+              "clues": [
+                {
+                  "solution": "clothing "
+                },
+                {
+                  "solution": "tag",
+                  "clues": [
+                    {
+                      "solution": "it game"
+                    }
+                  ],
+                  "id": "1.1.1"
+                }
+              ],
+              "id": "1.1"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": "po",
+          "clues": [
+            {
+              "solution": "the red "
+            },
+            {
+              "solution": "Tele",
+              "clues": [
+                {
+                  "solution": "prefix with graph or port"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": "tubby"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " ",
+          "clues": []
+        },
+        {
+          "solution": "6",
+          "clues": [
+            {
+              "solution": "highest "
+            },
+            {
+              "solution": "roll",
+              "clues": [
+                {
+                  "solution": "toilet",
+                  "clues": [
+                    {
+                      "solution": "bathroom fixture"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": " paper unit"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " of a "
+            },
+            {
+              "solution": "die",
+              "clues": [
+                {
+                  "solution": "Hamlet’s “not to be” choice"
+                }
+              ],
+              "id": "3.2"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": "7",
+          "clues": [
+            {
+              "solution": "eleven's retail partner?"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " opens in "
+        },
+        {
+          "solution": "Mont",
+          "clues": [
+            {
+              "solution": "high point of géographie"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": "real",
+          "clues": [
+            {
+              "solution": "old Spanish "
+            },
+            {
+              "solution": "coin",
+              "clues": [
+                {
+                  "solution": "add to the [8.1]"
+                }
+              ],
+              "id": "6.1"
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": ", "
+        },
+        {
+          "solution": "Can",
+          "clues": [
+            {
+              "solution": "food",
+              "clues": [
+                {
+                  "solution": "meat and "
+                },
+                {
+                  "solution": "potatoes",
+                  "clues": [
+                    {
+                      "solution": "\"Boil 'em, mash 'em, stick 'em in a stew!\""
+                    }
+                  ],
+                  "id": "7.1.1"
+                }
+              ],
+              "id": "7.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "drive",
+              "clues": [
+                {
+                  "solution": "hit",
+                  "clues": [
+                    {
+                      "solution": "smash success"
+                    }
+                  ],
+                  "id": "7.2.1"
+                },
+                {
+                  "solution": " the road"
+                }
+              ],
+              "id": "7.2"
+            },
+            {
+              "solution": " item"
+            }
+          ],
+          "id": "7"
+        },
+        {
+          "solution": "ada",
+          "clues": [
+            {
+              "solution": "programming "
+            },
+            {
+              "solution": "language",
+              "clues": [
+                {
+                  "solution": "Esperanto or Tagalog"
+                }
+              ],
+              "id": "8.1"
+            },
+            {
+              "solution": " named for the first programmer"
+            }
+          ],
+          "id": "8"
+        }
+      ]
+    }
   }
 ]
