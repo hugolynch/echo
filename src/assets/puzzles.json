@@ -8745,5 +8745,325 @@
         }
       ]
     }
+  },
+  {
+    "name": "April 25 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-04-25",
+    "root": {
+      "solution": "The French national anthem, \"La Marseillaise\", is composed by Claude Joseph Rouget de Lisle 🟦⬜️🟥",
+      "clues": [
+        {
+          "solution": "\"La "
+        },
+        {
+          "solution": "Mars",
+          "clues": [
+            {
+              "solution": "red",
+              "clues": [
+                {
+                  "solution": "blood-colou"
+                },
+                {
+                  "solution": "red",
+                  "clues": [
+                    {
+                      "solution": "ketchup-colou"
+                    },
+                    {
+                      "solution": "red",
+                      "clues": [
+                        {
+                          "solution": "ruby-coloured",
+                          "clues": [],
+                          "id": "1.1.1.1.1"
+                        }
+                      ],
+                      "id": "1.1.1.1"
+                    }
+                  ],
+                  "id": "1.1.1"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "plane",
+              "clues": [
+                {
+                  "solution": "2D surface"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": "t"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": "e"
+        },
+        {
+          "solution": "ill",
+          "clues": [
+            {
+              "solution": "not feeling a hund"
+            },
+            {
+              "solution": "red",
+              "clues": [
+                {
+                  "solution": "fire",
+                  "clues": [
+                    {
+                      "solution": "🔥"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": " truck-coloured"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " per cent"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "aise\", is "
+        },
+        {
+          "solution": "composed",
+          "clues": [
+            {
+              "solution": "wrote the music to \""
+            },
+            {
+              "solution": "White",
+              "clues": [
+                {
+                  "solution": "first colour to move, in chess"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " Wedding\", e.g."
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " by C"
+        },
+        {
+          "solution": "laude",
+          "clues": [
+            {
+              "solution": "s"
+            },
+            {
+              "solution": "umm",
+              "clues": [
+                {
+                  "solution": "sound of hesi"
+                },
+                {
+                  "solution": "tat",
+                  "clues": [
+                    {
+                      "solution": "tit for ___"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": "ion"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": "a cum ___"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Joseph",
+          "clues": [
+            {
+              "solution": "nativity "
+            },
+            {
+              "solution": "fig",
+              "clues": [
+                {
+                  "solution": "tree",
+                  "clues": [
+                    {
+                      "solution": "ginkgo or birch"
+                    }
+                  ],
+                  "id": "5.1.1"
+                },
+                {
+                  "solution": " whose leaves clothed [6.1.1] and [6.1.2]"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": "ure"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Rouge",
+          "clues": [
+            {
+              "solution": "crim"
+            },
+            {
+              "solution": "son",
+              "clues": [
+                {
+                  "solution": "Abel or Cain, to "
+                },
+                {
+                  "solution": "Adam",
+                  "clues": [
+                    {
+                      "solution": "first person?"
+                    }
+                  ],
+                  "id": "6.1.1"
+                },
+                {
+                  "solution": " and "
+                },
+                {
+                  "solution": "Eve",
+                  "clues": [
+                    {
+                      "solution": "first lady?"
+                    }
+                  ],
+                  "id": "6.1.2"
+                }
+              ],
+              "id": "6.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "cos",
+              "clues": [
+                {
+                  "solution": "trig. function"
+                }
+              ],
+              "id": "6.2"
+            },
+            {
+              "solution": "metic"
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": "t de L"
+        },
+        {
+          "solution": "isle",
+          "clues": [
+            {
+              "solution": "bit of "
+            },
+            {
+              "solution": "land",
+              "clues": [
+                {
+                  "solution": "pilot’s "
+                },
+                {
+                  "solution": "goal",
+                  "clues": [
+                    {
+                      "solution": "\"Scoooooooooore!\""
+                    }
+                  ],
+                  "id": "7.1.1"
+                },
+                {
+                  "solution": " after "
+                },
+                {
+                  "solution": "take",
+                  "clues": [
+                    {
+                      "solution": "heist haul"
+                    }
+                  ],
+                  "id": "7.1.2"
+                },
+                {
+                  "solution": "off",
+                  "clues": [
+                    {
+                      "solution": "insect repellent brand",
+                      "clues": [],
+                      "id": "7.1.3.1"
+                    }
+                  ],
+                  "id": "7.1.3"
+                }
+              ],
+              "id": "7.1"
+            },
+            {
+              "solution": " in the "
+            },
+            {
+              "solution": "ocean",
+              "clues": [
+                {
+                  "solution": "blue",
+                  "clues": [
+                    {
+                      "solution": "Cookie Monster's colour"
+                    }
+                  ],
+                  "id": "7.2.1"
+                },
+                {
+                  "solution": " part of a map"
+                }
+              ],
+              "id": "7.2"
+            }
+          ],
+          "id": "7"
+        }
+      ]
+    }
   }
 ]
