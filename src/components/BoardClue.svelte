@@ -66,7 +66,7 @@
             max-width: 100vw;
             overflow-x: scroll;
             align-items: center;
-            padding: 24px;
+            padding: 24px 24px 72px 24px;
             color: #084E74;
             font-size: 1.6rem;
             gap: 4px;
@@ -157,9 +157,11 @@
         outline: none;
         width: 100%;
         display: flex;
+        background-color: #E9F5FE;
+
 
         &:focus {
-            background-color: #E9F5FE;
+            background-color: white;
         }
     }
 
