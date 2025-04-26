@@ -1,6 +1,8 @@
 <script lang="ts">
+    import { tick } from 'svelte'
     import type { Clue } from '../types/puzzle'
     import BoardClue from './BoardClue.svelte';
+    import { preventDefault } from 'svelte/legacy';
 
     let {
         id = '',
@@ -8,6 +10,7 @@
         node = $bindable() as Clue
     } = $props();
     let height = $derived(getHeight(node));
+    let letters: string[] = $state([...node.solution].map(_ => ''))
     let solved = $derived.by((): boolean => {
         return depth === 0
             // if root, solved when every child clue is solved (excluding text nodes)
@@ -17,14 +20,33 @@
     });
 
     /**
-     * Check if the current guess in the input is correct, and mark clue as solved if so.
+     * Handle keydown events on inputs. Specifically, auto-tab when input a character and move left
+     * when pressing backspace. 
      */
-    function check(e: KeyboardEvent): void {
-        if (e.key !== 'Enter') return;
+    function handleKeyDown(e: KeyboardEvent, i: number): void {
+        // events we don't want to intercept/handle ourselves
+        //  - anything with meta key (ctrl/cmd)
+        //  - tab events (both directions)
+        if (e.metaKey || e.key === 'Tab') return
 
-        const guess = (e.target as HTMLInputElement).value;
-        if (guess.trim().toLowerCase() === node.solution.toLowerCase()) {
-            node.solved = true;
+        // get input + neighbours
+        const input = e.target as HTMLInputElement
+        const prev = input.previousElementSibling as HTMLInputElement|null
+        const next = input.nextElementSibling as HTMLInputElement|null
+        // handle special cases
+        if (e.key === 'Backspace') {
+            e.preventDefault()
+            letters[i] = ''
+            prev?.focus()
+        } else if (/^[a-z]$/i.test(e.key)) {
+            e.preventDefault()
+            letters[i] = e.key
+            next?.focus()
+        }
+
+        // check if the guess is correct
+        if (letters.join('') === node.solution) {
+            node.solved = true
         }
     }
 
@@ -58,7 +80,9 @@
         {#if height === 0}
             <div class="wrapper">{@render children(node.clues ?? [])}</div>
             <div class="inputWrapper">
-                <input onkeydown={check} placeholder={`${node.solution.length}`} enterkeyhint="done" />
+                {#each node.solution as _, i}
+                    <input onkeydown={e => handleKeyDown(e, i)} maxlength="1" enterkeyhint="done" bind:value={letters[i]} />
+                {/each}
             </div>
         {:else}
             {@render children(node.clues ?? [])}
@@ -120,12 +144,6 @@
             display: flex;
         }
 
-        .inputWrapper {
-            width: 100%;
-            border: 1px solid #084E74;
-            box-shadow: 1px 1px 0 0 #084E74;
-        }
-
         span {
             grid-row: 2 / 3;
             align-self: center;
@@ -146,21 +164,35 @@
         text-underline-offset: 1px;
     }
 
-    input {
-        height: 24px;
-        border-radius: 0;
-        font-family: "IBM Plex Mono", monospace;
-        color: #03304A;
-        text-align: left;
-        padding: 4px;
-        border: none;
-        outline: none;
-        width: 100%;
+    .inputWrapper {
+        border: 1px solid #084E74;
+        box-shadow: 1px 1px 0 0 #084E74;
         display: flex;
-        background-color: #E9F5FE;
+        gap: 1px;
+        background-color: #084E74;
 
-        &:focus {
+        &:focus-within input {
             background-color: white;
+        }
+
+        input {
+            width: 24px;
+            height: 24px;
+            text-align: center;
+            border-radius: 0;
+            font-family: "IBM Plex Mono", monospace;
+            font-weight: 600;
+            color: #03304A;
+            border: none;
+            outline: none;
+            display: flex;
+            background-color: white;
+            caret-color: transparent;
+            padding: 0;
+
+            &:focus {
+                background-color: #E9F5FE;
+            }
         }
     }
 </style>
