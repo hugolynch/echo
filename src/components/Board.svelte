@@ -10,8 +10,9 @@
         return puzzle.date <= date
     })
     let puzzle: Puzzle = $state(loadPuzzle())
+    let solved: string[] = $derived(getSolved(puzzle.root))
 
-    $effect(() => localStorage.setItem(puzzle.id, JSON.stringify(puzzle)))
+    $effect(() => localStorage.setItem(puzzle.id, JSON.stringify(solved)))
 
     /**
      * Loads a puzzle.
@@ -40,6 +41,12 @@
         return chosen
     }
 
+    function getSolved(node: Clue): string[] {
+        return node.id && node.solved
+            ? [node.id]
+            : (node.clues ?? []).flatMap(n => getSolved(n))
+    }
+
     // switch active puzzle to the chosen one
     function choose(e: Event) {
         const el = e.target as HTMLSelectElement
@@ -58,6 +65,8 @@
         {/each}
     </select>
 </div>
+
+<pre>{JSON.stringify(solved)}</pre>
 
 <div>
     <h1>{puzzle.name || 'Untitled'}</h1>
