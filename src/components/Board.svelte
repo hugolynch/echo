@@ -1,40 +1,59 @@
 <script lang="ts">
     import type { Puzzle, Clue } from '../types/puzzle'
-    import BoardClue from "./BoardClue.svelte";
+    import BoardClue from "./BoardClue.svelte"
     import puzzles from '../assets/puzzles.json'
 
-    console.log(puzzles.map(p => p.name))
     let filtered: Puzzle[] = puzzles.filter(function (puzzle) {
         const date = (new Date).getFullYear()
             + "-" + `${(new Date).getMonth() + 1}`.padStart(2, "0")
-            + "-" + `${(new Date).getDate()}`.padStart(2, "0");
-        return puzzle.date <= date;
+            + "-" + `${(new Date).getDate()}`.padStart(2, "0")
+        return puzzle.date <= date
     })
-    let val = $state("")
     let puzzle: Puzzle = $state(loadPuzzle())
 
-    // load puzzle from hash, or latest otherwise
-    function loadPuzzle() {
-        const hash = window.location.hash.substring(1);
-        return hash ? JSON.parse(atob(hash)) : filtered[filtered.length - 1];
+    $effect(() => localStorage.setItem(puzzle.id, JSON.stringify(puzzle)))
+
+    /**
+     * Loads a puzzle.
+     *
+     * If given an ID, try to load the corresponding puzzle from the list.
+     * Otherwise load the active puzzle, or else the latest one.
+     */
+    function loadPuzzle(id?: string): Puzzle {
+        let chosen: Puzzle|null
+        if (id) {
+            console.log(`id: ${id}`)
+            // when given an id, try to load that puzzle
+            chosen = filtered.find(p => p.id === id) ?? null
+        } else {
+            // when not given an id, try to load active puzzle
+            const active = localStorage.getItem('active')
+            chosen = filtered.find(p => p.id === active) ?? null
+        }
+        // if we couldn't get a valid puzzle, return the last one
+        if (! chosen) {
+            chosen = filtered[filtered.length - 1]
+        }
+
+        // save active puzzle to local storage and return it
+        localStorage.setItem('active', chosen.id)
+        return chosen
     }
 
     // switch active puzzle to the chosen one
     function choose(e: Event) {
         const el = e.target as HTMLSelectElement
-        // if we didn't pick a valid puzzle, select the first one
-        puzzle = filtered[parseInt(el.value)] || filtered[0]
+        puzzle = loadPuzzle(el.value)
     }
 </script>
 
 <div>
     <span class="help">Tutorial here →</span>
 
-    <!-- <input name="puzzles" type="date" onchange={choose} /> -->
     <select name="puzzles" onchange={choose}>
-        {#each filtered as puzzle, i}
-            <option value={i} selected={i === filtered.length - 1}>
-                {puzzle.name}
+        {#each filtered as option}
+            <option value={option.id} selected={option.id === puzzle.id}>
+                {option.name}
             </option>
         {/each}
     </select>
