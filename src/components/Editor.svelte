@@ -28,9 +28,7 @@
     }
 
     // save puzzle (on change)
-    $effect(() => {
-        localStorage.setItem('editor', JSON.stringify(puzzle))
-    })
+    $effect(() => localStorage.setItem('editor', JSON.stringify(puzzle)))
 
     // export puzzle to clipboard
     function exportPuzzle() {
