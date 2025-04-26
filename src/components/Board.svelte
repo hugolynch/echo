@@ -78,8 +78,6 @@
 </script>
 
 <div>
-    <span class="help">Tutorial here →</span>
-
     <select name="puzzles" onchange={choose}>
         {#each filtered as option}
             <option value={option.id} selected={option.id === puzzle.id}>
@@ -104,7 +102,8 @@
         margin: 0 auto;
     }
 
-    .help {
-        color: #DC6B6E;
+    button {
+        margin: 0 24px;
+        align-self: center;
     }
 </style>

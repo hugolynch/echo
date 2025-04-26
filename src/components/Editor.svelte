@@ -88,7 +88,7 @@
 
     .metadata {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 2rem;
 
@@ -99,15 +99,16 @@
             align-items: center;
             flex-grow: 1;
 
-            &.fw {
-                width: 100%;
-            }
-
             & > input {
                 width: 100%;
                 margin-left: 1rem;
                 text-transform: unset;
             }
         }
+    }
+
+    button {
+        margin: 0 24px;
+        align-self: center;
     }
 </style>
