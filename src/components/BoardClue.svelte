@@ -41,24 +41,30 @@
     }
 </script>
 
-<span class={{'clue': depth, 'solved': solved, 'puzzle': !depth, 'leaf': !height}} data-id={id} style:--height={height}>
-    {#if solved}
-        <span class="solution">{node.solution}</span>
-    {:else}
-        {#each node.clues ?? [] as child, i}
-            {#if ! child.clues?.length}
-                <span class="text">{child.solution}</span>
-            {:else}
-                <BoardClue id={child.id} depth={depth + 1} bind:node={node.clues![i]} />
-            {/if}
-        {/each}
+{#snippet children(children: Clue[])}
+    {#each children as child, i}
+        {#if ! child.clues?.length}
+            <span class="text">{child.solution}</span>
+        {:else}
+            <BoardClue id={child.id} depth={depth + 1} bind:node={node.clues![i]} />
+        {/if}
+    {/each}
+{/snippet}
+
+{#if solved}
+    <span class="solution text">{node.solution}</span>   
+{:else}
+    <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={id} style:--height={height}>
         {#if height === 0}
+            <div class="wrapper">{@render children(node.clues ?? [])}</div>
             <div class="inputWrapper">
                 <input onkeydown={check} placeholder={`${node.solution.length}`} enterkeyhint="done" />
             </div>
+        {:else}
+            {@render children(node.clues ?? [])}
         {/if}
-    {/if}
-</span>
+    </span>
+{/if}
 
 <style>
     .puzzle {
@@ -74,47 +80,26 @@
 
     .clue {
         display: flex;
-        gap: 4px;
         border: 1px dashed color(display-p3 0.34375 0.7265625 0.9375);
         background-color: color(display-p3 0.34375 0.7265625 0.9375 / .2);        padding: 4px;
         /* need to multiply the height by a unit value to convert it */
         border-radius: calc((var(--height) + 1) * 4px);
         text-align: left;
         align-items: center;
-
-        &.solved {
-            background: none;
-            border: none;
-            padding: 0;
-            margin: 0;
-
-            & .solution {
-                margin-top: 6px;
-                text-decoration: underline color(display-p3 0.34375 0.7265625 0.9375) 1px;
-                text-underline-offset: 1px;
-            }
-        }
+        margin: 0 2px;
     }
 
     .leaf {
-        display: grid;
-        align-items: center;
-        column-gap: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
 
-        grid-template-rows: 20px 24px 26px;
-        grid-template-areas: 
-            "index"
-            "clue"
-            "input";
-
-        &::before {
-            grid-area: index;
-            /* align-self: center; */
+        .wrapper {
+            display: flex;
         }
 
         .inputWrapper {
-            grid-area: input;
-            grid-column: 1 / 99;
             width: 100%;
             border: 1px solid #084E74;
             box-shadow: 1px 1px 0 0 #084E74;
@@ -135,15 +120,22 @@
         background-color: #F9FBFE;
         width: max-content;
         justify-content: center;
-    }
-
-    .solution {
-        white-space: pre;
+        
     }
 
     .text {
         white-space: pre;
         line-height: 16px;
+
+        .clue:not(.leaf) > &,
+        .puzzle > & {
+            margin-bottom: 6px;
+        }
+    }
+
+    .solution {
+        text-decoration: underline color(display-p3 0.34375 0.7265625 0.9375) 1px;
+        text-underline-offset: 1px;
     }
 
     input {
