@@ -6,6 +6,7 @@ export interface Clue {
 }
 
 export interface Puzzle {
+    id: string,
     name: string,
     author: string,
     date: string,

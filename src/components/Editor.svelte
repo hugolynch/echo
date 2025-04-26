@@ -10,6 +10,7 @@
 
     // default puzzle to load if none is found in localStorage
     const empty: Puzzle = {
+        id: "",
         name: "Untitled",
         author: "Unknown",
         date: (new Date).getFullYear()
@@ -33,6 +34,7 @@
 
     // export puzzle to clipboard
     function exportPuzzle() {
+        puzzle.id = crypto.randomUUID()
         console.debug($state.snapshot(puzzle))
         navigator.clipboard.writeText(JSON.stringify(puzzle))
             .then(() => {
