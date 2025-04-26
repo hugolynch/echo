@@ -36,9 +36,27 @@
             chosen = filtered[filtered.length - 1]
         }
 
+        // load...
+        const saved = localStorage.getItem(chosen.id)
+        if (saved) {
+            chosen.root = loadState(chosen.root, JSON.parse(saved))
+        }
+
         // save active puzzle to local storage and return it
         localStorage.setItem('active', chosen.id)
         return chosen
+    }
+
+    function loadState(node: Clue, ids: string[]): Clue {
+        if (node.id && ids.includes(node.id)) {
+            // if this node is solved, mark it as so
+            node.solved = true
+        } else {
+            // otherwise, recursively check children
+            node.clues = node.clues?.map(n => loadState(n, ids))
+        }
+
+        return node
     }
 
     function getSolved(node: Clue): string[] {
@@ -48,7 +66,7 @@
     }
 
     // switch active puzzle to the chosen one
-    function choose(e: Event) {
+    function choose(e: Event): void {
         const el = e.target as HTMLSelectElement
         puzzle = loadPuzzle(el.value)
     }
@@ -65,8 +83,6 @@
         {/each}
     </select>
 </div>
-
-<pre>{JSON.stringify(solved)}</pre>
 
 <div>
     <h1>{puzzle.name || 'Untitled'}</h1>
