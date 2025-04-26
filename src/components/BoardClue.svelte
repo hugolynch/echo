@@ -75,18 +75,27 @@
             padding: 24px 24px 72px 24px;
             color: #084E74;
             font-size: 1.6rem;
-            gap: 4px;
         }
 
     .clue {
         display: flex;
         border: 1px dashed color(display-p3 0.34375 0.7265625 0.9375);
-        background-color: color(display-p3 0.34375 0.7265625 0.9375 / .2);        padding: 4px;
+        background-color: color(display-p3 0.34375 0.7265625 0.9375 / .2);
+        padding: 4px;
         /* need to multiply the height by a unit value to convert it */
         border-radius: calc((var(--height) + 1) * 4px);
         text-align: left;
-        align-items: center;
+        align-items: start;
         margin: 0 2px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:first-child {
+            margin-left: 0;
+        }
+
     }
 
     .leaf {
@@ -120,16 +129,17 @@
         background-color: #F9FBFE;
         width: max-content;
         justify-content: center;
-        
+        margin-top: calc((var(--height) + 1) * 5px);
+        margin-right: 4px;
+
     }
 
     .text {
         white-space: pre;
         line-height: 16px;
 
-        .clue:not(.leaf) > &,
-        .puzzle > & {
-            margin-bottom: 6px;
+        .clue:not(.leaf) > &{
+            margin-top: calc((var(--height) + 1) * 5px + 28px);
         }
     }
 
