@@ -65,6 +65,11 @@
             : (node.clues ?? []).flatMap(n => getSolved(n))
     }
 
+    function reset(node: Clue): void {
+        node.solved = false
+        node.clues?.map(n => reset(n))
+    }
+
     // switch active puzzle to the chosen one
     function choose(e: Event): void {
         const el = e.target as HTMLSelectElement
@@ -91,6 +96,8 @@
 
 <BoardClue bind:node={puzzle.root} />
 <p id="feedback"></p>
+
+<button onclick={() => reset(puzzle.root)}>Reset Puzzle</button>
 
 <style>
     select {
