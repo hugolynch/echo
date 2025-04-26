@@ -82,11 +82,11 @@
         border: 1px dashed color(display-p3 0.34375 0.7265625 0.9375);
         background-color: color(display-p3 0.34375 0.7265625 0.9375 / .2);
         padding: 4px;
-        /* need to multiply the height by a unit value to convert it */
         border-radius: calc((var(--height) + 1) * 4px);
         text-align: left;
         align-items: start;
         margin: 0 2px;
+        align-self: center;
 
         &:last-child {
             margin-right: 0;
@@ -95,7 +95,19 @@
         &:first-child {
             margin-left: 0;
         }
+    }
 
+    .clue:not(.solved)[data-id]:not([data-id=""])::before {
+        display: flex;
+        content: attr(data-id);
+        box-sizing: border-box;
+        line-height: 16px;
+        padding: 2px;
+        background-color: #F9FBFE;
+        width: max-content;
+        justify-content: center;
+        margin-top: calc((var(--height) + 1) * 5px);
+        margin-right: 4px;
     }
 
     .leaf {
@@ -118,20 +130,6 @@
             grid-row: 2 / 3;
             align-self: center;
         }
-    }
-
-    .clue:not(.solved)[data-id]:not([data-id=""])::before {
-        display: flex;
-        content: attr(data-id);
-        box-sizing: border-box;
-        line-height: 16px;
-        padding: 2px;
-        background-color: #F9FBFE;
-        width: max-content;
-        justify-content: center;
-        margin-top: calc((var(--height) + 1) * 5px);
-        margin-right: 4px;
-
     }
 
     .text {
@@ -161,10 +159,8 @@
         display: flex;
         background-color: #E9F5FE;
 
-
         &:focus {
             background-color: white;
         }
     }
-
 </style>
