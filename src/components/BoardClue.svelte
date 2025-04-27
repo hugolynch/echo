@@ -1,6 +1,7 @@
 <script lang="ts">
     import type { Clue } from '../types/puzzle'
-    import BoardClue from './BoardClue.svelte';
+    import BoardClue from './BoardClue.svelte'
+    import Input from './Input.svelte'
 
     let {
         id = '',
@@ -16,39 +17,6 @@
             // if not root, just return the node's solved value (default to false if undefined)
             : node.solved ?? false;
     });
-
-    /**
-     * Handle keydown events on inputs. Specifically, auto-tab when input a character and move left
-     * when pressing backspace. 
-     */
-    function handleKeyDown(e: KeyboardEvent, i: number): void {
-        // if there's a meta key (ctrl/cmd) active, don't override the default behaviour
-        // (i.e. allow ctrl+* keybindings); same for tab keys
-        if (e.metaKey || e.key === 'Tab') return
-
-        // get input + neighbours
-        const input = e.target as HTMLInputElement
-        const prev = input.previousElementSibling as HTMLInputElement|null
-        const next = input.nextElementSibling as HTMLInputElement|null
-        // handle special cases...
-        e.preventDefault()
-        if (e.key === 'Backspace') {
-            // on backspace, clear current and focus previous input
-            letters[i] = ''
-            prev?.focus()
-        } else if (e.key.length === 1) {
-            // when typing a single character, focus next input
-            letters[i] = e.key
-            next?.focus()
-        }
-
-        // compare normalized guess + solution
-        const guess = letters.join('').normalize('NFKD').replace(/\p{Diacritic}/gu, '').toLowerCase()
-        const solution = node.solution.normalize('NFKD').replace(/\p{Diacritic}/gu, '').toLowerCase()
-        if (guess === solution) {
-            node.solved = true
-        }
-    }
 
     /**
      * Returns the 'height' (i.e. distance from the bottom/furthest leaf) of the current node.
@@ -79,11 +47,7 @@
     <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={id} style:--height={height}>
         {#if height === 0}
             <div class="wrapper">{@render children(node.clues ?? [])}</div>
-            <div class="inputWrapper">
-                {#each node.solution as _, i}
-                    <input onkeydown={e => handleKeyDown(e, i)} maxlength="1" enterkeyhint="done" bind:value={letters[i]} />
-                {/each}
-            </div>
+            <Input solution={node.solution} bind:solved={node.solved} />
         {:else}
             {@render children(node.clues ?? [])}
         {/if}
@@ -162,37 +126,5 @@
     .solution {
         text-decoration: underline color(display-p3 0.34375 0.7265625 0.9375) 1px;
         text-underline-offset: 1px;
-    }
-
-    .inputWrapper {
-        border: 1px solid #084E74;
-        box-shadow: 1px 1px 0 0 #084E74;
-        display: flex;
-        gap: 1px;
-        background-color: #084E74;
-
-        &:focus-within input {
-            background-color: white;
-        }
-
-        input {
-            width: 24px;
-            height: 24px;
-            text-align: center;
-            border-radius: 0;
-            font-family: "IBM Plex Mono", monospace;
-            font-weight: 600;
-            color: #03304A;
-            border: none;
-            outline: none;
-            display: flex;
-            background-color: white;
-            caret-color: transparent;
-            padding: 0;
-
-            &:focus {
-                background-color: #E9F5FE;
-            }
-        }
     }
 </style>
