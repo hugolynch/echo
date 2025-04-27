@@ -23,7 +23,6 @@
     function loadPuzzle(id?: string): Puzzle {
         let chosen: Puzzle|null
         if (id) {
-            console.log(`id: ${id}`)
             // when given an id, try to load that puzzle
             chosen = filtered.find(p => p.id === id) ?? null
         } else {
