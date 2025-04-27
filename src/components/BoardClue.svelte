@@ -1,8 +1,6 @@
 <script lang="ts">
-    import { tick } from 'svelte'
     import type { Clue } from '../types/puzzle'
     import BoardClue from './BoardClue.svelte';
-    import { preventDefault } from 'svelte/legacy';
 
     let {
         id = '',
@@ -24,28 +22,29 @@
      * when pressing backspace. 
      */
     function handleKeyDown(e: KeyboardEvent, i: number): void {
-        // events we don't want to intercept/handle ourselves
-        //  - anything with meta key (ctrl/cmd)
-        //  - tab events (both directions)
-        if (e.metaKey || e.key === 'Tab') return
+        // if there's a meta key (ctrl/cmd) active, don't override the default behaviour
+        // (i.e. allow ctrl+* keybindings)
+        if (e.metaKey) return
 
         // get input + neighbours
         const input = e.target as HTMLInputElement
         const prev = input.previousElementSibling as HTMLInputElement|null
         const next = input.nextElementSibling as HTMLInputElement|null
-        // handle special cases
+        // handle special cases...
         if (e.key === 'Backspace') {
+            // on backspace, clear current and focus previous input
             e.preventDefault()
             letters[i] = ''
             prev?.focus()
-        } else if (/^[a-z]$/i.test(e.key)) {
+        } else if (e.key.length === 1) {
+            // when typing a single character, focus next input
             e.preventDefault()
             letters[i] = e.key
             next?.focus()
         }
 
         // check if the guess is correct
-        if (letters.join('') === node.solution) {
+        if (letters.join('').toLowerCase() === node.solution.toLowerCase()) {
             node.solved = true
         }
     }
