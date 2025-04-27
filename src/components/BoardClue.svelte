@@ -23,28 +23,29 @@
      */
     function handleKeyDown(e: KeyboardEvent, i: number): void {
         // if there's a meta key (ctrl/cmd) active, don't override the default behaviour
-        // (i.e. allow ctrl+* keybindings)
-        if (e.metaKey) return
+        // (i.e. allow ctrl+* keybindings); same for tab keys
+        if (e.metaKey || e.key === 'Tab') return
 
         // get input + neighbours
         const input = e.target as HTMLInputElement
         const prev = input.previousElementSibling as HTMLInputElement|null
         const next = input.nextElementSibling as HTMLInputElement|null
         // handle special cases...
+        e.preventDefault()
         if (e.key === 'Backspace') {
             // on backspace, clear current and focus previous input
-            e.preventDefault()
             letters[i] = ''
             prev?.focus()
         } else if (e.key.length === 1) {
             // when typing a single character, focus next input
-            e.preventDefault()
             letters[i] = e.key
             next?.focus()
         }
 
-        // check if the guess is correct
-        if (letters.join('').toLowerCase() === node.solution.toLowerCase()) {
+        // compare normalized guess + solution
+        const guess = letters.join('').normalize('NFKD').replace(/\p{Diacritic}/gu, '').toLowerCase()
+        const solution = node.solution.normalize('NFKD').replace(/\p{Diacritic}/gu, '').toLowerCase()
+        if (guess === solution) {
             node.solved = true
         }
     }
