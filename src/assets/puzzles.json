@@ -9864,5 +9864,292 @@
         }
       ]
     }
+  },
+  {
+    "id": "9881949a-33e5-4873-8728-1839e8aad365",
+    "name": "April 29 (Birthday)",
+    "author": "Hugo",
+    "date": "2025-04-29",
+    "root": {
+      "solution": "\"The early bird gets the worm, but the second mouse gets the cheese\"\n\n-Willie Nelson",
+      "clues": [
+        {
+          "solution": "The "
+        },
+        {
+          "solution": "early",
+          "clues": [
+            {
+              "solution": "at the "
+            },
+            {
+              "solution": "crack",
+              "clues": [
+                {
+                  "solution": "flaw on a phone screen or a sidewalk"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": " of "
+            },
+            {
+              "solution": "dawn",
+              "clues": [
+                {
+                  "solution": "when roosters "
+                },
+                {
+                  "solution": "crow",
+                  "clues": [
+                    {
+                      "solution": "raven's relative"
+                    }
+                  ],
+                  "id": "1.2.1"
+                }
+              ],
+              "id": "1.2"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "bird",
+          "clues": [
+            {
+              "solution": "dodo",
+              "clues": [
+                {
+                  "solution": "former Mauritian denizen"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " or "
+            },
+            {
+              "solution": "dove",
+              "clues": [
+                {
+                  "solution": "symbol of peace"
+                }
+              ],
+              "id": "2.2"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " gets the "
+        },
+        {
+          "solution": "worm",
+          "clues": [
+            {
+              "solution": "f"
+            },
+            {
+              "solution": "ish",
+              "clues": [
+                {
+                  "solution": "suffix like \""
+                },
+                {
+                  "solution": "like",
+                  "clues": [
+                    {
+                      "solution": "thumbs-up button"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": "\""
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " bait"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": ", but the "
+        },
+        {
+          "solution": "second",
+          "clues": [
+            {
+              "solution": "silver",
+              "clues": [
+                {
+                  "solution": "Argentina",
+                  "clues": [
+                    {
+                      "solution": "Che Guevara's birthplace"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": " was na"
+                },
+                {
+                  "solution": "med",
+                  "clues": [
+                    {
+                      "solution": "Rx item"
+                    }
+                  ],
+                  "id": "4.1.2"
+                },
+                {
+                  "solution": " after it"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": " medal"
+            },
+            {
+              "solution": "list",
+              "clues": [
+                {
+                  "solution": "Santa's naughty-and-nice record, e.g."
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": "'s place"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "mouse",
+          "clues": [
+            {
+              "solution": "track"
+            },
+            {
+              "solution": "pad",
+              "clues": [
+                {
+                  "solution": "word after note or "
+                },
+                {
+                  "solution": "lily",
+                  "clues": [
+                    {
+                      "solution": "fleur-de-lys’s botanical counterpart"
+                    }
+                  ],
+                  "id": "5.1.1"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "alter",
+              "clues": [
+                {
+                  "solution": "___ ego"
+                }
+              ],
+              "id": "5.2"
+            },
+            {
+              "solution": "native",
+              "clues": [
+                {
+                  "solution": "origin",
+                  "clues": [
+                    {
+                      "solution": "(0,0), on a graph"
+                    }
+                  ],
+                  "id": "5.3.1"
+                },
+                {
+                  "solution": "al inhabitant"
+                }
+              ],
+              "id": "5.3"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": " gets the "
+        },
+        {
+          "solution": "cheese",
+          "clues": [
+            {
+              "solution": "moon",
+              "clues": [
+                {
+                  "solution": "Space",
+                  "clues": [
+                    {
+                      "solution": "\"the final frontier\""
+                    }
+                  ],
+                  "id": "6.1.1"
+                },
+                {
+                  "solution": " R"
+                },
+                {
+                  "solution": "ace",
+                  "clues": [
+                    {
+                      "solution": "flexible blackjack card"
+                    }
+                  ],
+                  "id": "6.1.2"
+                },
+                {
+                  "solution": " destination"
+                }
+              ],
+              "id": "6.1"
+            },
+            {
+              "solution": "'s "
+            },
+            {
+              "solution": "makeup",
+              "clues": [
+                {
+                  "solution": "mascara, lip gloss, foundation, etc."
+                }
+              ],
+              "id": "6.2"
+            },
+            {
+              "solution": ", supposedly"
+            }
+          ],
+          "id": "6"
+        }
+      ]
+    }
   }
 ]
