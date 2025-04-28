@@ -9586,5 +9586,283 @@
         }
       ]
     }
+  },
+  {
+    "id": "7f1ac89d-fd6b-4b59-b592-55e65502a02b",
+    "name": "April 28 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-04-28",
+    "root": {
+      "solution": "1973 – Pink Floyd's The Dark Side of the Moon goes to number one on the US Billboard chart, beginning a record-breaking 741-week chart run\n\nhttps://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+      "clues": [
+        {
+          "solution": "Pink",
+          "clues": [
+            {
+              "solution": "\""
+            },
+            {
+              "solution": "Barbie",
+              "clues": [
+                {
+                  "solution": "top-grossing film of 2023"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "\" colour"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Flo",
+          "clues": [
+            {
+              "solution": "Sunshine",
+              "clues": [
+                {
+                  "solution": "pleasant forecast word"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " State r"
+            },
+            {
+              "solution": "app",
+              "clues": [
+                {
+                  "solution": "\"there's an ___ for that\""
+                }
+              ],
+              "id": "2.2"
+            },
+            {
+              "solution": "er ___ Rida"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "yd's The "
+        },
+        {
+          "solution": "Dark",
+          "clues": [
+            {
+              "solution": "like some "
+            },
+            {
+              "solution": "humour",
+              "clues": [
+                {
+                  "solution": "comic's specialty"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " and choco"
+            },
+            {
+              "solution": "late",
+              "clues": [
+                {
+                  "solution": "behind schedule"
+                }
+              ],
+              "id": "3.2"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Side",
+          "clues": [
+            {
+              "solution": "fries or a "
+            },
+            {
+              "solution": "salad",
+              "clues": [
+                {
+                  "solution": "bowl of "
+                },
+                {
+                  "solution": "green",
+                  "clues": [
+                    {
+                      "solution": "eco-friendly"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": "s"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": ", often"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " of the "
+        },
+        {
+          "solution": "Moon",
+          "clues": [
+            {
+              "solution": "tide",
+              "clues": [
+                {
+                  "solution": "maker of pods that aren't edible"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": " maker"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": " goes to number "
+        },
+        {
+          "solution": "one",
+          "clues": [
+            {
+              "solution": "I, to "
+            },
+            {
+              "solution": "Caligula",
+              "clues": [
+                {
+                  "solution": "he made his "
+                },
+                {
+                  "solution": "horse",
+                  "clues": [
+                    {
+                      "solution": "basketball game that involves spelling"
+                    }
+                  ],
+                  "id": "6.1.1"
+                },
+                {
+                  "solution": " a "
+                },
+                {
+                  "solution": "senator",
+                  "clues": [
+                    {
+                      "solution": "Ottawa resident, perhaps"
+                    }
+                  ],
+                  "id": "6.1.2"
+                }
+              ],
+              "id": "6.1"
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": " on the "
+        },
+        {
+          "solution": "US",
+          "clues": [
+            {
+              "solution": "Jordan Peele’s 2019 doppel"
+            },
+            {
+              "solution": "gäng",
+              "clues": [
+                {
+                  "solution": "group of buffalo"
+                }
+              ],
+              "id": "7.1"
+            },
+            {
+              "solution": "er horror film"
+            }
+          ],
+          "id": "7"
+        },
+        {
+          "solution": " Bill"
+        },
+        {
+          "solution": "boa",
+          "clues": [
+            {
+              "solution": "feather",
+              "clues": [
+                {
+                  "solution": "\"birds of a ___ flock together\""
+                }
+              ],
+              "id": "8.1"
+            },
+            {
+              "solution": "y neckwear"
+            }
+          ],
+          "id": "8"
+        },
+        {
+          "solution": "rd ch"
+        },
+        {
+          "solution": "art",
+          "clues": [
+            {
+              "solution": "The \""
+            },
+            {
+              "solution": "A",
+              "clues": [
+                {
+                  "solution": "top grade letter"
+                }
+              ],
+              "id": "9.1"
+            },
+            {
+              "solution": "\" of "
+            },
+            {
+              "solution": "MOM",
+              "clues": [
+                {
+                  "solution": "soccer team driver, perhaps"
+                }
+              ],
+              "id": "9.2"
+            },
+            {
+              "solution": "A"
+            }
+          ],
+          "id": "9"
+        }
+      ]
+    }
   }
 ]
