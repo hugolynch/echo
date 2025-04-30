@@ -10151,5 +10151,322 @@
         }
       ]
     }
+  },
+  {
+    "id": "5db40b05-abc9-49e1-8c01-cc3b0b6ab0fd",
+    "name": "April 30 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-04-30",
+    "root": {
+      "solution": "1993 – CERN announces World Wide Web protocols will be free\n\nhttps://en.wikipedia.org/wiki/History_of_the_World_Wide_Web",
+      "clues": [
+        {
+          "solution": "C",
+          "clues": [
+            {
+              "solution": "\"It's fun to stay at the Y.M.___.A.\""
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": "ER",
+          "clues": [
+            {
+              "solution": "long-running medical "
+            },
+            {
+              "solution": "drama",
+              "clues": [
+                {
+                  "solution": "what messy people love"
+                }
+              ],
+              "id": "2.1"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "N "
+        },
+        {
+          "solution": "ann",
+          "clues": [
+            {
+              "solution": "___ Arbor, Mi"
+            },
+            {
+              "solution": "chi",
+              "clues": [
+                {
+                  "solution": "universal life force"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": "gan"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": "ounce",
+          "clues": [
+            {
+              "solution": "six",
+              "clues": [
+                {
+                  "solution": "number of sides on a cube"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": "teen",
+              "clues": [
+                {
+                  "solution": "quince",
+                  "clues": [
+                    {
+                      "solution": "pear-shaped fruit often made into jam or jelly"
+                    }
+                  ],
+                  "id": "4.2.1"
+                },
+                {
+                  "solution": "añera celebrant, age"
+                },
+                {
+                  "solution": "wise",
+                  "clues": [
+                    {
+                      "solution": "sage… or sassy"
+                    }
+                  ],
+                  "id": "4.2.2"
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": "th of a pound"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": "s "
+        },
+        {
+          "solution": "World",
+          "clues": [
+            {
+              "solution": "global "
+            },
+            {
+              "solution": "stage",
+              "clues": [
+                {
+                  "solution": "Wild",
+                  "clues": [
+                    {
+                      "solution": "not domesticated"
+                    }
+                  ],
+                  "id": "5.1.1"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "West",
+                  "clues": [
+                    {
+                      "solution": "towards the setting sun"
+                    }
+                  ],
+                  "id": "5.1.2"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "coach",
+                  "clues": [
+                    {
+                      "solution": "Ted Lasso, e.g."
+                    }
+                  ],
+                  "id": "5.1.3"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": " for politics or sports"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Wide",
+          "clues": [
+            {
+              "solution": "like the "
+            },
+            {
+              "solution": "Cheshire",
+              "clues": [
+                {
+                  "solution": "Lewis "
+                },
+                {
+                  "solution": "Car",
+                  "clues": [
+                    {
+                      "solution": "automobile"
+                    }
+                  ],
+                  "id": "6.1.1"
+                },
+                {
+                  "solution": "roll",
+                  "clues": [
+                    {
+                      "solution": "dice throw"
+                    }
+                  ],
+                  "id": "6.1.2"
+                },
+                {
+                  "solution": "'s birthplace"
+                }
+              ],
+              "id": "6.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "Cat",
+              "clues": [
+                {
+                  "solution": "\"'Meow' means 'woof' in ___\" -Carlin"
+                }
+              ],
+              "id": "6.2"
+            },
+            {
+              "solution": "'s grin"
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Web",
+          "clues": [
+            {
+              "solution": "spider",
+              "clues": [
+                {
+                  "solution": "itsy-bitsy "
+                },
+                {
+                  "solution": "water",
+                  "clues": [
+                    {
+                      "solution": "H2O"
+                    }
+                  ],
+                  "id": "7.1.1"
+                },
+                {
+                  "solution": "spout",
+                  "clues": [
+                    {
+                      "solution": "teapot feature"
+                    }
+                  ],
+                  "id": "7.1.2"
+                },
+                {
+                  "solution": " c"
+                },
+                {
+                  "solution": "limber",
+                  "clues": [
+                    {
+                      "solution": "flexible, like a gymnast"
+                    }
+                  ],
+                  "id": "7.1.3"
+                }
+              ],
+              "id": "7.1"
+            },
+            {
+              "solution": "'s home"
+            }
+          ],
+          "id": "7"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "proto",
+          "clues": [
+            {
+              "solution": "first "
+            },
+            {
+              "solution": "pre",
+              "clues": [
+                {
+                  "solution": "apt lead-in to fix"
+                }
+              ],
+              "id": "8.1"
+            },
+            {
+              "solution": "fix"
+            }
+          ],
+          "id": "8"
+        },
+        {
+          "solution": "cols will be "
+        },
+        {
+          "solution": "free",
+          "clues": [
+            {
+              "solution": "g"
+            },
+            {
+              "solution": "rat",
+              "clues": [
+                {
+                  "solution": "lab rodent"
+                }
+              ],
+              "id": "9.1"
+            },
+            {
+              "solution": "is or libre"
+            }
+          ],
+          "id": "9"
+        }
+      ]
+    }
   }
 ]
