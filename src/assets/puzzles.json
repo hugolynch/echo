@@ -10468,5 +10468,199 @@
         }
       ]
     }
+  },
+  {
+    "id": "b69d2747-e5f4-4d8d-9829-ac80562946a8",
+    "name": "May 1 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-01",
+    "root": {
+      "solution": "Rosebud\n\n1941 – Orson Welles' Citizen Kane premieres in [1.3.1]",
+      "clues": [
+        {
+          "solution": "Rose",
+          "clues": [
+            {
+              "solution": "symbol",
+              "clues": [
+                {
+                  "solution": "$, #, & or @"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": " of "
+            },
+            {
+              "solution": "Lan",
+              "clues": [
+                {
+                  "solution": "___ party ("
+                },
+                {
+                  "solution": "IRL",
+                  "clues": [
+                    {
+                      "solution": "not "
+                    },
+                    {
+                      "solution": "online",
+                      "clues": [
+                        {
+                          "solution": "you might be encouraged to \"touch grass\" if you spend too much time here"
+                        }
+                      ],
+                      "id": "1.2.1.1"
+                    },
+                    {
+                      "solution": ", online"
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": " gathering of "
+                },
+                {
+                  "solution": "gamer",
+                  "clues": [
+                    {
+                      "solution": "Tetris",
+                      "clues": [
+                        {
+                          "solution": "game with I, O, T, S, Z, J, and L pieces"
+                        }
+                      ],
+                      "id": "1.2.2.1"
+                    },
+                    {
+                      "solution": " player, e.g."
+                    }
+                  ],
+                  "id": "1.2.2"
+                },
+                {
+                  "solution": "s)"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": "caster or "
+            },
+            {
+              "solution": "York",
+              "clues": [
+                {
+                  "solution": "center of "
+                },
+                {
+                  "solution": "NYC",
+                  "clues": [
+                    {
+                      "solution": "the Big Apple, for short"
+                    }
+                  ],
+                  "id": "1.3.1"
+                },
+                {
+                  "solution": "?"
+                }
+              ],
+              "id": "1.3"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": "bud",
+          "clues": [
+            {
+              "solution": "future",
+              "clues": [
+                {
+                  "solution": "tense",
+                  "clues": [
+                    {
+                      "solution": "tied up in knots"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": " yet to come"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " b"
+            },
+            {
+              "solution": "loss",
+              "clues": [
+                {
+                  "solution": "pro",
+                  "clues": [
+                    {
+                      "solution": "athlete paid to play"
+                    }
+                  ],
+                  "id": "2.2.1"
+                },
+                {
+                  "solution": "fit",
+                  "clues": [
+                    {
+                      "solution": "in great shape"
+                    }
+                  ],
+                  "id": "2.2.2"
+                },
+                {
+                  "solution": "'s opposite"
+                }
+              ],
+              "id": "2.2"
+            },
+            {
+              "solution": "om",
+              "clues": [
+                {
+                  "solution": "tranquil voca"
+                },
+                {
+                  "solution": "liza",
+                  "clues": [
+                    {
+                      "solution": "\"Cabaret\" star Minnelli"
+                    }
+                  ],
+                  "id": "2.3.1"
+                },
+                {
+                  "solution": "tion while m"
+                },
+                {
+                  "solution": "edit",
+                  "clues": [
+                    {
+                      "solution": "prepare for publication"
+                    }
+                  ],
+                  "id": "2.3.2"
+                },
+                {
+                  "solution": "ating"
+                }
+              ],
+              "id": "2.3"
+            }
+          ],
+          "id": "2"
+        }
+      ]
+    }
   }
 ]
