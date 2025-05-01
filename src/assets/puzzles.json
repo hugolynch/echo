@@ -10994,5 +10994,262 @@
         }
       ]
     }
+  },
+  {
+    "id": "0915f254-8f75-4edb-a324-082ad14e6961",
+    "name": "The Art of War",
+    "author": "Hugo",
+    "date": "2025-05-01",
+    "root": {
+      "solution": "The Third of May 1808\n\nhttps://en.wikipedia.org/wiki/The_Third_of_May_1808",
+      "clues": [
+        {
+          "solution": "The",
+          "clues": [
+            {
+              "solution": "word",
+              "clues": [
+                {
+                  "solution": "dic"
+                },
+                {
+                  "solution": "tio",
+                  "clues": [
+                    {
+                      "solution": "padre's hermano"
+                    }
+                  ],
+                  "id": "1.1.1"
+                },
+                {
+                  "solution": "nary en"
+                },
+                {
+                  "solution": "try",
+                  "clues": [
+                    {
+                      "solution": "\"Do, or do not. There is no ___\" -Yoda"
+                    }
+                  ],
+                  "id": "1.1.2"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": " between \"talk\" and \"talk\", and \"walk\" and \"walk\""
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Third",
+          "clues": [
+            {
+              "solution": "junior",
+              "clues": [
+                {
+                  "solution": "III",
+                  "clues": [
+                    {
+                      "solution": "three, on a sundial"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": "'s father"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " y"
+            },
+            {
+              "solution": "ear",
+              "clues": [
+                {
+                  "solution": "pink Mr. "
+                },
+                {
+                  "solution": "Pot",
+                  "clues": [
+                    {
+                      "solution": "vessel for growing cannabis, fittingly"
+                    }
+                  ],
+                  "id": "2.2.1"
+                },
+                {
+                  "solution": "ato "
+                },
+                {
+                  "solution": "Head",
+                  "clues": [
+                    {
+                      "solution": "froth on a beer"
+                    }
+                  ],
+                  "id": "2.2.2"
+                },
+                {
+                  "solution": " accessory"
+                }
+              ],
+              "id": "2.2"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " of "
+        },
+        {
+          "solution": "May",
+          "clues": [
+            {
+              "solution": "Pet",
+              "clues": [
+                {
+                  "solution": "Dino, for the Flintstones"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": "er P"
+            },
+            {
+              "solution": "ark",
+              "clues": [
+                {
+                  "solution": "Noah's boat"
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": "er's "
+            },
+            {
+              "solution": "aunt",
+              "clues": [
+                {
+                  "solution": "mother's sister"
+                }
+              ],
+              "id": "3.3"
+            },
+            {
+              "solution": " in \"Spider-Man\""
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "180",
+          "clues": [
+            {
+              "solution": "U-turn "
+            },
+            {
+              "solution": "angle",
+              "clues": [
+                {
+                  "solution": "pro"
+                },
+                {
+                  "solution": "tractor",
+                  "clues": [
+                    {
+                      "solution": "farm vehicle"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "mea",
+                  "clues": [
+                    {
+                      "solution": "___ culpa"
+                    }
+                  ],
+                  "id": "4.1.2"
+                },
+                {
+                  "solution": "surement"
+                }
+              ],
+              "id": "4.1"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": "8",
+          "clues": [
+            {
+              "solution": "Magic",
+              "clues": [
+                {
+                  "solution": "Copperfield field"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": " ___ "
+            },
+            {
+              "solution": "Ball",
+              "clues": [
+                {
+                  "solution": "voguing venue"
+                }
+              ],
+              "id": "5.2"
+            },
+            {
+              "solution": " (decision-ma"
+            },
+            {
+              "solution": "king",
+              "clues": [
+                {
+                  "solution": "title for mane man of the jungle?"
+                }
+              ],
+              "id": "5.3"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "toy",
+              "clues": [
+                {
+                  "solution": "Woody or Buzz, e.g."
+                }
+              ],
+              "id": "5.4"
+            },
+            {
+              "solution": ")"
+            }
+          ],
+          "id": "5"
+        }
+      ]
+    }
   }
 ]
