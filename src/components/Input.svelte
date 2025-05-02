@@ -40,10 +40,13 @@
 </script>
 
 <div class="inputWrapper">
-    {#each letters as _, i}
-        <input maxlength="1" enterkeyhint="done"
-            onkeydown={e => handleKeyDown(e, i)} bind:value={letters[i]}
-        />
+    {#each solution as char, i}
+        {#if char !== ' '}
+            <input maxlength="1" enterkeyhint="done"
+                onkeydown={e => handleKeyDown(e, i)} bind:value={letters[i]}
+                class={{'space': solution[i + 1] === ' '}}
+            />
+        {/if}
     {/each}
 </div>
 
@@ -52,7 +55,6 @@
         border: 1px solid #084E74;
         box-shadow: 1px 1px 0 0 #084E74;
         display: flex;
-        gap: 1px;
         background-color: #084E74;
 
         &:focus-within input {
@@ -73,6 +75,14 @@
             background-color: white;
             caret-color: transparent;
             padding: 0;
+
+            &:not(:last-child) {
+                border-right: 1px solid #084E74;
+            }
+
+            &.space {
+                border-right: 2px solid #084E74;
+            }
 
             &:focus {
                 background-color: #E9F5FE;
