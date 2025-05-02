@@ -11251,5 +11251,242 @@
         }
       ]
     }
+  },
+  {
+    "id": "104c8dfb-bd29-4df6-b77d-f86ef61c0962",
+    "name": "May 4 (Happy Birthday)",
+    "author": "Hugo",
+    "date": "2025-05-04",
+    "root": {
+      "solution": "Art is for everybody\\n\\n―Keith Haring\\n\\nhttps://en.wikipedia.org/wiki/Keith_Haring",
+      "clues": [
+        {
+          "solution": "Art",
+          "clues": [
+            {
+              "solution": "works",
+              "clues": [
+                {
+                  "solution": "everything, with \"the\""
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": " on "
+            },
+            {
+              "solution": "wall",
+              "clues": [
+                {
+                  "solution": "Ber"
+                },
+                {
+                  "solution": "lin",
+                  "clues": [
+                    {
+                      "solution": "Jeremy of the NBA, who caused a hoopla in 2012"
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "sight",
+                  "clues": [
+                    {
+                      "solution": "one of the senses 👀"
+                    }
+                  ],
+                  "id": "1.2.2"
+                },
+                {
+                  "solution": " until "
+                },
+                {
+                  "solution": "1989",
+                  "clues": [
+                    {
+                      "solution": "Taylor "
+                    },
+                    {
+                      "solution": "Swift",
+                      "clues": [
+                        {
+                          "solution": "bird that can stay in the air for up to 10 months"
+                        }
+                      ],
+                      "id": "1.2.3.1"
+                    },
+                    {
+                      "solution": " album with the single \""
+                    },
+                    {
+                      "solution": "Shake",
+                      "clues": [
+                        {
+                          "solution": "ice cream drink"
+                        }
+                      ],
+                      "id": "1.2.3.2"
+                    },
+                    {
+                      "solution": " It Off\""
+                    }
+                  ],
+                  "id": "1.2.3"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": "s",
+              "clues": []
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " is "
+        },
+        {
+          "solution": "for",
+          "clues": [
+            {
+              "solution": "30 ___ "
+            },
+            {
+              "solution": "30",
+              "clues": [
+                {
+                  "solution": "number of faces on a triacontahedron"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " ("
+            },
+            {
+              "solution": "ESP",
+              "clues": [
+                {
+                  "solution": "sixth sense, for short"
+                }
+              ],
+              "id": "2.2"
+            },
+            {
+              "solution": "N documentary series)"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " e"
+        },
+        {
+          "solution": "very",
+          "clues": [
+            {
+              "solution": "\"The ___ "
+            },
+            {
+              "solution": "Hungry",
+              "clues": [
+                {
+                  "solution": "when rep"
+                },
+                {
+                  "solution": "eat",
+                  "clues": [
+                    {
+                      "solution": "what the hippos in [3.1] and the [3.2] in [3] really want to do"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": "ed, descriptor for some hippos"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "Caterpillar",
+              "clues": [
+                {
+                  "solution": "future butterfly"
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": "\" "
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": "body",
+          "clues": [
+            {
+              "solution": "soul "
+            },
+            {
+              "solution": "mate",
+              "clues": [
+                {
+                  "solution": "Can"
+                },
+                {
+                  "solution": "berra",
+                  "clues": [
+                    {
+                      "solution": "Yogi who said \"You can observe a lot by just watching\""
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "comrade",
+                  "clues": [
+                    {
+                      "solution": "fellow soci"
+                    },
+                    {
+                      "solution": "ali",
+                      "clues": [
+                        {
+                          "solution": "Baba who said \"Open sesame\""
+                        }
+                      ],
+                      "id": "4.1.2.1"
+                    },
+                    {
+                      "solution": "st"
+                    }
+                  ],
+                  "id": "4.1.2"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": "?"
+            }
+          ],
+          "id": "4"
+        }
+      ]
+    }
   }
 ]
