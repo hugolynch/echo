@@ -3,7 +3,7 @@
         solution = '' as string,
         solved = $bindable() as boolean
     } = $props()
-    let letters = $state([...solution].map(_ => ''))
+    let letters = $state([...solution].filter(c => c !== ' ').map(_ => ''))
 
     /**
      * Handle keydown events on inputs. Specifically, auto-tab when input a character and move left
@@ -31,8 +31,8 @@
         }
 
         // compare normalized guess + solution
-        const guess = letters.join('').normalize('NFKD').replace(/\p{Diacritic}/gu, '').toLowerCase()
-        const normalized = solution.normalize('NFKD').replace(/\p{Diacritic}/gu, '').toLowerCase()
+        const guess = letters.join('').normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
+        const normalized = solution.normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
         if (guess === normalized) {
             solved = true
         }
@@ -40,7 +40,7 @@
 </script>
 
 <div class="inputWrapper">
-    {#each solution as _, i}
+    {#each letters as _, i}
         <input maxlength="1" enterkeyhint="done"
             onkeydown={e => handleKeyDown(e, i)} bind:value={letters[i]}
         />
