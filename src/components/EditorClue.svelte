@@ -19,16 +19,12 @@
 
         const selection = window.getSelection()
         if (! selection) {
-            console.log("no selection")
             return
         } else if (selection.rangeCount > 1) {
-            console.log("multiple selections")
             return
         } else if (selection.isCollapsed) {
-            console.log("empty selection")
             return
         } else if (selection.anchorNode !== selection.focusNode) {
-            console.log("multi-container selection")
             return
         }
 

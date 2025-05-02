@@ -33,7 +33,6 @@
     // export puzzle to clipboard
     function exportPuzzle() {
         puzzle.id = crypto.randomUUID()
-        console.debug($state.snapshot(puzzle))
         navigator.clipboard.writeText(JSON.stringify(puzzle))
             .then(() => {
                 copied = copyState.SUCCESS
