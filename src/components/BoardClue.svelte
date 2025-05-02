@@ -41,7 +41,11 @@
 {/snippet}
 
 {#if solved}
-    <span class="solution text">{node.solution}</span>   
+    {#if depth}
+        <span class="solution text">{node.solution}</span>
+    {:else}
+        <span class="puzzle text">{node.solution}</span>
+    {/if}
 {:else}
     <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={id} style:--height={height}>
         {#if height === 0}
