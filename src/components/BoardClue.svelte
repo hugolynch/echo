@@ -9,7 +9,6 @@
         node = $bindable() as Clue
     } = $props();
     let height = $derived(getHeight(node));
-    let letters: string[] = $state([...node.solution].map(_ => ''))
     let solved = $derived.by((): boolean => {
         return depth === 0
             // if root, solved when every child clue is solved (excluding text nodes)
