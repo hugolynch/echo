@@ -66,6 +66,10 @@
             padding: 24px 24px 72px 24px;
             color: #084E74;
             font-size: 1.6rem;
+
+            & > .text {
+                margin-bottom: 6px;
+            }
         }
 
     .clue {
@@ -97,7 +101,7 @@
         background-color: #F9FBFE;
         width: max-content;
         justify-content: center;
-        margin-top: calc((var(--height) + 1) * 5px);
+        margin-top: calc((var(--height)) * 5px);
         margin-right: 4px;
     }
 
@@ -122,7 +126,7 @@
         line-height: 16px;
 
         .clue:not(.leaf) > &{
-            margin-top: calc((var(--height) + 1) * 5px + 28px);
+            margin-top: calc((var(--height) + 1) * 5px + 23px);
         }
     }
 
