@@ -12071,5 +12071,270 @@
         }
       ]
     }
+  },
+  {
+    "id": "d5e9df83-2b8a-4103-9b76-d36385fd28b4",
+    "name": "May 7 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-06",
+    "root": {
+      "solution": "1941 – Glenn Miller records \"Chattanooga Choo Choo\", the first record to be designated \"gold\"\n\nhttps://en.wikipedia.org/wiki/Chattanooga_Choo_Choo",
+      "clues": [
+        {
+          "solution": "Glenn",
+          "clues": [
+            {
+              "solution": "Close in "
+            },
+            {
+              "solution": "Holly",
+              "clues": [
+                {
+                  "solution": "\"Deck the Halls\" decoration"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "wood",
+              "clues": [
+                {
+                  "solution": "fire",
+                  "clues": [
+                    {
+                      "solution": "classical element"
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": "place "
+                },
+                {
+                  "solution": "fuel",
+                  "clues": [
+                    {
+                      "solution": "coal or gas, e.g."
+                    }
+                  ],
+                  "id": "1.2.2"
+                }
+              ],
+              "id": "1.2"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Miller",
+          "clues": [
+            {
+              "solution": "one who "
+            },
+            {
+              "solution": "grin",
+              "clues": [
+                {
+                  "solution": "smile from ear to ear"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": "ds g"
+            },
+            {
+              "solution": "rain",
+              "clues": [
+                {
+                  "solution": "drops from the sky"
+                }
+              ],
+              "id": "2.2"
+            },
+            {
+              "solution": " into "
+            },
+            {
+              "solution": "flour",
+              "clues": [
+                {
+                  "solution": "baking "
+                },
+                {
+                  "solution": "staple",
+                  "clues": [
+                    {
+                      "solution": "metal paper fastener"
+                    }
+                  ],
+                  "id": "2.3.1"
+                }
+              ],
+              "id": "2.3"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " records \""
+        },
+        {
+          "solution": "Chat",
+          "clues": [
+            {
+              "solution": "casual",
+              "clues": [
+                {
+                  "solution": "not at all formal"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " conversation"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": "tan",
+          "clues": [
+            {
+              "solution": "controversial "
+            },
+            {
+              "solution": "suit",
+              "clues": [
+                {
+                  "solution": "☘️, 🫀, 🪏 or 💎?"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "colour",
+              "clues": [
+                {
+                  "solution": "Crayola choice"
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": " for "
+            },
+            {
+              "solution": "Obama",
+              "clues": [
+                {
+                  "solution": "\"Thanks, ___\" (2010s catchphrase/meme)"
+                }
+              ],
+              "id": "4.3"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": "ooga "
+        },
+        {
+          "solution": "Choo Choo",
+          "clues": [
+            {
+              "solution": "train, to a "
+            },
+            {
+              "solution": "baby",
+              "clues": [
+                {
+                  "solution": "di"
+                },
+                {
+                  "solution": "ape",
+                  "clues": [
+                    {
+                      "solution": "human's closest living relative"
+                    }
+                  ],
+                  "id": "5.1.1"
+                },
+                {
+                  "solution": "r wearer"
+                }
+              ],
+              "id": "5.1"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": "\", the first "
+        },
+        {
+          "solution": "record",
+          "clues": [
+            {
+              "solution": "Guinness",
+              "clues": [
+                {
+                  "solution": "iconic Irish stout",
+                  "clues": [],
+                  "id": "6.1.1"
+                }
+              ],
+              "id": "6.1"
+            },
+            {
+              "solution": " entry"
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": " to be designated \""
+        },
+        {
+          "solution": "gold",
+          "clues": [
+            {
+              "solution": "Klondike "
+            },
+            {
+              "solution": "strike",
+              "clues": [
+                {
+                  "solution": "X, in "
+                },
+                {
+                  "solution": "bowl",
+                  "clues": [
+                    {
+                      "solution": "ramen vessel"
+                    }
+                  ],
+                  "id": "7.1.1"
+                },
+                {
+                  "solution": "ing"
+                }
+              ],
+              "id": "7.1"
+            }
+          ],
+          "id": "7"
+        },
+        {
+          "solution": "\""
+        }
+      ]
+    }
   }
 ]
