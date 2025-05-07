@@ -12336,5 +12336,313 @@
         }
       ]
     }
+  },
+  {
+    "id": "03a601d2-17b4-412a-b5fc-200fa78f7446",
+    "name": "May 8 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-08",
+    "root": {
+      "solution": "1980 – The WHO announces smallpox has been eradicated\n\nhttps://en.wikipedia.org/wiki/Smallpox#Eradication",
+      "clues": [
+        {
+          "solution": "The "
+        },
+        {
+          "solution": "WHO",
+          "clues": [
+            {
+              "solution": "time-"
+            },
+            {
+              "solution": "travel",
+              "clues": [
+                {
+                  "solution": "see the world"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "ling "
+            },
+            {
+              "solution": "Doctor",
+              "clues": [
+                {
+                  "solution": "House",
+                  "clues": [
+                    {
+                      "solution": "\"The ___ always wins\" (casino mantra)"
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": " on TV, e.g."
+                }
+              ],
+              "id": "1.2"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "anno",
+          "clues": [
+            {
+              "solution": "year in old "
+            },
+            {
+              "solution": "Rome",
+              "clues": [
+                {
+                  "solution": "terminus",
+                  "clues": [
+                    {
+                      "solution": "setting for some villains in \"The "
+                    },
+                    {
+                      "solution": "Walkin",
+                      "clues": [
+                        {
+                          "solution": "\"These Boots Are Made for ___'\" (Nancy Sinatra hit)"
+                        }
+                      ],
+                      "id": "2.1.1.1"
+                    },
+                    {
+                      "solution": "g Dead\", or the end of the line"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": " for all roads, they say"
+                }
+              ],
+              "id": "2.1"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "unces s"
+        },
+        {
+          "solution": "mall",
+          "clues": [
+            {
+              "solution": "setting for George Romero's \""
+            },
+            {
+              "solution": "Dawn",
+              "clues": [
+                {
+                  "solution": "daybreak"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " of the Dead\", meant to highlight its "
+            },
+            {
+              "solution": "anti",
+              "clues": [
+                {
+                  "solution": "opposed to"
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": "-"
+            },
+            {
+              "solution": "con",
+              "clues": [
+                {
+                  "solution": "pro's opposite"
+                }
+              ],
+              "id": "3.3"
+            },
+            {
+              "solution": "sum",
+              "clues": [
+                {
+                  "solution": "addition total"
+                }
+              ],
+              "id": "3.4"
+            },
+            {
+              "solution": "erist t"
+            },
+            {
+              "solution": "hem",
+              "clues": [
+                {
+                  "solution": "sewn edge"
+                }
+              ],
+              "id": "3.5"
+            },
+            {
+              "solution": "es"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": "p"
+        },
+        {
+          "solution": "ox",
+          "clues": [
+            {
+              "solution": "dumb",
+              "clues": [
+                {
+                  "solution": "lacks "
+                },
+                {
+                  "solution": "brains",
+                  "clues": [
+                    {
+                      "solution": "zombie",
+                      "clues": [
+                        {
+                          "solution": "\"World "
+                        },
+                        {
+                          "solution": "War",
+                          "clues": [
+                            {
+                              "solution": "card game for two"
+                            }
+                          ],
+                          "id": "4.1.1.1.1"
+                        },
+                        {
+                          "solution": " Z\" creature"
+                        }
+                      ],
+                      "id": "4.1.1.1"
+                    },
+                    {
+                      "solution": "'s craving"
+                    }
+                  ],
+                  "id": "4.1.1"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": " but strong "
+            },
+            {
+              "solution": "farm",
+              "clues": [
+                {
+                  "solution": "Old "
+                },
+                {
+                  "solution": "Mac",
+                  "clues": [
+                    {
+                      "solution": "PC alternative"
+                    }
+                  ],
+                  "id": "4.2.1"
+                },
+                {
+                  "solution": "Donald had one"
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": " animal"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " has been "
+        },
+        {
+          "solution": "era",
+          "clues": [
+            {
+              "solution": "slice",
+              "clues": [
+                {
+                  "solution": "pizza",
+                  "clues": [
+                    {
+                      "solution": "round food in a square box"
+                    }
+                  ],
+                  "id": "5.1.1"
+                },
+                {
+                  "solution": " serving"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": " of history"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": "di"
+        },
+        {
+          "solution": "cat",
+          "clues": [
+            {
+              "solution": "animal said to have "
+            },
+            {
+              "solution": "nine",
+              "clues": [
+                {
+                  "solution": "highest "
+                },
+                {
+                  "solution": "sudoku",
+                  "clues": [
+                    {
+                      "solution": "puzzle craze of 2006 originally called \"Number Place\""
+                    }
+                  ],
+                  "id": "6.1.1"
+                },
+                {
+                  "solution": " number"
+                }
+              ],
+              "id": "6.1"
+            },
+            {
+              "solution": " lives"
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": "ed"
+        }
+      ]
+    }
   }
 ]
