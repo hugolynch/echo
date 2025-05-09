@@ -12929,5 +12929,290 @@
         }
       ]
     }
+  },
+  {
+    "id": "d17c3c3d-e73b-4274-89b3-c7e00a36708a",
+    "name": "May 10 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-10",
+    "root": {
+      "solution": "1962 – The first issue of The Incredible Hulk is published by Marvel Comics\n\nhttps://en.wikipedia.org/wiki/The_Incredible_Hulk_(comic_book)",
+      "clues": [
+        {
+          "solution": "The first "
+        },
+        {
+          "solution": "issue",
+          "clues": [
+            {
+              "solution": "debate",
+              "clues": [
+                {
+                  "solution": "political event during which Hillary Clinton said \""
+                },
+                {
+                  "solution": "Pokémon",
+                  "clues": [
+                    {
+                      "solution": "Nintendo series with Pikachu"
+                    }
+                  ],
+                  "id": "1.1.1"
+                },
+                {
+                  "solution": " Go to the Polls\""
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": " topic"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " of The "
+        },
+        {
+          "solution": "Inc",
+          "clues": [
+            {
+              "solution": "\""
+            },
+            {
+              "solution": "Monsters",
+              "clues": [
+                {
+                  "solution": "what "
+                },
+                {
+                  "solution": "kid",
+                  "clues": [
+                    {
+                      "solution": "nanny's charge"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": "s might look for under their beds"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": ", ___\" (Pixar film)"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "r"
+        },
+        {
+          "solution": "edible",
+          "clues": [
+            {
+              "solution": "fit for c"
+            },
+            {
+              "solution": "on",
+              "clues": [
+                {
+                  "solution": "the I on an \"I/O\" switch"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": "s"
+            },
+            {
+              "solution": "ump",
+              "clues": [
+                {
+                  "solution": "baseball "
+                },
+                {
+                  "solution": "off",
+                  "clues": [
+                    {
+                      "solution": "the O on an \"I/O\" switch"
+                    }
+                  ],
+                  "id": "3.2.1"
+                },
+                {
+                  "solution": "icial, colloquially"
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": "tion"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Hulk",
+          "clues": [
+            {
+              "solution": "typically ",
+              "clues": []
+            },
+            {
+              "solution": "green",
+              "clues": [
+                {
+                  "solution": "colour of the W"
+                },
+                {
+                  "solution": "ick",
+                  "clues": [
+                    {
+                      "solution": "\"Eww, gross!\""
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": "ed "
+                },
+                {
+                  "solution": "Witch",
+                  "clues": [
+                    {
+                      "solution": "Halloween costume with a broom and a pointy hat"
+                    }
+                  ],
+                  "id": "4.1.2"
+                },
+                {
+                  "solution": " of the "
+                },
+                {
+                  "solution": "West",
+                  "clues": [
+                    {
+                      "solution": "sunset direction"
+                    }
+                  ],
+                  "id": "4.1.3"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": " superhero with "
+            },
+            {
+              "solution": "anger",
+              "clues": [
+                {
+                  "solution": "emotion associated with the colour "
+                },
+                {
+                  "solution": "red",
+                  "clues": [
+                    {
+                      "solution": "wine choice"
+                    }
+                  ],
+                  "id": "4.2.1"
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": " issues"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " is publi"
+        },
+        {
+          "solution": "shed",
+          "clues": [
+            {
+              "solution": "place to "
+            },
+            {
+              "solution": "store",
+              "clues": [
+                {
+                  "solution": "mall tenant"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": " tools"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": " by "
+        },
+        {
+          "solution": "Marvel",
+          "clues": [
+            {
+              "solution": "wonder",
+              "clues": [
+                {
+                  "solution": "Stevie who sings \"Superstition\""
+                }
+              ],
+              "id": "6.1"
+            },
+            {
+              "solution": " to behold"
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Com",
+          "clues": [
+            {
+              "solution": "URL",
+              "clues": [
+                {
+                  "solution": "link",
+                  "clues": [
+                    {
+                      "solution": "sausage unit"
+                    }
+                  ],
+                  "id": "7.1.1"
+                },
+                {
+                  "solution": " letters?"
+                }
+              ],
+              "id": "7.1"
+            },
+            {
+              "solution": " ending, often"
+            }
+          ],
+          "id": "7"
+        },
+        {
+          "solution": "ics"
+        }
+      ]
+    }
   }
 ]
