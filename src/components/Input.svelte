@@ -124,4 +124,17 @@
     .buttonWrapper {
         white-space: nowrap;
     }
+
+    button {
+        border: 1px solid #084E74;
+        box-shadow: 1px 1px 0 0 #084E74;
+        border-radius: 0;
+        padding: 4px 6px;
+        background-color: white;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: #E9F5FE;
+        }
+    }
 </style>
