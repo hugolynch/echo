@@ -3,11 +3,26 @@
         solution = '' as string,
         solved = $bindable() as boolean
     } = $props()
+    let focused: number|null = null;
+    let inputs: HTMLInputElement[] = $state([]);
     let letters = $state([...solution].filter(c => c !== ' ').map(_ => ''))
 
     /**
-     * Handle keydown events on inputs. Specifically, auto-tab when input a character and move left
-     * when pressing backspace. 
+     * Compare a given guess and solution and return whether they match.
+     * Make sure to normalize the strings before comparing them.
+     */
+    function check(guess: string, solution: string): boolean {
+        // compare normalized guess + solution
+        const normGuess = guess.normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
+        const normSoln = solution.normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
+        return normGuess === normSoln
+    }
+
+    /**
+     * Handle keydown events on inputs. Specifically:
+     *  1. auto-tab when inputing a character;
+     *  2. move left when pressing backspace;
+     *  3. focus the previous/next input when pressing arrow keys.
      */
      function handleKeyDown(e: KeyboardEvent, i: number): void {
         // if there's a meta key (ctrl/cmd) active, don't override the default behaviour
@@ -34,11 +49,18 @@
             next?.focus()
         }
 
-        // compare normalized guess + solution
-        const guess = letters.join('').normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
-        const normalized = solution.normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
-        if (guess === normalized) {
-            solved = true
+        // check the solution so far
+        solved = check(letters.join(''), solution)
+    }
+
+    /**
+     * Fill the last focused input with the correct letter.
+     */
+    function reveal(): void {
+        if (focused !== null) {
+            letters[focused] = solution[focused]
+            solved = check(letters.join(''), solution)
+            inputs[focused + 1]?.focus()
         }
     }
 </script>
@@ -47,11 +69,16 @@
     {#each solution as char, i}
         {#if char !== ' '}
             <input maxlength="1" enterkeyhint="done"
-                onkeydown={e => handleKeyDown(e, i)} bind:value={letters[i]}
+                onkeydown={e => handleKeyDown(e, i)} onblur={() => focused = i}
+                bind:value={letters[i]} bind:this={inputs[i]}
                 class={{'space': solution[i + 1] === ' '}}
             />
         {/if}
     {/each}
+</div>
+<div class="buttonWrapper">
+    <button onclick={reveal}>Reveal Letter</button>
+    <button onclick={() => solved = true}>Reveal Word</button>
 </div>
 
 <style>
@@ -92,5 +119,9 @@
                 background-color: #E9F5FE;
             }
         }
+    }
+
+    .buttonWrapper {
+        white-space: nowrap;
     }
 </style>
