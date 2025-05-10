@@ -57,9 +57,19 @@
      * Fill the last focused input with the correct letter.
      */
     function reveal(): void {
-        if (focused !== null) {
-            letters[focused] = solution[focused]
-            solved = check(letters.join(''), solution)
+        // if no previously focused input, start at the beginnning
+        if (focused === null) {
+            focused = 0
+        }
+
+        // reveal the appropriate letter and check if word is solved
+        letters[focused] = solution[focused]
+        solved = check(letters.join(''), solution)
+
+        // focus the next input, wrapping around
+        if (focused === inputs.length - 1) {
+            inputs[0]?.focus()
+        } else {
             inputs[focused + 1]?.focus()
         }
     }
