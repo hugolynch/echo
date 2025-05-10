@@ -51,6 +51,7 @@
         {#if height === 0}
             <div class="wrapper">{@render children(node.clues ?? [])}</div>
             <Input solution={node.solution} bind:solved={node.solved} />
+            <button onclick={() => node.solved = true}>Reveal</button>
         {:else}
             {@render children(node.clues ?? [])}
         {/if}
