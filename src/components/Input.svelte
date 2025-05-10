@@ -20,7 +20,11 @@
         const next = input.nextElementSibling as HTMLInputElement|null
         // handle special cases...
         e.preventDefault()
-        if (e.key === 'Backspace') {
+        if (e.key === 'ArrowLeft') {
+            prev?.focus()
+        } else if (e.key === 'ArrowRight') {
+            next?.focus()
+        } else if (e.key === 'Backspace') {
             // on backspace, clear current and focus previous input
             letters[i] = ''
             prev?.focus()
