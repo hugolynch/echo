@@ -68,7 +68,7 @@
             font-size: 1.6rem;
 
             & > .text {
-                margin-bottom: 6px;
+                margin-bottom: 40px;
             }
         }
 
