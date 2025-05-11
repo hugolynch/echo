@@ -13214,5 +13214,265 @@
         }
       ]
     }
+  },
+  {
+    "id": "3495b34c-f119-4776-a996-2773a5f52edc",
+    "name": "May 11 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-11",
+    "root": {
+      "solution": "1997 – Deep Blue defeats Garry Kasparov\n\nhttps://en.wikipedia.org/wiki/Deep_Blue_versus_Kasparov,_1997,_Game_6",
+      "clues": [
+        {
+          "solution": "Deep",
+          "clues": [
+            {
+              "solution": "like the Mariana "
+            },
+            {
+              "solution": "Trench",
+              "clues": [
+                {
+                  "solution": "___ "
+                },
+                {
+                  "solution": "coat",
+                  "clues": [
+                    {
+                      "solution": "layer of paint"
+                    }
+                  ],
+                  "id": "1.1.1"
+                },
+                {
+                  "solution": " (detective's garment)"
+                }
+              ],
+              "id": "1.1"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Blue",
+          "clues": [
+            {
+              "solution": "M&M",
+              "clues": [
+                {
+                  "solution": "\"Melts in your mouth, not in your "
+                },
+                {
+                  "solution": "hand",
+                  "clues": [
+                    {
+                      "solution": "held cards"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": "\" choco"
+                },
+                {
+                  "solution": "late",
+                  "clues": [
+                    {
+                      "solution": "tardy"
+                    }
+                  ],
+                  "id": "2.1.2"
+                },
+                {
+                  "solution": " confectionery "
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " colour "
+            },
+            {
+              "solution": "intro",
+              "clues": [
+                {
+                  "solution": "101",
+                  "clues": [
+                    {
+                      "solution": "dalmatian count"
+                    }
+                  ],
+                  "id": "2.2.1"
+                },
+                {
+                  "solution": " course, often"
+                }
+              ],
+              "id": "2.2"
+            },
+            {
+              "solution": "duced in 1995"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "def",
+          "clues": [
+            {
+              "solution": "Rapper",
+              "clues": [
+                {
+                  "solution": "Ice",
+                  "clues": [
+                    {
+                      "solution": "water, when it gets cold enough"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": "-T or Ice "
+                },
+                {
+                  "solution": "Cube",
+                  "clues": [
+                    {
+                      "solution": "Rubik's hexahedron"
+                    }
+                  ],
+                  "id": "3.1.2"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "Mo",
+              "clues": [
+                {
+                  "solution": "criminal pattern, for short"
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": "s ___"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": "eats",
+          "clues": [
+            {
+              "solution": "has "
+            },
+            {
+              "solution": "breakfast",
+              "clues": [
+                {
+                  "solution": "first meal"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": ", "
+            },
+            {
+              "solution": "lunch",
+              "clues": [
+                {
+                  "solution": "middle meal"
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": " or "
+            },
+            {
+              "solution": "brunch",
+              "clues": [
+                {
+                  "solution": "portmanteau meal"
+                }
+              ],
+              "id": "4.3"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " G"
+        },
+        {
+          "solution": "arr",
+          "clues": [
+            {
+              "solution": "pi"
+            },
+            {
+              "solution": "rate",
+              "clues": [
+                {
+                  "solution": "give "
+                },
+                {
+                  "solution": "stars",
+                  "clues": [
+                    {
+                      "solution": "the Milky Way has around 100 billion of them"
+                    }
+                  ],
+                  "id": "5.1.1"
+                },
+                {
+                  "solution": " to"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": "'s cry"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": "y Ka"
+        },
+        {
+          "solution": "spa",
+          "clues": [
+            {
+              "solution": "relax",
+              "clues": [
+                {
+                  "solution": "take a chill pill"
+                }
+              ],
+              "id": "6.1"
+            },
+            {
+              "solution": "ing resort"
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": "rov"
+        }
+      ]
+    }
   }
 ]
