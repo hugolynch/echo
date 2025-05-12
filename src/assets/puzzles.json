@@ -13481,7 +13481,7 @@
     "author": "Hugo",
     "date": "2025-05-12",
     "root": {
-      "solution": "\"It's déjà vu all over again.\"\n-Yogi Berra\n\nhttps://en.wikipedia.org/wiki/Yogi_Berra#%22Yogi-isms%22",
+      "solution": "\"It's déjà vu all over again.\"\n-Yogi Berra\n\nhttps://en.wikipedia.org/wiki/Yogi_Berra#%22Yogi-isms",
       "clues": [
         {
           "solution": "\"It's "
@@ -13741,6 +13741,285 @@
         {
           "solution": ".\"",
           "clues": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "c1d4ff69-b428-4f1e-86df-362b2d5a9c1d",
+    "name": "May 13 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-13",
+    "root": {
+      "solution": "\"I have nothing to offer but blood, toil, tears and sweat\"\n-Winston Churchill\n\nhttps://en.wikipedia.org/wiki/Blood,_toil,_tears_and_sweat",
+      "clues": [
+        {
+          "solution": "\"I have nothing to offer but "
+        },
+        {
+          "solution": "blood",
+          "clues": [
+            {
+              "solution": "trans",
+              "clues": [
+                {
+                  "solution": "like those re"
+                },
+                {
+                  "solution": "present",
+                  "clues": [
+                    {
+                      "solution": "\"Today is a gift. That's why it's called the ___\""
+                    }
+                  ],
+                  "id": "1.1.1"
+                },
+                {
+                  "solution": "ed by this flag: 🏳️‍⚧️"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "fusion",
+              "clues": [
+                {
+                  "solution": "combi"
+                },
+                {
+                  "solution": "nation",
+                  "clues": [
+                    {
+                      "solution": "sovereign state"
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": " of multiple cuisines"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": " fluid"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": ", "
+        },
+        {
+          "solution": "toil",
+          "clues": [
+            {
+              "solution": "work "
+            },
+            {
+              "solution": "long",
+              "clues": [
+                {
+                  "solution": "___ Island iced "
+                },
+                {
+                  "solution": "tea",
+                  "clues": [
+                    {
+                      "solution": "gos"
+                    },
+                    {
+                      "solution": "sip",
+                      "clues": [
+                        {
+                          "solution": "nurse a drink"
+                        }
+                      ],
+                      "id": "2.1.1.1"
+                    },
+                    {
+                      "solution": " that's \"spilled\""
+                    }
+                  ],
+                  "id": "2.1.1"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " hours"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": ", "
+        },
+        {
+          "solution": "tears",
+          "clues": [
+            {
+              "solution": "sign",
+              "clues": [
+                {
+                  "solution": "talk with "
+                },
+                {
+                  "solution": "yo",
+                  "clues": [
+                    {
+                      "solution": "when doubled, ",
+                      "clues": []
+                    },
+                    {
+                      "solution": "class",
+                      "clues": [
+                        {
+                          "solution": "school",
+                          "clues": [
+                            {
+                              "solution": "group of fish"
+                            }
+                          ],
+                          "id": "3.1.1.1.1"
+                        },
+                        {
+                          "solution": " group"
+                        }
+                      ],
+                      "id": "3.1.1.1"
+                    },
+                    {
+                      "solution": "ic toy on a string"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": "ur h"
+                },
+                {
+                  "solution": "ands",
+                  "clues": [
+                    {
+                      "solution": "&&&"
+                    }
+                  ],
+                  "id": "3.1.2"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": "s of sadness"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " and "
+        },
+        {
+          "solution": "sweat",
+          "clues": [
+            {
+              "solution": "it p"
+            },
+            {
+              "solution": "ours",
+              "clues": [
+                {
+                  "solution": "like communal property"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": " from "
+            },
+            {
+              "solution": "pore",
+              "clues": [
+                {
+                  "solution": "skin",
+                  "clues": [
+                    {
+                      "solution": "largest human organ"
+                    }
+                  ],
+                  "id": "4.2.1"
+                },
+                {
+                  "solution": " h"
+                },
+                {
+                  "solution": "ole",
+                  "clues": [
+                    {
+                      "solution": "flamenco",
+                      "clues": [
+                        {
+                          "solution": "dance represented by this emoji, perhaps: 💃"
+                        }
+                      ],
+                      "id": "4.2.2.1"
+                    },
+                    {
+                      "solution": " or corrida cheer"
+                    }
+                  ],
+                  "id": "4.2.2"
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": "s"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": "\" -"
+        },
+        {
+          "solution": "Wins",
+          "clues": [
+            {
+              "solution": "standings column"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": "ton",
+          "clues": [
+            {
+              "solution": "2,000-pound unit"
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Church",
+          "clues": [
+            {
+              "solution": "Sunday school site"
+            }
+          ],
+          "id": "7"
+        },
+        {
+          "solution": "ill",
+          "clues": [
+            {
+              "solution": "under the weather"
+            }
+          ],
+          "id": "8"
         }
       ]
     }
