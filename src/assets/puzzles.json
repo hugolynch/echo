@@ -13474,5 +13474,275 @@
         }
       ]
     }
+  },
+  {
+    "id": "ef45df60-1673-4cca-8f1f-411182b3e132",
+    "name": "May 12 (Birthday)",
+    "author": "Hugo",
+    "date": "2025-05-12",
+    "root": {
+      "solution": "\"It's déjà vu all over again.\"\n-Yogi Berra\n\nhttps://en.wikipedia.org/wiki/Yogi_Berra#%22Yogi-isms%22",
+      "clues": [
+        {
+          "solution": "\"It's "
+        },
+        {
+          "solution": "déjà",
+          "clues": [
+            {
+              "solution": "al",
+              "clues": [
+                {
+                  "solution": "Pac",
+                  "clues": [
+                    {
+                      "solution": "___-Man (video game character that goes \""
+                    },
+                    {
+                      "solution": "Waka waka",
+                      "clues": [
+                        {
+                          "solution": "2010 FIFA World Cup anthem by Shakira"
+                        }
+                      ],
+                      "id": "1.1.1.1"
+                    },
+                    {
+                      "solution": "...\")"
+                    }
+                  ],
+                  "id": "1.1.1"
+                },
+                {
+                  "solution": "ino of \""
+                },
+                {
+                  "solution": "Scar",
+                  "clues": [
+                    {
+                      "solution": "\"The Lion King\" villain"
+                    }
+                  ],
+                  "id": "1.1.2"
+                },
+                {
+                  "solution": "face",
+                  "clues": [
+                    {
+                      "solution": "portrait focus"
+                    }
+                  ],
+                  "id": "1.1.3"
+                },
+                {
+                  "solution": "\""
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "ready",
+              "clues": [
+                {
+                  "solution": "\"___, set, go!\""
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": " in "
+            },
+            {
+              "solution": "Paris",
+              "clues": [
+                {
+                  "solution": "Tour de France's terminus"
+                }
+              ],
+              "id": "1.3"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " vu "
+        },
+        {
+          "solution": "all",
+          "clues": [
+            {
+              "solution": "100",
+              "clues": [
+                {
+                  "solution": "distance Usain "
+                },
+                {
+                  "solution": "Bolt",
+                  "clues": [
+                    {
+                      "solution": "lightning "
+                    },
+                    {
+                      "solution": "zig",
+                      "clues": [
+                        {
+                          "solution": "sharp change of direction"
+                        }
+                      ],
+                      "id": "2.1.1.1"
+                    },
+                    {
+                      "solution": "zag",
+                      "clues": [
+                        {
+                          "solution": "sharp change of direction, again"
+                        }
+                      ],
+                      "id": "2.1.1.2"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": " ran in 9.58 seconds, in metres"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": "%"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "over",
+          "clues": [
+            {
+              "solution": "\"The "
+            },
+            {
+              "solution": "cow",
+              "clues": [
+                {
+                  "solution": "d"
+                },
+                {
+                  "solution": "air",
+                  "clues": [
+                    {
+                      "solution": "bal"
+                    },
+                    {
+                      "solution": "loon",
+                      "clues": [
+                        {
+                          "solution": "bird on a Canadian dollar"
+                        }
+                      ],
+                      "id": "3.1.1.1"
+                    },
+                    {
+                      "solution": " filler"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": "y farm "
+                },
+                {
+                  "solution": "animal",
+                  "clues": [
+                    {
+                      "solution": "neither vegetable nor "
+                    },
+                    {
+                      "solution": "mine",
+                      "clues": [
+                        {
+                          "solution": "not yours"
+                        }
+                      ],
+                      "id": "3.1.2.1"
+                    },
+                    {
+                      "solution": "ral"
+                    }
+                  ],
+                  "id": "3.1.2"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " jumped ___ the moon\""
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "again",
+          "clues": [
+            {
+              "solution": "one more "
+            },
+            {
+              "solution": "tim",
+              "clues": [
+                {
+                  "solution": "Apple",
+                  "clues": [
+                    {
+                      "solution": "forbidden fruit, traditionally"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "CEO",
+                  "clues": [
+                    {
+                      "solution": "corp. bigwig"
+                    }
+                  ],
+                  "id": "4.1.2"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "Cook",
+                  "clues": [
+                    {
+                      "solution": "diner staffer"
+                    }
+                  ],
+                  "id": "4.1.3"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": "e"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": ".\"",
+          "clues": []
+        }
+      ]
+    }
   }
 ]
