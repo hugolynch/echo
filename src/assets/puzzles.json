@@ -14023,5 +14023,232 @@
         }
       ]
     }
+  },
+  {
+    "id": "777559b1-51c1-4fa5-bcce-7bb78d27076b",
+    "name": "🥚🐥🐓",
+    "author": "Hugo",
+    "date": "2025-05-14",
+    "root": {
+      "solution": "Dance Like a Chicken Day\n\nhttps://en.wikipedia.org/wiki/Chicken_Dance",
+      "clues": [
+        {
+          "solution": "Dance",
+          "clues": [
+            {
+              "solution": "school",
+              "clues": [
+                {
+                  "solution": "Hog",
+                  "clues": [
+                    {
+                      "solution": "big pig"
+                    }
+                  ],
+                  "id": "1.1.1"
+                },
+                {
+                  "solution": "wart",
+                  "clues": [
+                    {
+                      "solution": "blemish on a witch's nose"
+                    }
+                  ],
+                  "id": "1.1.2"
+                },
+                {
+                  "solution": "s or De"
+                },
+                {
+                  "solution": "grass",
+                  "clues": [
+                    {
+                      "solution": "cow chow"
+                    }
+                  ],
+                  "id": "1.1.3"
+                },
+                {
+                  "solution": "i High, e.g."
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": " function with a "
+            },
+            {
+              "solution": "DJ",
+              "clues": [
+                {
+                  "solution": "record player"
+                }
+              ],
+              "id": "1.2"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Like",
+          "clues": [
+            {
+              "solution": "👍, on social "
+            },
+            {
+              "solution": "me",
+              "clues": [
+                {
+                  "solution": "narcissist's main concern"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": "dia",
+              "clues": [
+                {
+                  "solution": "medianoche to medianoche"
+                }
+              ],
+              "id": "2.2"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " a "
+        },
+        {
+          "solution": "Chic",
+          "clues": [
+            {
+              "solution": "à la "
+            },
+            {
+              "solution": "mode",
+              "clues": [
+                {
+                  "solution": "sports ___ (Crocs performance setting)"
+                }
+              ],
+              "id": "3.1"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": "ken",
+          "clues": [
+            {
+              "solution": "\"I Am ___ough.\" ("
+            },
+            {
+              "solution": "slogan",
+              "clues": [
+                {
+                  "solution": "advertising catchphrase"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": " seen on a "
+            },
+            {
+              "solution": "hoodie",
+              "clues": [
+                {
+                  "solution": "top for a "
+                },
+                {
+                  "solution": "hacker",
+                  "clues": [
+                    {
+                      "solution": "computer user who might say \"I'm in\""
+                    }
+                  ],
+                  "id": "4.2.1"
+                },
+                {
+                  "solution": ", perhaps"
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": " in \""
+            },
+            {
+              "solution": "Barbie",
+              "clues": [
+                {
+                  "solution": "toy with a careered herstory?"
+                }
+              ],
+              "id": "4.3"
+            },
+            {
+              "solution": "\")"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Day",
+          "clues": [
+            {
+              "solution": "mid",
+              "clues": [
+                {
+                  "solution": "just OK, in slang"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": "night",
+              "clues": [
+                {
+                  "solution": "dark time"
+                }
+              ],
+              "id": "5.2"
+            },
+            {
+              "solution": " to m"
+            },
+            {
+              "solution": "id",
+              "clues": [
+                {
+                  "solution": "Freudian part of the psyche"
+                }
+              ],
+              "id": "5.3"
+            },
+            {
+              "solution": "nigh",
+              "clues": [
+                {
+                  "solution": "\"The end is ___!\""
+                }
+              ],
+              "id": "5.4"
+            },
+            {
+              "solution": "t"
+            }
+          ],
+          "id": "5"
+        }
+      ]
+    }
   }
 ]
