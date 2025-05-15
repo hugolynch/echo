@@ -101,4 +101,11 @@
     border-bottom: 2px solid #C9CAD6;
     padding: 2px;
   }
+
+  @media (pointer: fine) {
+    #keyboard-wrapper {
+      display: none;
+    }
+  }
+
 </style>
