@@ -78,7 +78,7 @@
 <div class="inputWrapper">
     {#each solution as char, i}
         {#if char !== ' '}
-            <input maxlength="1" enterkeyhint="done"
+            <input inputmode="none" maxlength="1" enterkeyhint="done"
                 onkeydown={e => handleKeyDown(e, i)} onblur={() => focused = i}
                 bind:value={letters[i]} bind:this={inputs[i]}
                 class={{'space': solution[i + 1] === ' '}}
