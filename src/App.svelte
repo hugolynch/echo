@@ -11,16 +11,6 @@
   }
 
   const keys = [
-    { row: -1, value: "1"},
-    { row: -1, value: "2"},
-    { row: -1, value: "3"},
-    { row: -1, value: "4"},
-    { row: -1, value: "5"},
-    { row: -1, value: "6"},
-    { row: -1, value: "7"},
-    { row: -1, value: "8"},
-    { row: -1, value: "9"},
-    { row: -1, value: "0"},
     { row: 0, value: "Q"},
     { row: 0, value: "W"},
     { row: 0, value: "E"},
@@ -40,7 +30,7 @@
     { row: 1, value: "J"},
     { row: 1, value: "K"},
     { row: 1, value: "L"},
-    { row: 2, value: "*"},
+    { row: 2, value: "#"},
     { row: 2, value: "Z"},
     { row: 2, value: "X"},
     { row: 2, value: "C"},
