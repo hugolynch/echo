@@ -14250,5 +14250,256 @@
         }
       ]
     }
+  },
+  {
+    "id": "fd1e2275-e456-411f-8794-72d1b551b114",
+    "name": "May 15 (Birthday)",
+    "author": "Hugo",
+    "date": "2025-05-15",
+    "root": {
+      "solution": "\"Toto, I've a feeling we're not in Kansas anymore\"\n\nhttps://en.wikipedia.org/wiki/L._Frank_Baum",
+      "clues": [
+        {
+          "solution": "Toto",
+          "clues": [
+            {
+              "solution": "ban",
+              "clues": [
+                {
+                  "solution": "prohibit"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "d with the hit \""
+            },
+            {
+              "solution": "Africa",
+              "clues": [
+                {
+                  "solution": "what one of the "
+                },
+                {
+                  "solution": "five",
+                  "clues": [
+                    {
+                      "solution": "\"High-___!\" 🖐️"
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": " Olympic "
+                },
+                {
+                  "solution": "rings",
+                  "clues": [
+                    {
+                      "solution": "wedding exchanges"
+                    }
+                  ],
+                  "id": "1.2.2"
+                },
+                {
+                  "solution": " represents"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": "\""
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": ", I've a "
+        },
+        {
+          "solution": "fee",
+          "clues": [
+            {
+              "solution": "ser"
+            },
+            {
+              "solution": "vice",
+              "clues": [
+                {
+                  "solution": "bad "
+                },
+                {
+                  "solution": "habit",
+                  "clues": [
+                    {
+                      "solution": "sister's at"
+                    },
+                    {
+                      "solution": "tire",
+                      "clues": [
+                        {
+                          "solution": "one of two for a bi"
+                        },
+                        {
+                          "solution": "cycle",
+                          "clues": [
+                            {
+                              "solution": "washer phase"
+                            }
+                          ],
+                          "id": "2.1.1.1.1"
+                        }
+                      ],
+                      "id": "2.1.1.1"
+                    }
+                  ],
+                  "id": "2.1.1"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " charge"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "ling we're not in "
+        },
+        {
+          "solution": "Kansas",
+          "clues": [
+            {
+              "solution": "the "
+            },
+            {
+              "solution": "Sun",
+              "clues": [
+                {
+                  "solution": "what the "
+                },
+                {
+                  "solution": "circle",
+                  "clues": [
+                    {
+                      "solution": "vulture",
+                      "clues": [
+                        {
+                          "solution": "entertainment news site whose name rhymes with it's \"Devouring Culture\" tagline"
+                        }
+                      ],
+                      "id": "3.1.1.1"
+                    },
+                    {
+                      "solution": "'s "
+                    },
+                    {
+                      "solution": "patter",
+                      "clues": [
+                        {
+                          "solution": "sound of little feet"
+                        }
+                      ],
+                      "id": "3.1.1.2"
+                    },
+                    {
+                      "solution": "n while riding thermals"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": " on the "
+                },
+                {
+                  "solution": "Japanese",
+                  "clues": [
+                    {
+                      "solution": "like Doraemon or Shohei Ohtani"
+                    }
+                  ],
+                  "id": "3.1.2"
+                },
+                {
+                  "solution": " flag represents"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": "flower",
+              "clues": [
+                {
+                  "solution": "🌻, e.g."
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "Stat",
+              "clues": [
+                {
+                  "solution": "ASAP in the OR"
+                }
+              ],
+              "id": "3.3"
+            },
+            {
+              "solution": "e"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " any"
+        },
+        {
+          "solution": "more",
+          "clues": [
+            {
+              "solution": "Oliver "
+            },
+            {
+              "solution": "Twist",
+              "clues": [
+                {
+                  "solution": "like the ending of an M. Night Sh"
+                },
+                {
+                  "solution": "yam",
+                  "clues": [
+                    {
+                      "solution": "sweet potato"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": "alan",
+                  "clues": [
+                    {
+                      "solution": "mathematician Turing"
+                    }
+                  ],
+                  "id": "4.1.2"
+                },
+                {
+                  "solution": " movie, often"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": "'s request"
+            }
+          ],
+          "id": "4"
+        }
+      ]
+    }
   }
 ]
