@@ -50,15 +50,20 @@
     }
 
     function loadState(saved: SaveClue, ids: string[], parent: GameClue|null = null): GameClue {
-        const node = {...saved, parent, solved: false}
-
-        if (saved.id && ids.includes(saved.id)) {
-            // if this node is solved, mark it as so
-            node.solved = true
-        } else {
-            // otherwise, recursively check children
-            node.clues = node.clues?.map(n => loadState(n, ids, node))
+        const node = {
+            id: saved.id,
+            parent,
+            clues: [] as GameClue[],
+            solution: saved.solution,
+            solved: false
         }
+
+        // if this node is solved, mark it as so
+        if (saved.id && ids.includes(saved.id)) {
+            node.solved = true
+        }
+        // recursively check child clues
+        node.clues = (saved.clues ?? []).map(n => loadState(n, ids, node))
 
         return node
     }

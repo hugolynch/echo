@@ -1,11 +1,12 @@
 interface SaveClue {
     id?: string,
+    clues?: SaveClue[],
     solution: string,
-    clues?: Clue[],
 }
 
 interface GameClue extends SaveClue {
     parent: GameClue?,
+    clues?: GameClue[],
     solved: boolean,
 }
 
