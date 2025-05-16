@@ -14501,5 +14501,225 @@
         }
       ]
     }
+  },
+  {
+    "id": "c0b9680e-2688-4d4f-b07c-742b7bda90b1",
+    "name": "May 16 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-16",
+    "root": {
+      "solution": "1985 – Michael Jordan named NBA Rookie of Year\n\nhttps://en.wikipedia.org/wiki/List_of_career_achievements_by_Michael_Jordan",
+      "clues": [
+        {
+          "solution": "Michael",
+          "clues": [
+            {
+              "solution": "one of the "
+            },
+            {
+              "solution": "Jack",
+              "clues": [
+                {
+                  "solution": "lowest face "
+                },
+                {
+                  "solution": "card",
+                  "clues": [
+                    {
+                      "solution": "one of 52 in a deck"
+                    }
+                  ],
+                  "id": "1.1.1"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "son",
+              "clues": [
+                {
+                  "solution": "Junior, to Senior"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": " 5"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " J"
+        },
+        {
+          "solution": "ord",
+          "clues": [
+            {
+              "solution": "O'"
+            },
+            {
+              "solution": "Hare",
+              "clues": [
+                {
+                  "solution": "fable",
+                  "clues": [
+                    {
+                      "solution": "Jean de La Fontaine story"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": "d "
+                },
+                {
+                  "solution": "loser",
+                  "clues": [
+                    {
+                      "solution": "what a two-fingered \"L\" represents"
+                    }
+                  ],
+                  "id": "2.1.2"
+                },
+                {
+                  "solution": " to a tortoise"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": "'s airport code"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "an named "
+        },
+        {
+          "solution": "NBA",
+          "clues": [
+            {
+              "solution": "hoop",
+              "clues": [
+                {
+                  "solution": "hula",
+                  "clues": [
+                    {
+                      "solution": "hawaiian dance"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": " ___"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": "s org."
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Rookie",
+          "clues": [
+            {
+              "solution": "fir",
+              "clues": [
+                {
+                  "solution": "ever"
+                },
+                {
+                  "solution": "green",
+                  "clues": [
+                    {
+                      "solution": "inexperienced"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": " tree"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": "st",
+              "clues": [
+                {
+                  "solution": "canonized person, for short",
+                  "clues": [],
+                  "id": "4.2.1"
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": "-year player"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " of Y"
+        },
+        {
+          "solution": "ear",
+          "clues": [
+            {
+              "solution": "corn",
+              "clues": [
+                {
+                  "solution": "crop",
+                  "clues": [
+                    {
+                      "solution": "trim, as a photo"
+                    }
+                  ],
+                  "id": "5.1.1"
+                },
+                {
+                  "solution": " to "
+                },
+                {
+                  "solution": "pop",
+                  "clues": [
+                    {
+                      "solution": "palind"
+                    },
+                    {
+                      "solution": "rom",
+                      "clues": [
+                        {
+                          "solution": "___-com (\"Crazy Rich Asians\" genre)"
+                        }
+                      ],
+                      "id": "5.1.2.1"
+                    },
+                    {
+                      "solution": "ic music genre"
+                    }
+                  ],
+                  "id": "5.1.2"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": " serving"
+            }
+          ],
+          "id": "5"
+        }
+      ]
+    }
   }
 ]
