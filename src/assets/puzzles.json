@@ -14721,5 +14721,244 @@
         }
       ]
     }
+  },
+  {
+    "id": "1bb91849-fc2d-4acb-8ff8-9bfc93a528b2",
+    "name": "May 17 (Birthday)",
+    "author": "Hugo",
+    "date": "2025-05-17",
+    "root": {
+      "solution": "\"The best way to predict the future is to invent it.\"\\n―Alan Kay\n\nhttps://en.wikipedia.org/wiki/Alan_Kay",
+      "clues": [
+        {
+          "solution": "\"The "
+        },
+        {
+          "solution": "best",
+          "clues": [
+            {
+              "solution": "first word of every "
+            },
+            {
+              "solution": "Oscar",
+              "clues": [
+                {
+                  "solution": "\""
+                },
+                {
+                  "solution": "Sesame",
+                  "clues": [
+                    {
+                      "solution": "opening word for Ali Baba"
+                    }
+                  ],
+                  "id": "1.1.1"
+                },
+                {
+                  "solution": " Street\" gr"
+                },
+                {
+                  "solution": "ouch",
+                  "clues": [
+                    {
+                      "solution": "\"That hurts!\""
+                    }
+                  ],
+                  "id": "1.1.2"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "s category"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " way to "
+        },
+        {
+          "solution": "predict",
+          "clues": [
+            {
+              "solution": "pro",
+              "clues": [
+                {
+                  "solution": "paid athlete"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": "gnosti"
+            },
+            {
+              "solution": "cate",
+              "clues": [
+                {
+                  "solution": "Actress "
+                },
+                {
+                  "solution": "Blanch",
+                  "clues": [
+                    {
+                      "solution": "Boil briefly, as "
+                    },
+                    {
+                      "solution": "broccoli",
+                      "clues": [
+                        {
+                          "solution": "veggie often left on kids’ plates"
+                        }
+                      ],
+                      "id": "2.2.1.1"
+                    }
+                  ],
+                  "id": "2.2.1"
+                },
+                {
+                  "solution": "ett"
+                }
+              ],
+              "id": "2.2"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " the "
+        },
+        {
+          "solution": "future",
+          "clues": [
+            {
+              "solution": "\""
+            },
+            {
+              "solution": "Back",
+              "clues": [
+                {
+                  "solution": "front's opposite"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " to the ___\" ("
+            },
+            {
+              "solution": "science fiction",
+              "clues": [
+                {
+                  "solution": "Hugo",
+                  "clues": [
+                    {
+                      "solution": "fashion Boss"
+                    }
+                  ],
+                  "id": "3.2.1"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "Award",
+                  "clues": [
+                    {
+                      "solution": "each of the letters in EGOT"
+                    }
+                  ],
+                  "id": "3.2.2"
+                },
+                {
+                  "solution": " genre"
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": " clas"
+            },
+            {
+              "solution": "sic",
+              "clues": [
+                {
+                  "solution": "[not my mistake]"
+                }
+              ],
+              "id": "3.3"
+            },
+            {
+              "solution": ")"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " is to in"
+        },
+        {
+          "solution": "vent",
+          "clues": [
+            {
+              "solution": "blow off "
+            },
+            {
+              "solution": "steam",
+              "clues": [
+                {
+                  "solution": "kettle",
+                  "clues": [
+                    {
+                      "solution": "kitchen whistler"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": " e"
+                },
+                {
+                  "solution": "mission",
+                  "clues": [
+                    {
+                      "solution": "impossible assignment for Tom "
+                    },
+                    {
+                      "solution": "Cruise",
+                      "clues": [
+                        {
+                          "solution": "ocean "
+                        },
+                        {
+                          "solution": "getaway",
+                          "clues": [
+                            {
+                              "solution": "car used in a bank heist"
+                            }
+                          ],
+                          "id": "4.1.2.1.1"
+                        }
+                      ],
+                      "id": "4.1.2.1"
+                    },
+                    {
+                      "solution": ", should he choose to accept it"
+                    }
+                  ],
+                  "id": "4.1.2"
+                }
+              ],
+              "id": "4.1"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " it.\""
+        }
+      ]
+    }
   }
 ]
