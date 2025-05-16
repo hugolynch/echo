@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Clue } from '../types/puzzle'
+    import type { GameClue as Clue } from '../types/puzzle'
     import BoardClue from './BoardClue.svelte'
     import Input from './Input.svelte'
 

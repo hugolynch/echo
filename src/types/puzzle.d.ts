@@ -1,14 +1,20 @@
-export interface Clue {
+interface SaveClue {
     id?: string,
     solution: string,
     clues?: Clue[],
-    solved?: boolean,
 }
 
-export interface Puzzle {
+interface GameClue extends SaveClue {
+    parent: GameClue?,
+    solved: boolean,
+}
+
+interface Puzzle<Clue> {
     id: string,
     name: string,
     author: string,
     date: string,
     root: Clue,
 }
+
+export { SaveClue, GameClue, Puzzle }

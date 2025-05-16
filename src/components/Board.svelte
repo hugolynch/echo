@@ -1,15 +1,15 @@
 <script lang="ts">
-    import type { Puzzle, Clue } from '../types/puzzle'
+    import type { Puzzle, SaveClue, GameClue } from '../types/puzzle'
     import BoardClue from "./BoardClue.svelte"
     import puzzles from '../assets/puzzles.json'
 
-    let filtered: Puzzle[] = puzzles.filter(function (puzzle) {
+    let filtered: Puzzle<SaveClue>[] = puzzles.filter(function (puzzle) {
         const date = (new Date).getFullYear()
             + "-" + `${(new Date).getMonth() + 1}`.padStart(2, "0")
             + "-" + `${(new Date).getDate()}`.padStart(2, "0")
         return puzzle.date <= date
     })
-    let puzzle: Puzzle = $state(loadPuzzle())
+    let puzzle: Puzzle<GameClue> = $state(loadPuzzle())
     let solved: string[] = $derived(getSolved(puzzle.root))
 
     $effect(() => localStorage.setItem(puzzle.id, JSON.stringify(solved)))
@@ -20,51 +20,56 @@
      * If given an ID, try to load the corresponding puzzle from the list.
      * Otherwise load the active puzzle, or else the latest one.
      */
-    function loadPuzzle(id?: string): Puzzle {
-        let chosen: Puzzle|null
+    function loadPuzzle(id?: string): Puzzle<GameClue> {
+        let saved: Puzzle<SaveClue>|null
         if (id) {
             // when given an id, try to load that puzzle
-            chosen = filtered.find(p => p.id === id) ?? null
+            saved = filtered.find(p => p.id === id) ?? null
         } else {
             // when not given an id, try to load active puzzle
             const active = localStorage.getItem('active')
-            chosen = filtered.find(p => p.id === active) ?? null
+            saved = filtered.find(p => p.id === active) ?? null
         }
         // if we couldn't get a valid puzzle, return the last one
-        if (! chosen) {
-            chosen = filtered[filtered.length - 1]
+        if (! saved) {
+            saved = filtered[filtered.length - 1]
         }
 
-        // load...
-        const saved = localStorage.getItem(chosen.id)
-        if (saved) {
-            chosen.root = loadState(chosen.root, JSON.parse(saved))
-        }
+        // try to retrieve save state from local storage and load it into the saved puzzle
+        // if no state is found, load puzzle with empty list of solved IDs
+        // since this function also transforms the SavePuzzle into a GamePuzzle
+        const state = localStorage.getItem(saved.id)
+        const loaded = {
+            ...saved,
+            root: loadState(saved.root, state ? JSON.parse(state) : [])
+        };
 
         // save active puzzle to local storage and return it
-        localStorage.setItem('active', chosen.id)
-        return chosen
+        localStorage.setItem('active', loaded.id)
+        return loaded
     }
 
-    function loadState(node: Clue, ids: string[]): Clue {
-        if (node.id && ids.includes(node.id)) {
+    function loadState(saved: SaveClue, ids: string[], parent: GameClue|null = null): GameClue {
+        const node = {...saved, parent, solved: false}
+
+        if (saved.id && ids.includes(saved.id)) {
             // if this node is solved, mark it as so
             node.solved = true
         } else {
             // otherwise, recursively check children
-            node.clues = node.clues?.map(n => loadState(n, ids))
+            node.clues = node.clues?.map(n => loadState(n, ids, node))
         }
 
         return node
     }
 
-    function getSolved(node: Clue): string[] {
+    function getSolved(node: GameClue): string[] {
         return node.id && node.solved
             ? [node.id]
             : (node.clues ?? []).flatMap(n => getSolved(n))
     }
 
-    function reset(node: Clue): void {
+    function reset(node: GameClue): void {
         node.solved = false
         node.clues?.map(n => reset(n))
     }
