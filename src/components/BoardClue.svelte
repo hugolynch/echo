@@ -50,7 +50,7 @@
     <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={id} style:--height={height}>
         {#if height === 0}
             <div class="wrapper">{@render children(node.clues ?? [])}</div>
-            <Input solution={node.solution} bind:solved={node.solved} />
+            <Input bind:node={node} />
         {:else}
             {@render children(node.clues ?? [])}
         {/if}

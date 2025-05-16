@@ -1,11 +1,12 @@
 <script lang="ts">
+    import type { GameClue as Clue } from '../types/puzzle'
+
     let {
-        solution = '' as string,
-        solved = $bindable() as boolean
+        node = $bindable() as Clue
     } = $props()
     let focused: number|null = null;
     let inputs: HTMLInputElement[] = $state([]);
-    let letters = $state([...solution].filter(c => c !== ' ').map(_ => ''))
+    let letters = $state([...node.solution].filter(c => c !== ' ').map(_ => ''))
 
     /**
      * Compare a given guess and solution and return whether they match.
@@ -50,7 +51,7 @@
         }
 
         // check the solution so far
-        solved = check(letters.join(''), solution)
+        node.solved = check(letters.join(''), node.solution)
     }
 
     /**
@@ -63,8 +64,8 @@
         }
 
         // reveal the appropriate letter and check if word is solved
-        letters[focused] = solution[focused]
-        solved = check(letters.join(''), solution)
+        letters[focused] = node.solution[focused]
+        node.solved = check(letters.join(''), node.solution)
 
         // focus the next input, wrapping around
         if (focused === inputs.length - 1) {
@@ -76,19 +77,19 @@
 </script>
 
 <div class="inputWrapper">
-    {#each solution as char, i}
+    {#each node.solution as char, i}
         {#if char !== ' '}
             <input maxlength="1" enterkeyhint="done"
                 onkeydown={e => handleKeyDown(e, i)} onblur={() => focused = i}
                 bind:value={letters[i]} bind:this={inputs[i]}
-                class={{'space': solution[i + 1] === ' '}}
+                class={{'space': node.solution[i + 1] === ' '}}
             />
         {/if}
     {/each}
 </div>
 <div class="buttonWrapper">
     <button onclick={reveal}>Reveal Letter</button>
-    <button onclick={() => solved = true}>Reveal Word</button>
+    <button onclick={() => node.solved = true}>Reveal Word</button>
 </div>
 
 <style>
