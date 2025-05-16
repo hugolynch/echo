@@ -1,22 +1,24 @@
 <script lang="ts">
-    import type { GameClue as Clue } from '../types/puzzle'
+    import type { Clue } from '../types/puzzle'
+    import { game } from '../lib/state.svelte'
 
-    let {
-        node = $bindable() as Clue
-    } = $props()
+    let { idx = 0 } = $props()
     let focused: number|null = null;
+    let node = game.puzzle.clues[idx];
     let inputs: HTMLInputElement[] = $state([]);
-    let letters = $state([...node.solution].filter(c => c !== ' ').map(_ => ''))
+    let letters = $state([...node.text].filter(c => c !== ' ').map(_ => ''))
 
     /**
      * Compare a given guess and solution and return whether they match.
      * Make sure to normalize the strings before comparing them.
      */
-    function check(guess: string, solution: string): boolean {
+    function check(guess: string, solution: string) {
         // compare normalized guess + solution
         const normGuess = guess.normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
         const normSoln = solution.normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
-        return normGuess === normSoln
+        if (normGuess === normSoln) {
+            game.state.push(idx)
+        }
     }
 
     /**
@@ -51,7 +53,7 @@
         }
 
         // check the solution so far
-        node.solved = check(letters.join(''), node.solution)
+        check(letters.join(''), node.text)
     }
 
     /**
@@ -64,8 +66,8 @@
         }
 
         // reveal the appropriate letter and check if word is solved
-        letters[focused] = node.solution[focused]
-        node.solved = check(letters.join(''), node.solution)
+        letters[focused] = node.text[focused]
+        check(letters.join(''), node.text)
 
         // focus the next input, wrapping around
         if (focused === inputs.length - 1) {
@@ -77,19 +79,19 @@
 </script>
 
 <div class="inputWrapper">
-    {#each node.solution as char, i}
+    {#each node.text as char, i}
         {#if char !== ' '}
             <input maxlength="1" enterkeyhint="done"
                 onkeydown={e => handleKeyDown(e, i)} onblur={() => focused = i}
                 bind:value={letters[i]} bind:this={inputs[i]}
-                class={{'space': node.solution[i + 1] === ' '}}
+                class={{'space': node.text[i + 1] === ' '}}
             />
         {/if}
     {/each}
 </div>
 <div class="buttonWrapper">
     <button onclick={reveal}>Reveal Letter</button>
-    <button onclick={() => node.solved = true}>Reveal Word</button>
+    <button onclick={() => game.state.push(idx)}>Reveal Word</button>
 </div>
 
 <style>
