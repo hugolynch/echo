@@ -12,9 +12,9 @@
     let solved = $derived.by((): boolean => {
         return depth === 0
             // if root, solved when every child clue is solved (excluding text nodes)
-            ? (node.clues ?? []).filter(n => n.clues?.length).every(n => n.solved)
-            // if not root, just return the node's solved value (default to false if undefined)
-            : node.solved ?? false;
+            ? node.clues.filter(n => n.clues.length).every(n => n.solved)
+            // if not root, just return the node's solved value
+            : node.solved;
     });
 
     /**
@@ -24,7 +24,7 @@
      */
     function getHeight(node: Clue): number {
         // get non-text, non-solved children (i.e. clue nodes)
-        const clues = (node.clues ?? []).filter(n => n.clues?.length && !n.solved)
+        const clues = node.clues.filter(n => n.clues.length && !n.solved)
         // default to 0 if the node has no children
         return Math.max(0, ...clues.map(n => getHeight(n) + 1))
     }
@@ -32,10 +32,10 @@
 
 {#snippet children(children: Clue[])}
     {#each children as child, i}
-        {#if ! child.clues?.length}
+        {#if ! child.clues.length}
             <span class="text">{child.solution}</span>
         {:else}
-            <BoardClue id={child.id} depth={depth + 1} bind:node={node.clues![i]} />
+            <BoardClue id={child.id} depth={depth + 1} bind:node={node.clues[i]} />
         {/if}
     {/each}
 {/snippet}
@@ -49,10 +49,10 @@
 {:else}
     <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={id} style:--height={height}>
         {#if height === 0}
-            <div class="wrapper">{@render children(node.clues ?? [])}</div>
+            <div class="wrapper">{@render children(node.clues)}</div>
             <Input bind:node={node} />
         {:else}
-            {@render children(node.clues ?? [])}
+            {@render children(node.clues)}
         {/if}
     </span>
 {/if}

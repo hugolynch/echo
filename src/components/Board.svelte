@@ -71,12 +71,12 @@
     function getSolved(node: GameClue): string[] {
         return node.id && node.solved
             ? [node.id]
-            : (node.clues ?? []).flatMap(n => getSolved(n))
+            : node.clues.flatMap(n => getSolved(n))
     }
 
     function reset(node: GameClue): void {
         node.solved = false
-        node.clues?.map(n => reset(n))
+        node.clues.map(n => reset(n))
     }
 
     // switch active puzzle to the chosen one
