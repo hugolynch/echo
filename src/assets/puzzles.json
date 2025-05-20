@@ -15234,5 +15234,250 @@
         }
       ]
     }
+  },
+  {
+    "id": "96ebab48-9242-4ca9-b5e6-120c7835bf4e",
+    "name": "May 21 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-21",
+    "root": {
+      "solution": "1904 – Federation Internationale de Football Association is founded in Paris\n\nhttps://en.wikipedia.org/wiki/FIFA",
+      "clues": [
+        {
+          "solution": "Fe",
+          "clues": [
+            {
+              "solution": "iron",
+              "clues": [
+                {
+                  "solution": "de-w"
+                },
+                {
+                  "solution": "rink",
+                  "clues": [
+                    {
+                      "solution": "hockey venue"
+                    }
+                  ],
+                  "id": "1.1.1"
+                },
+                {
+                  "solution": "le"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": ", to a chemist"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": "de"
+        },
+        {
+          "solution": "rat",
+          "clues": [
+            {
+              "solution": "subway",
+              "clues": [
+                {
+                  "solution": "\"Eat fresh\" sandwich chain"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "rodent",
+              "clues": [
+                {
+                  "solution": "Gainer the Gopher or Benny Beaver"
+                }
+              ],
+              "id": "2.2"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "ion "
+        },
+        {
+          "solution": "Inter",
+          "clues": [
+            {
+              "solution": "___ "
+            },
+            {
+              "solution": "Miami",
+              "clues": [
+                {
+                  "solution": "Little "
+                },
+                {
+                  "solution": "Havana",
+                  "clues": [
+                    {
+                      "solution": "\"Half of my heart is in ___ ooh na-na\" (Camila Cabello lyric)"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": " locale"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " or ___ "
+            },
+            {
+              "solution": "Milan",
+              "clues": [
+                {
+                  "solution": "where to see \"The Last Supper\""
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": " (["
+            },
+            {
+              "solution": "4",
+              "clues": [
+                {
+                  "solution": "number of quarters in a football game"
+                }
+              ],
+              "id": "3.3"
+            },
+            {
+              "solution": "] teams)"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": "nationale de "
+        },
+        {
+          "solution": "Football",
+          "clues": [
+            {
+              "solution": "it's "
+            },
+            {
+              "solution": "call",
+              "clues": [
+                {
+                  "solution": "ring",
+                  "clues": [
+                    {
+                      "solution": "boxing venue"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "up",
+                  "clues": [
+                    {
+                      "solution": "one direction",
+                      "clues": [
+                        {
+                          "solution": "boy band with members Liam, Louis, Zayn, Niall, and Harry"
+                        }
+                      ],
+                      "id": "4.1.2.1"
+                    },
+                    {
+                      "solution": " for an elevator"
+                    }
+                  ],
+                  "id": "4.1.2"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": "ed soccer, to some"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Ass",
+          "clues": [
+            {
+              "solution": "don",
+              "clues": [
+                {
+                  "solution": "___ Quixote"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": "key",
+              "clues": [
+                {
+                  "solution": "it might open a "
+                },
+                {
+                  "solution": "lock",
+                  "clues": [
+                    {
+                      "solution": "U-shaped bike accessory"
+                    }
+                  ],
+                  "id": "5.2.1"
+                }
+              ],
+              "id": "5.2"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": "o"
+        },
+        {
+          "solution": "cia",
+          "clues": [
+            {
+              "solution": "U.S. "
+            },
+            {
+              "solution": "spy",
+              "clues": [
+                {
+                  "solution": "007, e.g."
+                }
+              ],
+              "id": "6.1"
+            },
+            {
+              "solution": " org."
+            }
+          ],
+          "id": "6"
+        },
+        {
+          "solution": "tion is founded in Paris"
+        }
+      ]
+    }
   }
 ]
