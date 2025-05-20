@@ -14960,5 +14960,279 @@
         }
       ]
     }
+  },
+  {
+    "id": "de2a45f9-babe-438b-8190-fff2da770219",
+    "name": "May 20 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-20",
+    "root": {
+      "solution": "1983 – \"Every Breath You Take\" released by The Police\n\nhttps://www.youtube.com/watch?v=OMOGaugKpzs",
+      "clues": [
+        {
+          "solution": "1983 – \"Every "
+        },
+        {
+          "solution": "Breath",
+          "clues": [
+            {
+              "solution": "a "
+            },
+            {
+              "solution": "mint",
+              "clues": [
+                {
+                  "solution": "herb",
+                  "clues": [
+                    {
+                      "solution": "rose",
+                      "clues": [
+                        {
+                          "solution": "thorny flower"
+                        }
+                      ],
+                      "id": "1.1.1.1"
+                    },
+                    {
+                      "solution": "mary",
+                      "clues": [
+                        {
+                          "solution": "\"Jesus Christ Superstar\" role"
+                        }
+                      ],
+                      "id": "1.1.1.2"
+                    },
+                    {
+                      "solution": ", parsley or "
+                    },
+                    {
+                      "solution": "cilantro",
+                      "clues": [
+                        {
+                          "solution": "ingredient that tastes like [3.2.1.1] to some"
+                        }
+                      ],
+                      "id": "1.1.1.3"
+                    }
+                  ],
+                  "id": "1.1.1"
+                },
+                {
+                  "solution": " in s"
+                },
+                {
+                  "solution": "om",
+                  "clues": [
+                    {
+                      "solution": "🕉️"
+                    }
+                  ],
+                  "id": "1.1.2"
+                },
+                {
+                  "solution": "e c"
+                },
+                {
+                  "solution": "hut",
+                  "clues": [
+                    {
+                      "solution": "castaway",
+                      "clues": [
+                        {
+                          "solution": "sender of a bottled message, perhaps"
+                        }
+                      ],
+                      "id": "1.1.3.1"
+                    },
+                    {
+                      "solution": "'s shelter"
+                    }
+                  ],
+                  "id": "1.1.3"
+                },
+                {
+                  "solution": "neys"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "may",
+              "clues": [
+                {
+                  "solution": "short",
+                  "clues": [
+                    {
+                      "solution": "YouTube",
+                      "clues": [
+                        {
+                          "solution": "website with a red \"play\" button logo"
+                        }
+                      ],
+                      "id": "1.2.1.1"
+                    },
+                    {
+                      "solution": " video under 60 seconds"
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": "est month, in a way"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": " freshen it"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " You "
+        },
+        {
+          "solution": "Take",
+          "clues": [
+            {
+              "solution": "opinion",
+              "clues": [
+                {
+                  "solution": "two cents worth"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " that might be \""
+            },
+            {
+              "solution": "hot",
+              "clues": [
+                {
+                  "solution": "like a "
+                },
+                {
+                  "solution": "pan",
+                  "clues": [
+                    {
+                      "solution": "Peter who never "
+                    },
+                    {
+                      "solution": "grew",
+                      "clues": [
+                        {
+                          "solution": "got longer, like Pinocchio's nose"
+                        }
+                      ],
+                      "id": "2.2.1.1"
+                    },
+                    {
+                      "solution": " up"
+                    }
+                  ],
+                  "id": "2.2.1"
+                },
+                {
+                  "solution": " right out of the oven"
+                }
+              ],
+              "id": "2.2"
+            },
+            {
+              "solution": "\""
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "\" released by The "
+        },
+        {
+          "solution": "Police",
+          "clues": [
+            {
+              "solution": "donut",
+              "clues": [
+                {
+                  "solution": "Tim Hortons ",
+                  "clues": [],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": "off",
+                  "clues": [
+                    {
+                      "solution": "not quite right"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": "ering"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": " shop visitors, "
+            },
+            {
+              "solution": "stereo",
+              "clues": [
+                {
+                  "solution": "two-"
+                },
+                {
+                  "solution": "speak",
+                  "clues": [
+                    {
+                      "solution": "take to the "
+                    },
+                    {
+                      "solution": "soap",
+                      "clues": [
+                        {
+                          "solution": "handwashing substance"
+                        }
+                      ],
+                      "id": "3.2.1.1"
+                    },
+                    {
+                      "solution": "box"
+                    }
+                  ],
+                  "id": "3.2.1"
+                },
+                {
+                  "solution": "er "
+                },
+                {
+                  "solution": "sound",
+                  "clues": [
+                    {
+                      "solution": "it travels at Mach-1"
+                    }
+                  ],
+                  "id": "3.2.2"
+                },
+                {
+                  "solution": " system"
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": "typically"
+            }
+          ],
+          "id": "3"
+        }
+      ]
+    }
   }
 ]
