@@ -15588,7 +15588,7 @@
                       "solution": "candle",
                       "clues": [
                         {
-                          "solution": "wicked thing"
+                          "solution": "wicked thing?"
                         }
                       ],
                       "id": "2.1.1.1"
@@ -15847,6 +15847,314 @@
             }
           ],
           "id": "9"
+        }
+      ]
+    }
+  },
+  {
+    "id": "19fbd0fe-8c32-4950-96e7-184c7a1dd368",
+    "name": "May 23 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-23",
+    "root": {
+      "solution": "1895 – The New York Public Library is dedicated\n\nhttps://www.nypl.org/",
+      "clues": [
+        {
+          "solution": "The "
+        },
+        {
+          "solution": "New York",
+          "clues": [
+            {
+              "solution": "\"So "
+            },
+            {
+              "solution": "good",
+              "clues": [
+                {
+                  "solution": "virtuous force opposing evil"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": " they named it "
+            },
+            {
+              "solution": "twice",
+              "clues": [
+                {
+                  "solution": "how often a "
+                },
+                {
+                  "solution": "broke",
+                  "clues": [
+                    {
+                      "solution": "pen",
+                      "clues": [
+                        {
+                          "solution": "tool for a confident crossword solver"
+                        }
+                      ],
+                      "id": "1.2.1.1"
+                    },
+                    {
+                      "solution": "niless"
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": "n cl"
+                },
+                {
+                  "solution": "ock",
+                  "clues": [
+                    {
+                      "solution": "Doc",
+                      "clues": [
+                        {
+                          "solution": "Rx writer"
+                        }
+                      ],
+                      "id": "1.2.2.1"
+                    },
+                    {
+                      "solution": " ___, many-limbed Spider-Man "
+                    },
+                    {
+                      "solution": "foe",
+                      "clues": [
+                        {
+                          "solution": "A McCoy, to a Hatfield"
+                        }
+                      ],
+                      "id": "1.2.2.2"
+                    }
+                  ],
+                  "id": "1.2.2"
+                },
+                {
+                  "solution": " is right per day"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": "\""
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Public",
+          "clues": [
+            {
+              "solution": "kind of re"
+            },
+            {
+              "solution": "cords",
+              "clues": [
+                {
+                  "solution": "tangled desk collection from pre-"
+                },
+                {
+                  "solution": "Bluetooth",
+                  "clues": [
+                    {
+                      "solution": "technology standard named for Danish king ᚼᛅᚱᛅᛚᛏᚱ ᛒᛚᛅᛏᚬᚾᚾ"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": " days"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": " accessible to anyone "
+            },
+            {
+              "solution": "via",
+              "clues": [
+                {
+                  "solution": "Canadian passenger rail Crown corporation"
+                }
+              ],
+              "id": "2.2"
+            },
+            {
+              "solution": " Freedom of Information requests"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "Library",
+          "clues": [
+            {
+              "solution": "one of the rooms in "
+            },
+            {
+              "solution": "Clue",
+              "clues": [
+                {
+                  "solution": "whodunit "
+                },
+                {
+                  "solution": "boar",
+                  "clues": [
+                    {
+                      "solution": "wild s"
+                    },
+                    {
+                      "solution": "wine",
+                      "clues": [
+                        {
+                          "solution": "Burgundy or Bordeaux"
+                        }
+                      ],
+                      "id": "3.1.1.1"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": "d game"
+                }
+              ],
+              "id": "3.1"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " is d"
+        },
+        {
+          "solution": "ed",
+          "clues": [
+            {
+              "solution": "sex",
+              "clues": [
+                {
+                  "solution": "reason for a TV-MA rating, perhaps"
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": " ___ (phys ___ unit, so"
+            },
+            {
+              "solution": "met",
+              "clues": [
+                {
+                  "solution": "[1] ball"
+                },
+                {
+                  "solution": "play",
+                  "clues": [
+                    {
+                      "solution": "DVD",
+                      "clues": [
+                        {
+                          "solution": "Betamax → VHS → ___ → Blu-ray"
+                        }
+                      ],
+                      "id": "4.2.1.1"
+                    },
+                    {
+                      "solution": " button"
+                    }
+                  ],
+                  "id": "4.2.1"
+                },
+                {
+                  "solution": "er"
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": "imes)"
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": "ica"
+        },
+        {
+          "solution": "ted",
+          "clues": [
+            {
+              "solution": "big name in "
+            },
+            {
+              "solution": "online",
+              "clues": [
+                {
+                  "solution": "connected to the in"
+                },
+                {
+                  "solution": "formation",
+                  "clues": [
+                    {
+                      "solution": "birds flying in a V-"
+                    },
+                    {
+                      "solution": "shape",
+                      "clues": [
+                        {
+                          "solution": "■, ▲ or ●"
+                        }
+                      ],
+                      "id": "5.1.1.1"
+                    },
+                    {
+                      "solution": ", e.g."
+                    }
+                  ],
+                  "id": "5.1.1"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "super",
+                  "clues": [
+                    {
+                      "solution": "apartment 1A resident, perhaps"
+                    }
+                  ],
+                  "id": "5.1.2"
+                },
+                {
+                  "solution": "highway",
+                  "clues": [
+                    {
+                      "solution": "alternative to my way, with 'the'"
+                    }
+                  ],
+                  "id": "5.1.3"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": " talks"
+            }
+          ],
+          "id": "5"
         }
       ]
     }
