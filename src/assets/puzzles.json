@@ -16158,5 +16158,286 @@
         }
       ]
     }
+  },
+  {
+    "id": "1fe1b517-cf4e-4e2a-a31d-6926473acff1",
+    "name": "·-- ···· ·- - / ···· ·- - ···· / --· --- -·· / ·-- ·-· --- ··- --· ···· -",
+    "author": "Hugo",
+    "date": "2025-05-24",
+    "root": {
+      "solution": "1844 – Samuel Morse sends the first telegraph message: \"What hath God wrought\"\n\nhttps://en.wikipedia.org/wiki/Baltimore%E2%80%93Washington_telegraph_line",
+      "clues": [
+        {
+          "solution": "W"
+        },
+        {
+          "solution": "hat",
+          "clues": [
+            {
+              "solution": "so"
+            },
+            {
+              "solution": "meth",
+              "clues": [
+                {
+                  "solution": "blue \"Breaking Bad\" substance"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "ing to "
+            },
+            {
+              "solution": "draw",
+              "clues": [
+                {
+                  "solution": "tie",
+                  "clues": [
+                    {
+                      "solution": "cravat or ascot"
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": " game result"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": " names out of"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "ha",
+          "clues": [
+            {
+              "solution": "when dou"
+            },
+            {
+              "solution": "bled",
+              "clues": [
+                {
+                  "solution": "re"
+                },
+                {
+                  "solution": "acted",
+                  "clues": [
+                    {
+                      "solution": "played the part"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": " to a paper cut"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": ", LOL"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "th",
+          "clues": [
+            {
+              "solution": "ending for some ordinal "
+            },
+            {
+              "solution": "numb",
+              "clues": [
+                {
+                  "solution": "feeling "
+                },
+                {
+                  "solution": "nothing",
+                  "clues": [
+                    {
+                      "solution": "zilch, zero, squat"
+                    }
+                  ],
+                  "id": "3.1.1"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": "ers"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " "
+        },
+        {
+          "solution": "God",
+          "clues": [
+            {
+              "solution": "Que",
+              "clues": [
+                {
+                  "solution": "neighbour of "
+                },
+                {
+                  "solution": "On",
+                  "clues": [
+                    {
+                      "solution": "op"
+                    },
+                    {
+                      "solution": "posit",
+                      "clues": [
+                        {
+                          "solution": "put forth, as a hypothesis"
+                        }
+                      ],
+                      "id": "4.1.1.1"
+                    },
+                    {
+                      "solution": "e of off"
+                    }
+                  ],
+                  "id": "4.1.1"
+                },
+                {
+                  "solution": "t."
+                }
+              ],
+              "id": "4.1"
+            },
+            {
+              "solution": "tzal"
+            },
+            {
+              "solution": "coat",
+              "clues": [
+                {
+                  "solution": "winter",
+                  "clues": [
+                    {
+                      "solution": "hibernation "
+                    },
+                    {
+                      "solution": "season",
+                      "clues": [
+                        {
+                          "solution": "add salt to"
+                        }
+                      ],
+                      "id": "4.2.1.1"
+                    },
+                    {
+                      "solution": " for [5.2.2.2]"
+                    }
+                  ],
+                  "id": "4.2.1"
+                },
+                {
+                  "solution": " garb"
+                }
+              ],
+              "id": "4.2"
+            },
+            {
+              "solution": "l, e.g."
+            }
+          ],
+          "id": "4"
+        },
+        {
+          "solution": " w"
+        },
+        {
+          "solution": "rough",
+          "clues": [
+            {
+              "solution": "l"
+            },
+            {
+              "solution": "ike",
+              "clues": [
+                {
+                  "solution": "🎶 You like ___, I like ___, everybody likes ___ for President 🎶 (1952 campaign ad)"
+                }
+              ],
+              "id": "5.1"
+            },
+            {
+              "solution": " "
+            },
+            {
+              "solution": "sand",
+              "clues": [
+                {
+                  "solution": "Zen",
+                  "clues": [
+                    {
+                      "solution": "super chill"
+                    }
+                  ],
+                  "id": "5.2.1"
+                },
+                {
+                  "solution": " gar"
+                },
+                {
+                  "solution": "den",
+                  "clues": [
+                    {
+                      "solution": "home for "
+                    },
+                    {
+                      "solution": "lions",
+                      "clues": [
+                        {
+                          "solution": "pride members 🦁"
+                        }
+                      ],
+                      "id": "5.2.2.1"
+                    },
+                    {
+                      "solution": " and "
+                    },
+                    {
+                      "solution": "bears",
+                      "clues": [
+                        {
+                          "solution": "pride members"
+                        }
+                      ],
+                      "id": "5.2.2.2"
+                    }
+                  ],
+                  "id": "5.2.2"
+                },
+                {
+                  "solution": " surface"
+                }
+              ],
+              "id": "5.2"
+            },
+            {
+              "solution": "paper"
+            }
+          ],
+          "id": "5"
+        },
+        {
+          "solution": "t\""
+        }
+      ]
+    }
   }
 ]
