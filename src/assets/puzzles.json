@@ -16439,5 +16439,250 @@
         }
       ]
     }
+  },
+  {
+    "id": "71a05364-dd5e-4904-b27c-889e0f2fc3cb",
+    "name": "May 25 Daily",
+    "author": "Hugo",
+    "date": "2025-05-25",
+    "root": {
+      "solution": "\"These aren't the droids you're looking for.\" -Obi-Wan Kenobi\n\n1977 – Star Wars premieres",
+      "clues": [
+        {
+          "solution": "\"These aren't the "
+        },
+        {
+          "solution": "droid",
+          "clues": [
+            {
+              "solution": "BB",
+              "clues": [
+                {
+                  "solution": "a"
+                },
+                {
+                  "solution": "irs",
+                  "clues": [
+                    {
+                      "solution": "US tax-collection "
+                    },
+                    {
+                      "solution": "org",
+                      "clues": [
+                        {
+                          "solution": "www."
+                        },
+                        {
+                          "solution": "wiki",
+                          "clues": [
+                            {
+                              "solution": "Wookieepedia, e.g."
+                            }
+                          ],
+                          "id": "1.1.1.1.1"
+                        },
+                        {
+                          "solution": "pedia.___"
+                        }
+                      ],
+                      "id": "1.1.1.1"
+                    },
+                    {
+                      "solution": "."
+                    }
+                  ],
+                  "id": "1.1.1"
+                },
+                {
+                  "solution": "oft pel"
+                },
+                {
+                  "solution": "let",
+                  "clues": [
+                    {
+                      "solution": "tennis do-over"
+                    }
+                  ],
+                  "id": "1.1.2"
+                }
+              ],
+              "id": "1.1"
+            },
+            {
+              "solution": "-8, C-3PO or R"
+            },
+            {
+              "solution": "2-D",
+              "clues": [
+                {
+                  "solution": "\""
+                },
+                {
+                  "solution": "Gorilla",
+                  "clues": [
+                    {
+                      "solution": "largest great apes"
+                    }
+                  ],
+                  "id": "1.2.1"
+                },
+                {
+                  "solution": "z\" lead vocalist"
+                }
+              ],
+              "id": "1.2"
+            },
+            {
+              "solution": "2"
+            }
+          ],
+          "id": "1"
+        },
+        {
+          "solution": "s you're "
+        },
+        {
+          "solution": "loo",
+          "clues": [
+            {
+              "solution": "John, to "
+            },
+            {
+              "solution": "Ring",
+              "clues": [
+                {
+                  "solution": "one of f"
+                },
+                {
+                  "solution": "iv",
+                  "clues": [
+                    {
+                      "solution": "oldest \"Star Wars\" episode number"
+                    }
+                  ],
+                  "id": "2.1.1"
+                },
+                {
+                  "solution": "e in the Olym"
+                },
+                {
+                  "solution": "pics",
+                  "clues": [
+                    {
+                      "solution": "\"___ or it didn't happen\""
+                    }
+                  ],
+                  "id": "2.1.2"
+                },
+                {
+                  "solution": " "
+                },
+                {
+                  "solution": "log",
+                  "clues": [
+                    {
+                      "solution": "cab",
+                      "clues": [
+                        {
+                          "solution": "alternative to an Uber or Lyft"
+                        }
+                      ],
+                      "id": "2.1.3.1"
+                    },
+                    {
+                      "solution": "in "
+                    },
+                    {
+                      "solution": "build",
+                      "clues": [
+                        {
+                          "solution": "put together the LEGO Millennium Falcon"
+                        }
+                      ],
+                      "id": "2.1.3.2"
+                    },
+                    {
+                      "solution": "ing-block"
+                    }
+                  ],
+                  "id": "2.1.3"
+                },
+                {
+                  "solution": "o"
+                }
+              ],
+              "id": "2.1"
+            },
+            {
+              "solution": "o"
+            }
+          ],
+          "id": "2"
+        },
+        {
+          "solution": "king",
+          "clues": [
+            {
+              "solution": "matt",
+              "clues": [
+                {
+                  "solution": "cart",
+                  "clues": [
+                    {
+                      "solution": "checkout icon"
+                    }
+                  ],
+                  "id": "3.1.1"
+                },
+                {
+                  "solution": "o"
+                },
+                {
+                  "solution": "oni",
+                  "clues": [
+                    {
+                      "solution": "demon of Japanese folklore"
+                    }
+                  ],
+                  "id": "3.1.2"
+                },
+                {
+                  "solution": "st G"
+                },
+                {
+                  "solution": "roe",
+                  "clues": [
+                    {
+                      "solution": "salmon eggs"
+                    }
+                  ],
+                  "id": "3.1.3"
+                },
+                {
+                  "solution": "ning"
+                }
+              ],
+              "id": "3.1"
+            },
+            {
+              "solution": "res",
+              "clues": [
+                {
+                  "solution": "high-___ monitor"
+                }
+              ],
+              "id": "3.2"
+            },
+            {
+              "solution": "s size"
+            }
+          ],
+          "id": "3"
+        },
+        {
+          "solution": " for.\""
+        }
+      ]
+    }
   }
 ]
