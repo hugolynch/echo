@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { tick } from 'svelte'
     import { game, node, parent, next } from '../lib/state.svelte'
 
     let { idx = 0 } = $props()
@@ -16,13 +17,19 @@
         const normGuess = guess.normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
         const normSoln = solution.normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
         if (normGuess === normSoln) {
+            // mark the clue as solved
             game.state.push(idx)
 
-            console.clear()
+            // find the next clue node and focus it
             const p = parent(idx)
             if (p !== null) {
                 const nidx = next(p, idx) ?? next(0)
-                console.log(`next is ${nidx ? (node(nidx)?.key ?? `@${nidx}`) : 'null'}`)
+                if (nidx) {
+                    tick().then(_ => {
+                        const input = document.querySelector(`.inputWrapper[data-idx="${nidx}"] > input:first-child`) as HTMLInputElement
+                        input?.focus()
+                    })
+                }
             }
         }
     }
@@ -84,7 +91,7 @@
     }
 </script>
 
-<div class="inputWrapper">
+<div class="inputWrapper" data-idx={idx}>
     {#each curr.text as char, i}
         {#if char !== ' '}
             <input maxlength="1" enterkeyhint="done"
