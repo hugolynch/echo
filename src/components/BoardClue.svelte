@@ -3,9 +3,9 @@
     import BoardClue from './BoardClue.svelte'
     import Input from './Input.svelte'
 
-    let { depth = 0, idx = 0 } = $props();
-    let curr = node(idx)!;
-    let height = $derived(getHeight(idx));
+    let { depth = 0, idx = 0 } = $props()
+    let curr = node(idx)!
+    let height = $derived(getHeight(idx))
     let solved = $derived.by((): boolean => {
         if (depth === 0) {
             // if root, solved when all of the node's children are solved (excluding text nodes)
@@ -18,7 +18,7 @@
             // otherwise check game state array
             return game.state.includes(idx)
         }
-    });
+    })
 
     /**
      * Returns the 'height' (i.e. distance from the bottom/furthest leaf) of the current node.

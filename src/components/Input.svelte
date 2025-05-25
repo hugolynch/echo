@@ -3,9 +3,9 @@
     import { game, node, parent, next, input } from '../lib/state.svelte'
 
     let { idx = 0 } = $props()
-    let focused: number|null = null;
-    let curr = node(idx)!;
-    let inputs: HTMLInputElement[] = $state([]);
+    let focused: number|null = null
+    let curr = node(idx)!
+    let inputs: HTMLInputElement[] = $state([])
     let letters = $state([...curr.text].filter(c => c !== ' ').map(_ => ''))
 
     onMount(() => { game.inputs[idx] = inputs[0] })
