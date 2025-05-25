@@ -80,7 +80,7 @@
     <select name="puzzles" onchange={choose}>
         {#each filtered as option}
             <option value={option.id} selected={option.id === puzzle.id}>
-                {option.name}
+                {option.date}
             </option>
         {/each}
     </select>
