@@ -7,11 +7,11 @@
     "clues": [
       {"text": "zombie", "clues": [1, 2, 3, 4]},
       {"text": "the "},
-      {"id": "1", "text": "living", "clues": [5]},
+      {"key": "1", "text": "living", "clues": [5]},
       {"text": " "},
-      {"id": "2", "text": "dead", "clues": [6]},
-      {"id": "1.1", "text": "breathing"},
-      {"id": "2.1", "text": "not breathing"}
+      {"key": "2", "text": "dead", "clues": [6]},
+      {"key": "1.1", "text": "breathing"},
+      {"key": "2.1", "text": "not breathing"}
     ]
   }
 ]

@@ -7,7 +7,7 @@ interface Puzzle {
 }
 
 interface Clue {
-    id?: string,
+    key?: string,
     text: string,
     clues?: number[],
 }

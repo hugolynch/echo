@@ -54,7 +54,7 @@
         <span class="puzzle text">{node.text}</span>
     {/if}
 {:else}
-    <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={node.id} style:--height={height}>
+    <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={node.key} style:--height={height}>
         {#if height === 0}
             <div class="wrapper">{@render children(node.clues ?? [])}</div>
             <Input {idx} />
