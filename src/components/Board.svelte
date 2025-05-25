@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Puzzle } from '../types/puzzle'
+    import type { Puzzle, State } from '../types/puzzle'
     import { game } from '../lib/state.svelte'
     import BoardClue from "./BoardClue.svelte"
     import puzzles from '../assets/puzzles.json'
@@ -10,11 +10,11 @@
             + "-" + `${(new Date).getDate()}`.padStart(2, "0")
         return puzzle.date <= date
     })
-
     game.puzzle = loadPuzzle()
+    game.state = loadState(game.puzzle.id)
 
-    // let solved: string[] = $derived(getSolved(puzzle.root))
-    // $effect(() => localStorage.setItem(puzzle.id, JSON.stringify(solved)))
+    // on change, store the game state in local storage
+    $effect(() => localStorage.setItem(game.puzzle.id, JSON.stringify(game.state)))
 
     /**
      * Loads a puzzle.
@@ -42,37 +42,21 @@
         return saved
     }
 
+    function loadState(id?: string): State {
+        // if given an ID, check localStorage for it
+        if (id) {
+            const local = localStorage.getItem(id)
+            // if we found a state, parse and return it
+            if (local !== null) {
+                return JSON.parse(local)
+            }
+        }
+
+        // otherwise, no local state, so return empty array
+        return []
+    }
+
     /*
-    function loadState(saved: SaveClue, ids: string[], parent: GameClue|null = null): GameClue {
-        const node = {
-            id: saved.id,
-            parent,
-            clues: [] as GameClue[],
-            solution: saved.solution,
-            solved: false
-        }
-
-        // if this node is solved, mark it as so
-        if (saved.id && ids.includes(saved.id)) {
-            node.solved = true
-        }
-        // recursively check child clues
-        node.clues = (saved.clues ?? []).map(n => loadState(n, ids, node))
-
-        return node
-    }
-
-    function getSolved(node: GameClue): string[] {
-        return node.id && node.solved
-            ? [node.id]
-            : node.clues.flatMap(n => getSolved(n))
-    }
-
-    function reset(node: GameClue): void {
-        node.solved = false
-        node.clues.map(n => reset(n))
-    }
-
     // switch active puzzle to the chosen one
     function choose(e: Event): void {
         const el = e.target as HTMLSelectElement
@@ -97,17 +81,17 @@
 </div>
 
 <BoardClue />
-<!-- <button onclick={() => reset(puzzle.root)}>Reset Puzzle</button> -->
+<button onclick={() => game.state = []}>Reset Puzzle</button>
 
 <style>
     /*
     select {
         margin: 0 auto;
     }
+    */
 
     button {
         margin: 0 24px;
         align-self: center;
     }
-    */
 </style>
