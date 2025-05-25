@@ -5,13 +5,19 @@
     "author": "Me",
     "date": "2025-05-16",
     "clues": [
-      {"text": "zombie", "clues": [1, 2, 3, 4]},
-      {"text": "the "},
-      {"key": "1", "text": "living", "clues": [5]},
+      {"text": "May is Zombie Awareness Month", "clues": [1, 2, 3, 4, 5]},
+      {"key": "1", "text": "zombie", "clues": [6, 7, 8, 9]},
       {"text": " "},
-      {"key": "2", "text": "dead", "clues": [6]},
-      {"key": "1.1", "text": "breathing"},
-      {"key": "2.1", "text": "not breathing"}
+      {"text": "aware"},
+      {"key": "2", "text": "ness", "clues": [12]},
+      {"text": " month"},
+      {"text": "the "},
+      {"key": "1.1", "text": "living", "clues": [10]},
+      {"text": " "},
+      {"key": "1.2", "text": "dead", "clues": [11]},
+      {"key": "1.1.1", "text": "breathing"},
+      {"key": "1.2.1", "text": "not breathing"},
+      {"key": "2.1", "text": "Loch ___ monster"}
     ]
   }
 ]

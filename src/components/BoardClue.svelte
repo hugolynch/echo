@@ -8,7 +8,7 @@
     let height = $derived(getHeight(idx));
     let solved = $derived.by((): boolean => {
         if (depth === 0) {
-            // if root, solved when all of the node's children are solved (exclusing text nodes)
+            // if root, solved when all of the node's children are solved (excluding text nodes)
             const children = (game.puzzle.clues[idx].clues ?? []).filter(i => {
                 const child = game.puzzle.clues[i]
                 return child.clues?.length && !game.state.includes(i)
@@ -66,18 +66,18 @@
 
 <style>
     .puzzle {
-            display: flex;
-            max-width: 100vw;
-            overflow-x: scroll;
-            align-items: center;
-            padding: 24px 24px 72px 24px;
-            color: #084E74;
-            font-size: 1.6rem;
+        display: flex;
+        max-width: 100vw;
+        overflow-x: scroll;
+        align-items: center;
+        padding: 24px 24px 72px 24px;
+        color: #084E74;
+        font-size: 1.6rem;
 
-            & > .text {
-                margin-bottom: 40px;
-            }
+        & > .text {
+            margin-bottom: 40px;
         }
+    }
 
     .clue {
         display: flex;
