@@ -1,10 +1,10 @@
 <script lang="ts">
-    import { game } from '../lib/state.svelte'
+    import { game, node } from '../lib/state.svelte'
     import BoardClue from './BoardClue.svelte'
     import Input from './Input.svelte'
 
     let { depth = 0, idx = 0 } = $props();
-    let node = game.puzzle.clues[idx];
+    let curr = node(idx)!;
     let height = $derived(getHeight(idx));
     let solved = $derived.by((): boolean => {
         if (depth === 0) {
@@ -49,17 +49,17 @@
 
 {#if solved}
     {#if depth}
-        <span class="solution text">{node.text}</span>
+        <span class="solution text">{curr.text}</span>
     {:else}
-        <span class="puzzle text">{node.text}</span>
+        <span class="puzzle text">{curr.text}</span>
     {/if}
 {:else}
-    <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={node.key} style:--height={height}>
+    <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={curr.key} style:--height={height}>
         {#if height === 0}
-            <div class="wrapper">{@render children(node.clues ?? [])}</div>
+            <div class="wrapper">{@render children(curr.clues ?? [])}</div>
             <Input {idx} />
         {:else}
-            {@render children(node.clues ?? [])}
+            {@render children(curr.clues ?? [])}
         {/if}
     </span>
 {/if}

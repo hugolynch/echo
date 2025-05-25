@@ -1,12 +1,15 @@
 <script lang="ts">
-    import { tick } from 'svelte'
-    import { game, node, parent, next } from '../lib/state.svelte'
+    import { onMount, onDestroy, tick } from 'svelte'
+    import { game, node, parent, next, input } from '../lib/state.svelte'
 
     let { idx = 0 } = $props()
     let focused: number|null = null;
     let curr = node(idx)!;
     let inputs: HTMLInputElement[] = $state([]);
     let letters = $state([...curr.text].filter(c => c !== ' ').map(_ => ''))
+
+    onMount(() => { game.inputs[idx] = inputs[0] })
+    onDestroy(() => { delete game.inputs[idx] })
 
     /**
      * Compare a given guess and solution and return whether they match.
@@ -24,12 +27,7 @@
             const p = parent(idx)
             if (p !== null) {
                 const nidx = next(p, idx) ?? next(0)
-                if (nidx) {
-                    tick().then(_ => {
-                        const input = document.querySelector(`.inputWrapper[data-idx="${nidx}"] > input:first-child`) as HTMLInputElement
-                        input?.focus()
-                    })
-                }
+                tick().then(() => input(nidx)?.focus())
             }
         }
     }
@@ -91,7 +89,7 @@
     }
 </script>
 
-<div class="inputWrapper" data-idx={idx}>
+<div class="inputWrapper">
     {#each curr.text as char, i}
         {#if char !== ' '}
             <input maxlength="1" enterkeyhint="done"

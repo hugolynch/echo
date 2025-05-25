@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Puzzle, Clue, State } from '../types/puzzle'
+    import type { Puzzle } from '../types/puzzle'
     import { game } from '../lib/state.svelte'
     import BoardClue from "./BoardClue.svelte"
     import puzzles from '../assets/puzzles.json'
@@ -12,7 +12,6 @@
     })
 
     game.puzzle = loadPuzzle()
-    $inspect(game.puzzle)
 
     // let solved: string[] = $derived(getSolved(puzzle.root))
     // $effect(() => localStorage.setItem(puzzle.id, JSON.stringify(solved)))

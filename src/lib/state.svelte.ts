@@ -1,6 +1,6 @@
 import type { Puzzle, Clue, State } from '../types/puzzle'
 
-const game: { puzzle: Puzzle, state: State } = $state({
+const game: { puzzle: Puzzle, state: State, inputs: Array<HTMLInputElement|undefined> } = $state({
     puzzle: {
         id: "",
         name: "",
@@ -9,6 +9,7 @@ const game: { puzzle: Puzzle, state: State } = $state({
         clues: [],
     },
     state: [],
+    inputs: [],
 })
 
 /*
@@ -134,4 +135,16 @@ function next(idx: number, prev?: number): number|null {
     return null
 }
 
-export { game, node, parent, next }
+/**
+ * Given a node index, return its first input element.
+ * Returns null if there is no corresponding input.
+ */
+function input(idx: number|null): HTMLInputElement|null {
+    if (idx && game.inputs[idx]) {
+        return game.inputs[idx]
+    }
+
+    return null
+}
+
+export { game, node, parent, next, input }
