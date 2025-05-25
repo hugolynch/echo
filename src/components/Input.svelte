@@ -1,12 +1,11 @@
 <script lang="ts">
-    import type { Clue } from '../types/puzzle'
-    import { game } from '../lib/state.svelte'
+    import { game, node, parent, next } from '../lib/state.svelte'
 
     let { idx = 0 } = $props()
     let focused: number|null = null;
-    let node = game.puzzle.clues[idx];
+    let curr = node(idx)!;
     let inputs: HTMLInputElement[] = $state([]);
-    let letters = $state([...node.text].filter(c => c !== ' ').map(_ => ''))
+    let letters = $state([...curr.text].filter(c => c !== ' ').map(_ => ''))
 
     /**
      * Compare a given guess and solution and return whether they match.
@@ -18,6 +17,13 @@
         const normSoln = solution.normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
         if (normGuess === normSoln) {
             game.state.push(idx)
+
+            console.clear()
+            const p = parent(idx)
+            if (p !== null) {
+                const nidx = next(p, idx) ?? next(0)
+                console.log(`next is ${nidx ? (node(nidx)?.key ?? `@${nidx}`) : 'null'}`)
+            }
         }
     }
 
@@ -53,7 +59,7 @@
         }
 
         // check the solution so far
-        check(letters.join(''), node.text)
+        check(letters.join(''), curr.text)
     }
 
     /**
@@ -66,8 +72,8 @@
         }
 
         // reveal the appropriate letter and check if word is solved
-        letters[focused] = node.text[focused]
-        check(letters.join(''), node.text)
+        letters[focused] = curr.text[focused]
+        check(letters.join(''), curr.text)
 
         // focus the next input, wrapping around
         if (focused === inputs.length - 1) {
@@ -79,12 +85,12 @@
 </script>
 
 <div class="inputWrapper">
-    {#each node.text as char, i}
+    {#each curr.text as char, i}
         {#if char !== ' '}
             <input maxlength="1" enterkeyhint="done"
                 onkeydown={e => handleKeyDown(e, i)} onblur={() => focused = i}
                 bind:value={letters[i]} bind:this={inputs[i]}
-                class={{'space': node.text[i + 1] === ' '}}
+                class={{'space': curr.text[i + 1] === ' '}}
             />
         {/if}
     {/each}
