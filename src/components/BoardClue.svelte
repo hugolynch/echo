@@ -4,7 +4,7 @@
     import Input from './Input.svelte'
 
     let { depth = 0, idx = 0 } = $props()
-    let curr = node(idx)!
+    let curr = $derived(node(idx)!)
     let height = $derived(getHeight(idx))
     let solved = $derived.by((): boolean => {
         if (depth === 0) {

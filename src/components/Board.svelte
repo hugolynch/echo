@@ -56,24 +56,24 @@
         return []
     }
 
-    /*
     // switch active puzzle to the chosen one
     function choose(e: Event): void {
         const el = e.target as HTMLSelectElement
-        puzzle = loadPuzzle(el.value)
+        game.inputs = []
+        game.state = loadState(el.value)
+        game.puzzle = loadPuzzle(el.value)
     }
-    */
 </script>
 
-<!-- <div>
+<div>
     <select name="puzzles" onchange={choose}>
         {#each filtered as option}
-            <option value={option.id} selected={option.id === puzzle.id}>
+            <option value={option.id} selected={option.id === game.puzzle.id}>
                 {option.name}
             </option>
         {/each}
     </select>
-</div> -->
+</div>
 
 <div>
     <h1>{game.puzzle.name || 'Untitled'}</h1>
@@ -84,11 +84,9 @@
 <button onclick={() => game.state = []}>Reset Puzzle</button>
 
 <style>
-    /*
     select {
         margin: 0 auto;
     }
-    */
 
     button {
         margin: 0 24px;
