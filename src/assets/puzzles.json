@@ -19799,5 +19799,283 @@
         "text": " for.\""
       }
     ]
+  },
+  {
+    "id": "09b54c69-7e0b-4083-8730-995cdd8bfdb0",
+    "name": "May 26 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-04-26",
+    "clues": [
+      {
+        "text": "1927 – The Ford Motor Company produce the last \"Tin Lizzie\"\n\nhttps://en.wikipedia.org/wiki/Ford_Model_T",
+        "clues": [
+          1,
+          2,
+          12,
+          13,
+          18,
+          19,
+          36,
+          37,
+          52
+        ]
+      },
+      {
+        "text": "The "
+      },
+      {
+        "key": "1",
+        "text": "Ford",
+        "clues": [
+          3,
+          4,
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "text": "p"
+      },
+      {
+        "key": "1.1",
+        "text": "resident",
+        "clues": [
+          5,
+          6
+        ]
+      },
+      {
+        "text": "occu"
+      },
+      {
+        "key": "1.1.1",
+        "text": "pant",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "breathe heavily"
+      },
+      {
+        "text": " after "
+      },
+      {
+        "key": "1.2",
+        "text": "Nix",
+        "clues": [
+          10
+        ]
+      },
+      {
+        "text": "put an end to"
+      },
+      {
+        "text": "on"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "Motor",
+        "clues": [
+          14,
+          15,
+          17
+        ]
+      },
+      {
+        "text": "___ City ("
+      },
+      {
+        "key": "2.1",
+        "text": "nickname",
+        "clues": [
+          16
+        ]
+      },
+      {
+        "text": "Izzy, Bob or Dick, perhaps"
+      },
+      {
+        "text": " for Detroit)"
+      },
+      {
+        "text": " Company "
+      },
+      {
+        "key": "3",
+        "text": "prod",
+        "clues": [
+          20,
+          21
+        ]
+      },
+      {
+        "text": "cattle "
+      },
+      {
+        "key": "3.1",
+        "text": "poker",
+        "clues": [
+          22,
+          35
+        ]
+      },
+      {
+        "key": "3.1.1",
+        "text": "Texas",
+        "clues": [
+          23,
+          24,
+          29,
+          30,
+          34
+        ]
+      },
+      {
+        "text": "the L"
+      },
+      {
+        "key": "3.1.1.1",
+        "text": "one",
+        "clues": [
+          25,
+          26,
+          28
+        ]
+      },
+      {
+        "text": "\"We're number ___!\" ("
+      },
+      {
+        "key": "3.1.1.1.1",
+        "text": "cheerleader",
+        "clues": [
+          27
+        ]
+      },
+      {
+        "text": "pep rally performer"
+      },
+      {
+        "text": " cry)"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3.1.1.2",
+        "text": "Star",
+        "clues": [
+          31,
+          33
+        ]
+      },
+      {
+        "key": "3.1.1.2.1",
+        "text": "Michelin",
+        "clues": [
+          32
+        ]
+      },
+      {
+        "text": "french company whose mascot is a humanoid stack of white tires"
+      },
+      {
+        "text": " reward"
+      },
+      {
+        "text": " State"
+      },
+      {
+        "text": " hold 'em, e.g."
+      },
+      {
+        "text": "uces the last \""
+      },
+      {
+        "key": "4",
+        "text": "Tin",
+        "clues": [
+          38,
+          42,
+          43,
+          51
+        ]
+      },
+      {
+        "key": "4.1",
+        "text": "toy",
+        "clues": [
+          39,
+          41
+        ]
+      },
+      {
+        "key": "4.1.1",
+        "text": "Santa",
+        "clues": [
+          40
+        ]
+      },
+      {
+        "text": "white-bearded seasonal worker"
+      },
+      {
+        "text": " delivery"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4.2",
+        "text": "sold",
+        "clues": [
+          44,
+          45,
+          47,
+          48,
+          50
+        ]
+      },
+      {
+        "text": "\"Going "
+      },
+      {
+        "key": "4.2.1",
+        "text": "once",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "fool me ___, shame on me"
+      },
+      {
+        "text": "... Going "
+      },
+      {
+        "key": "4.2.2",
+        "text": "twice",
+        "clues": [
+          49
+        ]
+      },
+      {
+        "text": "fool me ___, shame on you"
+      },
+      {
+        "text": "... ___!\""
+      },
+      {
+        "text": "ier material"
+      },
+      {
+        "text": " Lizzie\""
+      }
+    ]
   }
 ]
