@@ -1,5 +1,6 @@
 <script lang="ts">
-    import type { Puzzle, Clue } from '../types/puzzle'
+    import type { Puzzle, State } from '../types/puzzle'
+    import { game } from '../lib/state.svelte'
     import BoardClue from "./BoardClue.svelte"
     import puzzles from '../assets/puzzles.json'
 
@@ -9,10 +10,11 @@
             + "-" + `${(new Date).getDate()}`.padStart(2, "0")
         return puzzle.date <= date
     })
-    let puzzle: Puzzle = $state(loadPuzzle())
-    let solved: string[] = $derived(getSolved(puzzle.root))
+    game.puzzle = loadPuzzle()
+    game.state = loadState(game.puzzle.id)
 
-    $effect(() => localStorage.setItem(puzzle.id, JSON.stringify(solved)))
+    // on change, store the game state in local storage
+    $effect(() => localStorage.setItem(game.puzzle.id, JSON.stringify(game.state)))
 
     /**
      * Loads a puzzle.
@@ -21,80 +23,65 @@
      * Otherwise load the active puzzle, or else the latest one.
      */
     function loadPuzzle(id?: string): Puzzle {
-        let chosen: Puzzle|null
+        let saved: Puzzle|null
         if (id) {
             // when given an id, try to load that puzzle
-            chosen = filtered.find(p => p.id === id) ?? null
+            saved = filtered.find(p => p.id === id) ?? null
         } else {
             // when not given an id, try to load active puzzle
             const active = localStorage.getItem('active')
-            chosen = filtered.find(p => p.id === active) ?? null
+            saved = filtered.find(p => p.id === active) ?? null
         }
         // if we couldn't get a valid puzzle, return the last one
-        if (! chosen) {
-            chosen = filtered[filtered.length - 1]
-        }
-
-        // load...
-        const saved = localStorage.getItem(chosen.id)
-        if (saved) {
-            chosen.root = loadState(chosen.root, JSON.parse(saved))
+        if (! saved) {
+            saved = filtered[filtered.length - 1]
         }
 
         // save active puzzle to local storage and return it
-        localStorage.setItem('active', chosen.id)
-        return chosen
+        localStorage.setItem('active', saved.id)
+        return saved
     }
 
-    function loadState(node: Clue, ids: string[]): Clue {
-        if (node.id && ids.includes(node.id)) {
-            // if this node is solved, mark it as so
-            node.solved = true
-        } else {
-            // otherwise, recursively check children
-            node.clues = node.clues?.map(n => loadState(n, ids))
+    function loadState(id?: string): State {
+        // if given an ID, check localStorage for it
+        if (id) {
+            const local = localStorage.getItem(id)
+            // if we found a state, parse and return it
+            if (local !== null) {
+                return JSON.parse(local)
+            }
         }
 
-        return node
-    }
-
-    function getSolved(node: Clue): string[] {
-        return node.id && node.solved
-            ? [node.id]
-            : (node.clues ?? []).flatMap(n => getSolved(n))
-    }
-
-    function reset(node: Clue): void {
-        node.solved = false
-        node.clues?.map(n => reset(n))
+        // otherwise, no local state, so return empty array
+        return []
     }
 
     // switch active puzzle to the chosen one
     function choose(e: Event): void {
         const el = e.target as HTMLSelectElement
-        puzzle = loadPuzzle(el.value)
+        game.inputs = []
+        game.state = loadState(el.value)
+        game.puzzle = loadPuzzle(el.value)
     }
 </script>
 
 <div>
     <select name="puzzles" onchange={choose}>
         {#each filtered as option}
-            <option value={option.id} selected={option.id === puzzle.id}>
-                {option.date}
+            <option value={option.id} selected={option.id === game.puzzle.id}>
+                {option.name}
             </option>
         {/each}
     </select>
 </div>
 
 <div>
-    <h1>{puzzle.name || 'Untitled'}</h1>
-    <span>by {puzzle.author || 'Unknown'}</span>
+    <h1>{game.puzzle.name || 'Untitled'}</h1>
+    <span>by {game.puzzle.author || 'Unknown'}</span>
 </div>
 
-<BoardClue bind:node={puzzle.root} />
-<p id="feedback"></p>
-
-<button onclick={() => reset(puzzle.root)}>Reset Puzzle</button>
+<BoardClue />
+<button onclick={() => game.state = []}>Reset Puzzle</button>
 
 <style>
     select {

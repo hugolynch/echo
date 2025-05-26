@@ -1,21 +1,35 @@
 <script lang="ts">
-    let {
-        solution = '' as string,
-        solved = $bindable() as boolean
-    } = $props()
-    let focused: number|null = null;
-    let inputs: HTMLInputElement[] = $state([]);
-    let letters = $state([...solution].filter(c => c !== ' ').map(_ => ''))
+    import { onMount, onDestroy, tick } from 'svelte'
+    import { game, node, parent, next, input } from '../lib/state.svelte'
+
+    let { idx = 0 } = $props()
+    let focused: number|null = null
+    let curr = node(idx)!
+    let inputs: HTMLInputElement[] = $state([])
+    let letters = $state([...curr.text].filter(c => c !== ' ').map(_ => ''))
+
+    onMount(() => { game.inputs[idx] = inputs[0] })
+    onDestroy(() => { delete game.inputs[idx] })
 
     /**
      * Compare a given guess and solution and return whether they match.
      * Make sure to normalize the strings before comparing them.
      */
-    function check(guess: string, solution: string): boolean {
+    function check(guess: string, solution: string) {
         // compare normalized guess + solution
         const normGuess = guess.normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
         const normSoln = solution.normalize('NFKD').replace(/[\p{Diacritic}\s]/gu, '').toLowerCase()
-        return normGuess === normSoln
+        if (normGuess === normSoln) {
+            // mark the clue as solved
+            game.state.push(idx)
+
+            // find the next clue node and focus it
+            const p = parent(idx)
+            if (p !== null) {
+                const nidx = next(p, idx) ?? next(0)
+                tick().then(() => input(nidx)?.focus())
+            }
+        }
     }
 
     /**
@@ -50,7 +64,7 @@
         }
 
         // check the solution so far
-        solved = check(letters.join(''), solution)
+        check(letters.join(''), curr.text)
     }
 
     /**
@@ -63,8 +77,8 @@
         }
 
         // reveal the appropriate letter and check if word is solved
-        letters[focused] = solution[focused]
-        solved = check(letters.join(''), solution)
+        letters[focused] = curr.text[focused]
+        check(letters.join(''), curr.text)
 
         // focus the next input, wrapping around
         if (focused === inputs.length - 1) {
@@ -76,19 +90,19 @@
 </script>
 
 <div class="inputWrapper">
-    {#each solution as char, i}
+    {#each curr.text as char, i}
         {#if char !== ' '}
             <input maxlength="1" enterkeyhint="done"
                 onkeydown={e => handleKeyDown(e, i)} onblur={() => focused = i}
                 bind:value={letters[i]} bind:this={inputs[i]}
-                class={{'space': solution[i + 1] === ' '}}
+                class={{'space': curr.text[i + 1] === ' '}}
             />
         {/if}
     {/each}
 </div>
 <div class="buttonWrapper">
     <button onclick={reveal}>Reveal Letter</button>
-    <button onclick={() => solved = true}>Reveal Word</button>
+    <button onclick={() => game.state.push(idx)}>Reveal Word</button>
 </div>
 
 <style>

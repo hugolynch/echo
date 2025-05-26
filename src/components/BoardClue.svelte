@@ -1,76 +1,83 @@
 <script lang="ts">
-    import type { Clue } from '../types/puzzle'
+    import { game, node } from '../lib/state.svelte'
     import BoardClue from './BoardClue.svelte'
     import Input from './Input.svelte'
 
-    let {
-        id = '',
-        depth = 0,
-        node = $bindable() as Clue
-    } = $props();
-    let height = $derived(getHeight(node));
+    let { depth = 0, idx = 0 } = $props()
+    let curr = $derived(node(idx)!)
+    let height = $derived(getHeight(idx))
     let solved = $derived.by((): boolean => {
-        return depth === 0
-            // if root, solved when every child clue is solved (excluding text nodes)
-            ? (node.clues ?? []).filter(n => n.clues?.length).every(n => n.solved)
-            // if not root, just return the node's solved value (default to false if undefined)
-            : node.solved ?? false;
-    });
+        if (depth === 0) {
+            // if root, solved when all of the node's children are solved (excluding text nodes)
+            const children = (game.puzzle.clues[idx].clues ?? []).filter(i => {
+                const child = game.puzzle.clues[i]
+                return child.clues?.length && !game.state.includes(i)
+            })
+            return children.length === 0
+        } else {
+            // otherwise check game state array
+            return game.state.includes(idx)
+        }
+    })
 
     /**
      * Returns the 'height' (i.e. distance from the bottom/furthest leaf) of the current node.
      * If the current node is a leaf (i.e. has no children), return 0.
-     * Treats solved nodes as non-existent.
+     * Treats text & solved nodes as non-existent.
      */
-    function getHeight(node: Clue): number {
-        // get non-text, non-solved children (i.e. clue nodes)
-        const clues = (node.clues ?? []).filter(n => n.clues?.length && !n.solved)
+    function getHeight(idx: number): number {
+        // get list of children's indixes, excluding text
+        const children = (game.puzzle.clues[idx].clues ?? []).filter(i => {
+            const child = game.puzzle.clues[i]
+            return child.clues?.length && !game.state.includes(i)
+        })
         // default to 0 if the node has no children
-        return Math.max(0, ...clues.map(n => getHeight(n) + 1))
+        return Math.max(0, ...children.map(n => getHeight(n) + 1))
     }
 </script>
 
-{#snippet children(children: Clue[])}
-    {#each children as child, i}
+{#snippet children(children: number[])}
+    {#each children as i}
+        {@const child = game.puzzle.clues[i]}
         {#if ! child.clues?.length}
-            <span class="text">{child.solution}</span>
+            <span class="text">{child.text}</span>
         {:else}
-            <BoardClue id={child.id} depth={depth + 1} bind:node={node.clues![i]} />
+            <BoardClue depth={depth + 1} idx={i} />
         {/if}
     {/each}
 {/snippet}
 
 {#if solved}
     {#if depth}
-        <span class="solution text">{node.solution}</span>
+        <span class="solution text">{curr.text}</span>
     {:else}
-        <span class="puzzle text">{node.solution}</span>
+        <span class="puzzle text">{curr.text}</span>
     {/if}
 {:else}
-    <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={id} style:--height={height}>
+    <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={curr.key} style:--height={height}>
         {#if height === 0}
-            <div class="wrapper">{@render children(node.clues ?? [])}</div>
-            <Input solution={node.solution} bind:solved={node.solved} />
+            <div class="wrapper">{@render children(curr.clues ?? [])}</div>
+            <Input {idx} />
         {:else}
-            {@render children(node.clues ?? [])}
+            {@render children(curr.clues ?? [])}
         {/if}
     </span>
 {/if}
 
 <style>
     .puzzle {
-            display: flex;
-            max-width: 100vw;
-            overflow-x: scroll;
-            align-items: center;
-            padding: 24px 24px 72px 24px;
-            color: #084E74;
-            font-size: 1.6rem;
+        display: flex;
+        max-width: 100vw;
+        overflow-x: scroll;
+        align-items: center;
+        padding: 24px 24px 72px 24px;
+        color: #084E74;
+        font-size: 1.6rem;
 
-            & > .text {
-                margin-bottom: 40px;
-            }
+        & > .text {
+            margin-bottom: 40px;
         }
+    }
 
     .clue {
         display: flex;
