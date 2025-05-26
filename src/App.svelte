@@ -3,6 +3,3 @@
 </script>
 
 <Board />
-
-<style>
-</style>

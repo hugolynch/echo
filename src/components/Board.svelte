@@ -1,6 +1,7 @@
 <script lang="ts">
     import type { Puzzle, State } from '../types/puzzle'
-    import { game } from '../lib/state.svelte'
+    import { tick } from 'svelte'
+    import { game, next, input } from '../lib/state.svelte'
     import BoardClue from "./BoardClue.svelte"
     import puzzles from '../assets/puzzles.json'
 
@@ -12,7 +13,6 @@
     })
     game.puzzle = loadPuzzle()
     game.state = loadState(game.puzzle.id)
-
     // on change, store the game state in local storage
     $effect(() => localStorage.setItem(game.puzzle.id, JSON.stringify(game.state)))
 
@@ -37,8 +37,9 @@
             saved = filtered[filtered.length - 1]
         }
 
-        // save active puzzle to local storage and return it
+        // save active puzzle to local storage, focus first input, and return it
         localStorage.setItem('active', saved.id)
+        tick().then(() => input(next(0))?.focus())
         return saved
     }
 
