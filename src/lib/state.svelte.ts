@@ -94,6 +94,18 @@ function leaf(idx: number): boolean {
 
 /**
  * Given a node index and a start sub-index (position within the children array, not index in puzzle),
+ * return the node's right-most child clue, stopping at the given sub-index.
+ */
+function rmcc(idx: number, stop: number): number|null {
+    for (const child of children(idx).slice(0, stop).reverse()) {
+        if (clue(child)) return child
+    }
+    // if we're here it means we didn't find a clue node
+    return null
+}
+
+/**
+ * Given a node index and a start sub-index (position within the children array, not index in puzzle),
  * return the node's left-most child clue, starting at the given sub-index.
  */
 function lmcc(idx: number, start: number): number|null {
@@ -105,11 +117,42 @@ function lmcc(idx: number, start: number): number|null {
 }
 
 /**
+ * Given a node index, returns the "previous" available (i.e. leaf) node in the puzzle.
+ * When traversing backwards (up the tree), we additional get the previously visited node, which
+ * allows us to visit the correct child.
+ */
+function prev(idx: number, from?: number): number|null {
+    // base case: if we find a leaf node, that's the previous valid one, so return it
+    if (leaf(idx)) {
+        return idx
+    }
+
+    // get the node's right-most child clue, stopping at the prev index
+    // if no previous index, stop at the end
+    const child = rmcc(idx, from ? children(idx).indexOf(from) : children(idx).length)
+    if (child !== null) {
+        // if we found a child node, keep traversing down that branch
+        return prev(child)
+    }
+
+    // otherwise, there is no valid child node so we need to move back up the tree
+    const p = parent(idx)
+    if (p !== null) {
+        return prev(p, idx)
+    }
+
+    // at this point we've explored the whole tree, so we give up
+    // (there is no valid previous node)
+    // this can only happen once the whole puzzle is solved
+    return null
+}
+
+/**
  * Given a node index, returns the "next" available (i.e. leaf) node in the puzzle.
  * When traversing backwards (up the tree), we additional get the previously visited node, which
  * allows us to visit the correct child.
  */
-function next(idx: number, prev?: number): number|null {    
+function next(idx: number, from?: number): number|null {
     // base case: if we find a leaf node, that's the next valid one, so return it
     if (leaf(idx)) {
         return idx
@@ -117,7 +160,7 @@ function next(idx: number, prev?: number): number|null {
 
     // get the node's left-most child clue, starting at the prev index
     // if no previous index, start at beginning
-    const child = lmcc(idx, children(idx).findIndex(child => child === prev))
+    const child = lmcc(idx, children(idx).findIndex(child => child === from))
     if (child !== null) {
         // if we found a child node, keep traversing down that branch
         return next(child)
@@ -147,4 +190,4 @@ function input(idx: number|null): HTMLInputElement|null {
     return null
 }
 
-export { game, node, parent, next, input }
+export { game, node, parent, prev, next, input }

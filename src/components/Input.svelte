@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount, onDestroy, tick } from 'svelte'
-    import { game, node, parent, next, input } from '../lib/state.svelte'
+    import { game, node, parent, prev, next, input } from '../lib/state.svelte'
 
     let { idx = 0 } = $props()
     let focused: number|null = null
@@ -40,27 +40,42 @@
      */
      function handleKeyDown(e: KeyboardEvent, i: number): void {
         // if there's a meta key (ctrl/cmd) active, don't override the default behaviour
-        // (i.e. allow ctrl+* keybindings); same for tab keys
-        if (e.metaKey || e.key === 'Tab') return
+        // (i.e. allow ctrl+* keybindings)
+        if (e.metaKey) return
+        // otherwise, prevent default event handling
+        e.preventDefault()
+
+        // if key is tab or shift+tab, focus previous/next clue
+        if (e.key === 'Tab') {
+            const p = parent(idx)
+            if (p !== null) {
+                // if shift is pressed, get the previous clue's input
+                // otherwise get the next one's
+                const tidx = e.shiftKey
+                    ? prev(p, idx) ?? prev(0)
+                    : next(p, idx) ?? next(0)
+                input(tidx)?.focus()
+            }
+            return
+        }
 
         // get input + neighbours
-        const input = e.target as HTMLInputElement
-        const prev = input.previousElementSibling as HTMLInputElement|null
-        const next = input.nextElementSibling as HTMLInputElement|null
-        // handle special cases...
-        e.preventDefault()
+        const target = e.target as HTMLInputElement
+        const prevChar = target.previousElementSibling as HTMLInputElement|null
+        const nextChar = target.nextElementSibling as HTMLInputElement|null
+        // handle other (non-tab) special cases...
         if (e.key === 'ArrowLeft') {
-            prev?.focus()
+            prevChar?.focus()
         } else if (e.key === 'ArrowRight') {
-            next?.focus()
+            nextChar?.focus()
         } else if (e.key === 'Backspace') {
             // on backspace, clear current and focus previous input
             letters[i] = ''
-            prev?.focus()
+            prevChar?.focus()
         } else if (e.key.length === 1) {
             // when typing a single character, focus next input
             letters[i] = e.key
-            next?.focus()
+            nextChar?.focus()
         }
 
         // check the solution so far
