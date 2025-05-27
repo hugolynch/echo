@@ -20351,5 +20351,334 @@
         "text": "\""
       }
     ]
+  },
+  {
+    "id": "efca9226-57c2-453e-b9da-0d26207f4956",
+    "name": "May 28 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-28",
+    "clues": [
+      {
+        "text": "1936 – Alan Turing submits \"On Computable Numbers\" for publication\n\nhttps://en.wikipedia.org/wiki/Alan_Turing",
+        "clues": [
+          1,
+          2,
+          16,
+          17,
+          23,
+          24,
+          35,
+          36,
+          41,
+          42,
+          51,
+          52,
+          61
+        ]
+      },
+      {
+        "text": "1936 – "
+      },
+      {
+        "key": "1",
+        "text": "Ala",
+        "clues": [
+          3,
+          7,
+          8,
+          15
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "apple pie",
+        "clues": [
+          4,
+          5
+        ]
+      },
+      {
+        "text": "symbolic American "
+      },
+      {
+        "key": "1.1.1",
+        "text": "dessert",
+        "clues": [
+          6
+        ]
+      },
+      {
+        "text": "feast finale"
+      },
+      {
+        "text": " ___ "
+      },
+      {
+        "key": "1.2",
+        "text": "mode",
+        "clues": [
+          9,
+          10,
+          14
+        ]
+      },
+      {
+        "text": "\""
+      },
+      {
+        "key": "1.2.1",
+        "text": "No cap",
+        "clues": [
+          11,
+          12
+        ]
+      },
+      {
+        "text": "\"For real,\" in modern par"
+      },
+      {
+        "key": "1.2.1.1",
+        "text": "lance",
+        "clues": [
+          13
+        ]
+      },
+      {
+        "text": "knight's pointy pole"
+      },
+      {
+        "text": "es!\" -Edna ___"
+      },
+      {
+        "text": " (1,2)"
+      },
+      {
+        "text": "n "
+      },
+      {
+        "key": "2",
+        "text": "Turin",
+        "clues": [
+          18,
+          22
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "host",
+        "clues": [
+          19,
+          21
+        ]
+      },
+      {
+        "key": "2.1.1",
+        "text": "parasite",
+        "clues": [
+          20
+        ]
+      },
+      {
+        "text": "flea or tapeworm"
+      },
+      {
+        "text": "'s home"
+      },
+      {
+        "text": " of the 2006 Winter Olympics"
+      },
+      {
+        "text": "g submits \"On Compu"
+      },
+      {
+        "key": "3",
+        "text": "table",
+        "clues": [
+          25,
+          26,
+          30,
+          31
+        ]
+      },
+      {
+        "text": "p"
+      },
+      {
+        "key": "3.1",
+        "text": "lace",
+        "clues": [
+          27,
+          29
+        ]
+      },
+      {
+        "key": "3.1.1",
+        "text": "deli",
+        "clues": [
+          28
+        ]
+      },
+      {
+        "text": "place for pastrami"
+      },
+      {
+        "text": "cate fabric"
+      },
+      {
+        "text": " for cards or "
+      },
+      {
+        "key": "3.2",
+        "text": "coffee",
+        "clues": [
+          32,
+          33
+        ]
+      },
+      {
+        "text": "joe or "
+      },
+      {
+        "key": "3.2.1",
+        "text": "java",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "world's most populous island"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4",
+        "text": "Number",
+        "clues": [
+          37,
+          38,
+          40
+        ]
+      },
+      {
+        "text": "\""
+      },
+      {
+        "key": "4.1",
+        "text": "Sorry",
+        "clues": [
+          39
+        ]
+      },
+      {
+        "text": "apologetic Justin Bieber hit"
+      },
+      {
+        "text": ", wrong ___\""
+      },
+      {
+        "text": "s\" for "
+      },
+      {
+        "key": "5",
+        "text": "pub",
+        "clues": [
+          43,
+          44,
+          50
+        ]
+      },
+      {
+        "text": "place for a "
+      },
+      {
+        "key": "5.1",
+        "text": "pin",
+        "clues": [
+          45,
+          47,
+          48
+        ]
+      },
+      {
+        "key": "5.1.1",
+        "text": "map",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "atlas page"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "5.1.2",
+        "text": "marker",
+        "clues": [
+          49
+        ]
+      },
+      {
+        "text": "Sharpie, e.g."
+      },
+      {
+        "text": "t"
+      },
+      {
+        "text": "li"
+      },
+      {
+        "key": "6",
+        "text": "cat",
+        "clues": [
+          53,
+          55,
+          56,
+          58,
+          59
+        ]
+      },
+      {
+        "key": "6.1",
+        "text": "laser",
+        "clues": [
+          54
+        ]
+      },
+      {
+        "text": "eye surgery tool"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "6.2",
+        "text": "pointer",
+        "clues": [
+          57
+        ]
+      },
+      {
+        "text": "tip"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "6.3",
+        "text": "chaser",
+        "clues": [
+          60
+        ]
+      },
+      {
+        "text": "drink after a shot"
+      },
+      {
+        "text": "ion"
+      }
+    ]
   }
 ]
