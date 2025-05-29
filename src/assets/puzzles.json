@@ -20953,5 +20953,252 @@
         "text": "ople"
       }
     ]
+  },
+  {
+    "id": "37cede19-1d12-4df3-aec5-288c6182ee26",
+    "name": "May 30 (In Memorian)",
+    "author": "Hugo",
+    "date": "2025-05-30",
+    "clues": [
+      {
+        "text": "1431 – Joan of Arc is burned at the stake\n\nhttps://en.wikipedia.org/wiki/Joan_of_Arc#Execution",
+        "clues": [
+          1,
+          8,
+          9,
+          13,
+          14,
+          28,
+          29
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Joan",
+        "clues": [
+          2,
+          4,
+          5,
+          7
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "act",
+        "clues": [
+          3
+        ]
+      },
+      {
+        "text": "play part, or play a part"
+      },
+      {
+        "text": "ress Cusack or "
+      },
+      {
+        "key": "1.2",
+        "text": "writ",
+        "clues": [
+          6
+        ]
+      },
+      {
+        "text": "court order"
+      },
+      {
+        "text": "er Didion"
+      },
+      {
+        "text": " of "
+      },
+      {
+        "key": "2",
+        "text": "Arc",
+        "clues": [
+          10,
+          12
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "rainbow",
+        "clues": [
+          11
+        ]
+      },
+      {
+        "text": "path to the pot of gold, so they say"
+      },
+      {
+        "text": " shape"
+      },
+      {
+        "text": " is "
+      },
+      {
+        "key": "3",
+        "text": "burn",
+        "clues": [
+          15,
+          16
+        ]
+      },
+      {
+        "text": "really over"
+      },
+      {
+        "key": "3.1",
+        "text": "cook",
+        "clues": [
+          17,
+          27
+        ]
+      },
+      {
+        "key": "3.1.1",
+        "text": "whip",
+        "clues": [
+          18,
+          19,
+          24,
+          25
+        ]
+      },
+      {
+        "text": "weapon for "
+      },
+      {
+        "key": "3.1.1.1",
+        "text": "India",
+        "clues": [
+          20,
+          21,
+          23
+        ]
+      },
+      {
+        "text": "I, in the NATO "
+      },
+      {
+        "key": "3.1.1.1.1",
+        "text": "phone",
+        "clues": [
+          22
+        ]
+      },
+      {
+        "text": "\"E.T. ___ home\""
+      },
+      {
+        "text": "tic alphabet"
+      },
+      {
+        "text": "na "
+      },
+      {
+        "key": "3.1.1.2",
+        "text": "Jones",
+        "clues": [
+          26
+        ]
+      },
+      {
+        "text": "craving, slangily"
+      },
+      {
+        "text": " up a meal"
+      },
+      {
+        "text": "ed at the "
+      },
+      {
+        "key": "4",
+        "text": "stake",
+        "clues": [
+          30,
+          37,
+          38
+        ]
+      },
+      {
+        "key": "4.1",
+        "text": "vampire",
+        "clues": [
+          31,
+          32,
+          36
+        ]
+      },
+      {
+        "text": "\"What We Do in the "
+      },
+      {
+        "key": "4.1.1",
+        "text": "Shadow",
+        "clues": [
+          33,
+          35
+        ]
+      },
+      {
+        "key": "4.1.1.1",
+        "text": "sundial",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "ancient time-telling device"
+      },
+      {
+        "text": " indicator"
+      },
+      {
+        "text": "s\" creature"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4.2",
+        "text": "killer",
+        "clues": [
+          39,
+          40,
+          45
+        ]
+      },
+      {
+        "text": "___ "
+      },
+      {
+        "key": "4.2.1",
+        "text": "whale",
+        "clues": [
+          41,
+          42,
+          44
+        ]
+      },
+      {
+        "text": "Pinocchio "
+      },
+      {
+        "key": "4.2.1.1",
+        "text": "swallow",
+        "clues": [
+          43
+        ]
+      },
+      {
+        "text": "small, fork-tailed birds"
+      },
+      {
+        "text": "er"
+      },
+      {
+        "text": " (aquatic apex predator)"
+      }
+    ]
   }
 ]
