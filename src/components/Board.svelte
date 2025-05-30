@@ -1,7 +1,7 @@
 <script lang="ts">
     import type { Puzzle, State } from '../types/puzzle'
     import { tick } from 'svelte'
-    import { game, next, input } from '../lib/state.svelte'
+    import { game, node, next, input } from '../lib/state.svelte'
     import Keyboard from './Keyboard.svelte'
     import BoardClue from "./BoardClue.svelte"
     import puzzles from '../assets/puzzles.json'
@@ -40,7 +40,7 @@
 
         // save active puzzle to local storage, focus first input, and return it
         localStorage.setItem('active', saved.id)
-        tick().then(() => input(next(0))?.focus())
+        tick().then(() => input(next(0), 0)?.focus())
         return saved
     }
 
@@ -67,9 +67,9 @@
     }
 
     function type(letter: string): void {
-        if (game.focused) {
-            game.focused.dispatchEvent(new CustomEvent('type', {detail: letter}))
-        }
+        const target = input(game.focused.clue, game.focused.input)
+        target?.focus()
+        target?.dispatchEvent(new CustomEvent('type', {detail: letter}))
     }
 </script>
 

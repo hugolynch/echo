@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { game, leaf, render } from '../lib/state.svelte'
+
     let { type }: { type: (letter: string) => void } = $props()
     let letters = [
         'qwertyuiop'.split(''),
@@ -10,8 +12,17 @@
 <div class="keyboard">
     <div class="row top">
         <button class="tab" onclick={() => type('ShiftTab')}>&lt;</button>
-        <div class="clue">...</div>
+        <div class="clue">
+            {#if leaf(game.focused.clue)}
+                { render(game.focused.clue) }
+            {:else}
+                &ndash;
+            {/if}
+        </div>
         <button class="tab" onclick={() => type('Tab')}>&gt;</button>
+    </div>
+    <div class="row">
+        <button class="" onclick={() => type('reveal')}>Reveal</button>
     </div>
     {#each letters as row}
         <div class="row">    

@@ -3,8 +3,8 @@ import type { Puzzle, Clue, State } from '../types/puzzle'
 const game: {
     puzzle: Puzzle,
     state: State,
-    inputs: Array<HTMLInputElement|undefined>,
-    focused: HTMLInputElement|null
+    inputs: Array<Array<HTMLInputElement|undefined>>,
+    focused: { clue: number, input: number },
 } = $state({
     puzzle: {
         id: "",
@@ -15,7 +15,7 @@ const game: {
     },
     state: [],
     inputs: [],
-    focused: null,
+    focused: { clue: 0, input: 0 },
 })
 
 /*
@@ -83,10 +83,18 @@ function clue(idx: number): boolean {
  * Given a node index, return true iff it is a leaf node (i.e. a bottom-level clue node).
  * Takes solved children into account.
  */
-function leaf(idx: number): boolean {
+export function leaf(idx: number): boolean {
     const clues = node(idx)?.clues ?? []
     return clues.length === 0
         || clues.every(c => text(c) || solved(c))
+}
+
+/**
+ * Given a node index, return the 
+ */
+export function render(idx: number): string {
+    const clues = node(idx)?.clues ?? []
+    return clues.map(c => node(c)?.text).join('')
 }
 
 
@@ -185,12 +193,12 @@ function next(idx: number, from?: number): number|null {
 }
 
 /**
- * Given a node index, return its first input element.
+ * Given a node index, return its input elemen at position pos.
  * Returns null if there is no corresponding input.
  */
-function input(idx: number|null): HTMLInputElement|null {
-    if (idx && game.inputs[idx]) {
-        return game.inputs[idx]
+function input(idx: number|null, pos: number): HTMLInputElement|null {
+    if (idx && game.inputs[idx] && game.inputs[idx][pos]) {
+        return game.inputs[idx][pos]
     }
 
     return null
