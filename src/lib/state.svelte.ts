@@ -1,6 +1,11 @@
 import type { Puzzle, Clue, State } from '../types/puzzle'
 
-const game: { puzzle: Puzzle, state: State, inputs: Array<HTMLInputElement|undefined> } = $state({
+const game: {
+    puzzle: Puzzle,
+    state: State,
+    inputs: Array<HTMLInputElement|undefined>,
+    focused: HTMLInputElement|null
+} = $state({
     puzzle: {
         id: "",
         name: "",
@@ -10,6 +15,7 @@ const game: { puzzle: Puzzle, state: State, inputs: Array<HTMLInputElement|undef
     },
     state: [],
     inputs: [],
+    focused: null,
 })
 
 /*

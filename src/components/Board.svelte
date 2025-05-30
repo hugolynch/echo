@@ -2,6 +2,7 @@
     import type { Puzzle, State } from '../types/puzzle'
     import { tick } from 'svelte'
     import { game, next, input } from '../lib/state.svelte'
+    import Keyboard from './Keyboard.svelte'
     import BoardClue from "./BoardClue.svelte"
     import puzzles from '../assets/puzzles.json'
 
@@ -64,6 +65,12 @@
         game.state = loadState(el.value)
         game.puzzle = loadPuzzle(el.value)
     }
+
+    function type(letter: string): void {
+        if (game.focused) {
+            game.focused.dispatchEvent(new CustomEvent('type', {detail: letter}))
+        }
+    }
 </script>
 
 <div>
@@ -82,6 +89,7 @@
 </div>
 
 <BoardClue />
+<Keyboard {type}/>
 <button onclick={() => game.state = []}>Reset Puzzle</button>
 
 <style>

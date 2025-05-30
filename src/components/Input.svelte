@@ -8,7 +8,7 @@
     let inputs: HTMLInputElement[] = $state([])
     let letters = $state([...curr.text].filter(c => c !== ' ').map(_ => ''))
 
-    onMount(() => { game.inputs[idx] = inputs[0] })
+    onMount(() => {game.inputs[idx] = inputs[0]})
     onDestroy(() => { delete game.inputs[idx] })
 
     /**
@@ -38,7 +38,7 @@
      *  2. move left when pressing backspace;
      *  3. focus the previous/next input when pressing arrow keys.
      */
-     function handleKeyDown(e: KeyboardEvent, i: number): void {
+    function handleKeyDown(e: KeyboardEvent, i: number): void {
         // if there's a meta key (ctrl/cmd) active, don't override the default behaviour
         // (i.e. allow ctrl+* keybindings)
         if (e.metaKey) return
@@ -59,22 +59,26 @@
             return
         }
 
+        handleInput(e.target as HTMLInputElement, e.key, i)        
+    }
+
+    function handleInput(target: HTMLInputElement, key: string, i: number): void {
         // get input + neighbours
-        const target = e.target as HTMLInputElement
+        // const target = e.target as HTMLInputElement
         const prevChar = target.previousElementSibling as HTMLInputElement|null
         const nextChar = target.nextElementSibling as HTMLInputElement|null
         // handle other (non-tab) special cases...
-        if (e.key === 'ArrowLeft') {
+        if (key === 'ArrowLeft') {
             prevChar?.focus()
-        } else if (e.key === 'ArrowRight') {
+        } else if (key === 'ArrowRight') {
             nextChar?.focus()
-        } else if (e.key === 'Backspace') {
+        } else if (key === 'Backspace') {
             // on backspace, clear current and focus previous input
             letters[i] = ''
             prevChar?.focus()
-        } else if (e.key.length === 1) {
+        } else if (key.length === 1) {
             // when typing a single character, focus next input
-            letters[i] = e.key
+            letters[i] = key
             nextChar?.focus()
         }
 
@@ -107,8 +111,13 @@
 <div class="inputWrapper">
     {#each curr.text as char, i}
         {#if char !== ' '}
-            <input maxlength="1" enterkeyhint="done"
-                onkeydown={e => handleKeyDown(e, i)} onblur={() => focused = i}
+            <input maxlength="1" enterkeyhint="done" inputmode="none"
+                onkeydown={e => handleKeyDown(e, i)}
+                onfocus={e => {
+                    focused = i
+                    game.focused = e.target as HTMLInputElement
+                }}
+                ontype={e => handleInput(e.target, e.detail, i)}
                 bind:value={letters[i]} bind:this={inputs[i]}
                 class={{'space': curr.text[i + 1] === ' '}}
             />
