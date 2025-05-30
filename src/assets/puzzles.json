@@ -1,160 +1,5 @@
 [
   {
-    "id": "2c1f9a7e-3c5b-4d77-9a3c-0d0a5c8e0a1a",
-    "name": "TUTORIAL",
-    "author": "Hugo",
-    "date": "",
-    "clues": [
-      {
-        "text": "Echo chamber is a nested clue puzzle. Your goal is to solve all the clues and uncover the final solution. Clues look like this. To solve a clue, type out the solution to the clue in the input box. Well done! Clues can be nested too. Clues must be solved from the inside out. In this tutorial, uppercase words are solutions. Here's a sample puzzle: Echo chamber.",
-        "clues": [
-          1,
-          2,
-          4,
-          5,
-          7,
-          8,
-          10,
-          11,
-          16,
-          17,
-          19,
-          20,
-          30
-        ]
-      },
-      {
-        "text": "Echo chamber is a nested clue puzzle. Your goal is to solve all the clues and uncover the final solution. Clues look like "
-      },
-      {
-        "text": "this",
-        "clues": [
-          3
-        ]
-      },
-      {
-        "text": "THIS"
-      },
-      {
-        "text": ". To solve a clue, type out the solution to the clue in the input box. "
-      },
-      {
-        "text": "Solution",
-        "clues": [
-          6
-        ]
-      },
-      {
-        "text": "Try it, type SOLUTION"
-      },
-      {
-        "text": ". When clues are solved, they are "
-      },
-      {
-        "text": "underlined",
-        "clues": [
-          9
-        ]
-      },
-      {
-        "text": "UNDERLINED"
-      },
-      {
-        "text": ". "
-      },
-      {
-        "text": "Clues can be nested too",
-        "clues": [
-          12,
-          13,
-          15
-        ]
-      },
-      {
-        "text": "Clues can be "
-      },
-      {
-        "text": "nested",
-        "clues": [
-          14
-        ]
-      },
-      {
-        "text": "NESTED"
-      },
-      {
-        "text": " too"
-      },
-      {
-        "text": ". Clues must be solved from the inside out. In this tutorial, "
-      },
-      {
-        "text": "uppercase",
-        "clues": [
-          18
-        ]
-      },
-      {
-        "text": "UPPERCASE"
-      },
-      {
-        "text": " words are solutions. Here's a sample puzzle: "
-      },
-      {
-        "text": "Echo chamber",
-        "clues": [
-          21,
-          23,
-          24,
-          26,
-          28
-        ]
-      },
-      {
-        "text": "ECHO",
-        "clues": [
-          22
-        ]
-      },
-      {
-        "text": "repeated sounds in a cave cave cave (ECHO)"
-      },
-      {
-        "text": " "
-      },
-      {
-        "text": "CHA",
-        "clues": [
-          25
-        ]
-      },
-      {
-        "text": "half a dance (CHA)"
-      },
-      {
-        "text": "MB",
-        "clues": [
-          27
-        ]
-      },
-      {
-        "text": "megabyte, for short (MB)"
-      },
-      {
-        "text": "ER",
-        "clues": [
-          29
-        ]
-      },
-      {
-        "text": "emergency room, in a hurry (ER)"
-      },
-      {
-        "text": "."
-      }
-    ]
-  },
-  {
     "id": "7f8b5e3d-4a9f-4c02-8e8c-1b3d7f2c4a3b",
     "name": "2024-05-04",
     "author": "Hugo",
@@ -21103,7 +20948,7 @@
         ]
       },
       {
-        "text": "craving, slangily"
+        "text": "craves, slangily"
       },
       {
         "text": " up a meal"
@@ -21191,13 +21036,961 @@
         ]
       },
       {
-        "text": "small, fork-tailed birds"
+        "text": "small, fork-tailed bird"
       },
       {
         "text": "er"
       },
       {
         "text": " (aquatic apex predator)"
+      }
+    ]
+  },
+  {
+    "id": "161cff21-6636-4de6-90ed-4b92014f7e25",
+    "name": "May 31 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-05-31",
+    "clues": [
+      {
+        "text": "1279 BC – Ramesses the Great becomes Pharaoh of Egypt\n\nhttps://en.wikipedia.org/wiki/Ramesses_II",
+        "clues": [
+          1,
+          27,
+          31,
+          32,
+          42,
+          43,
+          58,
+          59
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Ra",
+        "clues": [
+          2,
+          3,
+          8,
+          9,
+          26
+        ]
+      },
+      {
+        "text": "ancient "
+      },
+      {
+        "key": "1.1",
+        "text": "falcon",
+        "clues": [
+          4,
+          5,
+          7
+        ]
+      },
+      {
+        "text": "its peregrine variety is the fastest member of the "
+      },
+      {
+        "key": "1.1.1",
+        "text": "animal",
+        "clues": [
+          6
+        ]
+      },
+      {
+        "text": "[1.1], [1.2.2.1], [1.2.3.1], [3.3], [4.2.1] or [5.2]"
+      },
+      {
+        "text": " kingdom (389 km/h!)"
+      },
+      {
+        "text": "-"
+      },
+      {
+        "key": "1.2",
+        "text": "head",
+        "clues": [
+          10,
+          11,
+          13,
+          14,
+          19,
+          20,
+          25
+        ]
+      },
+      {
+        "text": "\"___, "
+      },
+      {
+        "key": "1.2.1",
+        "text": "shoulder",
+        "clues": [
+          12
+        ]
+      },
+      {
+        "text": "take responsibility for"
+      },
+      {
+        "text": "s, "
+      },
+      {
+        "key": "1.2.2",
+        "text": "knees",
+        "clues": [
+          15,
+          16,
+          18
+        ]
+      },
+      {
+        "text": "the "
+      },
+      {
+        "key": "1.2.2.1",
+        "text": "bee",
+        "clues": [
+          17
+        ]
+      },
+      {
+        "text": "🐝"
+      },
+      {
+        "text": "'s ___ (very cool)"
+      },
+      {
+        "text": " and "
+      },
+      {
+        "key": "1.2.3",
+        "text": "toes",
+        "clues": [
+          21,
+          22,
+          24
+        ]
+      },
+      {
+        "text": "\"little "
+      },
+      {
+        "key": "1.2.3.1",
+        "text": "pig",
+        "clues": [
+          23
+        ]
+      },
+      {
+        "text": "🐖"
+      },
+      {
+        "text": "gies\""
+      },
+      {
+        "text": "\""
+      },
+      {
+        "text": "ed sun god"
+      },
+      {
+        "key": "2",
+        "text": "mess",
+        "clues": [
+          28,
+          29
+        ]
+      },
+      {
+        "text": "military dining "
+      },
+      {
+        "key": "2.1",
+        "text": "hall",
+        "clues": [
+          30
+        ]
+      },
+      {
+        "text": "___ of Fame"
+      },
+      {
+        "text": "es the "
+      },
+      {
+        "key": "3",
+        "text": "Great",
+        "clues": [
+          33,
+          34,
+          36,
+          37,
+          39,
+          40
+        ]
+      },
+      {
+        "text": "like Frosted "
+      },
+      {
+        "key": "3.1",
+        "text": "Flakes",
+        "clues": [
+          35
+        ]
+      },
+      {
+        "text": "specks of snow"
+      },
+      {
+        "text": ", to "
+      },
+      {
+        "key": "3.2",
+        "text": "Tony",
+        "clues": [
+          38
+        ]
+      },
+      {
+        "text": "Broadway award"
+      },
+      {
+        "text": " the "
+      },
+      {
+        "key": "3.3",
+        "text": "Tiger",
+        "clues": [
+          41
+        ]
+      },
+      {
+        "text": "🐅"
+      },
+      {
+        "text": " becomes "
+      },
+      {
+        "key": "4",
+        "text": "Pharaoh",
+        "clues": [
+          44,
+          45,
+          47,
+          48,
+          52,
+          57
+        ]
+      },
+      {
+        "text": "Cleo"
+      },
+      {
+        "key": "4.1",
+        "text": "pat",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "back tap"
+      },
+      {
+        "text": "ra or Tu"
+      },
+      {
+        "key": "4.2",
+        "text": "tank",
+        "clues": [
+          49,
+          51
+        ]
+      },
+      {
+        "key": "4.2.1",
+        "text": "fish",
+        "clues": [
+          50
+        ]
+      },
+      {
+        "text": "🐡"
+      },
+      {
+        "text": " house"
+      },
+      {
+        "key": "4.3",
+        "text": "ham",
+        "clues": [
+          53,
+          54,
+          56
+        ]
+      },
+      {
+        "text": "non-"
+      },
+      {
+        "key": "4.3.1",
+        "text": "kosher",
+        "clues": [
+          55
+        ]
+      },
+      {
+        "text": "on the up and up"
+      },
+      {
+        "text": " meat"
+      },
+      {
+        "text": "un, e.g."
+      },
+      {
+        "text": " of "
+      },
+      {
+        "key": "5",
+        "text": "Egypt",
+        "clues": [
+          60,
+          62,
+          63,
+          65
+        ]
+      },
+      {
+        "key": "5.1",
+        "text": "country",
+        "clues": [
+          61
+        ]
+      },
+      {
+        "text": "\"Cowboy Carter\" genre"
+      },
+      {
+        "text": " with the second most py"
+      },
+      {
+        "key": "5.2",
+        "text": "ram",
+        "clues": [
+          64
+        ]
+      },
+      {
+        "text": "🐏"
+      },
+      {
+        "key": "5.3",
+        "text": "ids",
+        "clues": [
+          66,
+          67,
+          69
+        ]
+      },
+      {
+        "text": "b"
+      },
+      {
+        "key": "5.3.1",
+        "text": "ounce",
+        "clues": [
+          68
+        ]
+      },
+      {
+        "text": "1/16 of a pound"
+      },
+      {
+        "text": "rs check them"
+      }
+    ]
+  },
+  {
+    "id": "005e8cc9-89a5-4c55-b469-4411148c1fc7",
+    "name": "June 1 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-06-01",
+    "clues": [
+      {
+        "text": "1869 – Thomas Edison granted his first (of 1,093) patent for the Electric Vote Recorder\n\nhttps://patents.google.com/patent/US90646",
+        "clues": [
+          1,
+          14,
+          15,
+          23,
+          24,
+          34,
+          35,
+          53,
+          54
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Thomas",
+        "clues": [
+          2,
+          6,
+          7,
+          13
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "talk",
+        "clues": [
+          3,
+          5
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "radio",
+        "clues": [
+          4
+        ]
+      },
+      {
+        "text": "device with an AM/FM switch"
+      },
+      {
+        "text": " format"
+      },
+      {
+        "text": "ing "
+      },
+      {
+        "key": "1.2",
+        "text": "tank",
+        "clues": [
+          8,
+          10,
+          11
+        ]
+      },
+      {
+        "key": "1.2.1",
+        "text": "vehicle",
+        "clues": [
+          9
+        ]
+      },
+      {
+        "text": "✈️, 🚂 or 🚗"
+      },
+      {
+        "text": " with caterpillar t"
+      },
+      {
+        "key": "1.2.2",
+        "text": "reads",
+        "clues": [
+          12
+        ]
+      },
+      {
+        "text": "enjoys a good book"
+      },
+      {
+        "text": " engine"
+      },
+      {
+        "text": " Edison "
+      },
+      {
+        "key": "2",
+        "text": "grant",
+        "clues": [
+          16,
+          17,
+          22
+        ]
+      },
+      {
+        "text": "re"
+      },
+      {
+        "key": "2.1",
+        "text": "search",
+        "clues": [
+          18,
+          19,
+          21
+        ]
+      },
+      {
+        "text": "use Go"
+      },
+      {
+        "key": "2.1.1",
+        "text": "ogle",
+        "clues": [
+          20
+        ]
+      },
+      {
+        "text": "look at lecherously 👀"
+      },
+      {
+        "text": ", e.g."
+      },
+      {
+        "text": " funding"
+      },
+      {
+        "text": "ed his first patent for the "
+      },
+      {
+        "key": "3",
+        "text": "Electric",
+        "clues": [
+          25,
+          26,
+          33
+        ]
+      },
+      {
+        "text": "like some "
+      },
+      {
+        "key": "3.1",
+        "text": "eel",
+        "clues": [
+          27,
+          32
+        ]
+      },
+      {
+        "key": "3.1.1",
+        "text": "snake",
+        "clues": [
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "text": "ou"
+      },
+      {
+        "key": "3.1.1.1",
+        "text": "robo",
+        "clues": [
+          30
+        ]
+      },
+      {
+        "text": "\"___Cop\" (1987 film)"
+      },
+      {
+        "text": "ros animal"
+      },
+      {
+        "text": "like fish"
+      },
+      {
+        "text": "s"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4",
+        "text": "Vote",
+        "clues": [
+          36,
+          40,
+          41,
+          52
+        ]
+      },
+      {
+        "key": "4.1",
+        "text": "part",
+        "clues": [
+          37,
+          39
+        ]
+      },
+      {
+        "key": "4.1.1",
+        "text": "hair",
+        "clues": [
+          38
+        ]
+      },
+      {
+        "text": "barber's medium"
+      },
+      {
+        "text": " division"
+      },
+      {
+        "text": "ic"
+      },
+      {
+        "key": "4.2",
+        "text": "ipa",
+        "clues": [
+          42,
+          43
+        ]
+      },
+      {
+        "text": "craft beer "
+      },
+      {
+        "key": "4.2.1",
+        "text": "letters",
+        "clues": [
+          44,
+          45
+        ]
+      },
+      {
+        "text": "this clue has "
+      },
+      {
+        "key": "4.2.1.1",
+        "text": "nineteen",
+        "clues": [
+          46,
+          48,
+          49,
+          51
+        ]
+      },
+      {
+        "key": "4.2.1.1.1",
+        "text": "minimum",
+        "clues": [
+          47
+        ]
+      },
+      {
+        "text": "smallest possible amount"
+      },
+      {
+        "text": " legal drinking age in "
+      },
+      {
+        "key": "4.2.1.1.2",
+        "text": "South",
+        "clues": [
+          50
+        ]
+      },
+      {
+        "text": "down on a map"
+      },
+      {
+        "text": " Korea "
+      },
+      {
+        "text": "te in an election"
+      },
+      {
+        "text": " Rec"
+      },
+      {
+        "key": "5",
+        "text": "order",
+        "clues": [
+          55
+        ]
+      },
+      {
+        "text": "chaos antithesis"
+      }
+    ]
+  },
+  {
+    "id": "8f383831-19fd-4bc3-a0b9-3e2a3ad2a7b6",
+    "name": "June 2 Daily",
+    "author": "Hugo",
+    "date": "2025-06-02",
+    "clues": [
+      {
+        "text": "\"You come at the kind, you best not miss.\"\n-Omar Little\n\n2002 – \"The Wire\" debuts on HBO\n\nhttps://en.wikipedia.org/wiki/The_Wire",
+        "clues": [
+          1,
+          2,
+          24,
+          25,
+          36,
+          37,
+          53
+        ]
+      },
+      {
+        "text": "\"You come at the "
+      },
+      {
+        "key": "1",
+        "text": "king",
+        "clues": [
+          3,
+          4,
+          23
+        ]
+      },
+      {
+        "text": "royal "
+      },
+      {
+        "key": "1.1",
+        "text": "flush",
+        "clues": [
+          5,
+          6,
+          13,
+          14,
+          16,
+          17,
+          19,
+          20,
+          22
+        ]
+      },
+      {
+        "text": "\"If it's "
+      },
+      {
+        "key": "1.1.1",
+        "text": "yellow",
+        "clues": [
+          7,
+          9,
+          10,
+          12
+        ]
+      },
+      {
+        "key": "1.1.1.1",
+        "text": "idea",
+        "clues": [
+          8
+        ]
+      },
+      {
+        "text": "💡, in cartoons"
+      },
+      {
+        "text": "l "
+      },
+      {
+        "key": "1.1.1.2",
+        "text": "banana",
+        "clues": [
+          11
+        ]
+      },
+      {
+        "text": "fruit adored by Minions"
+      },
+      {
+        "text": " colour"
+      },
+      {
+        "text": ", let it mel"
+      },
+      {
+        "key": "1.1.2",
+        "text": "low",
+        "clues": [
+          15
+        ]
+      },
+      {
+        "text": "see [1.1.4]"
+      },
+      {
+        "text": ". If it's "
+      },
+      {
+        "key": "1.1.3",
+        "text": "brown",
+        "clues": [
+          18
+        ]
+      },
+      {
+        "text": "overripe banana colour"
+      },
+      {
+        "text": ", ___ it "
+      },
+      {
+        "key": "1.1.4",
+        "text": "down",
+        "clues": [
+          21
+        ]
+      },
+      {
+        "text": "with [1.1.2], hush-hush, not openly discussed or shared"
+      },
+      {
+        "text": "\""
+      },
+      {
+        "text": " card"
+      },
+      {
+        "text": ", you "
+      },
+      {
+        "key": "2",
+        "text": "best",
+        "clues": [
+          26,
+          28,
+          29
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "cream",
+        "clues": [
+          27
+        ]
+      },
+      {
+        "text": "\"I s___ you s___, we all s___ for ice ___\""
+      },
+      {
+        "text": " of the "
+      },
+      {
+        "key": "2.2",
+        "text": "crop",
+        "clues": [
+          30,
+          31,
+          35
+        ]
+      },
+      {
+        "text": "trim, as a "
+      },
+      {
+        "key": "2.2.1",
+        "text": "pho",
+        "clues": [
+          32,
+          33
+        ]
+      },
+      {
+        "text": "vietnamese noodle "
+      },
+      {
+        "key": "2.2.1.1",
+        "text": "soup",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "gazpacho, e.g."
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": " not "
+      },
+      {
+        "key": "3",
+        "text": "miss",
+        "clues": [
+          38,
+          39,
+          43,
+          44,
+          52
+        ]
+      },
+      {
+        "text": "beauty "
+      },
+      {
+        "key": "3.1",
+        "text": "page",
+        "clues": [
+          40,
+          42
+        ]
+      },
+      {
+        "key": "3.1.1",
+        "text": "boo",
+        "clues": [
+          41
+        ]
+      },
+      {
+        "text": "sound of disapproval from unsatisfied spectators"
+      },
+      {
+        "text": "k unit"
+      },
+      {
+        "text": "ant "
+      },
+      {
+        "key": "3.2",
+        "text": "tit",
+        "clues": [
+          45,
+          46,
+          48,
+          49,
+          51
+        ]
+      },
+      {
+        "text": "sm"
+      },
+      {
+        "key": "3.2.1",
+        "text": "all",
+        "clues": [
+          47
+        ]
+      },
+      {
+        "text": "every single one"
+      },
+      {
+        "text": " palindromic "
+      },
+      {
+        "key": "3.2.2",
+        "text": "song",
+        "clues": [
+          50
+        ]
+      },
+      {
+        "text": "karaoke selection"
+      },
+      {
+        "text": "bird"
+      },
+      {
+        "text": "le"
+      },
+      {
+        "text": ".\""
       }
     ]
   }
