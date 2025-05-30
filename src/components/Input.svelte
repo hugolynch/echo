@@ -109,7 +109,7 @@
             <input maxlength="1" enterkeyhint="done" inputmode="none"
                 onkeydown={e => handleKeyDown(e, i)}
                 onfocus={() => { game.focused.clue = idx; game.focused.input = i }}
-                ontype={e => handleInput(e.target, e.detail, i)}
+                ontype={e => handleInput(e.target as HTMLInputElement, e.detail, i)}
                 bind:value={letters[i]} bind:this={inputs[i]}
                 class={{'space': curr.text[i + 1] === ' '}}
             />
