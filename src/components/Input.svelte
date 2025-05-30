@@ -3,7 +3,7 @@
     import { game, node, parent, prev, next, input } from '../lib/state.svelte'
 
     let { idx = 0 } = $props()
-    let focused: number|null = null
+    // let focused: number|null = null
     let curr = node(idx)!
     let inputs: HTMLInputElement[] = $state([])
     let letters = $state([...curr.text].filter(c => c !== ' ').map(_ => ''))
@@ -42,16 +42,20 @@
         // if there's a meta key (ctrl/cmd) active, don't override the default behaviour
         // (i.e. allow ctrl+* keybindings)
         if (e.metaKey) return
-        // otherwise, prevent default event handling
+        
+        // otherwise, prevent default event handling and run custom event handling
         e.preventDefault()
+        handleInput(e.target as HTMLInputElement, e.key, i)        
+    }
 
+    function handleInput(target: HTMLInputElement, key: string, i: number): void {
         // if key is tab or shift+tab, focus previous/next clue
-        if (e.key === 'Tab') {
+        if (key === 'Tab' || key === 'ShiftTab') {
             const p = parent(idx)
             if (p !== null) {
                 // if shift is pressed, get the previous clue's input
                 // otherwise get the next one's
-                const tidx = e.shiftKey
+                const tidx = (key === 'ShiftTab')
                     ? prev(p, idx) ?? prev(0)
                     : next(p, idx) ?? next(0)
                 input(tidx)?.focus()
@@ -59,10 +63,6 @@
             return
         }
 
-        handleInput(e.target as HTMLInputElement, e.key, i)        
-    }
-
-    function handleInput(target: HTMLInputElement, key: string, i: number): void {
         // get input + neighbours
         // const target = e.target as HTMLInputElement
         const prevChar = target.previousElementSibling as HTMLInputElement|null
@@ -86,26 +86,26 @@
         check(letters.join(''), curr.text)
     }
 
-    /**
-     * Fill the last focused input with the correct letter.
-     */
-    function reveal(): void {
-        // if no previously focused input, start at the beginnning
-        if (focused === null) {
-            focused = 0
-        }
+    // /**
+    //  * Fill the last focused input with the correct letter.
+    //  */
+    // function reveal(): void {
+    //     // if no previously focused input, start at the beginnning
+    //     if (focused === null) {
+    //         focused = 0
+    //     }
 
-        // reveal the appropriate letter and check if word is solved
-        letters[focused] = curr.text[focused]
-        check(letters.join(''), curr.text)
+    //     // reveal the appropriate letter and check if word is solved
+    //     letters[focused] = curr.text[focused]
+    //     check(letters.join(''), curr.text)
 
-        // focus the next input, wrapping around
-        if (focused === inputs.length - 1) {
-            inputs[0]?.focus()
-        } else {
-            inputs[focused + 1]?.focus()
-        }
-    }
+    //     // focus the next input, wrapping around
+    //     if (focused === inputs.length - 1) {
+    //         inputs[0]?.focus()
+    //     } else {
+    //         inputs[focused + 1]?.focus()
+    //     }
+    // }
 </script>
 
 <div class="inputWrapper">
@@ -113,10 +113,7 @@
         {#if char !== ' '}
             <input maxlength="1" enterkeyhint="done" inputmode="none"
                 onkeydown={e => handleKeyDown(e, i)}
-                onfocus={e => {
-                    focused = i
-                    game.focused = e.target as HTMLInputElement
-                }}
+                onfocus={e => game.focused = e.target as HTMLInputElement}
                 ontype={e => handleInput(e.target, e.detail, i)}
                 bind:value={letters[i]} bind:this={inputs[i]}
                 class={{'space': curr.text[i + 1] === ' '}}
@@ -124,10 +121,10 @@
         {/if}
     {/each}
 </div>
-<div class="buttonWrapper">
+<!-- <div class="buttonWrapper">
     <button onclick={reveal}>Reveal Letter</button>
     <button onclick={() => game.state.push(idx)}>Reveal Word</button>
-</div>
+</div> -->
 
 <style>
     .inputWrapper {
