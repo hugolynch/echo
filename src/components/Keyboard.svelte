@@ -13,11 +13,24 @@
         'asdfghjkl'.split(''),
         'zxcvbnm'.split('')
     ];
+
+    function addHapticFeedback() {
+    if (typeof navigator.vibrate === 'function') {
+        navigator.vibrate(1); // Short 10ms vibration
+    }
+}
+
+function handleButtonClick(e: MouseEvent, action: () => void) {
+    e.preventDefault();
+    addHapticFeedback();
+    action();
+}
+
 </script>
 
 <div class="keyboard">
     <div class="row top">
-        <button class="tab" onclick={() => key({action: actions.PREV})}><img src={prevIcon} alt="previous"></button>
+        <button class="tab" onclick={(e) => handleButtonClick(e, () => key({action: actions.PREV}))}><img src={prevIcon} alt="previous"></button>
         <div class="clue">
             {#if leaf(game.focused.clue)}
                 { render(game.focused.clue) }
@@ -25,21 +38,21 @@
                 &ndash;
             {/if}
         </div>
-        <button class="tab" onclick={() => key({action: actions.NEXT})}><img src={nextIcon} alt="next"></button>
+        <button class="tab" onclick={(e) => handleButtonClick(e, () => key({action: actions.NEXT}))}><img src={nextIcon} alt="next"></button>
     </div>
     <div class="row">
         <button class="action" disabled>?123</button>
-        <button class="action" onclick={() => key({action: actions.REVEAL})}>REVEAL LETTER</button>
+        <button class="action" onclick={(e) => handleButtonClick(e, () => key({action: actions.REVEAL}))}>REVEAL LETTER</button>
     </div>
     {#each letters as row, i}
         <div class="row">
             {#each row as letter}
-                <button class="letter" onclick={() => key({action: actions.CHAR, char: letter.toUpperCase()})}>
+                <button class="letter" onclick={(e) => handleButtonClick(e, () => key({action: actions.CHAR, char: letter.toUpperCase()}))}>
                     {letter.toUpperCase()}
                 </button>
             {/each}
             {#if i === letters.length - 1}
-                <button class="letter" onclick={() => key({action: actions.BACK})}>
+                <button class="letter" onclick={(e) => handleButtonClick(e, () => key({action: actions.BACK}))}>
                     <img class="icon" src={backIcon} alt="backspace">
                 </button>
             {/if}
@@ -101,6 +114,8 @@
 
         &:active:not([disabled]) {
             background-color: #F2F3FB;
+            border-bottom: none;
+            border-top: 2px solid #F2F3FB;
         }
 
         & .icon {
