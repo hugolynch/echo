@@ -22,7 +22,7 @@
         <button class="tab" onclick={() => key('Tab')}><img src="/next.svg" alt="next"></button>
     </div>
     <div class="row">
-        <button class="" onclick={() => key('reveal')}>Reveal</button>
+        <button class="" onclick={() => key('reveal')}>REAVEAL LETTER</button>
     </div>
     {#each letters as row}
         <div class="row">
@@ -52,6 +52,7 @@
         align-items: center;
         justify-content: center;
         gap: 4px;
+        padding: 0 2px;
 
         & .clue {
             flex: 1;
@@ -69,6 +70,8 @@
                 color: #FFFFFF;
                 border: none;
                 border-radius: 0;
+                flex-grow: revert;
+                padding: 8px;
             }
         }
     }
@@ -76,8 +79,11 @@
     button {
         background-color: #FFFFFF;
         border-bottom: 2px solid #C9CAD6;
-        height: 38px;
+        height: 48px;
         border-radius: 5px;
+        flex-grow: 1;
+        padding: 0 8px;
+        font-size: 2.4rem;
 
         &:active {
             background-color: #F2F3FB;
