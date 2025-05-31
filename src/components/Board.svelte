@@ -85,12 +85,10 @@
 <button onclick={() => game.state = []}>Reset Puzzle</button>
 
 <style>
-    select {
-        margin: 0 auto;
-    }
-
-    button {
-        margin: 0 24px;
-        align-self: center;
+    :root {
+        font-family: monospace;
+        line-height: 1;
+        font-weight: 400;
+        font-size: 62.5%;
     }
 </style>

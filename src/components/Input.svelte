@@ -171,6 +171,7 @@
         padding: 4px 6px;
         background-color: white;
         text-transform: uppercase;
+        font-family: 'IBM Plex Mono', monospace;
 
         &:hover {
             background-color: #E9F5FE;
