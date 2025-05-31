@@ -5,6 +5,7 @@
 
     let { key }: { key: (key: Key) => void } = $props()
     let letters = [
+        '1234567890'.split(''),
         'qwertyuiop'.split(''),
         'asdfghjkl'.split(''),
         'zxcvbnm'.split('')
@@ -101,5 +102,11 @@
         background-color: #084E74;
         color: white;
         padding: 8px;
+    }
+
+    @media (pointer: fine) {
+        .keyboard {
+        display: none;
+        }
     }
 </style>
