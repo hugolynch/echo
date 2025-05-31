@@ -92,8 +92,8 @@
 </div>
 
 <BoardClue />
-<Keyboard {key}/>
 <button onclick={() => game.state = []}>Reset Puzzle</button>
+<Keyboard {key}/>
 
 <style>
     select {
