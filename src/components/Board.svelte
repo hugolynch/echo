@@ -102,4 +102,22 @@
         font-weight: 400;
         font-size: 62.5%;
     }
+
+    select {
+        margin-top: 48px;
+    }
+
+    select, button {
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        padding: 8px 0;
+    }
+    span {
+        font-size: 1.6rem;
+    }
 </style>

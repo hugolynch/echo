@@ -66,6 +66,7 @@
         & .clue {
             flex: 1;
             line-height: 2rem;
+            font-size: 1.6rem;
             padding: 0;
         }
 
@@ -87,6 +88,7 @@
 
     button {
         background-color: #FFFFFF;
+        border: none;
         border-bottom: 2px solid #C9CAD6;
         height: 48px;
         border-radius: 8px;
