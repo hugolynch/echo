@@ -107,9 +107,14 @@
             inputs[i].value = ''
             prevChar?.focus()
         } else if (key.action === actions.CHAR && key.char) {
-            // when typing a single character, focus next input
+            // when typing a single character, focus next input if exists;
+            // otherwise focus back on the current input
             inputs[i].value = key.char
-            nextChar?.focus()
+            if (nextChar) {
+                nextChar.focus()
+            } else {
+                inputs[game.focused.input].focus()
+            }
         }
 
         // check the solution so far

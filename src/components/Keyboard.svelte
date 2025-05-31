@@ -117,7 +117,7 @@
 
     @media (pointer: fine) {
         .keyboard {
-        display: none;
+            display: none;
         }
     }
 </style>
