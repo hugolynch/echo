@@ -1,14 +1,14 @@
 <script lang="ts">
+    import type { Key } from '../types/actions'
+    import { actions } from '../lib/actions'
     import { onMount, onDestroy, tick } from 'svelte'
     import { game, node, parent, prev, next, input } from '../lib/state.svelte'
 
     let { idx = 0 } = $props()
-    let focused: number|null = null
-    let curr = node(idx)!
+    let curr = $derived(node(idx)!)
     let inputs: HTMLInputElement[] = $state([])
-    let letters = $state([...curr.text].filter(c => c !== ' ').map(_ => ''))
 
-    onMount(() => { game.inputs[idx] = inputs[0] })
+    onMount(() => {game.inputs[idx] = inputs})
     onDestroy(() => { delete game.inputs[idx] })
 
     /**
@@ -27,97 +27,113 @@
             const p = parent(idx)
             if (p !== null) {
                 const nidx = next(p, idx) ?? next(0)
-                tick().then(() => input(nidx)?.focus())
+                tick().then(() => input(nidx, 0)?.focus())
             }
         }
     }
 
     /**
-     * Handle keydown events on inputs. Specifically:
-     *  1. auto-tab when inputing a character;
-     *  2. move left when pressing backspace;
-     *  3. focus the previous/next input when pressing arrow keys.
+     * Handle keydown events on inputs. Mostly just makes sure that we don't catch unwanted inputs
+     * (e.g. meta keys like ctrl+q) and handle shift+tab as a special case.
      */
-     function handleKeyDown(e: KeyboardEvent, i: number): void {
+    function handleKeyDown(e: KeyboardEvent, i: number): void {
         // if there's a meta key (ctrl/cmd) active, don't override the default behaviour
         // (i.e. allow ctrl+* keybindings)
         if (e.metaKey) return
-        // otherwise, prevent default event handling
+        
+        // otherwise, prevent default event handling and run custom event handling
         e.preventDefault()
-
-        // if key is tab or shift+tab, focus previous/next clue
+        // figure out the action happening
+        const key: Key = {action: actions.NOOP}
         if (e.key === 'Tab') {
+            key.action = e.shiftKey ? actions.PREV : actions.NEXT
+        } else if (e.key === 'LeftArrow') {
+            key.action = actions.LEFT
+        } else if (e.key === 'RightArrow') {
+            key.action = actions.RIGHT
+        } else if (e.key === 'Backspace') {
+            key.action = actions.BACK
+        } else if (e.key.length === 1) {
+            key.action = actions.CHAR
+            key.char = e.key
+        }
+        // handle the action
+        handleKey(key, i)
+    }
+
+    /**
+     * Handle custom input events. Specifically:
+     *  1. revealing letters (this is silly and should move);
+     *  2. auto-tab when inputing a character;
+     *  3. move left when pressing backspace;
+     *  4. focus the previous/next input when pressing arrow keys.
+     */
+    function handleKey(key: Key, i: number): void {
+        // get adjacent inputs (if any)
+        const prevChar = inputs[game.focused.input - 1] as HTMLInputElement|undefined
+        const nextChar = inputs[game.focused.input + 1] as HTMLInputElement|undefined
+
+        // if action is 'reveal'
+        if (key.action === actions.REVEAL) {
+            inputs[game.focused.input].value = curr.text[game.focused.input]
+            // focus next char, wrapping around
+            if (nextChar) {
+                nextChar.focus()
+            } else {
+                inputs[0].focus()
+            }
+        }
+
+        // if action is tab or shift+tab, focus previous/next clue
+        if (key.action === actions.PREV || key.action === actions.NEXT) {
             const p = parent(idx)
             if (p !== null) {
                 // if shift is pressed, get the previous clue's input
                 // otherwise get the next one's
-                const tidx = e.shiftKey
+                const tidx = (key.action === actions.PREV)
                     ? prev(p, idx) ?? prev(0)
                     : next(p, idx) ?? next(0)
-                input(tidx)?.focus()
+                input(tidx, 0)?.focus()
             }
-            return
         }
 
-        // get input + neighbours
-        const target = e.target as HTMLInputElement
-        const prevChar = target.previousElementSibling as HTMLInputElement|null
-        const nextChar = target.nextElementSibling as HTMLInputElement|null
-        // handle other (non-tab) special cases...
-        if (e.key === 'ArrowLeft') {
+        // handle other special cases...
+        if (key.action === actions.LEFT) {
             prevChar?.focus()
-        } else if (e.key === 'ArrowRight') {
+        } else if (key.action === actions.RIGHT) {
             nextChar?.focus()
-        } else if (e.key === 'Backspace') {
+        } else if (key.action === actions.BACK) {
             // on backspace, clear current and focus previous input
-            letters[i] = ''
+            inputs[i].value = ''
             prevChar?.focus()
-        } else if (e.key.length === 1) {
-            // when typing a single character, focus next input
-            letters[i] = e.key
-            nextChar?.focus()
+        } else if (key.action === actions.CHAR && key.char) {
+            // when typing a single character, focus next input if exists;
+            // otherwise focus back on the current input
+            inputs[i].value = key.char
+            if (nextChar) {
+                nextChar.focus()
+            } else {
+                inputs[game.focused.input].focus()
+            }
         }
 
         // check the solution so far
-        check(letters.join(''), curr.text)
-    }
-
-    /**
-     * Fill the last focused input with the correct letter.
-     */
-    function reveal(): void {
-        // if no previously focused input, start at the beginnning
-        if (focused === null) {
-            focused = 0
-        }
-
-        // reveal the appropriate letter and check if word is solved
-        letters[focused] = curr.text[focused]
-        check(letters.join(''), curr.text)
-
-        // focus the next input, wrapping around
-        if (focused === inputs.length - 1) {
-            inputs[0]?.focus()
-        } else {
-            inputs[focused + 1]?.focus()
-        }
+        check(inputs.map(i => i.value).join(''), curr.text)
     }
 </script>
 
 <div class="inputWrapper">
     {#each curr.text as char, i}
         {#if char !== ' '}
-            <input maxlength="1" enterkeyhint="done"
-                onkeydown={e => handleKeyDown(e, i)} onblur={() => focused = i}
-                bind:value={letters[i]} bind:this={inputs[i]}
+            <input maxlength="1" enterkeyhint="done" inputmode="none"
+                onkeydown={e => handleKeyDown(e, i)}
+                onfocus={() => { game.focused.clue = idx; game.focused.input = i }}
+                onkey={e => handleKey(e.detail, i)}
+                bind:this={inputs[i]}
                 class={{'space': curr.text[i + 1] === ' '}}
             />
         {/if}
     {/each}
-</div>
-<div class="buttonWrapper">
-    <button onclick={reveal}>Reveal Letter</button>
-    <button onclick={() => game.state.push(idx)}>Reveal Word</button>
 </div>
 
 <style>
@@ -157,24 +173,6 @@
             &:focus {
                 background-color: #E9F5FE;
             }
-        }
-    }
-
-    .buttonWrapper {
-        white-space: nowrap;
-    }
-
-    button {
-        border: 1px solid #084E74;
-        box-shadow: 1px 1px 0 0 #084E74;
-        border-radius: 0;
-        padding: 4px 6px;
-        background-color: white;
-        text-transform: uppercase;
-        font-family: 'IBM Plex Mono', monospace;
-
-        &:hover {
-            background-color: #E9F5FE;
         }
     }
 </style>

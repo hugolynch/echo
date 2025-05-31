@@ -1,7 +1,9 @@
 <script lang="ts">
     import type { Puzzle, State } from '../types/puzzle'
+    import type { Key } from '../types/actions'
     import { tick } from 'svelte'
     import { game, next, input } from '../lib/state.svelte'
+    import Keyboard from './Keyboard.svelte'
     import BoardClue from "./BoardClue.svelte"
     import puzzles from '../assets/puzzles.json'
 
@@ -39,7 +41,7 @@
 
         // save active puzzle to local storage, focus first input, and return it
         localStorage.setItem('active', saved.id)
-        tick().then(() => input(next(0))?.focus())
+        tick().then(() => input(next(0), 0)?.focus())
         return saved
     }
 
@@ -64,6 +66,14 @@
         game.state = loadState(el.value)
         game.puzzle = loadPuzzle(el.value)
     }
+
+    /**
+     * Given a action from the keyboard, trigger a custom 'key' event on the last focused input.
+     */
+    function key(key: Key): void {
+        const target = input(game.focused.clue, game.focused.input)
+         target?.dispatchEvent(new CustomEvent('key', {detail: key}))
+    }
 </script>
 
 <div>
@@ -83,6 +93,7 @@
 
 <BoardClue />
 <button onclick={() => game.state = []}>Reset Puzzle</button>
+<Keyboard {key}/>
 
 <style>
     :root {
