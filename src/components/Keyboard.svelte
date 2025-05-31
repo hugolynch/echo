@@ -2,6 +2,9 @@
     import type { Key } from '../types/actions'
     import { actions } from '../lib/actions'
     import { game, leaf, render } from '../lib/state.svelte'
+    import prevIcon from '../assets/prev.svg'
+    import nextIcon from '../assets/next.svg'
+    import backIcon from '../assets/back.svg'
 
     let { key }: { key: (key: Key) => void } = $props()
     let letters = [
@@ -14,7 +17,7 @@
 
 <div class="keyboard">
     <div class="row top">
-        <button class="tab" onclick={() => key({action: actions.PREV})}><img src="/previous.svg" alt="previous"></button>
+        <button class="tab" onclick={() => key({action: actions.PREV})}><img src={prevIcon} alt="previous"></button>
         <div class="clue">
             {#if leaf(game.focused.clue)}
                 { render(game.focused.clue) }
@@ -22,7 +25,7 @@
                 &ndash;
             {/if}
         </div>
-        <button class="tab" onclick={() => key({action: actions.NEXT})}><img src="/next.svg" alt="next"></button>
+        <button class="tab" onclick={() => key({action: actions.NEXT})}><img src={nextIcon} alt="next"></button>
     </div>
     <div class="row">
         <button class="action">?123</button>
@@ -37,7 +40,7 @@
             {/each}
             {#if i === letters.length - 1}
                 <button class="letter" onclick={() => key({action: actions.BACK})}>
-                    <img class="icon" src="/back.svg" alt="backspace">
+                    <img class="icon" src={backIcon} alt="backspace">
                 </button>
             {/if}
         </div>
@@ -119,7 +122,7 @@
 
     @media (pointer: fine) {
         .keyboard {
-            display: none;
+            /* display: none; */
         }
     }
 </style>
