@@ -15,17 +15,30 @@
     ];
 
     function addHapticFeedback() {
-    if (typeof navigator.vibrate === 'function') {
-        navigator.vibrate(1); // Short 10ms vibration
+        if (typeof navigator.vibrate === 'function') {
+            navigator.vibrate(1);
+            }
     }
-}
 
-function handleButtonClick(e: MouseEvent, action: () => void) {
-    e.preventDefault();
-    addHapticFeedback();
-    action();
-}
+    function handleButtonClick(e: MouseEvent, action: () => void) {
+        e.preventDefault();
+        addHapticFeedback();
+        action();
+    }
 
+    let floatingKey = $state<{ char: string, x: number, y: number } | null>(null);
+
+    function handleLetterClick(e: MouseEvent, letter: string) {
+        handleButtonClick(e, () => key({action: actions.CHAR, char: letter.toUpperCase()}));
+
+        const target = e.currentTarget as HTMLElement;
+        const rect = target.getBoundingClientRect();
+        floatingKey = { char: letter.toUpperCase(), x: rect.left + rect.width / 2, y: rect.top - rect.height * 1 };
+
+        setTimeout(() => {
+            floatingKey = null;sadasd
+        }, 200);
+    }
 </script>
 
 <div class="keyboard">
@@ -47,7 +60,7 @@ function handleButtonClick(e: MouseEvent, action: () => void) {
     {#each letters as row, i}
         <div class="row">
             {#each row as letter}
-                <button class="letter" onclick={(e) => handleButtonClick(e, () => key({action: actions.CHAR, char: letter.toUpperCase()}))}>
+                <button class="letter" onclick={(e) => handleLetterClick(e, letter)}>
                     {letter.toUpperCase()}
                 </button>
             {/each}
@@ -58,6 +71,11 @@ function handleButtonClick(e: MouseEvent, action: () => void) {
             {/if}
         </div>
     {/each}
+    {#if floatingKey}
+    <div class="floating-key" style="left: {floatingKey.x}px; top: {floatingKey.y}px;">
+        {floatingKey.char}
+    </div>
+{/if}
 </div>
 
 <style>
@@ -108,14 +126,15 @@ function handleButtonClick(e: MouseEvent, action: () => void) {
         border-bottom: 2px solid #C9CAD6;
         height: 48px;
         border-radius: 8px;
-        flex-grow: 1;
+        flex: 1;
         padding: 0 8px;
         font-size: 2.4rem;
+        user-select: none;
 
         &:active:not([disabled]) {
             background-color: #F2F3FB;
-            border-bottom: none;
-            border-top: 2px solid #F2F3FB;
+            border-bottom: 1px solid #C9CAD6;
+            border-top: 1px solid #F2F3FB;
         }
 
         & .icon {
@@ -133,6 +152,22 @@ function handleButtonClick(e: MouseEvent, action: () => void) {
         background-color: #084E74;
         color: white;
         padding: 8px;
+    }
+
+    .floating-key {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.8rem;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0 2px 2px rgba(0, 0, 0, 0.12);
+        z-index: 10;
+        pointer-events: none;
     }
 
     @media (pointer: fine) {
