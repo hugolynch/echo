@@ -25,7 +25,8 @@
         <button class="tab" onclick={() => key({action: actions.NEXT})}><img src="/next.svg" alt="next"></button>
     </div>
     <div class="row">
-        <button class="" onclick={() => key({action: actions.REVEAL})}>REVEAL LETTER</button>
+        <button class="action">?123</button>
+        <button class="action" onclick={() => key({action: actions.REVEAL})}>REVEAL LETTER</button>
     </div>
     {#each letters as row, i}
         <div class="row">
@@ -36,7 +37,7 @@
             {/each}
             {#if i === letters.length - 1}
                 <button class="letter" onclick={() => key({action: actions.BACK})}>
-                    <img src="/back.svg" alt="backspace">
+                    <img class="icon" src="/back.svg" alt="backspace">
                 </button>
             {/if}
         </div>
@@ -95,6 +96,16 @@
 
         &:active {
             background-color: #F2F3FB;
+        }
+
+        & .icon {
+            margin: auto;
+            display: flex;
+        }
+
+        &.action {
+            font-size: 1.8rem;
+            font-weight: bold;
         }
     }
 
