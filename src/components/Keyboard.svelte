@@ -11,7 +11,7 @@
 
 <div class="keyboard">
     <div class="row top">
-        <button class="tab" onclick={() => key('ShiftTab')}>&lt;</button>
+        <button class="tab" onclick={() => key('ShiftTab')}><img src="/previous.svg" alt="previous"></button>
         <div class="clue">
             {#if leaf(game.focused.clue)}
                 { render(game.focused.clue) }
@@ -19,7 +19,7 @@
                 &ndash;
             {/if}
         </div>
-        <button class="tab" onclick={() => key('Tab')}>&gt;</button>
+        <button class="tab" onclick={() => key('Tab')}><img src="/next.svg" alt="next"></button>
     </div>
     <div class="row">
         <button class="" onclick={() => key('reveal')}>Reveal</button>
@@ -39,10 +39,10 @@
     .keyboard {
         display: flex;
         flex-direction: column;
-        gap: 3px;
-        align-items: center;
-        width: fit-content;
-        margin: 0 auto;
+        width: 100%;
+        gap: 8px;
+        background-color: #E3E5EF;
+        padding-bottom: 8px;
     }
 
     .row {
@@ -51,10 +51,42 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 3px;
+        gap: 4px;
 
         & .clue {
             flex: 1;
+            line-height: 2rem;
+            padding: 0;
         }
+
+        &.top {
+            background-color: #084E74;
+            gap: 4px;
+            padding: 4px 4px;
+
+            & button {
+                background-color: #084E74;
+                color: #FFFFFF;
+                border: none;
+                border-radius: 0;
+            }
+        }
+    }
+
+    button {
+        background-color: #FFFFFF;
+        border-bottom: 2px solid #C9CAD6;
+        height: 38px;
+        border-radius: 5px;
+
+        &:active {
+            background-color: #F2F3FB;
+        }
+    }
+
+    .clue {
+        background-color: #084E74;
+        color: white;
+        padding: 8px;
     }
 </style>
