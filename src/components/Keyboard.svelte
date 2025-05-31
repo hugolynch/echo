@@ -88,7 +88,7 @@
         background-color: #FFFFFF;
         border-bottom: 2px solid #C9CAD6;
         height: 48px;
-        border-radius: 5px;
+        border-radius: 8px;
         flex-grow: 1;
         padding: 0 8px;
         font-size: 2.4rem;
