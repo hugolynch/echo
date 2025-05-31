@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { game, node } from '../lib/state.svelte'
+    import { game, node, parse } from '../lib/state.svelte'
     import BoardClue from './BoardClue.svelte'
     import Input from './Input.svelte'
 
@@ -51,7 +51,15 @@
     {#if depth}
         <span class="solution text">{curr.text}</span>
     {:else}
-        <span class="puzzle text">{curr.text}</span>
+        <span class="puzzle text">
+            {#each parse(curr.text) as line}
+                {#if line instanceof URL}
+                    <a href={line.href} target="_blank">{line.href}</a>
+                {:else}
+                    {line}
+                {/if}
+            {/each}
+        </span>
     {/if}
 {:else}
     <span class={{'clue': depth, 'puzzle': !depth, 'leaf': !height}} data-id={curr.key} style:--height={height}>
@@ -76,6 +84,9 @@
 
         & > .text {
             margin-bottom: 40px;
+        }
+        &.text {
+            display: block;
         }
     }
 

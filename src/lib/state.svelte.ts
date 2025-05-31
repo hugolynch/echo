@@ -83,6 +83,15 @@ function leaf(idx: number): boolean {
         || clues.every(c => text(c) || solved(c))
 }
 
+export function parse(text: string): (string|URL)[] {
+    return text
+        .split(/(\r?\n)/g)
+        .map(line => {
+            try { return new URL(line) }
+            catch { return line }
+        })
+}
+
 
 /*
 ┌───────────────────────────────────────────────────────────────────────┐
