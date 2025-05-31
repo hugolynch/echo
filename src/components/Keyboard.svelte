@@ -17,7 +17,7 @@
     function addHapticFeedback() {
         if (typeof navigator.vibrate === 'function') {
             navigator.vibrate(1);
-            }
+        }
     }
 
     function handleButtonClick(e: MouseEvent, action: () => void) {
@@ -37,7 +37,7 @@
 
         setTimeout(() => {
             floatingKey = null;sadasd
-        }, 200);
+        }, 100);
     }
 </script>
 
