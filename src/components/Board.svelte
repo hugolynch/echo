@@ -1,7 +1,8 @@
 <script lang="ts">
     import type { Puzzle, State } from '../types/puzzle'
+    import type { Key } from '../types/actions'
     import { tick } from 'svelte'
-    import { game, node, next, input } from '../lib/state.svelte'
+    import { game, next, input } from '../lib/state.svelte'
     import Keyboard from './Keyboard.svelte'
     import BoardClue from "./BoardClue.svelte"
     import puzzles from '../assets/puzzles.json'
@@ -69,10 +70,10 @@
     /**
      * Given a action from the keyboard, trigger a custom 'key' event on the last focused input.
      */
-    function key(letter: string): void {
+    function key(key: Key): void {
         const target = input(game.focused.clue, game.focused.input)
         target?.focus()
-        target?.dispatchEvent(new CustomEvent('key', {detail: letter}))
+        target?.dispatchEvent(new CustomEvent('key', {detail: key}))
     }
 </script>
 

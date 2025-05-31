@@ -1,7 +1,9 @@
 <script lang="ts">
+    import type { Key } from '../types/actions'
+    import { actions } from '../lib/actions'
     import { game, leaf, render } from '../lib/state.svelte'
 
-    let { key }: { key: (letter: string) => void } = $props()
+    let { key }: { key: (key: Key) => void } = $props()
     let letters = [
         'qwertyuiop'.split(''),
         'asdfghjkl'.split(''),
@@ -11,7 +13,7 @@
 
 <div class="keyboard">
     <div class="row top">
-        <button class="tab" onclick={() => key('ShiftTab')}><img src="/previous.svg" alt="previous"></button>
+        <button class="tab" onclick={() => key({action: actions.PREV})}><img src="/previous.svg" alt="previous"></button>
         <div class="clue">
             {#if leaf(game.focused.clue)}
                 { render(game.focused.clue) }
@@ -19,15 +21,15 @@
                 &ndash;
             {/if}
         </div>
-        <button class="tab" onclick={() => key('Tab')}><img src="/next.svg" alt="next"></button>
+        <button class="tab" onclick={() => key({action: actions.NEXT})}><img src="/next.svg" alt="next"></button>
     </div>
     <div class="row">
-        <button class="" onclick={() => key('reveal')}>REAVEAL LETTER</button>
+        <button class="" onclick={() => key({action: actions.REVEAL})}>REVEAL LETTER</button>
     </div>
     {#each letters as row}
         <div class="row">
             {#each row as letter}
-                <button class="letter" onclick={() => key(letter.toUpperCase())}>
+                <button class="letter" onclick={() => key({action: actions.CHAR, char: letter.toUpperCase()})}>
                     {letter.toUpperCase()}
                 </button>
             {/each}

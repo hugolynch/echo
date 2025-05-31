@@ -1,4 +1,6 @@
 <script lang="ts">
+    import type { Key } from '../types/actions'
+    import { actions } from '../lib/actions'
     import { onMount, onDestroy, tick } from 'svelte'
     import { game, node, parent, prev, next, input } from '../lib/state.svelte'
 
@@ -41,9 +43,22 @@
         
         // otherwise, prevent default event handling and run custom event handling
         e.preventDefault()
-        // special case: when pressing shift+tab, convert the key to a special value
-        const key = (e.shiftKey && e.key === 'Tab') ? 'ShiftTab' : e.key
-        handleInput(e.target as HTMLInputElement, key, i)
+        // figure out the action happening
+        const key: Key = {action: actions.NOOP}
+        if (e.key === 'Tab') {
+            key.action = e.shiftKey ? actions.PREV : actions.NEXT
+        } else if (e.key === 'LeftArrow') {
+            key.action = actions.LEFT
+        } else if (e.key === 'RightArrow') {
+            key.action = actions.RIGHT
+        } else if (e.key === 'Backspace') {
+            key.action = actions.BACK
+        } else if (e.key.length === 1) {
+            key.action = actions.CHAR
+            key.char = e.key
+        }
+        // handle the action
+        handleKey(key, i)
     }
 
     /**
@@ -53,13 +68,13 @@
      *  3. move left when pressing backspace;
      *  4. focus the previous/next input when pressing arrow keys.
      */
-    function handleInput(target: HTMLInputElement, key: string, i: number): void {
+    function handleKey(key: Key, i: number): void {
         // get adjacent inputs (if any)
         const prevChar = inputs[game.focused.input - 1] as HTMLInputElement|undefined
         const nextChar = inputs[game.focused.input + 1] as HTMLInputElement|undefined
 
-        // if key is 'reveal'
-        if (key === 'reveal') {
+        // if action is 'reveal'
+        if (key.action === actions.REVEAL) {
             inputs[game.focused.input].value = curr.text[game.focused.input]
             // focus next char, wrapping around
             if (nextChar) {
@@ -69,13 +84,13 @@
             }
         }
 
-        // if key is tab or shift+tab, focus previous/next clue
-        if (key === 'Tab' || key === 'ShiftTab') {
+        // if action is tab or shift+tab, focus previous/next clue
+        if (key.action === actions.PREV || key.action === actions.NEXT) {
             const p = parent(idx)
             if (p !== null) {
                 // if shift is pressed, get the previous clue's input
                 // otherwise get the next one's
-                const tidx = (key === 'ShiftTab')
+                const tidx = (key.action === actions.PREV)
                     ? prev(p, idx) ?? prev(0)
                     : next(p, idx) ?? next(0)
                 input(tidx, 0)?.focus()
@@ -83,17 +98,17 @@
         }
 
         // handle other special cases...
-        if (key === 'ArrowLeft') {
+        if (key.action === actions.LEFT) {
             prevChar?.focus()
-        } else if (key === 'ArrowRight') {
+        } else if (key.action === actions.RIGHT) {
             nextChar?.focus()
-        } else if (key === 'Backspace') {
+        } else if (key.action === actions.BACK) {
             // on backspace, clear current and focus previous input
             inputs[i].value = ''
             prevChar?.focus()
-        } else if (key.length === 1) {
+        } else if (key.action === actions.CHAR && key.char) {
             // when typing a single character, focus next input
-            inputs[i].value = key
+            inputs[i].value = key.char
             nextChar?.focus()
         }
 
@@ -108,7 +123,7 @@
             <input maxlength="1" enterkeyhint="done" inputmode="none"
                 onkeydown={e => handleKeyDown(e, i)}
                 onfocus={() => { game.focused.clue = idx; game.focused.input = i }}
-                onkey={e => handleInput(e.target as HTMLInputElement, e.detail, i)}
+                onkey={e => handleKey(e.detail, i)}
                 bind:this={inputs[i]}
                 class={{'space': curr.text[i + 1] === ' '}}
             />
