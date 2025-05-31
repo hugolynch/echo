@@ -28,16 +28,14 @@
 
     let floatingKey = $state<{ char: string, x: number, y: number } | null>(null);
 
-    function handleLetterClick(e: MouseEvent, letter: string) {
-        handleButtonClick(e, () => key({action: actions.CHAR, char: letter.toUpperCase()}));
-
+    function handlePointerDown(e: PointerEvent, letter: string) {
         const target = e.currentTarget as HTMLElement;
         const rect = target.getBoundingClientRect();
         floatingKey = { char: letter.toUpperCase(), x: rect.left + rect.width / 2, y: rect.top - rect.height * 1 };
+    }
 
-        setTimeout(() => {
-            floatingKey = null;
-        }, 100);
+    function handlePointerUp() {
+        floatingKey = null;
     }
 </script>
 
@@ -54,19 +52,28 @@
         <button class="tab" onclick={(e) => handleButtonClick(e, () => key({action: actions.NEXT}))}><img src={nextIcon} alt="next"></button>
     </div>
     <div class="row">
-        <button class="action" disabled>?123</button>
+        <!-- <button class="action" disabled>?123</button> -->
+        <button class="action" disabled>HINT</button>
         <button class="action" onclick={(e) => handleButtonClick(e, () => key({action: actions.REVEAL}))}>REVEAL LETTER</button>
     </div>
     {#each letters as row, i}
         <div class="row">
-            {#each row as letter}
-                <button class="letter" onclick={(e) => handleLetterClick(e, letter)}>
-                    {letter.toUpperCase()}
-                </button>
-            {/each}
             {#if i === letters.length - 1}
-                <button class="letter" onclick={(e) => handleButtonClick(e, () => key({action: actions.BACK}))}>
-                    <img class="icon" id="back" src={backIcon} alt="backspace">
+                <button class="double action" disabled>?123</button>
+            {/if}
+            {#each row as letter}
+            <button
+                class="letter"
+                onclick={(e) => handleButtonClick(e, () => key({action: actions.CHAR, char: letter.toUpperCase()}))}
+                onpointerdown={(e) => handlePointerDown(e as PointerEvent, letter)}
+                onpointerup={() => handlePointerUp()}
+            >
+                {letter.toUpperCase()}
+            </button>
+        {/each}
+            {#if i === letters.length - 1}
+                <button class="double letter" onclick={(e) => handleButtonClick(e, () => key({action: actions.BACK}))}>
+                    <img class="icon" src={backIcon} alt="backspace">
                 </button>
             {/if}
         </div>
@@ -95,7 +102,7 @@
         align-items: center;
         justify-content: center;
         gap: 4px;
-        padding: 0 2px;
+        padding: 0 4px;
 
         & .clue {
             flex: 1;
@@ -146,8 +153,9 @@
         }
     }
 
-    #back {
-        padding: 0 16px;
+    .double {
+        padding: 0 20px;
+        background-color: #C9CAD6;
     }
 
     .clue {
