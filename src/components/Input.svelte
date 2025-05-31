@@ -105,16 +105,12 @@
         } else if (key.action === actions.BACK) {
             // on backspace, clear current and focus previous input
             inputs[i].value = ''
-            prevChar?.focus()
+            ;(prevChar ?? inputs[game.focused.input]).focus()
         } else if (key.action === actions.CHAR && key.char) {
             // when typing a single character, focus next input if exists;
             // otherwise focus back on the current input
             inputs[i].value = key.char
-            if (nextChar) {
-                nextChar.focus()
-            } else {
-                inputs[game.focused.input].focus()
-            }
+            ;(nextChar ?? inputs[game.focused.input]).focus()
         }
 
         // check the solution so far
