@@ -88,6 +88,9 @@
         &.text {
             display: block;
         }
+        &.text {
+            display: block;
+        }
     }
 
     .clue {

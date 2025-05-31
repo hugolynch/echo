@@ -74,6 +74,17 @@
         const target = input(game.focused.clue, game.focused.input)
          target?.dispatchEvent(new CustomEvent('key', {detail: key}))
     }
+
+    function reset() {
+        if (confirm('are you sure?')) {
+            for (let inputRow of game.inputs) {
+                for (let inputBox of inputRow ?? []) {
+                    if (inputBox) inputBox.value = ''
+                }
+            }
+            game.state = []
+        }
+    }
 </script>
 
 <div>
@@ -92,7 +103,7 @@
 </div>
 
 <BoardClue />
-<button onclick={() => game.state = []}>Reset Puzzle</button>
+<button onclick={reset}>Reset Puzzle</button>
 <Keyboard {key}/>
 
 <style>
