@@ -3,9 +3,8 @@
     import { game, node, parent, prev, next, input } from '../lib/state.svelte'
 
     let { idx = 0 } = $props()
-    let curr = node(idx)!
+    let curr = $derived(node(idx)!)
     let inputs: HTMLInputElement[] = $state([])
-    let letters = $state([...curr.text].filter(c => c !== ' ').map(_ => ''))
 
     onMount(() => {game.inputs[idx] = inputs})
     onDestroy(() => { delete game.inputs[idx] })
@@ -61,7 +60,7 @@
 
         // if key is 'reveal'
         if (key === 'reveal') {
-            letters[game.focused.input] = curr.text[game.focused.input]
+            inputs[game.focused.input].value = curr.text[game.focused.input]
             // focus next char, wrapping around
             if (nextChar) {
                 nextChar.focus()
@@ -90,16 +89,16 @@
             nextChar?.focus()
         } else if (key === 'Backspace') {
             // on backspace, clear current and focus previous input
-            letters[i] = ''
+            inputs[i].value = ''
             prevChar?.focus()
         } else if (key.length === 1) {
             // when typing a single character, focus next input
-            letters[i] = key
+            inputs[i].value = key
             nextChar?.focus()
         }
 
         // check the solution so far
-        check(letters.join(''), curr.text)
+        check(inputs.map(i => i.value).join(''), curr.text)
     }
 </script>
 
@@ -110,7 +109,7 @@
                 onkeydown={e => handleKeyDown(e, i)}
                 onfocus={() => { game.focused.clue = idx; game.focused.input = i }}
                 ontype={e => handleInput(e.target as HTMLInputElement, e.detail, i)}
-                bind:value={letters[i]} bind:this={inputs[i]}
+                bind:this={inputs[i]}
                 class={{'space': curr.text[i + 1] === ' '}}
             />
         {/if}
