@@ -1,7 +1,9 @@
 <script lang="ts">
     import type { Puzzle, State } from '../types/puzzle'
+    import type { Key } from '../types/actions'
     import { tick } from 'svelte'
     import { game, next, input } from '../lib/state.svelte'
+    import Keyboard from './Keyboard.svelte'
     import BoardClue from "./BoardClue.svelte"
     import puzzles from '../assets/puzzles.json'
 
@@ -39,7 +41,7 @@
 
         // save active puzzle to local storage, focus first input, and return it
         localStorage.setItem('active', saved.id)
-        tick().then(() => input(next(0))?.focus())
+        tick().then(() => input(next(0), 0)?.focus())
         return saved
     }
 
@@ -64,6 +66,25 @@
         game.state = loadState(el.value)
         game.puzzle = loadPuzzle(el.value)
     }
+
+    /**
+     * Given a action from the keyboard, trigger a custom 'key' event on the last focused input.
+     */
+    function key(key: Key): void {
+        const target = input(game.focused.clue, game.focused.input)
+         target?.dispatchEvent(new CustomEvent('key', {detail: key}))
+    }
+
+    function reset() {
+        if (confirm('are you sure?')) {
+            for (let inputRow of game.inputs) {
+                for (let inputBox of inputRow ?? []) {
+                    if (inputBox) inputBox.value = ''
+                }
+            }
+            game.state = []
+        }
+    }
 </script>
 
 <div>
@@ -82,15 +103,32 @@
 </div>
 
 <BoardClue />
-<button onclick={() => game.state = []}>Reset Puzzle</button>
+<button onclick={reset}>Reset Puzzle</button>
+<Keyboard {key}/>
 
 <style>
-    select {
-        margin: 0 auto;
+    :root {
+        font-family: monospace;
+        line-height: 1;
+        font-weight: 400;
+        font-size: 62.5%;
     }
 
-    button {
-        margin: 0 24px;
-        align-self: center;
+    select {
+        margin-top: 48px;
+    }
+
+    select, button {
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        padding: 8px 0;
+    }
+    span {
+        font-size: 1.6rem;
     }
 </style>
