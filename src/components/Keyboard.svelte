@@ -36,7 +36,7 @@
         floatingKey = { char: letter.toUpperCase(), x: rect.left + rect.width / 2, y: rect.top - rect.height * 1 };
 
         setTimeout(() => {
-            floatingKey = null;sadasd
+            floatingKey = null;
         }, 100);
     }
 </script>
@@ -66,7 +66,7 @@
             {/each}
             {#if i === letters.length - 1}
                 <button class="letter" onclick={(e) => handleButtonClick(e, () => key({action: actions.BACK}))}>
-                    <img class="icon" src={backIcon} alt="backspace">
+                    <img class="icon" id="back" src={backIcon} alt="backspace">
                 </button>
             {/if}
         </div>
@@ -123,7 +123,7 @@
     button {
         background-color: #FFFFFF;
         border: none;
-        border-bottom: 2px solid #C9CAD6;
+        /* border-bottom: 1px solid #C9CAD6; */
         height: 48px;
         border-radius: 8px;
         flex: 1;
@@ -133,8 +133,6 @@
 
         &:active:not([disabled]) {
             background-color: #F2F3FB;
-            border-bottom: 1px solid #C9CAD6;
-            border-top: 1px solid #F2F3FB;
         }
 
         & .icon {
@@ -148,6 +146,10 @@
         }
     }
 
+    #back {
+        padding: 0 16px;
+    }
+
     .clue {
         background-color: #084E74;
         color: white;
@@ -158,14 +160,15 @@
         position: absolute;
         transform: translate(-50%, -50%);
         background-color: white;
-        border-radius: 50%;
+        border-radius: 8px;
         width: 60px;
         height: 60px;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 2.8rem;
-        box-shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0 2px 2px rgba(0, 0, 0, 0.12);
+        font-size: 3rem;
+        border: 1px solid #F2F3FB;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.14);
         z-index: 10;
         pointer-events: none;
     }
