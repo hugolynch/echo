@@ -104,7 +104,7 @@
     }
 
     select {
-        margin-top: 48px;
+        margin-top: 24px;
     }
 
     select, button {

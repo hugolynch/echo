@@ -78,7 +78,7 @@
         max-width: 100vw;
         overflow-x: scroll;
         align-items: center;
-        padding: 24px 24px 72px 24px;
+        padding: 0 24px 24px 24px;
         color: #084E74;
         font-size: 1.6rem;
 
