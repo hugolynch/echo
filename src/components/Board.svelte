@@ -72,8 +72,7 @@
      */
     function key(key: Key): void {
         const target = input(game.focused.clue, game.focused.input)
-        target?.focus()
-        target?.dispatchEvent(new CustomEvent('key', {detail: key}))
+         target?.dispatchEvent(new CustomEvent('key', {detail: key}))
     }
 </script>
 
