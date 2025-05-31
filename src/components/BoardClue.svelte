@@ -75,7 +75,7 @@
         font-size: 1.6rem;
 
         & > .text {
-            margin-bottom: 40px;
+            margin-bottom: 6px;
         }
     }
 
