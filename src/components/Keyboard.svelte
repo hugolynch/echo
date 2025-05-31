@@ -28,7 +28,7 @@
         <button class="tab" onclick={() => key({action: actions.NEXT})}><img src={nextIcon} alt="next"></button>
     </div>
     <div class="row">
-        <button class="action">?123</button>
+        <button class="action" disabled>?123</button>
         <button class="action" onclick={() => key({action: actions.REVEAL})}>REVEAL LETTER</button>
     </div>
     {#each letters as row, i}
@@ -99,7 +99,7 @@
         padding: 0 8px;
         font-size: 2.4rem;
 
-        &:active {
+        &:active:not([disabled]) {
             background-color: #F2F3FB;
         }
 
