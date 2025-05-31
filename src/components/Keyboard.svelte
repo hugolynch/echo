@@ -1,7 +1,7 @@
 <script lang="ts">
     import { game, leaf, render } from '../lib/state.svelte'
 
-    let { type }: { type: (letter: string) => void } = $props()
+    let { key }: { key: (letter: string) => void } = $props()
     let letters = [
         'qwertyuiop'.split(''),
         'asdfghjkl'.split(''),
@@ -11,7 +11,7 @@
 
 <div class="keyboard">
     <div class="row top">
-        <button class="tab" onclick={() => type('ShiftTab')}>&lt;</button>
+        <button class="tab" onclick={() => key('ShiftTab')}>&lt;</button>
         <div class="clue">
             {#if leaf(game.focused.clue)}
                 { render(game.focused.clue) }
@@ -19,15 +19,15 @@
                 &ndash;
             {/if}
         </div>
-        <button class="tab" onclick={() => type('Tab')}>&gt;</button>
+        <button class="tab" onclick={() => key('Tab')}>&gt;</button>
     </div>
     <div class="row">
-        <button class="" onclick={() => type('reveal')}>Reveal</button>
+        <button class="" onclick={() => key('reveal')}>Reveal</button>
     </div>
     {#each letters as row}
-        <div class="row">    
+        <div class="row">
             {#each row as letter}
-                <button class="letter" onclick={() => type(letter.toUpperCase())}>
+                <button class="letter" onclick={() => key(letter.toUpperCase())}>
                     {letter.toUpperCase()}
                 </button>
             {/each}

@@ -66,10 +66,13 @@
         game.puzzle = loadPuzzle(el.value)
     }
 
-    function type(letter: string): void {
+    /**
+     * Given a action from the keyboard, trigger a custom 'key' event on the last focused input.
+     */
+    function key(letter: string): void {
         const target = input(game.focused.clue, game.focused.input)
         target?.focus()
-        target?.dispatchEvent(new CustomEvent('type', {detail: letter}))
+        target?.dispatchEvent(new CustomEvent('key', {detail: letter}))
     }
 </script>
 
@@ -89,7 +92,7 @@
 </div>
 
 <BoardClue />
-<Keyboard {type}/>
+<Keyboard {key}/>
 <button onclick={() => game.state = []}>Reset Puzzle</button>
 
 <style>
