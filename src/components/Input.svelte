@@ -161,6 +161,7 @@
             background-color: white;
             caret-color: transparent;
             padding: 0;
+            text-transform: uppercase;
 
             &:not(:last-child) {
                 border-right: 1px solid #084E74;
