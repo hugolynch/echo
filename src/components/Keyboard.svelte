@@ -25,18 +25,6 @@
         addHapticFeedback();
         action();
     }
-
-    let floatingKey = $state<{ char: string, x: number, y: number } | null>(null);
-
-    function handlePointerDown(e: PointerEvent, letter: string) {
-        const target = e.currentTarget as HTMLElement;
-        const rect = target.getBoundingClientRect();
-        floatingKey = { char: letter.toUpperCase(), x: rect.left + rect.width / 2, y: rect.top - rect.height * 1 };
-    }
-
-    function handlePointerUp() {
-        floatingKey = null;
-    }
 </script>
 
 <div class="keyboard">
@@ -62,15 +50,14 @@
                 <button class="double action" disabled>?123</button>
             {/if}
             {#each row as letter}
-            <button
-                class="letter"
-                onclick={(e) => handleButtonClick(e, () => key({action: actions.CHAR, char: letter.toUpperCase()}))}
-                onpointerdown={(e) => handlePointerDown(e as PointerEvent, letter)}
-                onpointerup={() => handlePointerUp()}
-            >
+                <button
+                    class="letter"
+                    onclick={(e) => handleButtonClick(e, () => key({action: actions.CHAR, char: letter.toUpperCase()}))}
+                    data-key={letter.toUpperCase()}
+                >
                 {letter.toUpperCase()}
             </button>
-        {/each}
+            {/each}
             {#if i === letters.length - 1}
                 <button class="double letter" onclick={(e) => handleButtonClick(e, () => key({action: actions.BACK}))}>
                     <img class="icon" src={backIcon} alt="backspace">
@@ -78,11 +65,6 @@
             {/if}
         </div>
     {/each}
-    {#if floatingKey}
-    <div class="floating-key" style="left: {floatingKey.x}px; top: {floatingKey.y}px;">
-        {floatingKey.char}
-    </div>
-{/if}
 </div>
 
 <style>
@@ -164,10 +146,13 @@
         padding: 8px;
     }
 
-    .floating-key {
+    button.letter:active::before {
+        content: attr(data-key);
         position: absolute;
-        transform: translate(-50%, -50%);
-        background-color: white;
+        left: 50%;
+        top: -80px;
+        transform: translateX(-50%);
+        background: white;
         border-radius: 8px;
         width: 60px;
         height: 60px;
@@ -175,10 +160,14 @@
         align-items: center;
         justify-content: center;
         font-size: 3rem;
-        border: 1px solid #F2F3FB;
-        box-shadow: 0 0 2px rgba(0, 0, 0, 0.14);
+        font-weight: bold;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
         z-index: 10;
         pointer-events: none;
+    }
+    
+    button.letter {
+        position: relative;
     }
 
     @media (pointer: fine) {
