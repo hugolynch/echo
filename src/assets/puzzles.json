@@ -21719,7 +21719,7 @@
     "date": "2025-06-02",
     "clues": [
       {
-        "text": "\"You come at the kind, you best not miss.\"\n-Omar Little\n\n2002 – \"The Wire\" debuts on HBO\n\nhttps://en.wikipedia.org/wiki/The_Wire",
+        "text": "\"You come at the king, you best not miss.\"\n-Omar Little\n\n2002 – \"The Wire\" debuts on HBO\n\nhttps://en.wikipedia.org/wiki/The_Wire",
         "clues": [
           1,
           2,
@@ -21991,6 +21991,336 @@
       },
       {
         "text": ".\""
+      }
+    ]
+  },
+  {
+    "id": "3389cb48-3f7c-4c1f-8600-b1597ca4c13a",
+    "name": "June 3 Daily",
+    "author": "Hugo",
+    "date": "2025-06-03",
+    "clues": [
+      {
+        "text": "\"Is this the real life? Is this just fantasy?\"\n\n1976 – Queen's \"Bohemian Rhapsody\" goes gold\n\nhttps://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+        "clues": [
+          1,
+          2,
+          13,
+          14,
+          23,
+          24,
+          41,
+          42,
+          62
+        ]
+      },
+      {
+        "text": "Is this the "
+      },
+      {
+        "key": "1",
+        "text": "real",
+        "clues": [
+          3,
+          4,
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "text": "unlike "
+      },
+      {
+        "key": "1.1",
+        "text": "unicorn",
+        "clues": [
+          5,
+          6
+        ]
+      },
+      {
+        "text": "national animal of "
+      },
+      {
+        "key": "1.1.1",
+        "text": "Scotland",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "setting for \"Braveheart\" and \"Macbeth\""
+      },
+      {
+        "text": "s or "
+      },
+      {
+        "key": "1.2",
+        "text": "Big",
+        "clues": [
+          10
+        ]
+      },
+      {
+        "text": "\"___ Brother is watching you\""
+      },
+      {
+        "key": "1.3",
+        "text": "foot",
+        "clues": [
+          12
+        ]
+      },
+      {
+        "text": "one of three in a yard"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "life",
+        "clues": [
+          15,
+          16,
+          20,
+          21
+        ]
+      },
+      {
+        "text": "it "
+      },
+      {
+        "key": "2.1",
+        "text": "end",
+        "clues": [
+          17,
+          18
+        ]
+      },
+      {
+        "text": "last "
+      },
+      {
+        "key": "2.1.1",
+        "text": "bit",
+        "clues": [
+          19
+        ]
+      },
+      {
+        "text": "0 or 1, in computing"
+      },
+      {
+        "text": "s in "
+      },
+      {
+        "key": "2.2",
+        "text": "death",
+        "clues": [
+          22
+        ]
+      },
+      {
+        "text": "tarot card that usually depicts the Grim Reaper"
+      },
+      {
+        "text": "? Is this "
+      },
+      {
+        "key": "3",
+        "text": "just",
+        "clues": [
+          25,
+          26,
+          40
+        ]
+      },
+      {
+        "text": "morally "
+      },
+      {
+        "key": "3.1",
+        "text": "right",
+        "clues": [
+          27,
+          28,
+          30,
+          31,
+          33,
+          34,
+          39
+        ]
+      },
+      {
+        "text": "W-to-E "
+      },
+      {
+        "key": "3.1.1",
+        "text": "direct",
+        "clues": [
+          29
+        ]
+      },
+      {
+        "text": "like a flight with no layovers"
+      },
+      {
+        "text": "ion, on a "
+      },
+      {
+        "key": "3.1.2",
+        "text": "compass",
+        "clues": [
+          32
+        ]
+      },
+      {
+        "text": "orienteering device"
+      },
+      {
+        "text": " or "
+      },
+      {
+        "key": "3.1.3",
+        "text": "key",
+        "clues": [
+          35,
+          36,
+          38
+        ]
+      },
+      {
+        "text": "B "
+      },
+      {
+        "key": "3.1.3.1",
+        "text": "flat",
+        "clues": [
+          37
+        ]
+      },
+      {
+        "text": "London apartment"
+      },
+      {
+        "text": ", for one"
+      },
+      {
+        "text": "board"
+      },
+      {
+        "text": " and fair"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4",
+        "text": "fantasy",
+        "clues": [
+          43,
+          44,
+          48,
+          49,
+          55,
+          56,
+          61
+        ]
+      },
+      {
+        "text": "genre for \"His "
+      },
+      {
+        "key": "4.1",
+        "text": "Dark",
+        "clues": [
+          45,
+          47
+        ]
+      },
+      {
+        "key": "4.1.1",
+        "text": "poor",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "\"Give me your tired, your ___…\" 🗽"
+      },
+      {
+        "text": "ly lit"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4.2",
+        "text": "Material",
+        "clues": [
+          50,
+          52,
+          53
+        ]
+      },
+      {
+        "key": "4.2.1",
+        "text": "glass",
+        "clues": [
+          51
+        ]
+      },
+      {
+        "text": "half-full or half-empty item"
+      },
+      {
+        "text": ", plastic or "
+      },
+      {
+        "key": "4.2.2",
+        "text": "paper",
+        "clues": [
+          54
+        ]
+      },
+      {
+        "text": "daily news source"
+      },
+      {
+        "text": "s\" or \""
+      },
+      {
+        "key": "4.3",
+        "text": "Avatar",
+        "clues": [
+          57,
+          58,
+          60
+        ]
+      },
+      {
+        "text": "highest-"
+      },
+      {
+        "key": "4.3.1",
+        "text": "gross",
+        "clues": [
+          59
+        ]
+      },
+      {
+        "text": "disgusting"
+      },
+      {
+        "text": "ing movie of all time"
+      },
+      {
+        "text": ": The Last Airbender,\""
+      },
+      {
+        "text": "?"
       }
     ]
   }
