@@ -23357,5 +23357,282 @@
         "text": "erly"
       }
     ]
+  },
+  {
+    "id": "e3297e84-2f1f-4512-a82b-fc1ee569a94a",
+    "name": "June 10 (On This Day)",
+    "author": "Hugo",
+    "date": "2025-06-10",
+    "clues": [
+      {
+        "text": "1977 – Apple Computer ships first Apple II computers\n\nhttps://en.wikipedia.org/wiki/Apple_II",
+        "clues": [
+          1,
+          12,
+          13,
+          18,
+          19,
+          31,
+          32,
+          44,
+          45,
+          51
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Apple",
+        "clues": [
+          2,
+          6,
+          7
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "gift",
+        "clues": [
+          3,
+          5
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "birthday",
+        "clues": [
+          4
+        ]
+      },
+      {
+        "text": "occasion for blowing out candles"
+      },
+      {
+        "text": " present"
+      },
+      {
+        "text": " for the "
+      },
+      {
+        "key": "1.2",
+        "text": "teacher",
+        "clues": [
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "text": "class "
+      },
+      {
+        "key": "1.2.1",
+        "text": "lead",
+        "clues": [
+          10
+        ]
+      },
+      {
+        "text": "X-ray vision blocker"
+      },
+      {
+        "text": "er"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "Com",
+        "clues": [
+          14,
+          15,
+          17
+        ]
+      },
+      {
+        "text": "www."
+      },
+      {
+        "key": "2.1",
+        "text": "apple",
+        "clues": [
+          16
+        ]
+      },
+      {
+        "text": "🍎"
+      },
+      {
+        "text": ".___"
+      },
+      {
+        "text": "puter "
+      },
+      {
+        "key": "3",
+        "text": "ships",
+        "clues": [
+          20,
+          21,
+          30
+        ]
+      },
+      {
+        "text": "f"
+      },
+      {
+        "key": "3.1",
+        "text": "lot",
+        "clues": [
+          22,
+          23
+        ]
+      },
+      {
+        "text": "place to "
+      },
+      {
+        "key": "3.1.1",
+        "text": "park",
+        "clues": [
+          24,
+          25,
+          27,
+          28
+        ]
+      },
+      {
+        "text": "urban "
+      },
+      {
+        "key": "3.1.1.1",
+        "text": "green",
+        "clues": [
+          26
+        ]
+      },
+      {
+        "text": "Grinch colour"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3.1.1.2",
+        "text": "space",
+        "clues": [
+          29
+        ]
+      },
+      {
+        "text": "cosmic expanse"
+      },
+      {
+        "text": "illa members"
+      },
+      {
+        "text": " first "
+      },
+      {
+        "key": "4",
+        "text": "Apple",
+        "clues": [
+          33,
+          35,
+          36,
+          41,
+          42
+        ]
+      },
+      {
+        "key": "4.1",
+        "text": "Waldo",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "elusive children's book character in a red-and-white-striped shirt"
+      },
+      {
+        "text": "rf "
+      },
+      {
+        "key": "4.2",
+        "text": "salad",
+        "clues": [
+          37,
+          38,
+          40
+        ]
+      },
+      {
+        "text": "soup "
+      },
+      {
+        "key": "4.2.1",
+        "text": "alter",
+        "clues": [
+          39
+        ]
+      },
+      {
+        "text": "\"I am ___ing the deal. Pray I don't ___ it any further.\" -Darth Vader"
+      },
+      {
+        "text": "native"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4.3",
+        "text": "ingredient",
+        "clues": [
+          43
+        ]
+      },
+      {
+        "text": "recipe component"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "5",
+        "text": "II",
+        "clues": [
+          46,
+          48,
+          49
+        ]
+      },
+      {
+        "key": "5.1",
+        "text": "sequel",
+        "clues": [
+          47
+        ]
+      },
+      {
+        "text": "\"The Dark Knight\" to \"Batman Begins\""
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "5.2",
+        "text": "letters",
+        "clues": [
+          50
+        ]
+      },
+      {
+        "text": "Q&A and R&D?"
+      },
+      {
+        "text": " computers"
+      }
+    ]
   }
 ]
