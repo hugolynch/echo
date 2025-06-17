@@ -25080,5 +25080,298 @@
         "text": "-in"
       }
     ]
+  },
+  {
+    "id": "21342e9f-354a-4573-888b-de07d824832d",
+    "name": "June 18 Daily",
+    "author": "Hugo",
+    "date": "2025-06-18",
+    "clues": [
+      {
+        "text": "\"This was their finest hour\"\n\n1940 – Winston Churchill delivers speech to the House of Commons\n\nhttps://en.wikipedia.org/wiki/This_was_their_finest_hour",
+        "clues": [
+          1,
+          2,
+          20,
+          21,
+          25,
+          26,
+          40,
+          41,
+          55
+        ]
+      },
+      {
+        "text": "\""
+      },
+      {
+        "key": "1",
+        "text": "This",
+        "clues": [
+          3,
+          4,
+          6,
+          7,
+          19
+        ]
+      },
+      {
+        "text": "\"___ is your "
+      },
+      {
+        "key": "1.1",
+        "text": "brain",
+        "clues": [
+          5
+        ]
+      },
+      {
+        "text": "it's all in your head"
+      },
+      {
+        "text": " on d"
+      },
+      {
+        "key": "1.2",
+        "text": "rug",
+        "clues": [
+          8,
+          9,
+          11,
+          12
+        ]
+      },
+      {
+        "text": "Persian "
+      },
+      {
+        "key": "1.2.1",
+        "text": "floor",
+        "clues": [
+          10
+        ]
+      },
+      {
+        "text": "elevator stop"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "1.2.2",
+        "text": "cover",
+        "clues": [
+          13,
+          14,
+          16,
+          17
+        ]
+      },
+      {
+        "text": "recor"
+      },
+      {
+        "key": "1.2.2.1",
+        "text": "ding",
+        "clues": [
+          15
+        ]
+      },
+      {
+        "text": "phone alert sound"
+      },
+      {
+        "text": " of another person's "
+      },
+      {
+        "key": "1.2.2.2",
+        "text": "song",
+        "clues": [
+          18
+        ]
+      },
+      {
+        "text": "Spotify selection"
+      },
+      {
+        "text": "s\" 🍳 (1980s anti-narcotics PSA)"
+      },
+      {
+        "text": " was t"
+      },
+      {
+        "key": "2",
+        "text": "heir",
+        "clues": [
+          22,
+          23
+        ]
+      },
+      {
+        "text": "next in "
+      },
+      {
+        "key": "2.1",
+        "text": "line",
+        "clues": [
+          24
+        ]
+      },
+      {
+        "text": "it goes from point A to point B"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3",
+        "text": "fin",
+        "clues": [
+          27,
+          28
+        ]
+      },
+      {
+        "text": "end of a French "
+      },
+      {
+        "key": "3.1",
+        "text": "film",
+        "clues": [
+          29,
+          30,
+          37,
+          38
+        ]
+      },
+      {
+        "text": "work that might receive a "
+      },
+      {
+        "key": "3.1.1",
+        "text": "Palm",
+        "clues": [
+          31,
+          36
+        ]
+      },
+      {
+        "key": "3.1.1.1",
+        "text": "fortune",
+        "clues": [
+          32,
+          33,
+          35
+        ]
+      },
+      {
+        "text": "Forbes has estimated the value of "
+      },
+      {
+        "key": "3.1.1.1.1",
+        "text": "Scrooge",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "\"Bah humbug\" speaker"
+      },
+      {
+        "text": " McDuck's at $44.1 billion"
+      },
+      {
+        "text": "teller's reading material"
+      },
+      {
+        "text": "e d'Or or a Golden "
+      },
+      {
+        "key": "3.1.2",
+        "text": "Lion",
+        "clues": [
+          39
+        ]
+      },
+      {
+        "text": "king of the jungle"
+      },
+      {
+        "text": "est "
+      },
+      {
+        "key": "4",
+        "text": "hour",
+        "clues": [
+          42,
+          43,
+          54
+        ]
+      },
+      {
+        "text": "word with "
+      },
+      {
+        "key": "4.1",
+        "text": "rush",
+        "clues": [
+          44,
+          45,
+          50,
+          51,
+          53
+        ]
+      },
+      {
+        "text": "like some time "
+      },
+      {
+        "key": "4.1.1",
+        "text": "sensitive",
+        "clues": [
+          46,
+          47,
+          49
+        ]
+      },
+      {
+        "text": "thin-s"
+      },
+      {
+        "key": "4.1.1.1",
+        "text": "kin",
+        "clues": [
+          48
+        ]
+      },
+      {
+        "text": "relatives"
+      },
+      {
+        "text": "ned"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4.1.2",
+        "text": "order",
+        "clues": [
+          52
+        ]
+      },
+      {
+        "text": "\"house special marinated pork belly (extra spicy, extra numbing) and a passion fruit green tea\" e.g."
+      },
+      {
+        "text": "s"
+      },
+      {
+        "text": " or happy"
+      },
+      {
+        "text": "\""
+      }
+    ]
   }
 ]
