@@ -26573,5 +26573,200 @@
         "text": "any"
       }
     ]
+  },
+  {
+    "id": "5b100b0b-099a-4bff-8679-37cfd3b6a8ef",
+    "name": "June 25 Daily",
+    "author": "Hugo",
+    "date": "2025-06-25",
+    "clues": [
+      {
+        "text": "1984 – Prince releases \"Purple rain\"\n\nhttps://www.youtube.com/watch?v=TvnYmWpD_T8",
+        "clues": [
+          1,
+          25,
+          26
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Purple",
+        "clues": [
+          2,
+          9,
+          14,
+          15,
+          19,
+          20
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "bot",
+        "clues": [
+          3,
+          4,
+          8
+        ]
+      },
+      {
+        "text": "accusation aimed at a '"
+      },
+      {
+        "key": "1.1.1",
+        "text": "play",
+        "clues": [
+          5,
+          6
+        ]
+      },
+      {
+        "text": "join in the "
+      },
+      {
+        "key": "1.1.1.1",
+        "text": "game",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "Valorant or Fortnite"
+      },
+      {
+        "text": "er' that has inhuman reflexes (Reported! Definitely cheating.)"
+      },
+      {
+        "key": "1.2",
+        "text": "tom",
+        "clues": [
+          10,
+          11,
+          13
+        ]
+      },
+      {
+        "text": "___ Clancy's "
+      },
+      {
+        "key": "1.2.1",
+        "text": "Rainbow",
+        "clues": [
+          12
+        ]
+      },
+      {
+        "text": "\"Double ___ all the way across the sky! Oh my god! What does it mean?!\""
+      },
+      {
+        "text": " Six Extraction"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "1.3",
+        "text": "stripe",
+        "clues": [
+          16,
+          18
+        ]
+      },
+      {
+        "key": "1.3.1",
+        "text": "line",
+        "clues": [
+          17
+        ]
+      },
+      {
+        "text": "\"It's dangerous to go alone, take this!\" or \"I used to be an adventurer like you, then I took an arrow in the knee\", e.g."
+      },
+      {
+        "text": " at the zoo?"
+      },
+      {
+        "text": " on a pride f"
+      },
+      {
+        "key": "1.4",
+        "text": "lag",
+        "clues": [
+          21,
+          22,
+          24
+        ]
+      },
+      {
+        "text": "network hiccup ma"
+      },
+      {
+        "key": "1.4.1",
+        "text": "king",
+        "clues": [
+          23
+        ]
+      },
+      {
+        "text": "___ of the hill (Team Fortress 2 game mode)"
+      },
+      {
+        "text": " me blame my ISP instead of my aim (Skill issue? Nah, it's this!)"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "rain",
+        "clues": [
+          27,
+          29,
+          30,
+          35
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "camping",
+        "clues": [
+          28
+        ]
+      },
+      {
+        "text": "frustrating strategy used by a sniper (Zero-skill!) ⛺️"
+      },
+      {
+        "text": " t"
+      },
+      {
+        "key": "2.2",
+        "text": "rip",
+        "clues": [
+          31,
+          32,
+          34
+        ]
+      },
+      {
+        "text": "tombs"
+      },
+      {
+        "key": "2.2.1",
+        "text": "tone",
+        "clues": [
+          33
+        ]
+      },
+      {
+        "text": "\"Watch your ___, young man!\""
+      },
+      {
+        "text": " letters (Press F to pay respects)"
+      },
+      {
+        "text": " dampener"
+      }
+    ]
   }
 ]
