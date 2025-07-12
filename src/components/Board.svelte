@@ -33,12 +33,14 @@
      */
     function key(key: Key): void {
         const target = input(game.focused.clue, game.focused.input)
-         target?.dispatchEvent(new CustomEvent('key', {detail: key}))
+        target?.dispatchEvent(new CustomEvent('key', {detail: key}))
     }
 </script>
 
-<BoardClue />
-<Keyboard {key} />
+<div class="container">
+    <BoardClue />
+    <Keyboard {key} />
+</div>
 
 <style>
     :root {
@@ -47,4 +49,13 @@
         font-weight: 400;
         font-size: 62.5%;
     }
+
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+      }
 </style>
