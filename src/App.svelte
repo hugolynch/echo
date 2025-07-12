@@ -1,5 +1,9 @@
 <script lang="ts">
-  import Board from "./components/Board.svelte"
+  import type { Puzzle, State } from './types/puzzle'
+  import Board from "./components/Board.svelte";
+  import puzzles from './assets/puzzles.json'
+
+  let puzzle: Puzzle = puzzles[0]
 </script>
 
-<Board />
+<Board {puzzle} />
