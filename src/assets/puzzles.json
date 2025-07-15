@@ -29447,5 +29447,275 @@
         "text": "?\""
       }
     ]
+  },
+  {
+    "id": "2f069e45-5596-4268-a871-63a4f29cb2c6",
+    "name": "July 15 Daily",
+    "author": "Hugo",
+    "date": "2025-07-15",
+    "clues": [
+      {
+        "text": "1799 – The Rosetta Stone is rediscovered\n\nhttps://en.wikipedia.org/wiki/Rosetta_Stone#Rediscovery",
+        "clues": [
+          1,
+          17,
+          18,
+          27,
+          28
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Rose",
+        "clues": [
+          2,
+          3,
+          14,
+          15
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "valen"
+      },
+      {
+        "key": "1.1",
+        "text": "tine",
+        "clues": [
+          4,
+          13
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "fork",
+        "clues": [
+          5,
+          7,
+          8
+        ]
+      },
+      {
+        "key": "1.1.1.1",
+        "text": "split",
+        "clues": [
+          6
+        ]
+      },
+      {
+        "text": "share equally"
+      },
+      {
+        "text": " in the "
+      },
+      {
+        "key": "1.1.1.2",
+        "text": "road",
+        "clues": [
+          9,
+          10,
+          12
+        ]
+      },
+      {
+        "text": "\""
+      },
+      {
+        "key": "1.1.1.2.1",
+        "text": "Mad",
+        "clues": [
+          11
+        ]
+      },
+      {
+        "text": "ticked off"
+      },
+      {
+        "text": " Max: Fury ___\""
+      },
+      {
+        "text": " prong"
+      },
+      {
+        "text": "'s "
+      },
+      {
+        "key": "1.2",
+        "text": "flower",
+        "clues": [
+          16
+        ]
+      },
+      {
+        "text": "🌼, 🌸 or 🌺"
+      },
+      {
+        "text": "t"
+      },
+      {
+        "key": "2",
+        "text": "ta",
+        "clues": [
+          19,
+          21,
+          22,
+          26
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "pro",
+        "clues": [
+          20
+        ]
+      },
+      {
+        "text": "expert"
+      },
+      {
+        "text": "f's "
+      },
+      {
+        "key": "2.2",
+        "text": "aid",
+        "clues": [
+          23,
+          24
+        ]
+      },
+      {
+        "text": "first ___ "
+      },
+      {
+        "key": "2.2.1",
+        "text": "kit",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "\"Have a Break, Have a ___ Kat\""
+      },
+      {
+        "text": "e"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3",
+        "text": "Stone",
+        "clues": [
+          29,
+          34,
+          35
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "peach",
+        "clues": [
+          30,
+          31,
+          33
+        ]
+      },
+      {
+        "text": "emoji often used as a "
+      },
+      {
+        "key": "3.1.1",
+        "text": "stand",
+        "clues": [
+          32
+        ]
+      },
+      {
+        "text": "place for a witness"
+      },
+      {
+        "text": " in for a butt"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3.2",
+        "text": "pit",
+        "clues": [
+          36,
+          37,
+          49
+        ]
+      },
+      {
+        "text": "s"
+      },
+      {
+        "key": "3.2.1",
+        "text": "top",
+        "clues": [
+          38,
+          46,
+          48
+        ]
+      },
+      {
+        "key": "3.2.1.1",
+        "text": "Bey",
+        "clues": [
+          39,
+          40,
+          42,
+          43,
+          45
+        ]
+      },
+      {
+        "text": "Queen ___ ("
+      },
+      {
+        "key": "3.2.1.1.1",
+        "text": "pop",
+        "clues": [
+          41
+        ]
+      },
+      {
+        "text": "fizzy drink"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3.2.1.1.2",
+        "text": "nickname",
+        "clues": [
+          44
+        ]
+      },
+      {
+        "text": "\"The Rocket\" for Maurice Richard"
+      },
+      {
+        "text": ")"
+      },
+      {
+        "key": "3.2.1.2",
+        "text": "blade",
+        "clues": [
+          47
+        ]
+      },
+      {
+        "text": "unit of grass"
+      },
+      {
+        "text": " or dreidel"
+      },
+      {
+        "text": " for gas"
+      }
+    ]
   }
 ]
