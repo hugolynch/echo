@@ -30180,5 +30180,285 @@
         "text": "ence"
       }
     ]
+  },
+  {
+    "id": "4ac9735a-111d-4a13-b7aa-5712eb3c91c0",
+    "name": "July 18 Daily",
+    "author": "Hugo",
+    "date": "2025-07-18",
+    "clues": [
+      {
+        "text": "64 – The Great Fire of Rome starts\n\nhttps://en.wikipedia.org/wiki/Great_Fire_of_Rome",
+        "clues": [
+          1,
+          28,
+          29,
+          41,
+          42
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Great",
+        "clues": [
+          2,
+          9,
+          10,
+          25,
+          26
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "Australia",
+        "clues": [
+          3,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "text": "country that has won the most "
+      },
+      {
+        "key": "1.1.1",
+        "text": "Cricket",
+        "clues": [
+          5
+        ]
+      },
+      {
+        "text": "chirping insect"
+      },
+      {
+        "text": " World "
+      },
+      {
+        "key": "1.1.2",
+        "text": "Cups",
+        "clues": [
+          8
+        ]
+      },
+      {
+        "text": "beer pong targets"
+      },
+      {
+        "text": "'s ___ "
+      },
+      {
+        "key": "1.2",
+        "text": "Bar",
+        "clues": [
+          11,
+          12,
+          24
+        ]
+      },
+      {
+        "text": "happy hour "
+      },
+      {
+        "key": "1.2.1",
+        "text": "hang",
+        "clues": [
+          13,
+          14,
+          16,
+          17,
+          23
+        ]
+      },
+      {
+        "text": "c"
+      },
+      {
+        "key": "1.2.1.1",
+        "text": "hill",
+        "clues": [
+          15
+        ]
+      },
+      {
+        "text": "sledding site"
+      },
+      {
+        "text": " with "
+      },
+      {
+        "key": "1.2.1.2",
+        "text": "friend",
+        "clues": [
+          18,
+          20,
+          22
+        ]
+      },
+      {
+        "key": "1.2.1.2.1",
+        "text": "Face",
+        "clues": [
+          19
+        ]
+      },
+      {
+        "text": "portrait focus"
+      },
+      {
+        "key": "1.2.1.2.2",
+        "text": "book",
+        "clues": [
+          21
+        ]
+      },
+      {
+        "text": "library item"
+      },
+      {
+        "text": " connection"
+      },
+      {
+        "text": "s"
+      },
+      {
+        "text": "out"
+      },
+      {
+        "text": "rier "
+      },
+      {
+        "key": "1.3",
+        "text": "Reef",
+        "clues": [
+          27
+        ]
+      },
+      {
+        "text": "coral construction"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "Fire",
+        "clues": [
+          30,
+          31,
+          33,
+          34,
+          38,
+          39
+        ]
+      },
+      {
+        "text": "elemental con"
+      },
+      {
+        "key": "2.1",
+        "text": "cern",
+        "clues": [
+          32
+        ]
+      },
+      {
+        "text": "Large Hadron Collider acronym"
+      },
+      {
+        "text": " for "
+      },
+      {
+        "key": "2.2",
+        "text": "Smoke",
+        "clues": [
+          35,
+          37
+        ]
+      },
+      {
+        "key": "2.2.1",
+        "text": "chimney",
+        "clues": [
+          36
+        ]
+      },
+      {
+        "text": "entrance for Santa"
+      },
+      {
+        "text": " output"
+      },
+      {
+        "text": "y the "
+      },
+      {
+        "key": "2.3",
+        "text": "Bear",
+        "clues": [
+          40
+        ]
+      },
+      {
+        "text": "Wall Street pessimist"
+      },
+      {
+        "text": " of "
+      },
+      {
+        "key": "3",
+        "text": "Rome",
+        "clues": [
+          43,
+          44
+        ]
+      },
+      {
+        "text": "it wasn't built in a "
+      },
+      {
+        "key": "3.1",
+        "text": "day",
+        "clues": [
+          45,
+          46
+        ]
+      },
+      {
+        "text": "calendar "
+      },
+      {
+        "key": "3.1.1",
+        "text": "box",
+        "clues": [
+          47,
+          49,
+          50
+        ]
+      },
+      {
+        "key": "3.1.1.1",
+        "text": "emu",
+        "clues": [
+          48
+        ]
+      },
+      {
+        "text": "bird on [1.1]'s coat of arms"
+      },
+      {
+        "text": "late Muhammad "
+      },
+      {
+        "key": "3.1.1.2",
+        "text": "Ali",
+        "clues": [
+          51
+        ]
+      },
+      {
+        "text": "\"Aladdin\" prince"
+      }
+    ]
   }
 ]
