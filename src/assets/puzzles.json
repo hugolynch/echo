@@ -30999,5 +30999,286 @@
         "text": "on"
       }
     ]
+  },
+  {
+    "id": "cc66e3da-7367-47c5-b81d-b28c14e261d8",
+    "name": "RwC CUCM 2025",
+    "author": "Hugo",
+    "date": "2025-07-24",
+    "clues": [
+      {
+        "text": "\"They call it a Royale with cheese\" 💜",
+        "clues": [
+          1,
+          2,
+          13,
+          14,
+          28,
+          29,
+          52
+        ]
+      },
+      {
+        "text": "\"They "
+      },
+      {
+        "key": "1",
+        "text": "call",
+        "clues": [
+          3,
+          12
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "ring",
+        "clues": [
+          4,
+          5
+        ]
+      },
+      {
+        "text": "wedding "
+      },
+      {
+        "key": "1.1.1",
+        "text": "band",
+        "clues": [
+          6,
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "key": "1.1.1.1",
+        "text": "Pink",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "🩷"
+      },
+      {
+        "text": " Floyd or "
+      },
+      {
+        "key": "1.1.1.2",
+        "text": "Green",
+        "clues": [
+          10
+        ]
+      },
+      {
+        "text": "💚"
+      },
+      {
+        "text": " Day"
+      },
+      {
+        "text": " up"
+      },
+      {
+        "text": " it a "
+      },
+      {
+        "key": "2",
+        "text": "Royal",
+        "clues": [
+          15,
+          25,
+          26
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "shade",
+        "clues": [
+          16,
+          17,
+          24
+        ]
+      },
+      {
+        "text": "what a "
+      },
+      {
+        "key": "2.1.1",
+        "text": "tree",
+        "clues": [
+          18,
+          19,
+          23
+        ]
+      },
+      {
+        "text": "genealogy "
+      },
+      {
+        "key": "2.1.1.1",
+        "text": "char",
+        "clues": [
+          20,
+          22
+        ]
+      },
+      {
+        "key": "2.1.1.1.1",
+        "text": "black",
+        "clues": [
+          21
+        ]
+      },
+      {
+        "text": "🖤"
+      },
+      {
+        "text": "en on the grill"
+      },
+      {
+        "text": "t"
+      },
+      {
+        "text": " provides on a hot, sunny day"
+      },
+      {
+        "text": " of "
+      },
+      {
+        "key": "2.2",
+        "text": "blue",
+        "clues": [
+          27
+        ]
+      },
+      {
+        "text": "💙"
+      },
+      {
+        "text": "e with "
+      },
+      {
+        "key": "3",
+        "text": "cheese",
+        "clues": [
+          30,
+          51
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "pane",
+        "clues": [
+          31,
+          41,
+          42,
+          50
+        ]
+      },
+      {
+        "key": "3.1.1",
+        "text": "win",
+        "clues": [
+          32,
+          33,
+          38,
+          39
+        ]
+      },
+      {
+        "text": "take "
+      },
+      {
+        "key": "3.1.1.1",
+        "text": "home",
+        "clues": [
+          34,
+          35,
+          37
+        ]
+      },
+      {
+        "text": "where the "
+      },
+      {
+        "key": "3.1.1.1.1",
+        "text": "heart",
+        "clues": [
+          36
+        ]
+      },
+      {
+        "text": "symbol used throughout this puzzle to indicate colour "
+      },
+      {
+        "text": " is, they say"
+      },
+      {
+        "text": " the "
+      },
+      {
+        "key": "3.1.1.2",
+        "text": "gold",
+        "clues": [
+          40
+        ]
+      },
+      {
+        "text": "💛"
+      },
+      {
+        "text": "dow "
+      },
+      {
+        "key": "3.1.2",
+        "text": "sect",
+        "clues": [
+          43,
+          44,
+          46,
+          47,
+          49
+        ]
+      },
+      {
+        "text": "sp"
+      },
+      {
+        "key": "3.1.2.1",
+        "text": "lint",
+        "clues": [
+          45
+        ]
+      },
+      {
+        "text": "dryer fuzz"
+      },
+      {
+        "text": "e"
+      },
+      {
+        "key": "3.1.2.2",
+        "text": "red",
+        "clues": [
+          48
+        ]
+      },
+      {
+        "text": "❤️"
+      },
+      {
+        "text": " religious faction"
+      },
+      {
+        "text": "ion"
+      },
+      {
+        "text": "er or brie, e.g."
+      },
+      {
+        "text": "\""
+      }
+    ]
   }
 ]
