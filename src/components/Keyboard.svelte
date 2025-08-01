@@ -72,7 +72,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        gap: 8px;
+        gap: 4px;
         background-color: #E3E5EF;
         padding-bottom: 8px;
     }
@@ -113,10 +113,10 @@
         background-color: #FFFFFF;
         border: none;
         /* border-bottom: 1px solid #C9CAD6; */
-        height: 48px;
+        height: 32px;
         border-radius: 8px;
         flex: 1;
-        padding: 0 8px;
+        padding: 0 4px;
         font-size: 2.4rem;
         user-select: none;
 

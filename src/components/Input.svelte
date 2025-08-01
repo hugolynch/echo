@@ -158,6 +158,7 @@
             caret-color: transparent;
             padding: 0;
             text-transform: uppercase;
+            font-size: 16px;
 
             &:not(:last-child) {
                 border-right: 1px solid #084E74;
