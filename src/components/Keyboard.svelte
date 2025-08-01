@@ -22,14 +22,17 @@
 
     function handleButtonClick(e: MouseEvent, action: () => void) {
         e.preventDefault();
-        addHapticFeedback();
         action();
     }
 </script>
 
 <div class="keyboard">
     <div class="row top">
-        <button class="tab" onclick={(e) => handleButtonClick(e, () => key({action: actions.PREV}))}><img src={prevIcon} alt="previous"></button>
+        <button class="tab"
+            onpointerdown={() => addHapticFeedback()}
+            onclick={(e) => handleButtonClick(e, () => key({action: actions.PREV}))}>
+            <img src={prevIcon} alt="previous">
+        </button>
         <div class="clue">
             {#if leaf(game.focused.clue)}
                 { render(game.focused.clue) }
@@ -37,21 +40,30 @@
                 &ndash;
             {/if}
         </div>
-        <button class="tab" onclick={(e) => handleButtonClick(e, () => key({action: actions.NEXT}))}><img src={nextIcon} alt="next"></button>
+        <button class="tab"
+            onpointerdown={() => addHapticFeedback()}
+            onclick={(e) => handleButtonClick(e, () => key({action: actions.NEXT}))}>
+            <img src={nextIcon} alt="next">
+        </button>
     </div>
     <div class="row">
         <!-- <button class="action" disabled>?123</button> -->
         <button class="action" disabled>HINT</button>
-        <button class="action" onclick={(e) => handleButtonClick(e, () => key({action: actions.REVEAL}))}>REVEAL LETTER</button>
+        <button class="action"
+            onpointerdown={() => addHapticFeedback()}
+            onclick={(e) => handleButtonClick(e, () => key({action: actions.REVEAL}))}>
+            REVEAL LETTER
+        </button>
     </div>
     {#each letters as row, i}
         <div class="row">
             {#if i === letters.length - 1}
-                <button class="double action" disabled>?123</button>
+                <button class="double action" disabled>123</button>
             {/if}
             {#each row as letter}
                 <button
                     class="letter"
+                    onpointerdown={() => addHapticFeedback()}
                     onclick={(e) => handleButtonClick(e, () => key({action: actions.CHAR, char: letter.toUpperCase()}))}
                     data-key={letter.toUpperCase()}
                 >
@@ -59,7 +71,9 @@
             </button>
             {/each}
             {#if i === letters.length - 1}
-                <button class="double letter" onclick={(e) => handleButtonClick(e, () => key({action: actions.BACK}))}>
+                <button class="double letter"
+                    onpointerdown={() => addHapticFeedback()}
+                    onclick={(e) => handleButtonClick(e, () => key({action: actions.BACK}))}>
                     <img class="icon" src={backIcon} alt="backspace">
                 </button>
             {/if}
