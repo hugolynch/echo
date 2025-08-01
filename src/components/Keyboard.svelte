@@ -127,7 +127,7 @@
         background-color: #FFFFFF;
         border: none;
         /* border-bottom: 1px solid #C9CAD6; */
-        height: 32px;
+        height: 40px;
         border-radius: 8px;
         flex: 1;
         padding: 0 4px;
@@ -150,7 +150,7 @@
     }
 
     .double {
-        padding: 0 20px;
+        padding: 0 12px;
         background-color: #C9CAD6;
     }
 
