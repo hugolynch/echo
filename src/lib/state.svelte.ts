@@ -57,6 +57,11 @@ function parent(idx: number): number|null {
     return pidx
 }
 
+function siblings(idx: number): number[] {
+    const pidx = parent(idx)
+    return pidx ? children(pidx) : [];
+}
+
 /**
  * Given a node index, returns true iff that node is solved, false otherwise.
  * Text nodes are never solved.
@@ -215,4 +220,4 @@ function input(idx: number|null, pos: number): HTMLInputElement|null {
     return null
 }
 
-export { game, node, parent, prev, next, input }
+export { game, node, parent, children, siblings, text, clue, prev, next, input }

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { game, node, parse } from '../lib/state.svelte'
+    import { game, node, siblings, text, clue, parse } from '../lib/state.svelte'
     import BoardClue from './BoardClue.svelte'
     import Input from './Input.svelte'
 
@@ -34,13 +34,40 @@
         // default to 0 if the node has no children
         return Math.max(0, ...children.map(n => getHeight(n) + 1))
     }
+
+    /**
+     * Returns true iff we should display a whitespace box before the given node,
+     * false otherwise.
+     */
+    function before(idx: number): boolean {
+        const sibs = siblings(idx)
+        const prev = sibs[sibs.indexOf(idx) - 1] ?? null
+        return node(idx)!.text.startsWith(' ') && clue(prev)
+    }
+
+    /**
+     * Returns true iff we should display a whitespace box after the given node,
+     * false otherwise.
+     */
+    function after(idx: number): boolean {
+        const sibs = siblings(idx)
+        const next = sibs[sibs.indexOf(idx) + 1] ?? null
+        return node(idx)!.text.endsWith(' ') && clue(next)
+    }
 </script>
 
 {#snippet children(children: number[])}
     {#each children as i}
-        {@const child = game.puzzle.clues[i]}
-        {#if ! child.clues?.length}
-            <span class="text">{child.text}</span>
+        {#if text(i)}
+            {#if before(i) && after(i)}
+                <span class="text space-before space-after">{node(i)!.text.trim()}</span>
+            {:else if before(i)}
+                <span class="text space-before">{node(i)!.text.trimStart()}</span>
+            {:else if after(i)}
+                <span class="text space-after">{node(i)!.text.trimEnd()}</span>
+            {:else}
+                <span class="text">{node(i)!.text}</span>
+            {/if}
         {:else}
             <BoardClue depth={depth + 1} idx={i} />
         {/if}
@@ -148,6 +175,12 @@
 
         .clue:not(.leaf) > &{
             margin-top: calc((var(--height) + 1) * 5px + 23px);
+        }
+
+        &.space-before::before,
+        &.space-after::after {
+            content: ' ';
+            background-color: rgba(255, 255, 255, 0.75);
         }
     }
 
