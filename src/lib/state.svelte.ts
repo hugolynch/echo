@@ -17,7 +17,7 @@ const game: {
     state: [],
     inputs: [],
     focused: { clue: 0, input: 0 },
-    keyboardVisible: true,
+    keyboardVisible: matchMedia('(pointer:coarse)').matches,
 })
 
 /*

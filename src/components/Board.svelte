@@ -103,7 +103,12 @@
 </div>
 
 <BoardClue />
-<button onclick={reset}>Reset Puzzle</button>
+<div class="controls">
+    <button onclick={reset}>Reset Puzzle</button>
+    <button class="keyboard-toggle" onclick={() => game.keyboardVisible = !game.keyboardVisible}>
+        {game.keyboardVisible ? 'Hide' : 'Show'} Keyboard
+    </button>
+</div>
 {#if game.keyboardVisible}
     <Keyboard {key}/>
 {/if}
@@ -124,6 +129,20 @@
         padding: 12px;
         border: none;
         border-radius: 8px;
+    }
+
+    .controls {
+        display: flex;
+        gap: 12px;
+        margin-top: 12px;
+    }
+
+    .keyboard-toggle {
+        display: inline-block;
+
+        @media (pointer: coarse) {
+            display: none;
+        }
     }
 
     h1 {

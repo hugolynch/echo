@@ -29,7 +29,7 @@
     }
 </script>
 
-<div class="keyboard" transition:slide={{ duration: 200 }}>
+<div class="keyboard" class:show={game.keyboardVisible} transition:slide={{ duration: 200 }}>
     <div class="row top">
         <button class="tab"
             onpointerdown={() => addHapticFeedback()}
@@ -226,7 +226,7 @@
     }
 
     @media (pointer: fine) {
-        .keyboard {
+        .keyboard:not(.show) {
             display: none;
         }
     }

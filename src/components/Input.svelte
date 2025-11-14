@@ -136,7 +136,9 @@
 
         game.focused.clue = idx
         game.focused.input = i
-        game.keyboardVisible = true
+        if (matchMedia('(pointer:coarse)').matches) {
+            game.keyboardVisible = true
+        }
     }
 </script>
 
