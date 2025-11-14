@@ -81,7 +81,7 @@
                 <div class="spacer"></div>
             {/if}
             {#if i === letters.length - 1}
-                <button class="double letter"
+                <button class="double"
                     onpointerdown={() => addHapticFeedback()}
                     onclick={(e) => handleButtonClick(e, () => key({action: actions.BACK}))}>
                     <img class="icon" src={backIcon} alt="backspace">
@@ -133,11 +133,20 @@
                 background-color: #084E74;
                 color: #FFFFFF;
                 border: none;
-                border-radius: 0;
                 flex-grow: revert;
-                padding: 8px;
+                padding: 8px 12px;
+                display: flex;
+
+                & img {
+                    margin: auto;
+                }
+            }
+
+            & button:active {
+                background-color: #0A5881;
             }
         }
+
     }
 
     button {
@@ -170,13 +179,14 @@
             font-weight: bold;
         }
 
-        &.tab:active {
-            background-color: #084E74;
+        &.double:not([disabled]):active {
+            background-color: #AFB0BC;
         }
     }
 
     .double {
-        padding: 0 12px;
+        flex: 1.5;
+        padding: 0 6px;
         background-color: #C9CAD6;
     }
 
