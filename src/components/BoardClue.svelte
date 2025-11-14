@@ -108,6 +108,7 @@
         padding: 0 24px 24px 24px;
         color: #084E74;
         font-size: 1.6rem;
+        scroll-behavior: smooth;
 
         & > .text {
             margin-bottom: 6px;

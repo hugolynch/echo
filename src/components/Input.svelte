@@ -7,6 +7,7 @@
     let { idx = 0 } = $props()
     let curr = $derived(node(idx)!)
     let inputs: HTMLInputElement[] = $state([])
+    let animate = $state(false)
 
     onMount(() => {game.inputs[idx] = inputs})
     onDestroy(() => { delete game.inputs[idx] })
@@ -116,14 +117,35 @@
         // check the solution so far
         check(inputs.map(i => i.value).join(''), curr.text)
     }
+
+    /**
+     * Focus on the given character at position i of the given clue with index idx. If the new idx
+     * is different than the old one (i.e. focusing a different clue's inputWrapper), animate the
+     * new clue. 
+     */
+    function focus(idx: number, i: number) {
+        if (game.focused.clue !== idx) {
+            // make sure we don't animate the wrong input by waiting one tick first
+            tick().then(() => {
+                animate = true
+                setTimeout(() => animate = false, 300)
+                // scroll to the appropriate inputWrapper
+                inputs[idx].parentElement?.scrollIntoView({ inline: 'center' })
+            })
+        }
+
+        game.focused.clue = idx
+        game.focused.input = i
+        game.keyboardVisible = true
+    }
 </script>
 
-<div class="inputWrapper">
+<div class="inputWrapper" class:animate={animate}>
     {#each curr.text as char, i}
         {#if char !== ' '}
             <input maxlength="1" enterkeyhint="done" inputmode="none"
                 onkeydown={e => handleKeyDown(e, i)}
-                onfocus={() => { game.focused.clue = idx; game.focused.input = i; game.keyboardVisible = true }}
+                onfocus={() => { focus(idx, i) }}
                 onkey={e => handleKey(e.detail, i)}
                 bind:this={inputs[i]}
                 class={{'space': curr.text[i + 1] === ' '}}
@@ -141,6 +163,10 @@
 
         &:focus-within input {
             background-color: white;
+        }
+
+        &.animate {
+            animation: bounce .3s ease-out;
         }
 
         input {
@@ -171,6 +197,18 @@
             &:focus {
                 background-color: #E9F5FE;
             }
+        }
+    }
+
+    @keyframes bounce {
+        0% {
+            transform: scale(0.90);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
         }
     }
 </style>
