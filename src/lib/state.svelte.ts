@@ -5,6 +5,7 @@ const game: {
     state: State,
     inputs: Array<Array<HTMLInputElement|undefined>>,
     focused: { clue: number, input: number },
+    keyboardVisible: boolean,
 } = $state({
     puzzle: {
         id: "",
@@ -16,6 +17,7 @@ const game: {
     state: [],
     inputs: [],
     focused: { clue: 0, input: 0 },
+    keyboardVisible: true,
 })
 
 /*

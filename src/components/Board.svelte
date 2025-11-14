@@ -104,7 +104,9 @@
 
 <BoardClue />
 <button onclick={reset}>Reset Puzzle</button>
-<Keyboard {key}/>
+{#if game.keyboardVisible}
+    <Keyboard {key}/>
+{/if}
 
 <style>
     :root {

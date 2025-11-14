@@ -123,7 +123,7 @@
         {#if char !== ' '}
             <input maxlength="1" enterkeyhint="done" inputmode="none"
                 onkeydown={e => handleKeyDown(e, i)}
-                onfocus={() => { game.focused.clue = idx; game.focused.input = i }}
+                onfocus={() => { game.focused.clue = idx; game.focused.input = i; game.keyboardVisible = true }}
                 onkey={e => handleKey(e.detail, i)}
                 bind:this={inputs[i]}
                 class={{'space': curr.text[i + 1] === ' '}}

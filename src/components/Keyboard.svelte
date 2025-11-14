@@ -1,10 +1,13 @@
 <script lang="ts">
     import type { Key } from '../types/actions'
     import { actions } from '../lib/actions'
+    import { slide } from 'svelte/transition'
     import { game, leaf, render } from '../lib/state.svelte'
     import prevIcon from '../assets/prev.svg'
     import nextIcon from '../assets/next.svg'
     import backIcon from '../assets/back.svg'
+    import shiftIcon from '../assets/shift.svg'
+    import downIcon from '../assets/down.svg'
 
     let { key }: { key: (key: Key) => void } = $props()
     let letters = [
@@ -26,7 +29,7 @@
     }
 </script>
 
-<div class="keyboard">
+<div class="keyboard" transition:slide={{ duration: 200 }}>
     <div class="row top">
         <button class="tab"
             onpointerdown={() => addHapticFeedback()}
@@ -47,7 +50,6 @@
         </button>
     </div>
     <div class="row">
-        <!-- <button class="action" disabled>?123</button> -->
         <button class="action" disabled>HINT</button>
         <button class="action"
             onpointerdown={() => addHapticFeedback()}
@@ -58,7 +60,12 @@
     {#each letters as row, i}
         <div class="row">
             {#if i === letters.length - 1}
-                <button class="double action" disabled>123</button>
+                <button class="double action" disabled>
+                    <img class="icon" src={shiftIcon} alt="shift">
+                </button>
+            {/if}
+            {#if i === 2}
+                <div class="spacer"></div>
             {/if}
             {#each row as letter}
                 <button
@@ -70,6 +77,9 @@
                 {letter.toUpperCase()}
             </button>
             {/each}
+            {#if i === 2}
+                <div class="spacer"></div>
+            {/if}
             {#if i === letters.length - 1}
                 <button class="double letter"
                     onpointerdown={() => addHapticFeedback()}
@@ -79,6 +89,13 @@
             {/if}
         </div>
     {/each}
+    <div class="row hide-row">
+        <button class="hide-button"
+            onpointerdown={() => addHapticFeedback()}
+            onclick={() => game.keyboardVisible = false}>
+            <img class="icon" src={downIcon} alt="hide keyboard">
+        </button>
+    </div>
 </div>
 
 <style>
@@ -88,7 +105,7 @@
         width: 100%;
         gap: 4px;
         background-color: #E3E5EF;
-        padding-bottom: 8px;
+        padding-bottom: 4px;
     }
 
     .row {
@@ -127,12 +144,17 @@
         background-color: #FFFFFF;
         border: none;
         /* border-bottom: 1px solid #C9CAD6; */
-        height: 40px;
-        border-radius: 8px;
+        height: 48px;
+        border-radius: 4px;
         flex: 1;
         padding: 0 4px;
         font-size: 2.4rem;
         user-select: none;
+
+        &[disabled] {
+            background-color: #F2F3FB;
+            color: #AFB0BC;
+        }
 
         &:active:not([disabled]) {
             background-color: #F2F3FB;
@@ -146,6 +168,10 @@
         &.action {
             font-size: 1.8rem;
             font-weight: bold;
+        }
+
+        &.tab:active {
+            background-color: #084E74;
         }
     }
 
@@ -182,6 +208,21 @@
     
     button.letter {
         position: relative;
+    }
+
+    .spacer {
+        flex: 0.5;
+    }
+
+    .hide-row {
+        justify-content: left;
+    }
+
+    .hide-button {
+        flex: 0 0 auto;
+        width: 48px;
+        height: 48px;
+        background-color: #E3E5EF;
     }
 
     @media (pointer: fine) {
