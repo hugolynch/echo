@@ -134,7 +134,6 @@
     .controls {
         display: flex;
         gap: 12px;
-        margin-top: 12px;
     }
 
     .keyboard-toggle {

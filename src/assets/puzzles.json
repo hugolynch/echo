@@ -31280,5 +31280,309 @@
         "text": "\""
       }
     ]
+  },
+  {
+    "id": "9004ad55-c5f1-4dba-8b66-8ecbada350bd",
+    "name": "November 17 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-11-17",
+    "clues": [
+      {
+        "text": "1869 – Suez Canal Opens in Egypt",
+        "clues": [
+          1,
+          14,
+          15,
+          19,
+          28,
+          29,
+          37,
+          38,
+          56
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Sue",
+        "clues": [
+          2,
+          3,
+          13
+        ]
+      },
+      {
+        "text": "go "
+      },
+      {
+        "key": "1.1",
+        "text": "aft",
+        "clues": [
+          4,
+          5
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "back of the b"
+      },
+      {
+        "key": "1.1.1",
+        "text": "oat",
+        "clues": [
+          6,
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "key": "1.1.1.1",
+        "text": "bit",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "tiny unit of data"
+      },
+      {
+        "text": " of "
+      },
+      {
+        "key": "1.1.1.2",
+        "text": "gran",
+        "clues": [
+          10
+        ]
+      },
+      {
+        "text": "mom's mom"
+      },
+      {
+        "key": "1.1.1.3",
+        "text": "ola",
+        "clues": [
+          12
+        ]
+      },
+      {
+        "text": "greeting in Lisbon"
+      },
+      {
+        "text": "er in court"
+      },
+      {
+        "text": "z "
+      },
+      {
+        "key": "2",
+        "text": "Can",
+        "clues": [
+          16,
+          18
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "soda pop",
+        "clues": [
+          17
+        ]
+      },
+      {
+        "text": "\"Cool me down, you're so hot, pour me up, I won't stop. You're my ___, my little ___\" (Saja Boys song from KPop Demon Hunters)"
+      },
+      {
+        "text": " container"
+      },
+      {
+        "key": "3",
+        "text": "al",
+        "clues": [
+          20,
+          27
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "Lisa",
+        "clues": [
+          21,
+          23,
+          24,
+          26
+        ]
+      },
+      {
+        "key": "3.1.1",
+        "text": "mid",
+        "clues": [
+          22
+        ]
+      },
+      {
+        "text": "so-so, in slang"
+      },
+      {
+        "text": "dle S"
+      },
+      {
+        "key": "3.1.2",
+        "text": "imp",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "little devil"
+      },
+      {
+        "text": "son sibling"
+      },
+      {
+        "text": "n __-Gaib (arabic-derived fremen title for Paul Atreides)"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4",
+        "text": "Open",
+        "clues": [
+          30,
+          31,
+          36
+        ]
+      },
+      {
+        "text": "store sign during bu"
+      },
+      {
+        "key": "4.1",
+        "text": "sine",
+        "clues": [
+          32,
+          33,
+          35
+        ]
+      },
+      {
+        "text": "first "
+      },
+      {
+        "key": "4.1.1",
+        "text": "par",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "golf course standard"
+      },
+      {
+        "text": "t of SOHCAHTOA"
+      },
+      {
+        "text": "ss hours"
+      },
+      {
+        "text": "s in "
+      },
+      {
+        "key": "5",
+        "text": "Egy",
+        "clues": [
+          39,
+          40,
+          42,
+          43,
+          55
+        ]
+      },
+      {
+        "text": "IOC country c"
+      },
+      {
+        "key": "5.1",
+        "text": "ode",
+        "clues": [
+          41
+        ]
+      },
+      {
+        "text": "poetic tribute"
+      },
+      {
+        "text": " be"
+      },
+      {
+        "key": "5.2",
+        "text": "tween",
+        "clues": [
+          44,
+          45
+        ]
+      },
+      {
+        "text": "preadolescent "
+      },
+      {
+        "key": "5.2.1",
+        "text": "portmanteau",
+        "clues": [
+          46,
+          47,
+          49,
+          50,
+          54
+        ]
+      },
+      {
+        "text": "\"br"
+      },
+      {
+        "key": "5.2.1.1",
+        "text": "unc",
+        "clues": [
+          48
+        ]
+      },
+      {
+        "text": "pop's bro"
+      },
+      {
+        "text": "h\" or \"g"
+      },
+      {
+        "key": "5.2.1.2",
+        "text": "lamp",
+        "clues": [
+          51,
+          53
+        ]
+      },
+      {
+        "key": "5.2.1.2.1",
+        "text": "gen",
+        "clues": [
+          52
+        ]
+      },
+      {
+        "text": "X, Y or Z, for example"
+      },
+      {
+        "text": "ie's home"
+      },
+      {
+        "text": "ing\""
+      },
+      {
+        "text": " ECU and ERI"
+      },
+      {
+        "text": "pt"
+      }
+    ]
   }
 ]
