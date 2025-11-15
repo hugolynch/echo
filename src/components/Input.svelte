@@ -130,7 +130,7 @@
                 animate = true
                 setTimeout(() => animate = false, 300)
                 // scroll to the appropriate inputWrapper
-                inputs[idx].parentElement?.scrollIntoView({ inline: 'center' })
+                inputs[idx]?.parentElement?.scrollIntoView({ inline: 'center' })
             })
         }
 
