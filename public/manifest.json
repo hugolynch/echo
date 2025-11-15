@@ -1,0 +1,17 @@
+{
+    "name": "Echo",
+    "short_name": "echo",
+    "description": "A nestword puzzle app",
+    "start_url": "/echo",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "theme_color": "#58baf9",
+    "background_color": "#ffffff",
+    "lang": "en",
+    "icons": [
+        {
+            "sizes": "any",
+            "src": "./favicon.svg"
+        }
+    ]
+}
