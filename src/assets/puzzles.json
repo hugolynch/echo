@@ -31584,5 +31584,331 @@
         "text": "pt"
       }
     ]
+  },
+  {
+    "id": "29c05278-b271-4e86-9e6c-9b6c8c560b13",
+    "name": "November 18 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-11-18",
+    "clues": [
+      {
+        "text": "1928 – Walt Disney's \"Steamboat Willie\" is released",
+        "clues": [
+          1,
+          14,
+          15,
+          20,
+          21,
+          29,
+          40,
+          41,
+          48,
+          49,
+          60
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Walt",
+        "clues": [
+          2,
+          7,
+          8,
+          13
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "poe",
+        "clues": [
+          3,
+          4,
+          6
+        ]
+      },
+      {
+        "text": "\"The "
+      },
+      {
+        "key": "1.1.1",
+        "text": "Raven",
+        "clues": [
+          5
+        ]
+      },
+      {
+        "text": "Baltimore footballer"
+      },
+      {
+        "text": "\" poet"
+      },
+      {
+        "text": "t W"
+      },
+      {
+        "key": "1.2",
+        "text": "hitman",
+        "clues": [
+          9,
+          10,
+          12
+        ]
+      },
+      {
+        "text": "hi"
+      },
+      {
+        "key": "1.2.1",
+        "text": "red",
+        "clues": [
+          11
+        ]
+      },
+      {
+        "text": "alert colour"
+      },
+      {
+        "text": " gun"
+      },
+      {
+        "text": " or "
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "Disney",
+        "clues": [
+          16,
+          17,
+          19
+        ]
+      },
+      {
+        "text": "big "
+      },
+      {
+        "key": "2.1",
+        "text": "name",
+        "clues": [
+          18
+        ]
+      },
+      {
+        "key": "2.1.1",
+        "text": "April, May or June"
+      },
+      {
+        "text": " in animation"
+      },
+      {
+        "text": "'s \""
+      },
+      {
+        "key": "3",
+        "text": "Steam",
+        "clues": [
+          22,
+          24,
+          25
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "water",
+        "clues": [
+          23
+        ]
+      },
+      {
+        "text": "H2O"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3.2",
+        "text": "vapour",
+        "clues": [
+          26,
+          27
+        ]
+      },
+      {
+        "text": "H2O in the "
+      },
+      {
+        "key": "3.2.1",
+        "text": "air",
+        "clues": [
+          28
+        ]
+      },
+      {
+        "text": "broadcast"
+      },
+      {
+        "key": "4",
+        "text": "boat",
+        "clues": [
+          30,
+          31,
+          37,
+          38
+        ]
+      },
+      {
+        "text": "kayak or "
+      },
+      {
+        "key": "4.1",
+        "text": "cat",
+        "clues": [
+          32,
+          36
+        ]
+      },
+      {
+        "key": "4.1.1",
+        "text": "coo",
+        "clues": [
+          33,
+          34
+        ]
+      },
+      {
+        "text": "dove's c"
+      },
+      {
+        "key": "4.1.1.1",
+        "text": "all",
+        "clues": [
+          35
+        ]
+      },
+      {
+        "text": "___ or nothing"
+      },
+      {
+        "text": "l dude"
+      },
+      {
+        "text": "ama"
+      },
+      {
+        "key": "4.2",
+        "text": "ran",
+        "clues": [
+          39
+        ]
+      },
+      {
+        "text": "sprinted"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "5",
+        "text": "Will",
+        "clues": [
+          42,
+          43,
+          47
+        ]
+      },
+      {
+        "text": "\"W"
+      },
+      {
+        "key": "5.1",
+        "text": "here",
+        "clues": [
+          44,
+          45
+        ]
+      },
+      {
+        "text": "it's not "
+      },
+      {
+        "key": "5.1.1",
+        "text": "there",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "word said while pointing"
+      },
+      {
+        "text": " there's a ___, there's a way\""
+      },
+      {
+        "text": "ie\" is re"
+      },
+      {
+        "key": "6",
+        "text": "lease",
+        "clues": [
+          50,
+          55,
+          57,
+          58
+        ]
+      },
+      {
+        "key": "6.1",
+        "text": "ten",
+        "clues": [
+          51,
+          52,
+          54
+        ]
+      },
+      {
+        "text": "countdown "
+      },
+      {
+        "key": "6.1.1",
+        "text": "star",
+        "clues": [
+          53
+        ]
+      },
+      {
+        "text": "Sirius, Vega or Canopus"
+      },
+      {
+        "text": "t, often"
+      },
+      {
+        "key": "6.2",
+        "text": "ant",
+        "clues": [
+          56
+        ]
+      },
+      {
+        "text": "colony member"
+      },
+      {
+        "text": "'s con"
+      },
+      {
+        "key": "6.3",
+        "text": "tract",
+        "clues": [
+          59
+        ]
+      },
+      {
+        "text": "piece of land"
+      },
+      {
+        "text": "d"
+      }
+    ]
   }
 ]
