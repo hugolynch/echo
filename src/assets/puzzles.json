@@ -31910,5 +31910,372 @@
         "text": "d"
       }
     ]
+  },
+  {
+    "id": "dfa2eca9-5048-4cc5-b157-53729f7b7066",
+    "name": "November 19 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-11-19",
+    "clues": [
+      {
+        "text": "\"Four score and seven years ago...\"\n\n-Abraham Lincoln delivers the Gettysburg Address (1863)",
+        "clues": [
+          1,
+          2,
+          29,
+          30,
+          45,
+          46,
+          57,
+          58,
+          69
+        ]
+      },
+      {
+        "text": "\""
+      },
+      {
+        "key": "1",
+        "text": "Four",
+        "clues": [
+          3,
+          28
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "purple",
+        "clues": [
+          4,
+          5,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          27
+        ]
+      },
+      {
+        "text": "like T"
+      },
+      {
+        "key": "1.1.1",
+        "text": "ink",
+        "clues": [
+          6
+        ]
+      },
+      {
+        "text": "squid's defense"
+      },
+      {
+        "text": "y "
+      },
+      {
+        "key": "1.1.2",
+        "text": "Wink",
+        "clues": [
+          9
+        ]
+      },
+      {
+        "text": "half a blink?"
+      },
+      {
+        "text": "y or "
+      },
+      {
+        "key": "1.1.3",
+        "text": "Twilight",
+        "clues": [
+          12
+        ]
+      },
+      {
+        "text": "young adult vampire romance series"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "1.1.4",
+        "text": "Spark",
+        "clues": [
+          15,
+          16,
+          26
+        ]
+      },
+      {
+        "text": "sign of "
+      },
+      {
+        "key": "1.1.4.1",
+        "text": "roman",
+        "clues": [
+          17,
+          18,
+          20,
+          21,
+          23,
+          24
+        ]
+      },
+      {
+        "text": "like these numerals: "
+      },
+      {
+        "key": "1.1.4.1.1",
+        "text": "I",
+        "clues": [
+          19
+        ]
+      },
+      {
+        "text": "personal pronoun"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "key": "1.1.4.1.2",
+        "text": "IV",
+        "clues": [
+          22
+        ]
+      },
+      {
+        "text": "medical drip in the ER"
+      },
+      {
+        "text": " and "
+      },
+      {
+        "key": "1.1.4.1.3",
+        "text": "XI",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "Chinese leader Jinping"
+      },
+      {
+        "text": "tic chemistry"
+      },
+      {
+        "text": "le"
+      },
+      {
+        "text": " pool ball"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "score",
+        "clues": [
+          31,
+          32,
+          40,
+          41
+        ]
+      },
+      {
+        "text": "get the "
+      },
+      {
+        "key": "2.1",
+        "text": "ball",
+        "clues": [
+          33,
+          34,
+          36,
+          37,
+          39
+        ]
+      },
+      {
+        "text": "e"
+      },
+      {
+        "key": "2.1.1",
+        "text": "vent",
+        "clues": [
+          35
+        ]
+      },
+      {
+        "text": "blow off steam"
+      },
+      {
+        "text": " for "
+      },
+      {
+        "key": "2.1.2",
+        "text": "Cinder",
+        "clues": [
+          38
+        ]
+      },
+      {
+        "text": "campfire remnant"
+      },
+      {
+        "text": "ella"
+      },
+      {
+        "text": " in the "
+      },
+      {
+        "key": "2.2",
+        "text": "net",
+        "clues": [
+          42,
+          44
+        ]
+      },
+      {
+        "key": "2.2.1",
+        "text": "com",
+        "clues": [
+          43
+        ]
+      },
+      {
+        "text": "rom-___"
+      },
+      {
+        "text": "mon URL ending"
+      },
+      {
+        "text": " and "
+      },
+      {
+        "key": "3",
+        "text": "seven",
+        "clues": [
+          47,
+          48,
+          54,
+          55
+        ]
+      },
+      {
+        "text": "most "
+      },
+      {
+        "key": "3.1",
+        "text": "common",
+        "clues": [
+          49,
+          51,
+          52
+        ]
+      },
+      {
+        "key": "3.1.1",
+        "text": "run",
+        "clues": [
+          50
+        ]
+      },
+      {
+        "text": "flow like water"
+      },
+      {
+        "text": "-of-the-"
+      },
+      {
+        "key": "3.1.2",
+        "text": "mill",
+        "clues": [
+          53
+        ]
+      },
+      {
+        "text": "tool for making flour"
+      },
+      {
+        "text": " throw with two "
+      },
+      {
+        "key": "3.2",
+        "text": "dice",
+        "clues": [
+          56
+        ]
+      },
+      {
+        "text": "⚂ ⚃"
+      },
+      {
+        "text": " years "
+      },
+      {
+        "key": "4",
+        "text": "ago",
+        "clues": [
+          59,
+          60,
+          68
+        ]
+      },
+      {
+        "text": "\"A long time ___ in a "
+      },
+      {
+        "key": "4.1",
+        "text": "galaxy",
+        "clues": [
+          61,
+          63,
+          64,
+          66
+        ]
+      },
+      {
+        "key": "4.1.1",
+        "text": "Sam",
+        "clues": [
+          62
+        ]
+      },
+      {
+        "text": "\"Green Eggs and Ham\" guy"
+      },
+      {
+        "text": "sung "
+      },
+      {
+        "key": "4.1.2",
+        "text": "smart",
+        "clues": [
+          65
+        ]
+      },
+      {
+        "text": "TV spy Maxwell who has a 4.1.3 in his shoe"
+      },
+      {
+        "key": "4.1.3",
+        "text": "phone",
+        "clues": [
+          67
+        ]
+      },
+      {
+        "text": "give a ring"
+      },
+      {
+        "text": " far, far away ...\""
+      },
+      {
+        "text": "...\""
+      }
+    ]
   }
 ]
