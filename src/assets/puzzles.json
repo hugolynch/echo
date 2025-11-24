@@ -33704,5 +33704,289 @@
         "text": "\""
       }
     ]
+  },
+  {
+    "id": "38c40760-c532-4e6f-929a-dec6cd524561",
+    "name": "November 26 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-11-24",
+    "clues": [
+      {
+        "text": "1859 — Charles Darwin publishes \"On the Origin of Species\"",
+        "clues": [
+          1,
+          2,
+          26,
+          27,
+          52
+        ]
+      },
+      {
+        "text": "On the "
+      },
+      {
+        "key": "1",
+        "text": "Origin",
+        "clues": [
+          3,
+          4
+        ]
+      },
+      {
+        "text": "(0, 0, 0) on a g"
+      },
+      {
+        "key": "1.1",
+        "text": "raph",
+        "clues": [
+          5,
+          10,
+          11,
+          20,
+          21,
+          23,
+          24
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "Ninja",
+        "clues": [
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "text": "assas"
+      },
+      {
+        "key": "1.1.1.1",
+        "text": "sin",
+        "clues": [
+          8
+        ]
+      },
+      {
+        "text": "one of seven in \"Se7en\""
+      },
+      {
+        "text": " in old Japan"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "1.1.2",
+        "text": "Turtle",
+        "clues": [
+          12,
+          13,
+          17,
+          18
+        ]
+      },
+      {
+        "text": "slow"
+      },
+      {
+        "key": "1.1.2.1",
+        "text": "poke",
+        "clues": [
+          14,
+          15
+        ]
+      },
+      {
+        "text": "Hawaiian dish of sliced-up "
+      },
+      {
+        "key": "1.1.2.1.1",
+        "text": "fish",
+        "clues": [
+          16
+        ]
+      },
+      {
+        "text": "🐠"
+      },
+      {
+        "text": " in a s"
+      },
+      {
+        "key": "1.1.2.2",
+        "text": "hell",
+        "clues": [
+          19
+        ]
+      },
+      {
+        "text": "\"Other people,\" to Sartre"
+      },
+      {
+        "text": " col"
+      },
+      {
+        "key": "1.1.3",
+        "text": "league",
+        "clues": [
+          22
+        ]
+      },
+      {
+        "text": "the L of MLB, NFL or NHL"
+      },
+      {
+        "text": " of Don, Leo, and Mi"
+      },
+      {
+        "key": "1.1.4",
+        "text": "key",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "one of 88 on a piano"
+      },
+      {
+        "text": " of "
+      },
+      {
+        "key": "2",
+        "text": "Spec",
+        "clues": [
+          28,
+          30,
+          41,
+          42,
+          51
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "blue",
+        "clues": [
+          29
+        ]
+      },
+      {
+        "text": "Picasso's ___ Period, 1901-04"
+      },
+      {
+        "key": "2.2",
+        "text": "print",
+        "clues": [
+          31,
+          32,
+          34,
+          35
+        ]
+      },
+      {
+        "text": "crime scene clue "
+      },
+      {
+        "key": "2.2.1",
+        "text": "expo",
+        "clues": [
+          33
+        ]
+      },
+      {
+        "text": "___ 67: Montreal world's fair"
+      },
+      {
+        "text": "sed by du"
+      },
+      {
+        "key": "2.2.2",
+        "text": "sting",
+        "clues": [
+          36,
+          37,
+          39
+        ]
+      },
+      {
+        "text": "injury from a "
+      },
+      {
+        "key": "2.2.2.1",
+        "text": "jelly",
+        "clues": [
+          38
+        ]
+      },
+      {
+        "text": "envious, in slang"
+      },
+      {
+        "key": "2.2.2.2",
+        "text": "fish",
+        "clues": [
+          40
+        ]
+      },
+      {
+        "text": "🐟"
+      },
+      {
+        "text": " de"
+      },
+      {
+        "key": "2.3",
+        "text": "tail",
+        "clues": [
+          43,
+          45,
+          47,
+          48,
+          50
+        ]
+      },
+      {
+        "key": "2.3.1",
+        "text": "append",
+        "clues": [
+          44
+        ]
+      },
+      {
+        "text": "tack on"
+      },
+      {
+        "key": "2.3.2",
+        "text": "age",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "historical period"
+      },
+      {
+        "text": " indicated by the coccyx’s "
+      },
+      {
+        "key": "2.3.3",
+        "text": "vest",
+        "clues": [
+          49
+        ]
+      },
+      {
+        "text": "sleeveless garment"
+      },
+      {
+        "text": "ige"
+      },
+      {
+        "text": ", for short"
+      },
+      {
+        "text": "ies"
+      }
+    ]
   }
 ]
