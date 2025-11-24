@@ -33709,7 +33709,7 @@
     "id": "38c40760-c532-4e6f-929a-dec6cd524561",
     "name": "November 26 Daily",
     "author": "Hugo Lynch",
-    "date": "2025-11-24",
+    "date": "2025-11-26",
     "clues": [
       {
         "text": "1859 — Charles Darwin publishes \"On the Origin of Species\"",
@@ -33986,6 +33986,336 @@
       },
       {
         "text": "ies"
+      }
+    ]
+  },
+  {
+    "id": "27dc67f2-19c6-4e25-8043-f3386c4f98bd",
+    "name": "November 27 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-11-27",
+    "clues": [
+      {
+        "text": "1961 — Gordie Howe becomes the first to play in 1,000 NHL games",
+        "clues": [
+          1,
+          2,
+          23,
+          24,
+          36,
+          37,
+          48,
+          49,
+          62
+        ]
+      },
+      {
+        "text": "Gor"
+      },
+      {
+        "key": "1",
+        "text": "die",
+        "clues": [
+          3,
+          17,
+          18,
+          22
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "random",
+        "clues": [
+          4,
+          5,
+          12,
+          13
+        ]
+      },
+      {
+        "text": "lacking "
+      },
+      {
+        "key": "1.1.1",
+        "text": "rhyme",
+        "clues": [
+          6,
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "key": "1.1.1.1",
+        "text": "sample",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "supermarket freebie"
+      },
+      {
+        "text": ", for example or "
+      },
+      {
+        "key": "1.1.1.2",
+        "text": "pun",
+        "clues": [
+          10
+        ]
+      },
+      {
+        "text": "\"Sign language is pretty handy,\" e.g."
+      },
+      {
+        "text": ", for one"
+      },
+      {
+        "text": " or rea"
+      },
+      {
+        "key": "1.1.2",
+        "text": "son",
+        "clues": [
+          14,
+          16
+        ]
+      },
+      {
+        "key": "1.1.2.1",
+        "text": "Nemo",
+        "clues": [
+          15
+        ]
+      },
+      {
+        "text": "captain of the Nautilus"
+      },
+      {
+        "text": ", to Marlin "
+      },
+      {
+        "text": " number "
+      },
+      {
+        "key": "1.2",
+        "text": "gene",
+        "clues": [
+          19,
+          21
+        ]
+      },
+      {
+        "key": "1.2.1",
+        "text": "here",
+        "clues": [
+          20
+        ]
+      },
+      {
+        "text": "\"Present!\""
+      },
+      {
+        "text": "dity unit"
+      },
+      {
+        "text": "rator"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "How",
+        "clues": [
+          25,
+          26,
+          35
+        ]
+      },
+      {
+        "text": "question a "
+      },
+      {
+        "key": "2.1",
+        "text": "magi",
+        "clues": [
+          27,
+          28,
+          34
+        ]
+      },
+      {
+        "text": "biblical gift "
+      },
+      {
+        "key": "2.1.1",
+        "text": "bear",
+        "clues": [
+          29,
+          31,
+          32
+        ]
+      },
+      {
+        "key": "2.1.1.1",
+        "text": "Wall",
+        "clues": [
+          30
+        ]
+      },
+      {
+        "text": "Humpty Dumpty's perch"
+      },
+      {
+        "text": " Street pessi"
+      },
+      {
+        "key": "2.1.1.2",
+        "text": "mist",
+        "clues": [
+          33
+        ]
+      },
+      {
+        "text": "spray bottle output"
+      },
+      {
+        "text": "ers"
+      },
+      {
+        "text": "cian won't answer"
+      },
+      {
+        "text": "e becomes the first to "
+      },
+      {
+        "key": "3",
+        "text": "play",
+        "clues": [
+          38,
+          39,
+          41,
+          42,
+          44,
+          45,
+          47
+        ]
+      },
+      {
+        "text": "\""
+      },
+      {
+        "key": "3.1",
+        "text": "Death",
+        "clues": [
+          40
+        ]
+      },
+      {
+        "text": "tarot card numbered XIII"
+      },
+      {
+        "text": " of a "
+      },
+      {
+        "key": "3.2",
+        "text": "Sales",
+        "clues": [
+          43
+        ]
+      },
+      {
+        "text": "Black Friday or Cyber Monday events"
+      },
+      {
+        "text": "man\" or \"Waiting for Go"
+      },
+      {
+        "key": "3.3",
+        "text": "dot",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "complete an \"i\""
+      },
+      {
+        "text": "\""
+      },
+      {
+        "text": " in 1000 "
+      },
+      {
+        "key": "4",
+        "text": "NHL",
+        "clues": [
+          50,
+          51,
+          53,
+          54
+        ]
+      },
+      {
+        "text": "org. for "
+      },
+      {
+        "key": "4.1",
+        "text": "Penguins",
+        "clues": [
+          52
+        ]
+      },
+      {
+        "text": "flightless Antarctic inhabitants"
+      },
+      {
+        "text": " and "
+      },
+      {
+        "key": "4.2",
+        "text": "Ducks",
+        "clues": [
+          55,
+          56,
+          58,
+          59,
+          61
+        ]
+      },
+      {
+        "text": "avoids an in"
+      },
+      {
+        "key": "4.2.1",
+        "text": "coming",
+        "clues": [
+          57
+        ]
+      },
+      {
+        "text": "\"Be there soon!\""
+      },
+      {
+        "text": " projec"
+      },
+      {
+        "key": "4.2.2",
+        "text": "tile",
+        "clues": [
+          60
+        ]
+      },
+      {
+        "text": "mosaic piece"
+      },
+      {
+        "text": ", perhaps"
+      },
+      {
+        "text": " games"
       }
     ]
   }
