@@ -35471,5 +35471,371 @@
         "text": "a"
       }
     ]
+  },
+  {
+    "id": "a79f854e-e2b5-465e-a7ed-adb5f0d2ce43",
+    "name": "December 3 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-12-01",
+    "clues": [
+      {
+        "text": "1854 — Eureka Rebellion\n\nhttps://en.wikipedia.org/wiki/Eureka_Rebellion",
+        "clues": [
+          1,
+          22,
+          23,
+          44
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Eureka",
+        "clues": [
+          2,
+          4,
+          10,
+          11,
+          13,
+          14,
+          18,
+          19,
+          21
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "triumph",
+        "clues": [
+          3
+        ]
+      },
+      {
+        "text": "great victory"
+      },
+      {
+        "key": "1.2",
+        "text": "ant",
+        "clues": [
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "text": "insect that \"farms\" aphids for their "
+      },
+      {
+        "key": "1.2.1",
+        "text": "honey",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "natural sweetener"
+      },
+      {
+        "key": "1.2.2",
+        "text": "dew",
+        "clues": [
+          9
+        ]
+      },
+      {
+        "text": "morning droplets"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "1.3",
+        "text": "cry",
+        "clues": [
+          12
+        ]
+      },
+      {
+        "text": "shed some tears"
+      },
+      {
+        "text": " att"
+      },
+      {
+        "key": "1.4",
+        "text": "rib",
+        "clues": [
+          15,
+          16
+        ]
+      },
+      {
+        "text": "bone in a "
+      },
+      {
+        "key": "1.4.1",
+        "text": "cage",
+        "clues": [
+          17
+        ]
+      },
+      {
+        "text": "zoo enclosure"
+      },
+      {
+        "text": "uted to "
+      },
+      {
+        "key": "1.5",
+        "text": "Arc",
+        "clues": [
+          20
+        ]
+      },
+      {
+        "text": "pendulum path"
+      },
+      {
+        "text": "himedes"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "Rebel",
+        "clues": [
+          24,
+          25,
+          31,
+          32,
+          40,
+          41,
+          43
+        ]
+      },
+      {
+        "text": "Cassian "
+      },
+      {
+        "key": "2.1",
+        "text": "Andor",
+        "clues": [
+          26,
+          28,
+          29
+        ]
+      },
+      {
+        "key": "2.1.1",
+        "text": "con",
+        "clues": [
+          27
+        ]
+      },
+      {
+        "text": "bamboozle"
+      },
+      {
+        "text": "junction with a "
+      },
+      {
+        "key": "2.1.2",
+        "text": "slash",
+        "clues": [
+          30
+        ]
+      },
+      {
+        "text": "URL separator"
+      },
+      {
+        "text": " or "
+      },
+      {
+        "key": "2.2",
+        "text": "Kat",
+        "clues": [
+          33,
+          34,
+          36,
+          37,
+          39
+        ]
+      },
+      {
+        "text": "Kit ___ ("
+      },
+      {
+        "key": "2.2.1",
+        "text": "choc",
+        "clues": [
+          35
+        ]
+      },
+      {
+        "text": "small dose of cocoa?"
+      },
+      {
+        "text": "o"
+      },
+      {
+        "key": "2.2.2",
+        "text": "late",
+        "clues": [
+          38
+        ]
+      },
+      {
+        "text": "behind schedule"
+      },
+      {
+        "text": " bar)"
+      },
+      {
+        "text": "n"
+      },
+      {
+        "key": "2.3",
+        "text": "iss",
+        "clues": [
+          42
+        ]
+      },
+      {
+        "text": "orbiting research facility, for short"
+      },
+      {
+        "text": " Everdeen"
+      },
+      {
+        "key": "3",
+        "text": "lion",
+        "clues": [
+          45,
+          47,
+          48
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "kin",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "family members, collectively"
+      },
+      {
+        "text": "g of the "
+      },
+      {
+        "key": "3.2",
+        "text": "jungle",
+        "clues": [
+          49,
+          50,
+          55,
+          56,
+          68
+        ]
+      },
+      {
+        "text": "figurative "
+      },
+      {
+        "key": "3.2.1",
+        "text": "term",
+        "clues": [
+          51,
+          52,
+          54
+        ]
+      },
+      {
+        "text": "s"
+      },
+      {
+        "key": "3.2.1.1",
+        "text": "choo",
+        "clues": [
+          53
+        ]
+      },
+      {
+        "text": "when doubled, toy train sound"
+      },
+      {
+        "text": "l session"
+      },
+      {
+        "text": " for chaotic, "
+      },
+      {
+        "key": "3.2.2",
+        "text": "law",
+        "clues": [
+          57,
+          58,
+          60,
+          61
+        ]
+      },
+      {
+        "text": "at"
+      },
+      {
+        "key": "3.2.2.1",
+        "text": "torn",
+        "clues": [
+          59
+        ]
+      },
+      {
+        "text": "of two minds"
+      },
+      {
+        "text": "ey's "
+      },
+      {
+        "key": "3.2.2.2",
+        "text": "field",
+        "clues": [
+          62,
+          63,
+          65,
+          67
+        ]
+      },
+      {
+        "text": "\"Why did the "
+      },
+      {
+        "key": "3.2.2.2.1",
+        "text": "scare",
+        "clues": [
+          64
+        ]
+      },
+      {
+        "text": "hiccups cure, so they say"
+      },
+      {
+        "key": "3.2.2.2.2",
+        "text": "crow",
+        "clues": [
+          66
+        ]
+      },
+      {
+        "text": "cawing black bird"
+      },
+      {
+        "text": " get promoted? He was outstanding in his ___!\""
+      },
+      {
+        "text": "less place"
+      }
+    ]
   }
 ]
