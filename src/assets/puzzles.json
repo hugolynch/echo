@@ -36230,5 +36230,356 @@
         "text": ".\""
       }
     ]
+  },
+  {
+    "id": "592421ae-a6ff-4e1b-b877-f44bbf56a089",
+    "name": "December 5 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-12-05",
+    "clues": [
+      {
+        "text": "1969 — Initial four-node ARPANET network is established.",
+        "clues": [
+          1,
+          2,
+          21,
+          22,
+          34,
+          42,
+          51,
+          52,
+          65
+        ]
+      },
+      {
+        "text": "Initial four-n"
+      },
+      {
+        "key": "1",
+        "text": "ode",
+        "clues": [
+          3,
+          11,
+          12
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "poe",
+        "clues": [
+          4,
+          5,
+          10
+        ]
+      },
+      {
+        "text": "\"Ulalume\" "
+      },
+      {
+        "key": "1.1.1",
+        "text": "poe",
+        "clues": [
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "text": "\"The Bells\" "
+      },
+      {
+        "key": "1.1.1.1",
+        "text": "poe",
+        "clues": [
+          8
+        ]
+      },
+      {
+        "text": "\"The Raven\" poet"
+      },
+      {
+        "text": "t"
+      },
+      {
+        "text": "t"
+      },
+      {
+        "text": "m full of p"
+      },
+      {
+        "key": "1.2",
+        "text": "raise",
+        "clues": [
+          13,
+          14
+        ]
+      },
+      {
+        "text": "salary "
+      },
+      {
+        "key": "1.2.1",
+        "text": "bump",
+        "clues": [
+          15,
+          16,
+          18,
+          19
+        ]
+      },
+      {
+        "text": "word after "
+      },
+      {
+        "key": "1.2.1.1",
+        "text": "speed",
+        "clues": [
+          17
+        ]
+      },
+      {
+        "text": "drive too fast"
+      },
+      {
+        "text": " or "
+      },
+      {
+        "key": "1.2.1.2",
+        "text": "baby",
+        "clues": [
+          20
+        ]
+      },
+      {
+        "text": "stroller passenger"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "AR",
+        "clues": [
+          23,
+          28,
+          29,
+          33
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "tech",
+        "clues": [
+          24,
+          25,
+          27
+        ]
+      },
+      {
+        "text": "___ "
+      },
+      {
+        "key": "2.1.1",
+        "text": "sup",
+        "clues": [
+          26
+        ]
+      },
+      {
+        "text": "\"What's happenin'?\""
+      },
+      {
+        "text": "port (computer service)"
+      },
+      {
+        "text": " that overlays digital info on the "
+      },
+      {
+        "key": "2.2",
+        "text": "real",
+        "clues": [
+          30,
+          32
+        ]
+      },
+      {
+        "key": "2.2.1",
+        "text": "bon",
+        "clues": [
+          31
+        ]
+      },
+      {
+        "text": "\"___ appétit!\""
+      },
+      {
+        "text": "a fide"
+      },
+      {
+        "text": " world, for short"
+      },
+      {
+        "key": "3",
+        "text": "PAN",
+        "clues": [
+          35,
+          36,
+          38,
+          39,
+          41
+        ]
+      },
+      {
+        "text": "pot's "
+      },
+      {
+        "key": "3.1",
+        "text": "flat",
+        "clues": [
+          37
+        ]
+      },
+      {
+        "text": "cyclist's woe"
+      },
+      {
+        "text": "ter "
+      },
+      {
+        "key": "3.2",
+        "text": "count",
+        "clues": [
+          40
+        ]
+      },
+      {
+        "text": "go \"1, 2, 3, 4 ...\""
+      },
+      {
+        "text": "erpart"
+      },
+      {
+        "key": "4",
+        "text": "ET",
+        "clues": [
+          43,
+          44,
+          49
+        ]
+      },
+      {
+        "text": "UFO "
+      },
+      {
+        "key": "4.1",
+        "text": "opera",
+        "clues": [
+          45,
+          46,
+          48
+        ]
+      },
+      {
+        "text": "\"The "
+      },
+      {
+        "key": "4.1.1",
+        "text": "Barber",
+        "clues": [
+          47
+        ]
+      },
+      {
+        "text": "lock remover?"
+      },
+      {
+        "text": " of Seville,\" e.g."
+      },
+      {
+        "key": "4.2",
+        "text": "tor",
+        "clues": [
+          50
+        ]
+      },
+      {
+        "text": "browser for one concerned with anonymity"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "5",
+        "text": "network",
+        "clues": [
+          53,
+          55,
+          64
+        ]
+      },
+      {
+        "key": "5.1",
+        "text": "schmo",
+        "clues": [
+          54
+        ]
+      },
+      {
+        "text": "ordinary Joe"
+      },
+      {
+        "key": "5.2",
+        "text": "oz",
+        "clues": [
+          56,
+          60,
+          61,
+          63
+        ]
+      },
+      {
+        "key": "5.2.1",
+        "text": "Emerald",
+        "clues": [
+          57,
+          58
+        ]
+      },
+      {
+        "text": "green birth"
+      },
+      {
+        "key": "5.2.1.1",
+        "text": "stone",
+        "clues": [
+          59
+        ]
+      },
+      {
+        "text": "14 pounds, to a Brit"
+      },
+      {
+        "text": " City "
+      },
+      {
+        "key": "5.2.2",
+        "text": "loca",
+        "clues": [
+          62
+        ]
+      },
+      {
+        "text": "Ricky Martin's \"Livin' La Vida ___\""
+      },
+      {
+        "text": "le"
+      },
+      {
+        "text": "e professionally"
+      },
+      {
+        "text": " is established."
+      }
+    ]
   }
 ]
