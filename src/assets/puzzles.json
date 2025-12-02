@@ -36581,5 +36581,279 @@
         "text": " is established."
       }
     ]
+  },
+  {
+    "id": "afb25de1-74bb-4146-a47a-49964b1da0e3",
+    "name": "December 8 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-12-08",
+    "clues": [
+      {
+        "text": "\"All we are saying is give peace a chance.\"\n-John Lennon",
+        "clues": [
+          1,
+          2,
+          15,
+          16,
+          26,
+          27,
+          40,
+          41,
+          51
+        ]
+      },
+      {
+        "text": "\"All we are "
+      },
+      {
+        "key": "1",
+        "text": "saying",
+        "clues": [
+          3,
+          4,
+          8,
+          9,
+          14
+        ]
+      },
+      {
+        "text": "\"Dead men tell no "
+      },
+      {
+        "key": "1.1",
+        "text": "tales",
+        "clues": [
+          5,
+          6
+        ]
+      },
+      {
+        "text": "\"tall\" s"
+      },
+      {
+        "key": "1.1.1",
+        "text": "tories",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "whig opponents"
+      },
+      {
+        "text": "\" or \"Nothing is certain but death and "
+      },
+      {
+        "key": "1.2",
+        "text": "taxes",
+        "clues": [
+          10,
+          11,
+          13
+        ]
+      },
+      {
+        "text": "political hot "
+      },
+      {
+        "key": "1.2.1",
+        "text": "butt",
+        "clues": [
+          12
+        ]
+      },
+      {
+        "text": "target of a joke"
+      },
+      {
+        "text": "on"
+      },
+      {
+        "text": "\""
+      },
+      {
+        "text": " is "
+      },
+      {
+        "key": "2",
+        "text": "give",
+        "clues": [
+          17,
+          25
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "shell",
+        "clues": [
+          18,
+          19,
+          24
+        ]
+      },
+      {
+        "text": "she sells sea___s by the seashore (tongue "
+      },
+      {
+        "key": "2.1.1",
+        "text": "twister",
+        "clues": [
+          20,
+          21,
+          23
+        ]
+      },
+      {
+        "text": "classic "
+      },
+      {
+        "key": "2.1.1.1",
+        "text": "par",
+        "clues": [
+          22
+        ]
+      },
+      {
+        "text": "golf standard"
+      },
+      {
+        "text": "ty game (🔴🔵🟢🟡)"
+      },
+      {
+        "text": ")"
+      },
+      {
+        "text": " out"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3",
+        "text": "pea",
+        "clues": [
+          28,
+          34,
+          35,
+          39
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "pod",
+        "clues": [
+          29,
+          30
+        ]
+      },
+      {
+        "text": "group of wh"
+      },
+      {
+        "key": "3.1.1",
+        "text": "ales",
+        "clues": [
+          31,
+          32
+        ]
+      },
+      {
+        "text": "pub d"
+      },
+      {
+        "key": "3.1.1.1",
+        "text": "rinks",
+        "clues": [
+          33
+        ]
+      },
+      {
+        "text": "hockey venues"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3.2",
+        "text": "leg",
+        "clues": [
+          36,
+          37
+        ]
+      },
+      {
+        "text": "pants "
+      },
+      {
+        "key": "3.2.1",
+        "text": "half",
+        "clues": [
+          38
+        ]
+      },
+      {
+        "text": "50%"
+      },
+      {
+        "text": "ume"
+      },
+      {
+        "text": "ce a "
+      },
+      {
+        "key": "4",
+        "text": "chan",
+        "clues": [
+          42,
+          44,
+          45,
+          47,
+          48,
+          50
+        ]
+      },
+      {
+        "key": "4.1",
+        "text": "Jack",
+        "clues": [
+          43
+        ]
+      },
+      {
+        "text": "\"J\" in a deck"
+      },
+      {
+        "text": "ie of \""
+      },
+      {
+        "key": "4.2",
+        "text": "Rush",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "go too quickly"
+      },
+      {
+        "text": " H"
+      },
+      {
+        "key": "4.3",
+        "text": "our",
+        "clues": [
+          49
+        ]
+      },
+      {
+        "text": "belonging to us"
+      },
+      {
+        "text": "\""
+      },
+      {
+        "text": "ce.\""
+      }
+    ]
   }
 ]
