@@ -36855,5 +36855,350 @@
         "text": "ce.\""
       }
     ]
+  },
+  {
+    "id": "30f84743-9598-401d-abd2-5778969e6397",
+    "name": "December 9 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-12-09",
+    "clues": [
+      {
+        "text": "\"I wish I knew how to quit you.\"\n-Jack Twist (Brokeback Mountain)\n\nhttps://en.wikipedia.org/wiki/Brokeback_Mountain",
+        "clues": [
+          1,
+          2,
+          17,
+          18,
+          37,
+          38,
+          47,
+          48,
+          65
+        ]
+      },
+      {
+        "text": "\"I "
+      },
+      {
+        "key": "1",
+        "text": "wish",
+        "clues": [
+          3,
+          4,
+          11,
+          12,
+          16
+        ]
+      },
+      {
+        "text": "a "
+      },
+      {
+        "key": "1.1",
+        "text": "shoot",
+        "clues": [
+          5,
+          6,
+          8,
+          10
+        ]
+      },
+      {
+        "text": "\""
+      },
+      {
+        "key": "1.1.1",
+        "text": "Fiddle",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "fit as a ___"
+      },
+      {
+        "key": "1.1.2",
+        "text": "sticks",
+        "clues": [
+          9
+        ]
+      },
+      {
+        "text": "___ and stones"
+      },
+      {
+        "text": "!\""
+      },
+      {
+        "text": "ing "
+      },
+      {
+        "key": "1.2",
+        "text": "star",
+        "clues": [
+          13,
+          15
+        ]
+      },
+      {
+        "key": "1.2.1",
+        "text": "Bet",
+        "clues": [
+          14
+        ]
+      },
+      {
+        "text": "wager"
+      },
+      {
+        "text": "elgeuse, for one"
+      },
+      {
+        "text": " supposedly grants one"
+      },
+      {
+        "text": " I knew "
+      },
+      {
+        "key": "2",
+        "text": "how to",
+        "clues": [
+          19,
+          33,
+          34,
+          36
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "word",
+        "clues": [
+          20,
+          21,
+          23,
+          24,
+          26,
+          27,
+          29,
+          30,
+          32
+        ]
+      },
+      {
+        "text": "“"
+      },
+      {
+        "key": "2.1.1",
+        "text": "Rage",
+        "clues": [
+          22
+        ]
+      },
+      {
+        "text": "uncontrolled anger"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.1.2",
+        "text": "bait",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "worm on a hook, for a fish"
+      },
+      {
+        "text": "” is Oxford "
+      },
+      {
+        "key": "2.1.3",
+        "text": "University",
+        "clues": [
+          28
+        ]
+      },
+      {
+        "text": "Brown or Auburn"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.1.4",
+        "text": "Press",
+        "clues": [
+          31
+        ]
+      },
+      {
+        "text": "garlic-crushing tool"
+      },
+      {
+        "text": "’ 2025 ___ of the Year"
+      },
+      {
+        "text": "s on many DIY "
+      },
+      {
+        "key": "2.2",
+        "text": "book",
+        "clues": [
+          35
+        ]
+      },
+      {
+        "text": "spine-bearing shelf dweller"
+      },
+      {
+        "text": "s"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3",
+        "text": "quit",
+        "clues": [
+          39,
+          41,
+          42
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "throw",
+        "clues": [
+          40
+        ]
+      },
+      {
+        "text": "disc golf turn"
+      },
+      {
+        "text": " in the "
+      },
+      {
+        "key": "3.2",
+        "text": "towel",
+        "clues": [
+          43,
+          44,
+          46
+        ]
+      },
+      {
+        "text": "post-"
+      },
+      {
+        "key": "3.2.1",
+        "text": "show",
+        "clues": [
+          45
+        ]
+      },
+      {
+        "text": "don't just tell"
+      },
+      {
+        "text": "er need"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4",
+        "text": "you",
+        "clues": [
+          49,
+          50,
+          52,
+          53,
+          60,
+          61
+        ]
+      },
+      {
+        "text": "whom "
+      },
+      {
+        "key": "4.1",
+        "text": "Uncle Sam",
+        "clues": [
+          51
+        ]
+      },
+      {
+        "text": "America personified"
+      },
+      {
+        "text": " wants, on an "
+      },
+      {
+        "key": "4.2",
+        "text": "old",
+        "clues": [
+          54,
+          55,
+          59
+        ]
+      },
+      {
+        "text": "long in the "
+      },
+      {
+        "key": "4.2.1",
+        "text": "toot",
+        "clues": [
+          56,
+          58
+        ]
+      },
+      {
+        "key": "4.2.1.1",
+        "text": "horn",
+        "clues": [
+          57
+        ]
+      },
+      {
+        "text": "rhinoceros feature"
+      },
+      {
+        "text": " sound"
+      },
+      {
+        "text": "h"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4.3",
+        "text": "poster",
+        "clues": [
+          62,
+          64
+        ]
+      },
+      {
+        "key": "4.3.1",
+        "text": "dorm",
+        "clues": [
+          63
+        ]
+      },
+      {
+        "text": "college housing"
+      },
+      {
+        "text": " room wall decoration"
+      },
+      {
+        "text": ".\""
+      }
+    ]
   }
 ]
