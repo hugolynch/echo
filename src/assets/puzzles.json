@@ -37579,5 +37579,300 @@
         "text": "y"
       }
     ]
+  },
+  {
+    "id": "883473a9-ab04-4b9f-9a38-d90d0395013a",
+    "name": "December 11 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-12-11",
+    "clues": [
+      {
+        "text": "2009 – Hit mobile game Angry Birds released internationally on iOS.",
+        "clues": [
+          1,
+          5,
+          6,
+          17,
+          18,
+          31,
+          32,
+          42,
+          43
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Hit",
+        "clues": [
+          2,
+          4
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "Battleship",
+        "clues": [
+          3
+        ]
+      },
+      {
+        "text": "naval combat game"
+      },
+      {
+        "text": " success"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "mobile",
+        "clues": [
+          7,
+          12,
+          13
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "decor",
+        "clues": [
+          8,
+          9,
+          11
+        ]
+      },
+      {
+        "text": "colour "
+      },
+      {
+        "key": "2.1.1",
+        "text": "scheme",
+        "clues": [
+          10
+        ]
+      },
+      {
+        "text": "nefarious plan"
+      },
+      {
+        "text": " and furnishings"
+      },
+      {
+        "text": "ation suspended above a "
+      },
+      {
+        "key": "2.2",
+        "text": "crib",
+        "clues": [
+          14,
+          15
+        ]
+      },
+      {
+        "text": "cot for a "
+      },
+      {
+        "key": "2.2.1",
+        "text": "baby",
+        "clues": [
+          16
+        ]
+      },
+      {
+        "text": "bundle of joy"
+      },
+      {
+        "text": " game "
+      },
+      {
+        "key": "3",
+        "text": "Angry",
+        "clues": [
+          19,
+          20,
+          22,
+          23
+        ]
+      },
+      {
+        "text": "mad as a "
+      },
+      {
+        "key": "3.1",
+        "text": "wet",
+        "clues": [
+          21
+        ]
+      },
+      {
+        "text": "\"Water is ___\" (sarcastic observation)"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3.2",
+        "text": "hen",
+        "clues": [
+          24,
+          26,
+          28,
+          29
+        ]
+      },
+      {
+        "key": "3.2.1",
+        "text": "farm",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "place to grow crops"
+      },
+      {
+        "key": "3.2.2",
+        "text": "yard",
+        "clues": [
+          27
+        ]
+      },
+      {
+        "text": "place for a home garden"
+      },
+      {
+        "text": " f"
+      },
+      {
+        "key": "3.2.3",
+        "text": "owl",
+        "clues": [
+          30
+        ]
+      },
+      {
+        "text": "bird that gives a hoot"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4",
+        "text": "Birds",
+        "clues": [
+          33,
+          35,
+          36,
+          38,
+          39,
+          41
+        ]
+      },
+      {
+        "key": "4.1",
+        "text": "cardinal",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "pope picker"
+      },
+      {
+        "text": "s, "
+      },
+      {
+        "key": "4.2",
+        "text": "canaries",
+        "clues": [
+          37
+        ]
+      },
+      {
+        "text": "tiny coal mine workers, once"
+      },
+      {
+        "text": " and "
+      },
+      {
+        "key": "4.3",
+        "text": "eagle",
+        "clues": [
+          40
+        ]
+      },
+      {
+        "text": "Olympic skier Eddie \"the __\" Edwards"
+      },
+      {
+        "text": "s"
+      },
+      {
+        "text": " released internationally on "
+      },
+      {
+        "key": "5",
+        "text": "iOS",
+        "clues": [
+          44,
+          54
+        ]
+      },
+      {
+        "key": "5.1",
+        "text": "Android",
+        "clues": [
+          45,
+          46,
+          53
+        ]
+      },
+      {
+        "text": "sci-fi "
+      },
+      {
+        "key": "5.1.1",
+        "text": "hum",
+        "clues": [
+          47,
+          49,
+          50,
+          52
+        ]
+      },
+      {
+        "key": "5.1.1.1",
+        "text": "sing",
+        "clues": [
+          48
+        ]
+      },
+      {
+        "text": "join the chorus"
+      },
+      {
+        "text": " with your "
+      },
+      {
+        "key": "5.1.1.2",
+        "text": "mouth",
+        "clues": [
+          51
+        ]
+      },
+      {
+        "text": "opening at the dentist's office?"
+      },
+      {
+        "text": " closed"
+      },
+      {
+        "text": "anoid"
+      },
+      {
+        "text": " alternative"
+      }
+    ]
   }
 ]
