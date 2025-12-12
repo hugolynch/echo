@@ -39463,5 +39463,329 @@
         "text": "er"
       }
     ]
+  },
+  {
+    "id": "b5995490-6762-4617-ae92-f814bce473ed",
+    "name": "December 19 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-12-19",
+    "clues": [
+      {
+        "text": "\"It's funny how the colours of the real world only seem really real when you viddy them on the screen.\"\n\n-Alex DeLarge, A Clockwork Orange",
+        "clues": [
+          1,
+          2,
+          7,
+          8,
+          30,
+          31,
+          39,
+          40,
+          47,
+          48,
+          53,
+          54,
+          62
+        ]
+      },
+      {
+        "text": "\"It's "
+      },
+      {
+        "key": "1",
+        "text": "funny",
+        "clues": [
+          3,
+          4,
+          6
+        ]
+      },
+      {
+        "text": "___ "
+      },
+      {
+        "key": "1.1",
+        "text": "bone",
+        "clues": [
+          5
+        ]
+      },
+      {
+        "text": "common dog treat shape"
+      },
+      {
+        "text": " (not-so-humorous humerus spot)"
+      },
+      {
+        "text": " how the "
+      },
+      {
+        "key": "2",
+        "text": "colours",
+        "clues": [
+          9,
+          10,
+          12,
+          13,
+          15,
+          16,
+          18,
+          19,
+          21,
+          22,
+          27,
+          28
+        ]
+      },
+      {
+        "text": "Pantone's "
+      },
+      {
+        "key": "2.1",
+        "text": "Peach",
+        "clues": [
+          11
+        ]
+      },
+      {
+        "text": "Princess in Mario games"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.2",
+        "text": "Fuzz",
+        "clues": [
+          14
+        ]
+      },
+      {
+        "text": "\"Hot ___\" (buddy cop action comedy film)"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "key": "2.3",
+        "text": "Mocha",
+        "clues": [
+          17
+        ]
+      },
+      {
+        "text": "chocolate-flavoured coffee"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.4",
+        "text": "Mousse",
+        "clues": [
+          20
+        ]
+      },
+      {
+        "text": "creamy chocolate dessert"
+      },
+      {
+        "text": " and C"
+      },
+      {
+        "key": "2.5",
+        "text": "loud",
+        "clues": [
+          23,
+          24,
+          26
+        ]
+      },
+      {
+        "text": "like "
+      },
+      {
+        "key": "2.5.1",
+        "text": "neon",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "gas in glowing signs"
+      },
+      {
+        "text": " clothing"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.6",
+        "text": "Dancer",
+        "clues": [
+          29
+        ]
+      },
+      {
+        "text": "person wearing a tutu, probably"
+      },
+      {
+        "text": " of "
+      },
+      {
+        "key": "3",
+        "text": "the real world",
+        "clues": [
+          32,
+          33,
+          35,
+          36,
+          38
+        ]
+      },
+      {
+        "text": "pioneering "
+      },
+      {
+        "key": "3.1",
+        "text": "MTV",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "\"I want my ___\" (1980s slogan)"
+      },
+      {
+        "text": " reality show featuring "
+      },
+      {
+        "key": "3.2",
+        "text": "strangers",
+        "clues": [
+          37
+        ]
+      },
+      {
+        "text": "unfamiliar persons"
+      },
+      {
+        "text": " sharing a house"
+      },
+      {
+        "text": " only seem re"
+      },
+      {
+        "key": "4",
+        "text": "ally",
+        "clues": [
+          41,
+          42,
+          46
+        ]
+      },
+      {
+        "text": "supporter of the "
+      },
+      {
+        "key": "4.1",
+        "text": "LGBTQ",
+        "clues": [
+          43,
+          45
+        ]
+      },
+      {
+        "key": "4.1.1",
+        "text": "rainbow",
+        "clues": [
+          44
+        ]
+      },
+      {
+        "text": "ROYGBIV-hued arc"
+      },
+      {
+        "text": " flag letters"
+      },
+      {
+        "text": "+ community"
+      },
+      {
+        "text": " real when you "
+      },
+      {
+        "key": "5",
+        "text": "vid",
+        "clues": [
+          49,
+          50,
+          52
+        ]
+      },
+      {
+        "text": "YouTube "
+      },
+      {
+        "key": "5.1",
+        "text": "upload",
+        "clues": [
+          51
+        ]
+      },
+      {
+        "text": "send to the cloud"
+      },
+      {
+        "text": ", for short"
+      },
+      {
+        "text": "dy them on the "
+      },
+      {
+        "key": "6",
+        "text": "screen",
+        "clues": [
+          55,
+          56,
+          58,
+          59,
+          61
+        ]
+      },
+      {
+        "text": "pre"
+      },
+      {
+        "key": "6.1",
+        "text": "sent",
+        "clues": [
+          57
+        ]
+      },
+      {
+        "text": "emailed out"
+      },
+      {
+        "text": " for (or pre"
+      },
+      {
+        "key": "6.2",
+        "text": "vent",
+        "clues": [
+          60
+        ]
+      },
+      {
+        "text": "let it all out"
+      },
+      {
+        "text": " from) viewing"
+      },
+      {
+        "text": ".\""
+      }
+    ]
   }
 ]
