@@ -40105,5 +40105,313 @@
         "text": "ed"
       }
     ]
-  }
+  },
+  {
+    "id": "7dc409da-de2e-4ec9-be6f-a5d45b25e6c0",
+    "name": "December 23 Daily",
+    "author": "Hugo Lynch",
+    "date": "2025-12-10",
+    "clues": [
+      {
+        "text": "1972 – The 16 survivors of the Andes flight disaster are rescued after 73 days\n\nhttps://en.wikipedia.org/wiki/Uruguayan_Air_Force_Flight_571",
+        "clues": [
+          1,
+          2,
+          7,
+          8,
+          31,
+          32,
+          38,
+          39,
+          49,
+          50,
+          58
+        ]
+      },
+      {
+        "text": "The "
+      },
+      {
+        "key": "1",
+        "text": "16",
+        "clues": [
+          3,
+          4,
+          6
+        ]
+      },
+      {
+        "text": "\""
+      },
+      {
+        "key": "1.1",
+        "text": "sweet",
+        "clues": [
+          5
+        ]
+      },
+      {
+        "text": "like most desserts"
+      },
+      {
+        "text": "\" age"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "survivor",
+        "clues": [
+          9,
+          10,
+          21,
+          22,
+          27,
+          28,
+          30
+        ]
+      },
+      {
+        "text": "\"Out"
+      },
+      {
+        "key": "2.1",
+        "text": "wit",
+        "clues": [
+          11,
+          12,
+          17,
+          18,
+          20
+        ]
+      },
+      {
+        "text": "c"
+      },
+      {
+        "key": "2.1.1",
+        "text": "lever",
+        "clues": [
+          13,
+          14,
+          16
+        ]
+      },
+      {
+        "text": "one of the six simple "
+      },
+      {
+        "key": "2.1.1.1",
+        "text": "mach",
+        "clues": [
+          15
+        ]
+      },
+      {
+        "text": "speed-of-sound ratio"
+      },
+      {
+        "text": "ines"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.1.2",
+        "text": "hum",
+        "clues": [
+          19
+        ]
+      },
+      {
+        "text": "what to do when you don't know the words to a song"
+      },
+      {
+        "text": "our"
+      },
+      {
+        "text": ", Out"
+      },
+      {
+        "key": "2.2",
+        "text": "play",
+        "clues": [
+          23,
+          24,
+          26
+        ]
+      },
+      {
+        "text": "enjoy a "
+      },
+      {
+        "key": "2.2.1",
+        "text": "boar",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "wild hog"
+      },
+      {
+        "text": "d game"
+      },
+      {
+        "text": ", Out"
+      },
+      {
+        "key": "2.3",
+        "text": "last",
+        "clues": [
+          29
+        ]
+      },
+      {
+        "text": "worst place in a race"
+      },
+      {
+        "text": "\" reality series"
+      },
+      {
+        "text": "s of the "
+      },
+      {
+        "key": "3",
+        "text": "Andes",
+        "clues": [
+          33,
+          35,
+          36
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "South",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "towards Antarctica"
+      },
+      {
+        "text": " American mountain "
+      },
+      {
+        "key": "3.2",
+        "text": "range",
+        "clues": [
+          37
+        ]
+      },
+      {
+        "text": "five octaves, for Mariah Carey"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4",
+        "text": "flight",
+        "clues": [
+          40,
+          41,
+          46,
+          47
+        ]
+      },
+      {
+        "text": "small s"
+      },
+      {
+        "key": "4.1",
+        "text": "amp",
+        "clues": [
+          42,
+          43,
+          45
+        ]
+      },
+      {
+        "text": "band equipment that could go up to "
+      },
+      {
+        "key": "4.1.1",
+        "text": "11",
+        "clues": [
+          44
+        ]
+      },
+      {
+        "text": "number of sides on a loonie"
+      },
+      {
+        "text": " in \"This Is Spinal Tap\""
+      },
+      {
+        "text": "ling of various "
+      },
+      {
+        "key": "4.2",
+        "text": "beers",
+        "clues": [
+          48
+        ]
+      },
+      {
+        "text": "cold ones"
+      },
+      {
+        "text": " disaster are res"
+      },
+      {
+        "key": "5",
+        "text": "cue",
+        "clues": [
+          51,
+          55,
+          56
+        ]
+      },
+      {
+        "key": "5.1",
+        "text": "pool",
+        "clues": [
+          52,
+          53
+        ]
+      },
+      {
+        "text": "place to play "
+      },
+      {
+        "key": "5.1.1",
+        "text": "Marco Polo",
+        "clues": [
+          54
+        ]
+      },
+      {
+        "text": "famed Silk Road traveller"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "5.2",
+        "text": "stick",
+        "clues": [
+          57
+        ]
+      },
+      {
+        "text": "something to play fetch with"
+      },
+      {
+        "text": "d after 73 days"
+      }
+    ]
+  }  
 ]
