@@ -76,7 +76,7 @@
     }
 
     function reset() {
-        if (confirm('are you sure?')) {
+        if (confirm('Are you sure? Your progress will be lost.')) {
             for (let inputRow of game.inputs) {
                 for (let inputBox of inputRow ?? []) {
                     if (inputBox) inputBox.value = ''
@@ -87,14 +87,6 @@
     }
 </script>
 
-
-
-<div class="header">
-    <h1>{game.puzzle.name || 'Untitled'}</h1>
-    <span>by {game.puzzle.author || 'Unknown'}</span>
-</div>
-
-<BoardClue />
 <div class="controls">
     <button onclick={reset}>Reset Puzzle</button>
     <div>
@@ -110,6 +102,14 @@
         {game.keyboardVisible ? 'Hide' : 'Show'} Keyboard
     </button>
 </div>
+
+<div class="header">
+    <h1>{game.puzzle.name || 'Untitled'}</h1>
+    <span>by {game.puzzle.author || 'Unknown'}</span>
+</div>
+
+<BoardClue />
+
 {#if game.keyboardVisible}
     <Keyboard {key}/>
 {/if}
@@ -126,6 +126,7 @@
         padding: 12px;
         border: none;
         border-radius: 8px;
+        font-family: inherit;
     }
 
     .controls {
@@ -144,16 +145,15 @@
 
     h1 {
         font-size: 1.6rem;
-        padding: 8px 0;
     }
+
     span {
         font-size: 1.6rem;
     }
 
     .header {
         display: flex;
-        align-items: center;
-        padding: 12px;
+        align-items: baseline;
         gap: 12px;
     }
 </style>
