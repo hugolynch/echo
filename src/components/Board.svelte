@@ -87,17 +87,9 @@
     }
 </script>
 
-<div>
-    <select name="puzzles" onchange={choose}>
-        {#each filtered as option}
-            <option value={option.id} selected={option.id === game.puzzle.id}>
-                {option.date}
-            </option>
-        {/each}
-    </select>
-</div>
 
-<div>
+
+<div class="header">
     <h1>{game.puzzle.name || 'Untitled'}</h1>
     <span>by {game.puzzle.author || 'Unknown'}</span>
 </div>
@@ -105,6 +97,15 @@
 <BoardClue />
 <div class="controls">
     <button onclick={reset}>Reset Puzzle</button>
+    <div>
+        <select name="puzzles" onchange={choose}>
+            {#each filtered as option}
+                <option value={option.id} selected={option.id === game.puzzle.id}>
+                    {option.date}
+                </option>
+            {/each}
+        </select>
+    </div>
     <button class="keyboard-toggle" onclick={() => game.keyboardVisible = !game.keyboardVisible}>
         {game.keyboardVisible ? 'Hide' : 'Show'} Keyboard
     </button>
@@ -121,10 +122,6 @@
         font-size: 62.5%;
     }
 
-    select {
-        margin-top: 24px;
-    }
-
     select, button {
         padding: 12px;
         border: none;
@@ -134,6 +131,7 @@
     .controls {
         display: flex;
         gap: 12px;
+        padding: 12px;
     }
 
     .keyboard-toggle {
@@ -150,5 +148,12 @@
     }
     span {
         font-size: 1.6rem;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        gap: 12px;
     }
 </style>
