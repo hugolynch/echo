@@ -88,7 +88,6 @@
 </script>
 
 <div class="controls">
-    <button onclick={reset}>Reset Puzzle</button>
     <div>
         <select name="puzzles" onchange={choose}>
             {#each filtered as option}
@@ -98,6 +97,8 @@
             {/each}
         </select>
     </div>
+    <button onclick={reset}>Reset Puzzle</button>
+
     <button class="keyboard-toggle" onclick={() => game.keyboardVisible = !game.keyboardVisible}>
         {game.keyboardVisible ? 'Hide' : 'Show'} Keyboard
     </button>
@@ -120,6 +121,7 @@
         line-height: 1;
         font-weight: 400;
         font-size: 62.5%;
+        /* height: 100%; */
     }
 
     select, button {

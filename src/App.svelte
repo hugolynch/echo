@@ -8,15 +8,15 @@
 
 <Board />
 <style>
-.banner {
-  width: 100%;
-  background-color: #FFDD00;
-  padding: 14px;
-  text-align: center;
+  .banner {
+    width: 100%;
+    background-color: #FFDD00;
+    padding: 14px;
+    text-align: center;
 
-  p {
-    font-size: 1.6rem;
-    text-transform: uppercase;
+    p {
+      font-size: 1.6rem;
+      text-transform: uppercase;
+    }
   }
-}
 </style>
