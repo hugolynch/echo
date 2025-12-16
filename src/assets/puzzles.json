@@ -40676,5 +40676,230 @@
         "text": "s"
       }
     ]
+  },
+  {
+    "id": "c5afa8b2-09f8-46cc-bf41-fb4321cb11d9",
+    "name": "Twelve Days (1/12)",
+    "author": "Hugo Lynch",
+    "date": "2025-12-25",
+    "clues": [
+      {
+        "text": "A partridge in a pear tree",
+        "clues": [
+          1,
+          2,
+          6,
+          18,
+          19,
+          27,
+          28
+        ]
+      },
+      {
+        "text": "A "
+      },
+      {
+        "key": "1",
+        "text": "part",
+        "clues": [
+          3,
+          5
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "line",
+        "clues": [
+          4
+        ]
+      },
+      {
+        "text": "place to wait"
+      },
+      {
+        "text": " made by a comb"
+      },
+      {
+        "key": "2",
+        "text": "ridge",
+        "clues": [
+          7,
+          9,
+          10,
+          17
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "Ruffle",
+        "clues": [
+          8
+        ]
+      },
+      {
+        "text": "annoy or upset"
+      },
+      {
+        "text": "s potato "
+      },
+      {
+        "key": "2.2",
+        "text": "chip",
+        "clues": [
+          11,
+          13,
+          14,
+          16
+        ]
+      },
+      {
+        "key": "2.2.1",
+        "text": "guacamole",
+        "clues": [
+          12
+        ]
+      },
+      {
+        "text": "sauce made with a molcajete y tejolote"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.2.2",
+        "text": "scoop",
+        "clues": [
+          15
+        ]
+      },
+      {
+        "text": "journalist's exclusive"
+      },
+      {
+        "text": "er"
+      },
+      {
+        "text": " feature"
+      },
+      {
+        "text": " in a "
+      },
+      {
+        "key": "3",
+        "text": "pear",
+        "clues": [
+          20,
+          21,
+          26
+        ]
+      },
+      {
+        "text": "oviform : "
+      },
+      {
+        "key": "3.1",
+        "text": "egg",
+        "clues": [
+          22,
+          23,
+          25
+        ]
+      },
+      {
+        "text": "burrito addition that makes it a "
+      },
+      {
+        "key": "3.1.1",
+        "text": "break",
+        "clues": [
+          24
+        ]
+      },
+      {
+        "text": "unlucky thing for a mirror to do"
+      },
+      {
+        "text": "fast burrito"
+      },
+      {
+        "text": " :: pyriform : ___"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4",
+        "text": "tree",
+        "clues": [
+          29,
+          37,
+          38
+        ]
+      },
+      {
+        "key": "4.1",
+        "text": "palm",
+        "clues": [
+          30,
+          31,
+          33,
+          34,
+          36
+        ]
+      },
+      {
+        "text": "site of the "
+      },
+      {
+        "key": "4.1.1",
+        "text": "heart",
+        "clues": [
+          32
+        ]
+      },
+      {
+        "text": "artichoke's center"
+      },
+      {
+        "text": " line and "
+      },
+      {
+        "key": "4.1.2",
+        "text": "life",
+        "clues": [
+          35
+        ]
+      },
+      {
+        "text": "what happens while you're busy making other plans, it's said"
+      },
+      {
+        "text": " line"
+      },
+      {
+        "text": " or "
+      },
+      {
+        "key": "4.2",
+        "text": "olive",
+        "clues": [
+          39,
+          41
+        ]
+      },
+      {
+        "key": "4.2.1",
+        "text": "tape",
+        "clues": [
+          40
+        ]
+      },
+      {
+        "text": "VCR insert"
+      },
+      {
+        "text": "nade ingredient"
+      }
+    ]
   }
 ]
