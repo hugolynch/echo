@@ -41103,5 +41103,204 @@
         "text": "☮"
       }
     ]
+  },
+  {
+    "id": "5934cb76-c161-4ee6-a567-4ccfcb77ee3b",
+    "name": "Twelve Days (3/12)",
+    "author": "Hugo Lynch",
+    "date": "2025-12-27",
+    "clues": [
+      {
+        "text": "Three French hens,\nTwo turtle doves,\nAnd a partridge in a pear tree.",
+        "clues": [
+          1,
+          6,
+          7,
+          22,
+          23
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Three",
+        "clues": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "text": "proverbial "
+      },
+      {
+        "key": "1.1",
+        "text": "crow",
+        "clues": [
+          4
+        ]
+      },
+      {
+        "text": "say \"Ta-da!,\" say"
+      },
+      {
+        "text": "d"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "French",
+        "clues": [
+          8,
+          9,
+          11,
+          12,
+          19,
+          20
+        ]
+      },
+      {
+        "text": "like some "
+      },
+      {
+        "key": "2.1",
+        "text": "fries",
+        "clues": [
+          10
+        ]
+      },
+      {
+        "text": "fast-food side order"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "key": "2.2",
+        "text": "toast",
+        "clues": [
+          13,
+          14,
+          16,
+          17
+        ]
+      },
+      {
+        "text": "sa"
+      },
+      {
+        "key": "2.2.1",
+        "text": "lute",
+        "clues": [
+          15
+        ]
+      },
+      {
+        "text": "bard's instrument"
+      },
+      {
+        "text": " with a raised g"
+      },
+      {
+        "key": "2.2.2",
+        "text": "lass",
+        "clues": [
+          18
+        ]
+      },
+      {
+        "text": "Scottish gal"
+      },
+      {
+        "text": " or "
+      },
+      {
+        "key": "2.3",
+        "text": "kisses",
+        "clues": [
+          21
+        ]
+      },
+      {
+        "text": "XXX, perhaps"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3",
+        "text": "hens",
+        "clues": [
+          24,
+          25,
+          36
+        ]
+      },
+      {
+        "text": "farm c"
+      },
+      {
+        "key": "3.1",
+        "text": "luck",
+        "clues": [
+          26,
+          27,
+          34
+        ]
+      },
+      {
+        "text": "good "
+      },
+      {
+        "key": "3.1.1",
+        "text": "fort",
+        "clues": [
+          28,
+          29,
+          31,
+          33
+        ]
+      },
+      {
+        "text": "structure of "
+      },
+      {
+        "key": "3.1.1.1",
+        "text": "pill",
+        "clues": [
+          30
+        ]
+      },
+      {
+        "text": "it might be hard to swallow"
+      },
+      {
+        "key": "3.1.1.2",
+        "text": "ows",
+        "clues": [
+          32
+        ]
+      },
+      {
+        "text": "cries of pain"
+      },
+      {
+        "text": " or snow"
+      },
+      {
+        "key": "3.1.2",
+        "text": "une",
+        "clues": [
+          35
+        ]
+      },
+      {
+        "text": "French article"
+      },
+      {
+        "text": "ers"
+      }
+    ]
   }
 ]
