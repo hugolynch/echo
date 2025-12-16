@@ -41302,5 +41302,182 @@
         "text": "ers"
       }
     ]
+  },
+  {
+    "id": "1f45aeaf-679c-4e02-baf5-d2f3ced2350c",
+    "name": "Twelve Days (4/12)",
+    "author": "Hugo Lynch",
+    "date": "2025-12-28",
+    "clues": [
+      {
+        "text": "Four calling birds,\nThree French hens,\nTwo turtle doves,\nAnd a partridge in a pear tree.",
+        "clues": [
+          1,
+          7,
+          8,
+          18,
+          19,
+          32
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Four",
+        "clues": [
+          2,
+          6
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "IV",
+        "clues": [
+          3,
+          5
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "drip",
+        "clues": [
+          4
+        ]
+      },
+      {
+        "text": "leaky faucet sound"
+      },
+      {
+        "text": " in the ER"
+      },
+      {
+        "text": ", sometimes"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "call",
+        "clues": [
+          9,
+          10,
+          17
+        ]
+      },
+      {
+        "text": "response to a "
+      },
+      {
+        "key": "2.1",
+        "text": "poker",
+        "clues": [
+          11,
+          13,
+          14,
+          16
+        ]
+      },
+      {
+        "key": "2.1.1",
+        "text": "Texas",
+        "clues": [
+          12
+        ]
+      },
+      {
+        "text": "Lone Star State"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.1.2",
+        "text": "Hold",
+        "clues": [
+          15
+        ]
+      },
+      {
+        "text": "hang on to"
+      },
+      {
+        "text": " 'em, e.g."
+      },
+      {
+        "text": " bet"
+      },
+      {
+        "text": "ing "
+      },
+      {
+        "key": "3",
+        "text": "bird",
+        "clues": [
+          20,
+          21,
+          23,
+          25,
+          26,
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "text": "WNBA "
+      },
+      {
+        "key": "3.1",
+        "text": "leg",
+        "clues": [
+          22
+        ]
+      },
+      {
+        "text": "chicken drumstick"
+      },
+      {
+        "key": "3.2",
+        "text": "end",
+        "clues": [
+          24
+        ]
+      },
+      {
+        "text": "conclusion"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3.3",
+        "text": "Sue",
+        "clues": [
+          27
+        ]
+      },
+      {
+        "text": "go after in court"
+      },
+      {
+        "text": " or NBA "
+      },
+      {
+        "key": "3.4",
+        "text": "legend",
+        "clues": [
+          30
+        ]
+      },
+      {
+        "text": "myth or famous story"
+      },
+      {
+        "text": " Larry"
+      },
+      {
+        "text": "s"
+      }
+    ]
   }
 ]
