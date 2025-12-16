@@ -40901,5 +40901,207 @@
         "text": "nade ingredient"
       }
     ]
+  },
+  {
+    "id": "7cebeb98-69ac-41a0-a47a-e23c561ee70a",
+    "name": "Twelve Days (2/12)",
+    "author": "Hugo Lynch",
+    "date": "2025-12-26",
+    "clues": [
+      {
+        "text": "Two turtle doves,\nAnd a partridge in a pear tree.",
+        "clues": [
+          1,
+          10,
+          11,
+          20,
+          21
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Two",
+        "clues": [
+          2,
+          9
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "tango",
+        "clues": [
+          3,
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "sierra",
+        "clues": [
+          4
+        ]
+      },
+      {
+        "text": "___ Nevada (mountain range)"
+      },
+      {
+        "text": " fol"
+      },
+      {
+        "key": "1.1.2",
+        "text": "low",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "setting for simmering"
+      },
+      {
+        "text": "er, in the NATO alphabet"
+      },
+      {
+        "text": " requirement"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "turtle",
+        "clues": [
+          12,
+          14,
+          15,
+          17,
+          18
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "pecan",
+        "clues": [
+          13
+        ]
+      },
+      {
+        "text": "popular pie nut"
+      },
+      {
+        "text": "-and-"
+      },
+      {
+        "key": "2.2",
+        "text": "caramel",
+        "clues": [
+          16
+        ]
+      },
+      {
+        "text": "sweet, chewy confection"
+      },
+      {
+        "text": "-filled "
+      },
+      {
+        "key": "2.3",
+        "text": "chocolate",
+        "clues": [
+          19
+        ]
+      },
+      {
+        "text": "cacao bean product"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3",
+        "text": "doves",
+        "clues": [
+          22,
+          31,
+          32,
+          34,
+          35
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "birds",
+        "clues": [
+          23,
+          24,
+          26,
+          30
+        ]
+      },
+      {
+        "text": "Tweety, "
+      },
+      {
+        "key": "3.1.1",
+        "text": "Wood",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "lumber"
+      },
+      {
+        "key": "3.1.2",
+        "text": "stock",
+        "clues": [
+          27,
+          29
+        ]
+      },
+      {
+        "key": "3.1.2.1",
+        "text": "soup",
+        "clues": [
+          28
+        ]
+      },
+      {
+        "text": "gazpacho or pho"
+      },
+      {
+        "text": " base"
+      },
+      {
+        "text": " and Zazu"
+      },
+      {
+        "text": " that "
+      },
+      {
+        "key": "3.2",
+        "text": "symbol",
+        "clues": [
+          33
+        ]
+      },
+      {
+        "text": "emblem like ☮"
+      },
+      {
+        "text": "ize "
+      },
+      {
+        "key": "3.3",
+        "text": "peace",
+        "clues": [
+          36
+        ]
+      },
+      {
+        "text": "☮"
+      }
+    ]
   }
 ]
