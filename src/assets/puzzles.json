@@ -41479,5 +41479,248 @@
         "text": "s"
       }
     ]
+  },
+  {
+    "id": "f4c5e532-5c87-4b33-8512-689c3af339a3",
+    "name": "Twelve Days (5/12)",
+    "author": "Hugo Lynch",
+    "date": "2025-12-29",
+    "clues": [
+      {
+        "text": "Five gold rings,\nFour calling birds,\nThree French hens,\nTwo turtle doves,\nAnd a partridge in a pear tree.",
+        "clues": [
+          1,
+          9,
+          10,
+          33,
+          34
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Five",
+        "clues": [
+          2,
+          3,
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "text": "number after \""
+      },
+      {
+        "key": "1.1",
+        "text": "take",
+        "clues": [
+          4
+        ]
+      },
+      {
+        "text": "film scene shot without interruption"
+      },
+      {
+        "text": "\" or \""
+      },
+      {
+        "key": "1.2",
+        "text": "give",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "\"Never Gonna ___ You Up\" (song played in Rickrolling pranks)"
+      },
+      {
+        "text": " me\""
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "gold",
+        "clues": [
+          11,
+          13,
+          14,
+          32
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "stand",
+        "clues": [
+          12
+        ]
+      },
+      {
+        "text": "get up"
+      },
+      {
+        "text": "ard of "
+      },
+      {
+        "key": "2.2",
+        "text": "excel",
+        "clues": [
+          15,
+          17,
+          22,
+          23,
+          25,
+          31
+        ]
+      },
+      {
+        "key": "2.2.1",
+        "text": "Micro",
+        "clues": [
+          16
+        ]
+      },
+      {
+        "text": "prefix between milli- and nano-"
+      },
+      {
+        "key": "2.2.2",
+        "text": "soft",
+        "clues": [
+          18,
+          19,
+          21
+        ]
+      },
+      {
+        "text": "p"
+      },
+      {
+        "key": "2.2.2.1",
+        "text": "lush",
+        "clues": [
+          20
+        ]
+      },
+      {
+        "text": "thick with vegetation"
+      },
+      {
+        "text": "like"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.2.3",
+        "text": "spread",
+        "clues": [
+          24
+        ]
+      },
+      {
+        "text": "hummus or Nutella"
+      },
+      {
+        "key": "2.2.4",
+        "text": "sheet",
+        "clues": [
+          26,
+          28,
+          30
+        ]
+      },
+      {
+        "key": "2.2.4.1",
+        "text": "make",
+        "clues": [
+          27
+        ]
+      },
+      {
+        "text": "fabricate"
+      },
+      {
+        "key": "2.2.4.2",
+        "text": "shift",
+        "clues": [
+          29
+        ]
+      },
+      {
+        "text": "stint at the factory"
+      },
+      {
+        "text": " ghost costume"
+      },
+      {
+        "text": " software"
+      },
+      {
+        "text": "lence, metaphorically"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3",
+        "text": "rings",
+        "clues": [
+          35,
+          36,
+          42,
+          43
+        ]
+      },
+      {
+        "text": "indicators of a "
+      },
+      {
+        "key": "3.1",
+        "text": "tree",
+        "clues": [
+          37,
+          39,
+          41
+        ]
+      },
+      {
+        "key": "3.1.1",
+        "text": "or",
+        "clues": [
+          38
+        ]
+      },
+      {
+        "text": "[2], in Marseille"
+      },
+      {
+        "key": "3.1.2",
+        "text": "char",
+        "clues": [
+          40
+        ]
+      },
+      {
+        "text": "burn black"
+      },
+      {
+        "text": "d planting"
+      },
+      {
+        "text": "'s "
+      },
+      {
+        "key": "3.2",
+        "text": "age",
+        "clues": [
+          44
+        ]
+      },
+      {
+        "text": "birthday number"
+      }
+    ]
   }
 ]
