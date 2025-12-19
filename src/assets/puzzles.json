@@ -42150,5 +42150,213 @@
         "text": "very unpleasant"
       }
     ]
+  },
+  {
+    "id": "69c956a9-e7bc-4342-9834-f663518391a7",
+    "name": "Twelve Days (8/12)",
+    "author": "Hugo Lynch",
+    "date": "2026-01-01",
+    "clues": [
+      {
+        "text": "Eight maids a-milking,\nSeven swans a-swimming,\nSix geese a-laying,\nFive gold rings,\nFour calling birds,\nThree French hens,\nTwo turtle doves,\nAnd a partridge in a pear tree.",
+        "clues": [
+          1,
+          16,
+          17,
+          27,
+          28,
+          38
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Eight",
+        "clues": [
+          2,
+          3,
+          7,
+          8,
+          15
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "figure "
+      },
+      {
+        "key": "1.1",
+        "text": "ska",
+        "clues": [
+          4,
+          6
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "Jam",
+        "clues": [
+          5
+        ]
+      },
+      {
+        "text": "fruity toast topping"
+      },
+      {
+        "text": "aican music genre"
+      },
+      {
+        "text": "ting "
+      },
+      {
+        "key": "1.2",
+        "text": "fig",
+        "clues": [
+          9,
+          10,
+          14
+        ]
+      },
+      {
+        "text": "fruit in some "
+      },
+      {
+        "key": "1.2.1",
+        "text": "Newton",
+        "clues": [
+          11,
+          12
+        ]
+      },
+      {
+        "text": "man of "
+      },
+      {
+        "key": "1.2.1.1",
+        "text": "gravity",
+        "clues": [
+          13
+        ]
+      },
+      {
+        "text": "what keeps us grounded"
+      },
+      {
+        "text": "s"
+      },
+      {
+        "text": "ure"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "maid",
+        "clues": [
+          18,
+          19,
+          21,
+          22,
+          26
+        ]
+      },
+      {
+        "text": "cleaner with a "
+      },
+      {
+        "key": "2.1",
+        "text": "feat",
+        "clues": [
+          20
+        ]
+      },
+      {
+        "text": "tour de force"
+      },
+      {
+        "text": "her "
+      },
+      {
+        "key": "2.2",
+        "text": "dust",
+        "clues": [
+          23,
+          25
+        ]
+      },
+      {
+        "key": "2.2.1",
+        "text": "attic",
+        "clues": [
+          24
+        ]
+      },
+      {
+        "text": "basement's opposite"
+      },
+      {
+        "text": " accumulation"
+      },
+      {
+        "text": "er, perhaps"
+      },
+      {
+        "text": "s a-"
+      },
+      {
+        "key": "3",
+        "text": "milk",
+        "clues": [
+          29,
+          30,
+          34,
+          35,
+          37
+        ]
+      },
+      {
+        "text": "w"
+      },
+      {
+        "key": "3.1",
+        "text": "ring",
+        "clues": [
+          31,
+          32
+        ]
+      },
+      {
+        "text": "boxing en"
+      },
+      {
+        "key": "3.1.1",
+        "text": "closure",
+        "clues": [
+          33
+        ]
+      },
+      {
+        "text": "what people with unresolved issues seek"
+      },
+      {
+        "text": " every possible ad"
+      },
+      {
+        "key": "3.2",
+        "text": "vantage",
+        "clues": [
+          36
+        ]
+      },
+      {
+        "text": "position with a commanding view"
+      },
+      {
+        "text": " from"
+      },
+      {
+        "text": "ing"
+      }
+    ]
   }
 ]
