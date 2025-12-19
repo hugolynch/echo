@@ -41933,5 +41933,222 @@
         "text": "g"
       }
     ]
+  },
+  {
+    "id": "8b378c3b-5fab-4a22-be59-6c2e72dc2972",
+    "name": "Twelve Days (7/12)",
+    "author": "Hugo Lynch",
+    "date": "2025-12-31",
+    "clues": [
+      {
+        "text": "Seven swans a-swimming,\nSix geese a-laying,\nFive gold rings,\nFour calling birds,\nThree French hens,\nTwo turtle doves,\nAnd a partridge in a pear tree.",
+        "clues": [
+          1,
+          17,
+          18,
+          26,
+          27,
+          32
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Seven",
+        "clues": [
+          2,
+          3,
+          12,
+          14,
+          15
+        ]
+      },
+      {
+        "text": "sum of any two "
+      },
+      {
+        "key": "1.1",
+        "text": "oppo",
+        "clues": [
+          4,
+          5,
+          11
+        ]
+      },
+      {
+        "text": "research on a political "
+      },
+      {
+        "key": "1.1.1",
+        "text": "rival",
+        "clues": [
+          6,
+          8,
+          9
+        ]
+      },
+      {
+        "key": "1.1.1.1",
+        "text": "Paris",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "City of Light"
+      },
+      {
+        "text": ", to "
+      },
+      {
+        "key": "1.1.1.2",
+        "text": "Romeo",
+        "clues": [
+          10
+        ]
+      },
+      {
+        "text": "\"Did my heart love till now?\" speaker"
+      },
+      {
+        "text": ", for short"
+      },
+      {
+        "key": "1.2",
+        "text": "site",
+        "clues": [
+          13
+        ]
+      },
+      {
+        "text": "online destination"
+      },
+      {
+        "text": " faces on a standard "
+      },
+      {
+        "key": "1.3",
+        "text": "die",
+        "clues": [
+          16
+        ]
+      },
+      {
+        "text": "expire"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "swan",
+        "clues": [
+          19,
+          20,
+          22,
+          23,
+          25
+        ]
+      },
+      {
+        "text": "what the "
+      },
+      {
+        "key": "2.1",
+        "text": "Ugly",
+        "clues": [
+          21
+        ]
+      },
+      {
+        "text": "very unpleasant"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.2",
+        "text": "Duck",
+        "clues": [
+          24
+        ]
+      },
+      {
+        "text": "if it looks like a ___, swims like a ___, and quacks like a ___, then it probably is a ___."
+      },
+      {
+        "text": "ling became"
+      },
+      {
+        "text": "s a-"
+      },
+      {
+        "key": "3",
+        "text": "swim",
+        "clues": [
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "text": "en"
+      },
+      {
+        "key": "3.1",
+        "text": "joy",
+        "clues": [
+          30
+        ]
+      },
+      {
+        "text": "feeling of great pleasure"
+      },
+      {
+        "text": " the pool"
+      },
+      {
+        "key": "4",
+        "text": "ming",
+        "clues": [
+          33,
+          37,
+          38
+        ]
+      },
+      {
+        "key": "4.1",
+        "text": "artist",
+        "clues": [
+          34,
+          35
+        ]
+      },
+      {
+        "text": "Dalí or De"
+      },
+      {
+        "key": "4.1.1",
+        "text": "gas",
+        "clues": [
+          36
+        ]
+      },
+      {
+        "text": "\"Now we're cooking with ___!\""
+      },
+      {
+        "text": "ic Chinese dy"
+      },
+      {
+        "key": "4.2",
+        "text": "nasty",
+        "clues": [
+          39
+        ]
+      },
+      {
+        "text": "very unpleasant"
+      }
+    ]
   }
 ]
