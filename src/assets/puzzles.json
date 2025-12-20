@@ -42358,5 +42358,196 @@
         "text": "ing"
       }
     ]
+  },
+  {
+    "id": "8c1df700-ebd4-4e8d-ad5e-94be95970c17",
+    "name": "Twelve Days (9/12)",
+    "author": "Hugo Lynch",
+    "date": "2026-01-02",
+    "clues": [
+      {
+        "text": "Nine ladies dancing,\nEight maids a-milking,\nSeven swans a-swimming,\nSix geese a-laying,\nFive gold rings,\nFour calling birds,\nThree French hens,\nTwo turtle doves,\nAnd a partridge in a pear tree.",
+        "clues": [
+          1,
+          13,
+          14,
+          24,
+          25
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Nine",
+        "clues": [
+          2,
+          12
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "cloud",
+        "clues": [
+          3,
+          5,
+          6,
+          10
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "alto",
+        "clues": [
+          4
+        ]
+      },
+      {
+        "text": "voice between soprano and tenor"
+      },
+      {
+        "text": "cumulus or cumulo"
+      },
+      {
+        "key": "1.1.2",
+        "text": "nim",
+        "clues": [
+          7,
+          9
+        ]
+      },
+      {
+        "key": "1.1.2.1",
+        "text": "matchstick",
+        "clues": [
+          8
+        ]
+      },
+      {
+        "text": "slender fire starter"
+      },
+      {
+        "text": "-removing game"
+      },
+      {
+        "key": "1.1.3",
+        "text": "bus",
+        "clues": [
+          11
+        ]
+      },
+      {
+        "text": "field trip vehicle"
+      },
+      {
+        "text": " ___ (idiomatic happy place)"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "ladies",
+        "clues": [
+          15,
+          16,
+          20,
+          21,
+          23
+        ]
+      },
+      {
+        "text": "Beyoncé's \""
+      },
+      {
+        "key": "2.1",
+        "text": "Single",
+        "clues": [
+          17,
+          18
+        ]
+      },
+      {
+        "text": "$1 "
+      },
+      {
+        "key": "2.1.1",
+        "text": "bill",
+        "clues": [
+          19
+        ]
+      },
+      {
+        "text": "platypus feature"
+      },
+      {
+        "text": " ___ (Put a "
+      },
+      {
+        "key": "2.2",
+        "text": "Ring",
+        "clues": [
+          22
+        ]
+      },
+      {
+        "text": "call up"
+      },
+      {
+        "text": " on It)\""
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3",
+        "text": "dancing",
+        "clues": [
+          26,
+          27,
+          32,
+          33
+        ]
+      },
+      {
+        "text": "doing the "
+      },
+      {
+        "key": "3.1",
+        "text": "hustle",
+        "clues": [
+          28,
+          29,
+          31
+        ]
+      },
+      {
+        "text": "work "
+      },
+      {
+        "key": "3.1.1",
+        "text": "hard",
+        "clues": [
+          30
+        ]
+      },
+      {
+        "text": "like diamonds"
+      },
+      {
+        "text": " for the money"
+      },
+      {
+        "text": " or the "
+      },
+      {
+        "key": "3.2",
+        "text": "twist",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "surprise ending"
+      }
+    ]
   }
 ]
