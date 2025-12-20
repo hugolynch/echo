@@ -42549,5 +42549,234 @@
         "text": "surprise ending"
       }
     ]
+  },
+  {
+    "id": "9acb5150-a307-44f8-946e-49edd0293370",
+    "name": "Twelves Days (10/12)",
+    "author": "Hugo Lynch",
+    "date": "2026-01-03",
+    "clues": [
+      {
+        "text": "Ten lords a-leaping,\nNine ladies dancing,\nEight maids a-milking,\nSeven swans a-swimming,\nSix geese a-laying,\nFive gold rings,\nFour calling birds,\nThree French hens,\nTwo turtle doves,\nAnd a partridge in a pear tree.",
+        "clues": [
+          1,
+          18,
+          19,
+          27,
+          28,
+          42
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Ten",
+        "clues": [
+          2,
+          3,
+          5,
+          6,
+          17
+        ]
+      },
+      {
+        "text": "perfect "
+      },
+      {
+        "key": "1.1",
+        "text": "score",
+        "clues": [
+          4
+        ]
+      },
+      {
+        "text": "get the ball in the net"
+      },
+      {
+        "text": " in "
+      },
+      {
+        "key": "1.2",
+        "text": "gymnast",
+        "clues": [
+          7,
+          8,
+          10,
+          11,
+          16
+        ]
+      },
+      {
+        "text": "athlete on the pommel "
+      },
+      {
+        "key": "1.2.1",
+        "text": "horse",
+        "clues": [
+          9
+        ]
+      },
+      {
+        "text": "neigh sayer"
+      },
+      {
+        "text": " or "
+      },
+      {
+        "key": "1.2.2",
+        "text": "parallel",
+        "clues": [
+          12,
+          13,
+          15
+        ]
+      },
+      {
+        "text": "Tropic of "
+      },
+      {
+        "key": "1.2.2.1",
+        "text": "Cancer",
+        "clues": [
+          14
+        ]
+      },
+      {
+        "text": "sign symbolized by 🦀"
+      },
+      {
+        "text": ", for once"
+      },
+      {
+        "text": " bars"
+      },
+      {
+        "text": "ics"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "lord",
+        "clues": [
+          20,
+          26
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "lady",
+        "clues": [
+          21,
+          23,
+          24
+        ]
+      },
+      {
+        "key": "2.1.1",
+        "text": "Gaga",
+        "clues": [
+          22
+        ]
+      },
+      {
+        "text": "head over heels"
+      },
+      {
+        "text": " or Go"
+      },
+      {
+        "key": "2.1.2",
+        "text": "diva",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "opera star"
+      },
+      {
+        "text": "'s man"
+      },
+      {
+        "text": "s a-"
+      },
+      {
+        "key": "3",
+        "text": "leap",
+        "clues": [
+          29,
+          30,
+          32,
+          33,
+          35,
+          36,
+          40
+        ]
+      },
+      {
+        "text": "That's one "
+      },
+      {
+        "key": "3.1",
+        "text": "small",
+        "clues": [
+          31
+        ]
+      },
+      {
+        "text": "S on a T?"
+      },
+      {
+        "text": " step for [a] man, one "
+      },
+      {
+        "key": "3.2",
+        "text": "giant",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "gargantuan individual"
+      },
+      {
+        "text": " ___ for mankind\": Neil "
+      },
+      {
+        "key": "3.3",
+        "text": "Arm",
+        "clues": [
+          37,
+          38
+        ]
+      },
+      {
+        "text": "one of eight on an "
+      },
+      {
+        "key": "3.3.1",
+        "text": "octopus",
+        "clues": [
+          39
+        ]
+      },
+      {
+        "text": "mollusc with three hearts and blue blood"
+      },
+      {
+        "key": "3.4",
+        "text": "strong",
+        "clues": [
+          41
+        ]
+      },
+      {
+        "text": "far from feeble"
+      },
+      {
+        "text": "ing"
+      }
+    ]
   }
 ]
