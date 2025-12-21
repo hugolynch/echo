@@ -42955,5 +42955,185 @@
         "text": "ing"
       }
     ]
+  },
+  {
+    "id": "fc8120a3-4036-4561-ade1-b45ad295240b",
+    "name": "Twelves Days (12/12)",
+    "author": "Hugo Lynch",
+    "date": "2025-01-05",
+    "clues": [
+      {
+        "text": "🎶 On the twelfth day of Christmas, my true love sent to me,\nTwelve drummers drumming,\nEleven pipers piping,\nTen lords a-leaping,\nNine ladies dancing,\nEight maids a-milking,\nSeven swans a-swimming,\nSix geese a-laying,\nFive gold rings,\nFour calling birds,\nThree French hens,\nTwo turtle doves,\nAnd a partridge in a pear tree. 🎶",
+        "clues": [
+          1,
+          8,
+          9,
+          13,
+          14,
+          20
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Twelve",
+        "clues": [
+          2,
+          3,
+          5,
+          7
+        ]
+      },
+      {
+        "text": "\""
+      },
+      {
+        "key": "1.1",
+        "text": "box",
+        "clues": [
+          4
+        ]
+      },
+      {
+        "text": "fight with fists"
+      },
+      {
+        "key": "1.2",
+        "text": "cars",
+        "clues": [
+          6
+        ]
+      },
+      {
+        "text": "automobiles"
+      },
+      {
+        "text": "\" value, in craps ("
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "drum",
+        "clues": [
+          10,
+          12
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "oil",
+        "clues": [
+          11
+        ]
+      },
+      {
+        "text": "scarce resource in the Hanukkah story"
+      },
+      {
+        "text": " container"
+      },
+      {
+        "text": "mers d"
+      },
+      {
+        "key": "3",
+        "text": "rum",
+        "clues": [
+          15,
+          19
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "mai",
+        "clues": [
+          16,
+          17
+        ]
+      },
+      {
+        "text": "month after "
+      },
+      {
+        "key": "3.1.1",
+        "text": "avril",
+        "clues": [
+          18
+        ]
+      },
+      {
+        "text": "\"Sk8er Boi\" singer Lavigne"
+      },
+      {
+        "text": " tai ingredient"
+      },
+      {
+        "key": "4",
+        "text": "ming",
+        "clues": [
+          21,
+          22,
+          24,
+          25,
+          32
+        ]
+      },
+      {
+        "text": "basketball "
+      },
+      {
+        "key": "4.1",
+        "text": "Hall",
+        "clues": [
+          23
+        ]
+      },
+      {
+        "text": "room connector"
+      },
+      {
+        "text": " of "
+      },
+      {
+        "key": "4.2",
+        "text": "Fame",
+        "clues": [
+          26,
+          31
+        ]
+      },
+      {
+        "key": "4.2.1",
+        "text": "Holly",
+        "clues": [
+          27,
+          28,
+          30
+        ]
+      },
+      {
+        "text": "Yule"
+      },
+      {
+        "key": "4.2.1.1",
+        "text": "tide",
+        "clues": [
+          29
+        ]
+      },
+      {
+        "text": "ocean's ebb and flow"
+      },
+      {
+        "text": " plant"
+      },
+      {
+        "text": "wood Walk of ___"
+      },
+      {
+        "text": "r Yao"
+      }
+    ]
   }
 ]
