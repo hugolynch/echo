@@ -43461,5 +43461,263 @@
         "text": " so.\""
       }
     ]
+  },
+  {
+    "id": "de1aecba-d950-4ef4-801f-20cdf55daad4",
+    "name": "January 7 Daily",
+    "author": "Hugo Lynch",
+    "date": "2026-01-07",
+    "clues": [
+      {
+        "text": "1904 – The CQD distress signal is adopted for radio use\n\nhttps://en.wikipedia.org/wiki/CQD",
+        "clues": [
+          1,
+          2,
+          10,
+          21,
+          22,
+          29,
+          30,
+          38,
+          39,
+          47
+        ]
+      },
+      {
+        "text": "The CQD "
+      },
+      {
+        "key": "1",
+        "text": "dis",
+        "clues": [
+          3,
+          4,
+          9
+        ]
+      },
+      {
+        "text": "talk "
+      },
+      {
+        "key": "1.1",
+        "text": "trash",
+        "clues": [
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "text": "folder for un"
+      },
+      {
+        "key": "1.1.1",
+        "text": "wanted",
+        "clues": [
+          7
+        ]
+      },
+      {
+        "text": "like an outlaw, in the Old West"
+      },
+      {
+        "text": " files"
+      },
+      {
+        "text": " about"
+      },
+      {
+        "key": "2",
+        "text": "tress",
+        "clues": [
+          11,
+          18,
+          19
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "lock",
+        "clues": [
+          12,
+          13,
+          15,
+          16
+        ]
+      },
+      {
+        "text": "what a "
+      },
+      {
+        "key": "2.1.1",
+        "text": "thief",
+        "clues": [
+          14
+        ]
+      },
+      {
+        "text": "one with sticky fingers"
+      },
+      {
+        "text": " might "
+      },
+      {
+        "key": "2.1.2",
+        "text": "pick",
+        "clues": [
+          17
+        ]
+      },
+      {
+        "text": "prospector's tool"
+      },
+      {
+        "text": " of "
+      },
+      {
+        "key": "2.2",
+        "text": "hair",
+        "clues": [
+          20
+        ]
+      },
+      {
+        "text": "Rapunzel's abundance"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3",
+        "text": "signal",
+        "clues": [
+          23,
+          25,
+          26,
+          28
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "wave",
+        "clues": [
+          24
+        ]
+      },
+      {
+        "text": "(˶ᵔᗜᵔ˶)ﾉﾞ"
+      },
+      {
+        "text": " or "
+      },
+      {
+        "key": "3.2",
+        "text": "wink",
+        "clues": [
+          27
+        ]
+      },
+      {
+        "text": "(⸝⸝> ᴗ•⸝⸝)"
+      },
+      {
+        "text": ", for example"
+      },
+      {
+        "text": " is "
+      },
+      {
+        "key": "4",
+        "text": "adopt",
+        "clues": [
+          31,
+          35,
+          36
+        ]
+      },
+      {
+        "key": "4.1",
+        "text": "one way",
+        "clues": [
+          32,
+          33
+        ]
+      },
+      {
+        "text": "street sign with an "
+      },
+      {
+        "key": "4.1.1",
+        "text": "arrow",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "--> or <--"
+      },
+      {
+        "text": " to become a pa"
+      },
+      {
+        "key": "4.2",
+        "text": "rent",
+        "clues": [
+          37
+        ]
+      },
+      {
+        "text": "tenant's monthly payment"
+      },
+      {
+        "text": "ed for "
+      },
+      {
+        "key": "5",
+        "text": "radio",
+        "clues": [
+          40,
+          41,
+          43
+        ]
+      },
+      {
+        "text": "AM/FM/XM "
+      },
+      {
+        "key": "5.1",
+        "text": "dev",
+        "clues": [
+          42
+        ]
+      },
+      {
+        "text": "software pro, for short"
+      },
+      {
+        "key": "5.2",
+        "text": "ice",
+        "clues": [
+          44,
+          46
+        ]
+      },
+      {
+        "key": "5.2.1",
+        "text": "diamond",
+        "clues": [
+          45
+        ]
+      },
+      {
+        "text": "April birthstone"
+      },
+      {
+        "text": "s, in slang"
+      },
+      {
+        "text": " use"
+      }
+    ]
   }
 ]
