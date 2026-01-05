@@ -43719,5 +43719,278 @@
         "text": " use"
       }
     ]
+  },
+  {
+    "id": "39f83e9d-60b3-475f-8b41-9f1716a8b002",
+    "name": "January 8 Daily",
+    "author": "Hugo Lynch",
+    "date": "2026-01-08",
+    "clues": [
+      {
+        "text": "Ground Control to Major Tom\n\nhttps://en.wikipedia.org/wiki/David_Bowie",
+        "clues": [
+          1,
+          15,
+          16,
+          30,
+          31,
+          40,
+          41
+        ]
+      },
+      {
+        "key": "1",
+        "text": "Ground",
+        "clues": [
+          2,
+          3
+        ]
+      },
+      {
+        "text": "pulverized in a "
+      },
+      {
+        "key": "1.1",
+        "text": "mortar",
+        "clues": [
+          4,
+          14
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "pest",
+        "clues": [
+          5,
+          6,
+          13
+        ]
+      },
+      {
+        "text": "ex"
+      },
+      {
+        "key": "1.1.1.1",
+        "text": "terminator",
+        "clues": [
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "text": "sci-fi cyborg played by Schwar"
+      },
+      {
+        "key": "1.1.1.1.1",
+        "text": "zen",
+        "clues": [
+          9
+        ]
+      },
+      {
+        "text": "extremely chill"
+      },
+      {
+        "key": "1.1.1.1.2",
+        "text": "egg",
+        "clues": [
+          11
+        ]
+      },
+      {
+        "text": "[2.1.2] occupant"
+      },
+      {
+        "text": "er"
+      },
+      {
+        "text": "'s target"
+      },
+      {
+        "text": "le partner"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2",
+        "text": "Control",
+        "clues": [
+          17,
+          18,
+          29
+        ]
+      },
+      {
+        "text": "Command's "
+      },
+      {
+        "key": "2.1",
+        "text": "Windows",
+        "clues": [
+          19,
+          21,
+          22,
+          27
+        ]
+      },
+      {
+        "key": "2.1.1",
+        "text": "exit",
+        "clues": [
+          20
+        ]
+      },
+      {
+        "text": "way out"
+      },
+      {
+        "text": " points during defe"
+      },
+      {
+        "key": "2.1.2",
+        "text": "nest",
+        "clues": [
+          23,
+          24,
+          26
+        ]
+      },
+      {
+        "text": "w"
+      },
+      {
+        "key": "2.1.2.1",
+        "text": "asp",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "Nile reptile"
+      },
+      {
+        "text": "'s home"
+      },
+      {
+        "key": "2.1.3",
+        "text": "rations",
+        "clues": [
+          28
+        ]
+      },
+      {
+        "text": "emergency food supplies"
+      },
+      {
+        "text": " counterpart"
+      },
+      {
+        "text": " to "
+      },
+      {
+        "key": "3",
+        "text": "Major",
+        "clues": [
+          32,
+          33,
+          35,
+          36
+        ]
+      },
+      {
+        "text": "college "
+      },
+      {
+        "key": "3.1",
+        "text": "stud",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "wall support"
+      },
+      {
+        "text": "ent's academic "
+      },
+      {
+        "key": "3.2",
+        "text": "focus",
+        "clues": [
+          37,
+          39
+        ]
+      },
+      {
+        "key": "3.2.1",
+        "text": "tune",
+        "clues": [
+          38
+        ]
+      },
+      {
+        "text": "song"
+      },
+      {
+        "text": " out distractions"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "4",
+        "text": "Tom",
+        "clues": [
+          42,
+          43
+        ]
+      },
+      {
+        "text": "Jerry's "
+      },
+      {
+        "key": "4.1",
+        "text": "frenemy",
+        "clues": [
+          44,
+          45,
+          47,
+          48,
+          50
+        ]
+      },
+      {
+        "text": "person you have a "
+      },
+      {
+        "key": "4.1.1",
+        "text": "love",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "word tattooed on Harry Powell's right knuckles, in \"The Night of the Hunter\""
+      },
+      {
+        "text": "-"
+      },
+      {
+        "key": "4.1.2",
+        "text": "hate",
+        "clues": [
+          49
+        ]
+      },
+      {
+        "text": "word tattooed on Harry Powell's left knuckles, in \"The Night of the Hunter\""
+      },
+      {
+        "text": " relationship with"
+      }
+    ]
   }
 ]
