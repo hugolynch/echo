@@ -44310,5 +44310,289 @@
         "text": "the light bulb, in 1879 or the airplane, in 1903"
       }
     ]
+  },
+  {
+    "id": "1f583ca9-541a-4d19-a823-1ce6d7ab1f5c",
+    "name": "January 12 Daily",
+    "author": "Hugo Lynch",
+    "date": "2026-01-12",
+    "clues": [
+      {
+        "text": "\"Holy astringent plum-like fruit, Batman!\"\n\nhttps://en.wikipedia.org/wiki/Batman_(TV_series)",
+        "clues": [
+          1,
+          2,
+          12,
+          13,
+          21,
+          22,
+          29,
+          30,
+          41,
+          42,
+          52
+        ]
+      },
+      {
+        "text": "\""
+      },
+      {
+        "key": "1",
+        "text": "Holy",
+        "clues": [
+          3,
+          4,
+          8
+        ]
+      },
+      {
+        "text": "fit for "
+      },
+      {
+        "key": "1.1",
+        "text": "saint",
+        "clues": [
+          5,
+          7
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "canon",
+        "clues": [
+          6
+        ]
+      },
+      {
+        "text": "Nikon competitor"
+      },
+      {
+        "text": "ized person"
+      },
+      {
+        "key": "1.2",
+        "text": "hood",
+        "clues": [
+          9,
+          10
+        ]
+      },
+      {
+        "text": "robbin' "
+      },
+      {
+        "key": "1.2.1",
+        "text": "Robin",
+        "clues": [
+          11
+        ]
+      },
+      {
+        "text": "Dick Grayson's alter ego, and the orator of today's seed phrase"
+      },
+      {
+        "text": " a"
+      },
+      {
+        "key": "2",
+        "text": "string",
+        "clues": [
+          14,
+          20
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "yoyo",
+        "clues": [
+          15,
+          17,
+          18
+        ]
+      },
+      {
+        "key": "2.1.1",
+        "text": "toy",
+        "clues": [
+          16
+        ]
+      },
+      {
+        "text": "item made in Santa's workshop"
+      },
+      {
+        "text": " that goes "
+      },
+      {
+        "key": "2.1.2",
+        "text": "up and down",
+        "clues": [
+          19
+        ]
+      },
+      {
+        "text": "oscillating, as the stock market"
+      },
+      {
+        "text": " part"
+      },
+      {
+        "text": "ent "
+      },
+      {
+        "key": "3",
+        "text": "plum",
+        "clues": [
+          23,
+          28
+        ]
+      },
+      {
+        "key": "3.1",
+        "text": "raisin",
+        "clues": [
+          24,
+          25,
+          27
+        ]
+      },
+      {
+        "text": "french for \""
+      },
+      {
+        "key": "3.1.1",
+        "text": "grape",
+        "clues": [
+          26
+        ]
+      },
+      {
+        "text": "wine fruit"
+      },
+      {
+        "text": "\""
+      },
+      {
+        "text": " : grape :: prune : ___"
+      },
+      {
+        "text": "-like "
+      },
+      {
+        "key": "4",
+        "text": "fruit",
+        "clues": [
+          31,
+          33,
+          34,
+          36,
+          38,
+          40
+        ]
+      },
+      {
+        "key": "4.1",
+        "text": "car",
+        "clues": [
+          32
+        ]
+      },
+      {
+        "text": "train unit"
+      },
+      {
+        "text": "nivorous : meat :: "
+      },
+      {
+        "key": "4.2",
+        "text": "car",
+        "clues": [
+          35
+        ]
+      },
+      {
+        "text": "garage unit"
+      },
+      {
+        "key": "4.3",
+        "text": "pop",
+        "clues": [
+          37
+        ]
+      },
+      {
+        "text": "soda, to some"
+      },
+      {
+        "key": "4.4",
+        "text": "hag",
+        "clues": [
+          39
+        ]
+      },
+      {
+        "text": "old crone"
+      },
+      {
+        "text": "ous : ___"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "key": "5",
+        "text": "Batman",
+        "clues": [
+          43,
+          48,
+          49,
+          51
+        ]
+      },
+      {
+        "key": "5.1",
+        "text": "knight",
+        "clues": [
+          44,
+          45,
+          47
+        ]
+      },
+      {
+        "text": "chess piece often referred to as a \""
+      },
+      {
+        "key": "5.1.1",
+        "text": "horse",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "neigh sayer"
+      },
+      {
+        "text": "\""
+      },
+      {
+        "text": " life en"
+      },
+      {
+        "key": "5.2",
+        "text": "thus",
+        "clues": [
+          50
+        ]
+      },
+      {
+        "text": "conclusion starter"
+      },
+      {
+        "text": "iast?"
+      },
+      {
+        "text": "!\""
+      }
+    ]
   }
 ]
