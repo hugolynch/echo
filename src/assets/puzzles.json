@@ -44594,5 +44594,338 @@
         "text": "!\""
       }
     ]
+  },
+  {
+    "id": "981a61de-e463-4f58-adb5-8eaa08c32fbb",
+    "name": "January 13 Daily",
+    "author": "Hugo Lynch",
+    "date": "2026-01-13",
+    "clues": [
+      {
+        "text": "J'Accuse...!\n\nhttps://en.wikipedia.org/wiki/J%27Accuse...!",
+        "clues": [
+          1,
+          2,
+          37,
+          62
+        ]
+      },
+      {
+        "text": "J'"
+      },
+      {
+        "key": "1",
+        "text": "Acc",
+        "clues": [
+          3,
+          8,
+          9,
+          23,
+          24,
+          36
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "arena",
+        "clues": [
+          4,
+          5,
+          7
+        ]
+      },
+      {
+        "text": "where "
+      },
+      {
+        "key": "1.1.1",
+        "text": "gladiator",
+        "clues": [
+          6
+        ]
+      },
+      {
+        "text": "Best Picture of 2000"
+      },
+      {
+        "text": "s grappled"
+      },
+      {
+        "text": " where the "
+      },
+      {
+        "key": "1.2",
+        "text": "Raptors",
+        "clues": [
+          10,
+          12,
+          13,
+          19,
+          20,
+          22
+        ]
+      },
+      {
+        "key": "1.2.1",
+        "text": "prehistoric",
+        "clues": [
+          11
+        ]
+      },
+      {
+        "text": "belonging to an era before writing"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "1.2.2",
+        "text": "pack",
+        "clues": [
+          14,
+          15,
+          17
+        ]
+      },
+      {
+        "text": "fill one's "
+      },
+      {
+        "key": "1.2.2.1",
+        "text": "suit",
+        "clues": [
+          16
+        ]
+      },
+      {
+        "text": "business attire"
+      },
+      {
+        "key": "1.2.2.2",
+        "text": "case",
+        "clues": [
+          18
+        ]
+      },
+      {
+        "text": "detective's assignment"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "1.2.3",
+        "text": "hunt",
+        "clues": [
+          21
+        ]
+      },
+      {
+        "text": "Easter egg event"
+      },
+      {
+        "text": "ers"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "1.3",
+        "text": "play",
+        "clues": [
+          25,
+          26,
+          30,
+          31,
+          35
+        ]
+      },
+      {
+        "text": "work of "
+      },
+      {
+        "key": "1.3.1",
+        "text": "Shake",
+        "clues": [
+          27,
+          28
+        ]
+      },
+      {
+        "text": "ice cream "
+      },
+      {
+        "key": "1.3.1.1",
+        "text": "drink",
+        "clues": [
+          29
+        ]
+      },
+      {
+        "text": "🧋, 🧉 or 🧃"
+      },
+      {
+        "text": "s"
+      },
+      {
+        "key": "1.3.2",
+        "text": "pear",
+        "clues": [
+          32,
+          34
+        ]
+      },
+      {
+        "key": "1.3.2.1",
+        "text": "Bart",
+        "clues": [
+          33
+        ]
+      },
+      {
+        "text": "son of Homer"
+      },
+      {
+        "text": "lett or Anjou"
+      },
+      {
+        "text": "e"
+      },
+      {
+        "text": ", for short"
+      },
+      {
+        "key": "2",
+        "text": "use",
+        "clues": [
+          38,
+          39,
+          43,
+          44,
+          46,
+          47
+        ]
+      },
+      {
+        "text": "one of many for a "
+      },
+      {
+        "key": "2.1",
+        "text": "Swiss",
+        "clues": [
+          40,
+          41
+        ]
+      },
+      {
+        "text": "cheese named for its country of "
+      },
+      {
+        "key": "2.1.1",
+        "text": "origin",
+        "clues": [
+          42
+        ]
+      },
+      {
+        "text": "(0,0) on a graph"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.2",
+        "text": "Army",
+        "clues": [
+          45
+        ]
+      },
+      {
+        "text": "___-Navy game: annual football rivalry"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.3",
+        "text": "knife",
+        "clues": [
+          48,
+          49,
+          58,
+          59,
+          61
+        ]
+      },
+      {
+        "text": "chef's s"
+      },
+      {
+        "key": "2.3.1",
+        "text": "harp",
+        "clues": [
+          50,
+          55,
+          56
+        ]
+      },
+      {
+        "key": "2.3.1.1",
+        "text": "angel",
+        "clues": [
+          51,
+          52,
+          54
+        ]
+      },
+      {
+        "text": "heavenly "
+      },
+      {
+        "key": "2.3.1.1.1",
+        "text": "hera",
+        "clues": [
+          53
+        ]
+      },
+      {
+        "text": "wife of Zeus"
+      },
+      {
+        "text": "ld"
+      },
+      {
+        "text": "ic "
+      },
+      {
+        "key": "2.3.1.2",
+        "text": "instrument",
+        "clues": [
+          57
+        ]
+      },
+      {
+        "text": "🎸, 🎷 or 🪇"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "2.3.2",
+        "text": "too",
+        "clues": [
+          60
+        ]
+      },
+      {
+        "text": "as well"
+      },
+      {
+        "text": "l"
+      },
+      {
+        "text": "...!"
+      }
+    ]
   }
 ]
