@@ -45235,5 +45235,321 @@
         "text": " is a new one"
       }
     ]
+  },
+  {
+    "id": "c0183a55-8a5e-4a29-aa20-8c91fa6b17fa",
+    "name": "January 15 Daily",
+    "author": "Hugo Lynch",
+    "date": "2026-01-15",
+    "clues": [
+      {
+        "text": "\"One should eat to live, and not live to eat\"\n-Molière\n\nhttps://en.wikipedia.org/wiki/Moli%C3%A8re",
+        "clues": [
+          1,
+          2,
+          20,
+          21,
+          28,
+          29,
+          40,
+          41,
+          49,
+          50,
+          60
+        ]
+      },
+      {
+        "text": "\""
+      },
+      {
+        "key": "1",
+        "text": "One",
+        "clues": [
+          3,
+          10,
+          11,
+          19
+        ]
+      },
+      {
+        "key": "1.1",
+        "text": "hydro",
+        "clues": [
+          4,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "key": "1.1.1",
+        "text": "water",
+        "clues": [
+          5
+        ]
+      },
+      {
+        "text": "H2O"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "1.1.2",
+        "text": "power",
+        "clues": [
+          8
+        ]
+      },
+      {
+        "text": "button that turns the TV on and off"
+      },
+      {
+        "text": ", informally"
+      },
+      {
+        "text": "gen's "
+      },
+      {
+        "key": "1.2",
+        "text": "atomic",
+        "clues": [
+          12,
+          13,
+          15,
+          16,
+          18
+        ]
+      },
+      {
+        "text": "kind of "
+      },
+      {
+        "key": "1.2.1",
+        "text": "clock",
+        "clues": [
+          14
+        ]
+      },
+      {
+        "text": "timekeeper"
+      },
+      {
+        "text": " that's "
+      },
+      {
+        "key": "1.2.2",
+        "text": "ultra",
+        "clues": [
+          17
+        ]
+      },
+      {
+        "text": "to-the-max prefix"
+      },
+      {
+        "text": "precise"
+      },
+      {
+        "text": " number"
+      },
+      {
+        "text": " should "
+      },
+      {
+        "key": "2",
+        "text": "eat",
+        "clues": [
+          22,
+          27
+        ]
+      },
+      {
+        "key": "2.1",
+        "text": "gobble",
+        "clues": [
+          23,
+          24,
+          26
+        ]
+      },
+      {
+        "text": "talk "
+      },
+      {
+        "key": "2.1.1",
+        "text": "turkey",
+        "clues": [
+          25
+        ]
+      },
+      {
+        "text": "bird that is a Thanksgiving staple"
+      },
+      {
+        "text": "?"
+      },
+      {
+        "text": " up"
+      },
+      {
+        "text": " to "
+      },
+      {
+        "key": "3",
+        "text": "live",
+        "clues": [
+          30,
+          31,
+          39
+        ]
+      },
+      {
+        "text": "the \"L\" of \""
+      },
+      {
+        "key": "3.1",
+        "text": "SNL",
+        "clues": [
+          32,
+          33,
+          35,
+          36,
+          38
+        ]
+      },
+      {
+        "text": "NBC "
+      },
+      {
+        "key": "3.1.1",
+        "text": "sketch",
+        "clues": [
+          34
+        ]
+      },
+      {
+        "text": "quick drawing"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "3.1.2",
+        "text": "show",
+        "clues": [
+          37
+        ]
+      },
+      {
+        "text": "TV program"
+      },
+      {
+        "text": " since 1975"
+      },
+      {
+        "text": "\""
+      },
+      {
+        "text": ", and not "
+      },
+      {
+        "key": "4",
+        "text": "live",
+        "clues": [
+          42,
+          43,
+          48
+        ]
+      },
+      {
+        "text": "the \"L\" of \""
+      },
+      {
+        "key": "4.1",
+        "text": "YOLO",
+        "clues": [
+          44,
+          45,
+          47
+        ]
+      },
+      {
+        "text": "#"
+      },
+      {
+        "key": "4.1.1",
+        "text": "seize",
+        "clues": [
+          46
+        ]
+      },
+      {
+        "text": "take by force"
+      },
+      {
+        "text": "theday"
+      },
+      {
+        "text": "\""
+      },
+      {
+        "text": " to "
+      },
+      {
+        "key": "5",
+        "text": "eat",
+        "clues": [
+          51,
+          59
+        ]
+      },
+      {
+        "key": "5.1",
+        "text": "chow",
+        "clues": [
+          52,
+          53,
+          55,
+          56,
+          58
+        ]
+      },
+      {
+        "text": "___ mein ("
+      },
+      {
+        "key": "5.1.1",
+        "text": "noodle",
+        "clues": [
+          54
+        ]
+      },
+      {
+        "text": "long pool toy"
+      },
+      {
+        "text": " "
+      },
+      {
+        "key": "5.1.2",
+        "text": "dish",
+        "clues": [
+          57
+        ]
+      },
+      {
+        "text": "share some gossip"
+      },
+      {
+        "text": ")"
+      },
+      {
+        "text": " down"
+      },
+      {
+        "text": "\""
+      }
+    ]
   }
 ]
