@@ -3,7 +3,7 @@
 </script>
 
 <div class="banner">
-  <p>New puzzle every weekday!</p>
+  <p>On Hiatus. New puzzles coming soon.</p>
 </div>
 
 <Board />
