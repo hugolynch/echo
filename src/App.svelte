@@ -2,9 +2,9 @@
   import Board from "./components/Board.svelte"
 </script>
 
-<div class="banner">
+<!-- <div class="banner">
   <p>On Hiatus. New puzzles coming soon.</p>
-</div>
+</div> -->
 
 <Board />
 <style>
